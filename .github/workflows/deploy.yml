@@ -1,0 +1,53 @@
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 * * * *"
+    - cron: "30 * * * *"
+
+jobs:
+  deploy:
+    if: github.event_name	== 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cache results
+        uses: actions/cache@v2
+        with:
+          path: _data/results
+          key: ${{ runner.os }}-run-tests-results-${{ steps.get-timestamp.outputs.timestamp }}
+          restore-keys: ${{ runner.os }}-run-tests-results-
+      - name: Cache results-last-runs
+        uses: actions/cache@v2
+        with:
+          path: _data/results-last-runs.json
+          key: ${{ runner.os }}-run-tests-results-last-runs-${{ steps.get-timestamp.outputs.timestamp }}
+          restore-keys: ${{ runner.os }}-run-tests-results-last-runs-
+      - run: npx vercel --confirm --token $VERCEL_TOKEN -S $VERCEL_SCOPE -n $VERCEL_NAME
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_SCOPE: ${{ secrets.VERCEL_SCOPE }}
+          VERCEL_NAME: ${{ secrets.VERCEL_NAME }}
+
+  deployToProduction:
+    if: (github.event_name	== 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cache results
+        uses: actions/cache@v2
+        with:
+          path: _data/results
+          key: ${{ runner.os }}-run-tests-results-${{ steps.get-timestamp.outputs.timestamp }}
+          restore-keys: ${{ runner.os }}-run-tests-results-
+      - name: Cache results-last-runs
+        uses: actions/cache@v2
+        with:
+          path: _data/results-last-runs.json
+          key: ${{ runner.os }}-run-tests-results-last-runs-${{ steps.get-timestamp.outputs.timestamp }}
+          restore-keys: ${{ runner.os }}-run-tests-results-last-runs-
+      - run: npx vercel --prod --confirm --token $VERCEL_TOKEN -S $VERCEL_SCOPE -n $VERCEL_NAME
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_SCOPE: ${{ secrets.VERCEL_SCOPE }}
+          VERCEL_NAME: ${{ secrets.VERCEL_NAME }}

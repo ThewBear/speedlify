@@ -10,6 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Cache results
+        uses: actions/cache@v2
+        with:
+          path: _data/results
+          key: ${{ runner.os }}-run-tests-results
+      - name: Cache results-last-runs
+        uses: actions/cache@v2
+        with:
+          path: _data/results-last-runs.json
+          key: ${{ runner.os }}-run-tests-results-last-runs
       - run: npm install
       - run: npm run test-pages
       - uses: actions/upload-artifact@v2

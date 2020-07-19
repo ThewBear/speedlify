@@ -2,3 +2,19 @@ on:
   schedule:
     - cron: "0 * * * *"
     - cron: "30 * * * *"
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm ci
+      - run: npm run test-pages
+      - uses: actions/upload-artifact@v2
+        with:
+          name: results
+          path: _data/results
+      - uses: actions/upload-artifact@v2
+        with:
+          name: results-last-runs.json
+          path: _data/results-last-runs.json

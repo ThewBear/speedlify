@@ -18,7 +18,6 @@ jobs:
           path: default
       - run: |
           cp -r results default/_data/
-      - uses: actions/checkout@v2
       - run: npx vercel --confirm --token $VERCEL_TOKEN -S $VERCEL_SCOPE -n $VERCEL_NAME
         working-directory: default
         env:

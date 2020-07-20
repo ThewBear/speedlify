@@ -16,6 +16,7 @@ jobs:
         with:
           path: default
       - run: |
+          ls ..
           cp -r ../results ./_data/
       - run: npm install
       - run: npm run test-pages

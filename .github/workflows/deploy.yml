@@ -17,7 +17,8 @@ jobs:
         with:
           path: default
       - run: |
-          cp -r ../results ./_data/
+          cp -r results default/_data/
+          cd default
       - uses: actions/checkout@v2
       - run: npx vercel --confirm --token $VERCEL_TOKEN -S $VERCEL_SCOPE -n $VERCEL_NAME
         env:
@@ -37,7 +38,8 @@ jobs:
         with:
           path: default
       - run: |
-          cp -r ../results ./_data/
+          cp -r results default/_data/
+          cd default
       - run: npx vercel --prod --confirm --token $VERCEL_TOKEN -S $VERCEL_SCOPE -n $VERCEL_NAME
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}

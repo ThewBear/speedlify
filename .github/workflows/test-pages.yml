@@ -16,8 +16,8 @@ jobs:
         with:
           path: default
       - run: |
-          ls ..
-          cp -r ../results ./_data/
+          cp -r results default/_data/
+          cd default
       - run: npm install
       - run: npm run test-pages
       - uses: actions/upload-artifact@v2

@@ -17,21 +17,22 @@ jobs:
           path: default
       - run: |
           cp -r results default/_data/
-          cd default
       - run: npm install
+        working-directory: default
       - run: npm run test-pages
+        working-directory: default
       - uses: actions/upload-artifact@v2
         with:
           name: results
-          path: _data/results
+          path: default/_data/results
       - uses: actions/upload-artifact@v2
         with:
           name: results-last-runs.json
-          path: _data/results-last-runs.json
+          path: default/_data/results-last-runs.json
       - run: |
-          rm -r ../results/results*
-          cp -r ./_data/results* ../results
-          cd ../results
+          rm -r results/results*
+          cp -r default/_data/results* results/
+          cd results
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .

@@ -17,7 +17,7 @@ jobs:
         with:
           path: default
       - run: |
-          cp -r results default/_data
+          cp -r results/. default/_data
       - run: npx vercel --confirm --token $VERCEL_TOKEN -S $VERCEL_SCOPE -n $VERCEL_NAME
         working-directory: default
         env:
@@ -37,7 +37,7 @@ jobs:
         with:
           path: default
       - run: |
-          cp -r results default/_data
+          cp -r results/. default/_data
       - run: npx vercel --prod --confirm --token $VERCEL_TOKEN -S $VERCEL_SCOPE -n $VERCEL_NAME
         working-directory: default
         env:

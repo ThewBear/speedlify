@@ -16,7 +16,7 @@ jobs:
         with:
           path: default
       - run: |
-          cp -r results default/_data
+          cp -r results/. default/_data
       - run: npm install
         working-directory: default
       - run: npm run test-pages
@@ -30,7 +30,7 @@ jobs:
           name: results-last-runs.json
           path: default/_data/results-last-runs.json
       - run: |
-          rm -r results/results*
+          rm -r results/*
           cp -r default/_data/results* results
           cd results
           git config user.name github-actions

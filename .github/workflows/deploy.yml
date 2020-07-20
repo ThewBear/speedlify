@@ -11,18 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Cache results
-        uses: actions/cache@v2
         with:
-          path: _data/results
-          key: ${{ runner.os }}-run-tests-results-deploy
-          restore-keys: ${{ runner.os }}-run-tests-results-
-      - name: Cache results-last-runs
-        uses: actions/cache@v2
+          ref: refs/heads/results
+          path: results
+      - uses: actions/checkout@v2
         with:
-          path: _data/results-last-runs.json
-          key: ${{ runner.os }}-run-tests-results-last-runs-deploy
-          restore-keys: ${{ runner.os }}-run-tests-results-last-runs-
+          path: default
+      - run: |
+          cp -r ../results ./_data/
+      - uses: actions/checkout@v2
       - run: npx vercel --confirm --token $VERCEL_TOKEN -S $VERCEL_SCOPE -n $VERCEL_NAME
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
@@ -34,18 +31,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Cache results
-        uses: actions/cache@v2
         with:
-          path: _data/results
-          key: ${{ runner.os }}-run-tests-results-deployToProduction
-          restore-keys: ${{ runner.os }}-run-tests-results-
-      - name: Cache results-last-runs
-        uses: actions/cache@v2
+          ref: refs/heads/results
+          path: results
+      - uses: actions/checkout@v2
         with:
-          path: _data/results-last-runs.json
-          key: ${{ runner.os }}-run-tests-results-last-runs-deployToProduction
-          restore-keys: ${{ runner.os }}-run-tests-results-last-runs-
+          path: default
+      - run: |
+          cp -r ../results ./_data/
       - run: npx vercel --prod --confirm --token $VERCEL_TOKEN -S $VERCEL_SCOPE -n $VERCEL_NAME
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}

@@ -93,7 +93,6 @@ abbr {
 	margin-top: 1em;
 }
 
-
 /* Leaderboard */
 
 .leaderboard-wrapper {
@@ -107,6 +106,9 @@ abbr {
 }
 .leaderboard-number {
 	font-weight: 600;
+}
+.leaderboard-url {
+	width: 100%;
 }
 .leaderboard-list {
 	width: auto;
@@ -260,15 +262,44 @@ abbr {
 	color: #aaa;
 	font-size: 0.8125em; /* 13px /16 */
 }
-.hundo-emojis {
-	letter-spacing: 4px;
+.leaderboard-score-circles {
+	display: inline-flex;
+	margin-right: 8px;
 }
-.hundo-emojis-400 {
+.leaderboard-score-sum {
+	display: inline-block;
+	vertical-align: middle;
+}
+.leaderboard-score-circles .speedlify-score {
+	font-size: 0.6875rem; /* 11px /16 */
+	font-weight: 600;
+	line-height: 1;
+}
+.leaderboard-score-circles .speedlify-summary {
+	display: none;
+}
+.leaderboard-score-circles-400 .speedlify-score {
+	border-color: currentColor;
+	color: #bcffc2;
+}
+@media (min-width: 37.5em) { /* 600px */
+	.leaderboard-score-circles .speedlify-score {
+		font-size: 0.8125rem; /* 13px /16 */
+	}
+}
+
+/* Score Cell RWD */
+.leaderboard-score{
 	white-space: nowrap;
 }
-@media (min-width: 64em) { /* 1024px */
-	.hundo-emojis-400:after {
-		content: " 😍";
+@media (max-width: 28.0625em) { /* 449px */
+	.leaderboard-score{
+		display: none;
+	}
+}
+@media (max-width: 37.4375em) { /* 599px */
+	.leaderboard-score-circles {
+		display: none;
 	}
 }
 

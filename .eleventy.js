@@ -194,11 +194,27 @@ module.exports = function(eleventyConfig) {
 		return arr;
 	});
 
+	eleventyConfig.addFilter("toJSON", function(obj) {
+		return JSON.stringify(obj);
+	});
+
 	// Assets
 	eleventyConfig.addPassthroughCopy({
-		"./node_modules/chartist/dist/chartist.css": "chartist.css",
 		"./node_modules/chartist/dist/chartist.js": "chartist.js",
+		"./node_modules/chartist/dist/chartist.css.map": "chartist.css.map",
 	});
-	eleventyConfig.addPassthroughCopy("chart.js");
-	eleventyConfig.addTemplateFormats("css");
+
+	eleventyConfig.addWatchTarget("./assets/");
+
+	eleventyConfig.addPairedShortcode("starterMessage", (htmlContent, results) => {
+		if(process.env.SITE_NAME !== "speedlify") {
+			return htmlContent;
+		}
+		return "";
+	});
+
+	eleventyConfig.setBrowserSyncConfig({
+		ui: false,
+		ghostMode: false
+	});
 };

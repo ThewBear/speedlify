@@ -11,5 +11,6 @@ module.exports = {
 	},
 	urls: [
 		"https://www.thewdhanat.com/",
+		"https://www.thewdhanat.com/blog/"
 	]
 };

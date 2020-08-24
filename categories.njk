@@ -6,6 +6,13 @@ pagination:
   size: 1
   alias: vertical
 permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
+counts:
+  performance: 0
+  accessibility: 0
+  bestPractices: 0
+  seo: 0
+  perfect: 0
+  total: 0
 ---
 <div class="leaderboard-wrapper">
 	<table class="leaderboard">
@@ -19,18 +26,37 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 			</tr>
 		</thead>
 		<tbody>
-		{%- for site in results | filterToUrls(sites[vertical].urls) | addLighthouseTotals | sort([':lastkey', 'ranks', 'cumulative||hundos']) | reverse %}
+		{%- set showRank = true %}
+		{%- for site in results | getSites(sites, vertical, isolatedKeys) | sortCumulativeScore %}
 			{%- set newestKey = site | getObjectKey(":newest") %}
 			{%- set key = site | getObjectKey %}
-			{%- set hundos = site[newestKey] | hundoCount %}
-			<tr class="leaderboard-list-entry">
-				<td class="leaderboard-number">#{{ loop.index }}</td>
-				<td class="leaderboard-hide-md">{% if loop.index0 === 0 %}🏆{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
-				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl }}</code></a></td>
-				<td class="leaderboard-score"><speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span></td>
+			{%- set hundos = 0 %}
+
+			{%- if not site[newestKey].error %}
+				{%- set hundos = site[newestKey] | hundoCount %}
+				{%- set notGreenCircleCount = site[newestKey] | notGreenCircleCount %}
+				{%- if notGreenCircleCount >= 3 and sites[vertical].options and sites[vertical].options.noShame %}{% set showRank = false %}{% endif %}
+			{% endif %}
+			<tr class="leaderboard-list-entry{% if site[newestKey].ranks and loop.index != site[newestKey].ranks.cumulative %} leaderboard-list-entry-badrank{% endif %}">
+				<td class="leaderboard-number">
+					{% if showRank %}#{{ loop.index }}{% endif %}
+				</td>
+				<td class="leaderboard-hide-md leaderboard-trophies">{% if hundos === 4 %}🏆{% endif %}{% if loop.index0 === 0 %}🥇{% elseif loop.index0 === 1 %}🥈{% elseif loop.index0 === 2 %}🥉{% endif %}</td>
+				{%- set hasRedirect = site[newestKey].requestedUrl and site[newestKey].url != site[newestKey].requestedUrl %}
+				<td class="leaderboard-url"><a href="{{ site[newestKey].url }}"><code class="url">{{ site[newestKey].url | displayUrl(hasRedirect) }}</code></a>
+					{%- if hasRedirect %}<span class="leaderboard-redirect-warn">Redirect from <code class="url">{{ site[newestKey].requestedUrl | displayUrl(true) }}</code></span>{% endif -%}
+					{%- if site[newestKey].error %}<span class="leaderboard-redirect-error">Error</span>{% endif -%}
+				</td>
+			{%- if site[newestKey].error %}
+				<td colspan="2"></td>
+			{%- else %}
+				{%- set counts = counts | hundoCountTotals(site[newestKey]) %}
+				<td class="leaderboard-score">{% if showRank %}<speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score><span class="leaderboard-score-sum leaderboard-number">{% if hundos === 4 %}😍{% else %}{{ site[newestKey] | lighthouseTotal }}{% endif %}</span>{% endif %}</td>
 				<td class="leaderboard-data-right"><a href="#details-{{ site[key].url | shortHash }}" data-expand-alias data-js-only><span class="leaderboard-expand-icon"></span> Data<span class="leaderboard-hide-md"> and Graphs</span></a></td>
+			{%- endif %}
 			</tr>
 
+			{%- if not site[newestKey].error %}
 			<tr class="leaderboard-list-entry-details">
 				<td colspan="6">
 					<details class="leaderboard-details" id="details-{{ site[key].url | shortHash }}">
@@ -56,7 +82,17 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 									{%- for entry in site | sort | headAndLast(maxResults) %}
 										<tr>
 											<td><code class="date">{{ entry.timestamp | displayDate | safe }}</code></td>
-											<td class="results-bool">{% if entry.ranks.cumulative %}{% if entry.ranks.cumulative === 1 %}🏆{% endif %}{% elseif entry.ranks.hundos %}{% if entry.ranks.hundos === 1 %}🏆{% endif %}{% endif %}</td>
+											<td class="results-bool">
+												{%- if entry.ranks.cumulative %}
+													{%- if entry.ranks.cumulative === 1 %}🥇{% endif %}
+													{%- if entry.ranks.cumulative === 2 %}🥈{% endif %}
+													{%- if entry.ranks.cumulative === 3 %}🥉{% endif %}
+												{%- elseif entry.ranks.hundos %}
+													{%- if entry.ranks.hundos === 1 %}🥇{% endif %}
+													{%- if entry.ranks.hundos === 2 %}🥈{% endif %}
+													{%- if entry.ranks.hundos === 3 %}🥉{% endif %}
+												{%- endif -%}
+											</td>
 											<td>{% if entry.ranks.cumulative %}#{{ entry.ranks.cumulative }}{% elseif entry.ranks.hundos %}#{{ entry.ranks.hundos }} {% endif %}</td>
 											<td class="results-bool">{% if entry.lighthouse.performance === 1 %}<span class="leaderboard-hide-sm">✅</span>{% else %}🚫{% endif %}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.performance * 100) | round }}">{{ (entry.lighthouse.performance * 100) | round }}</td>
@@ -68,7 +104,7 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 											<td class="results-bool">{% if entry.lighthouse.seo === 1 %}<span class="leaderboard-hide-sm">✅</span>{% else %}🚫{% endif %}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.seo * 100) | round }}">{{ (entry.lighthouse.seo * 100) | round }}</td>
 											<td class="results-bool">{% if entry.axe.violations == 0 %}<span class="leaderboard-hide-sm">✅</span>{% else %}🚫{% endif %}</td>
-											<td>{{ entry.axe.violations }}</td>
+											<td>{% if entry.axe.error %}Error{% else %}{{ entry.axe.violations }}{% endif %}</td>
 										</tr>
 									{%- endfor %}
 									</tbody>
@@ -163,7 +199,30 @@ permalink: "/{{ (sites[vertical].name or vertical) | slug }}/"
 					</details>
 				</td>
 			</tr>
+			{%- endif %}
 		{%- endfor %}
 		</tbody>
 	</table><!-- /leaderboard -->
+	<dl class="category-stats">
+		<div class="category-stats-entry">
+			<dt>Performance</dt>
+			<dd>{{ counts.performance }}<span> / {{ counts.total }}</span></dd>
+		</div>
+		<div class="category-stats-entry">
+			<dt>Accessibility</dt>
+			<dd>{{ counts.accessibility }}<span> / {{ counts.total }}</span></dd>
+		</div>
+		<div class="category-stats-entry">
+			<dt>Best Practices</dt>
+			<dd>{{ counts.bestPractices }}<span> / {{ counts.total }}</span></dd>
+		</div>
+		<div class="category-stats-entry">
+			<dt>SEO</dt>
+			<dd>{{ counts.seo }}<span> / {{ counts.total }}</span></dd>
+		</div>
+		<div class="category-stats-entry">
+			<dt>Perfect 4×💯</dt>
+			<dd>{{ counts.perfect }}<span> / {{ counts.total }}</span></dd>
+		</div>
+	</dl>
 </div><!-- /leaderboard-wrapper -->

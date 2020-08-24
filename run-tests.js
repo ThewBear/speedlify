@@ -1,4 +1,5 @@
 require("dotenv").config();
+const path = require("path");
 const fs = require("fs").promises;
 const shortHash = require("short-hash");
 const fetch = require("node-fetch");
@@ -65,16 +66,19 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls) {
 
 	for(let file of verticals) {
 		let group = require(file);
-		let key = file.split("/").pop().replace(/\.js$/, "");
-
-		if(await tryToPreventNetlifyBuildTimeout(dateTestsStarted, group.urls.length)) {
-			// stop everything
-			return;
+		if(typeof group === "function") {
+			group = await group();
 		}
+		let key = file.split("/").pop().replace(/\.js$/, "");
 
 		if(group.skip) {
 			console.log( `Skipping ${key} (you told me to in your site config)` );
 			continue;
+		}
+
+		if(await tryToPreventNetlifyBuildTimeout(dateTestsStarted, group.urls.length)) {
+			// stop everything, we’re too close to the timeout
+			return;
 		}
 
 		let runFrequency =
@@ -111,7 +115,9 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls) {
 		let promises = [];
 		for(let result of results) {
 			let id = shortHash(result.url);
-			let dir = `${dataDir}results/${id}/`;
+			let isIsolated = group.options && group.options.isolated;
+			let dir = `${dataDir}results/${isIsolated ? `${key}/` : ""}${id}/`;
+
 			let filename = `${dir}date-${dateTestsStarted}.json`;
 			await fs.mkdir(dir, { recursive: true });
 			promises.push(fs.writeFile(filename, JSON.stringify(result, null, 2)));

@@ -24,21 +24,21 @@ jobs:
         working-directory: default
       - name: prune old results
         run: |
-        node <<EOF
-        const fs = require("fs");
-        const sites = fs.readdirSync("results");
-        const currentTime = Date.now();
-        sites.forEach((site) => {
-          const files = fs.readdirSync("results/" + site);
-          files.forEach((file) => {
-            const time = Number(file.slice(5, -5));
-            if (currentTime - time >= 15*24*3600*1000) {
-              console.log(file)
-              fs.unlinkSync("results/" + site + "/" + file);
-            }
+          node <<EOF
+          const fs = require("fs");
+          const sites = fs.readdirSync("results");
+          const currentTime = Date.now();
+          sites.forEach((site) => {
+            const files = fs.readdirSync("results/" + site);
+            files.forEach((file) => {
+              const time = Number(file.slice(5, -5));
+              if (currentTime - time >= 15*24*3600*1000) {
+                console.log(file)
+                fs.unlinkSync("results/" + site + "/" + file);
+              }
+            })
           })
-        })
-        EOF
+          EOF
         working-directory: default/_data
       - uses: actions/upload-artifact@v2
         with:

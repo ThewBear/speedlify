@@ -30,13 +30,18 @@ jobs:
           const currentTime = Date.now();
           sites.forEach((site) => {
             const files = fs.readdirSync("results/" + site);
-            files.forEach((file) => {
-              const time = Number(file.slice(5, -5));
-              if (currentTime - time >= 15*24*3600*1000) {
-                console.log(file)
-                fs.unlinkSync("results/" + site + "/" + file);
-              }
-            })
+            if (files.length === 0) {
+              console.log("Pruning... " + "results/" + site)
+              fs.rmdirSync("results/" + site);
+            } else {
+              files.forEach((file) => {
+                const time = Number(file.slice(5, -5));
+                if (currentTime - time >= 15*24*3600*1000) {
+                  console.log("Pruning... " + file)
+                  fs.unlinkSync("results/" + site + "/" + file);
+                }
+              })
+            }
           })
           EOF
         working-directory: default/_data

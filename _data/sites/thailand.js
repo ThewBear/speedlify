@@ -15,7 +15,6 @@ module.exports = {
         "https://shopee.co.th/",
         "https://www.sanook.com/",
         "https://www.thairath.co.th/",
-        "https://www.kapook.com/",
         "https://www.dek-d.com/",
         "https://www.khaosod.co.th/",
         "https://www.wongnai.com/",

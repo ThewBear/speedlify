@@ -1,42 +1,47 @@
 {
   "url": "https://jamstack.org/",
   "requestedUrl": "https://jamstack.org/",
-  "timestamp": 1637471917537,
+  "timestamp": 1638768187854,
   "ranks": {
-    "hundos": 17,
-    "performance": 17,
+    "hundos": 1,
+    "performance": 2,
     "accessibility": 5,
-    "cumulative": 17
+    "cumulative": 1
   },
   "lighthouse": {
     "version": "6.5.0",
-    "performance": null,
+    "performance": 0.94,
     "accessibility": 0.98,
     "bestPractices": 1,
     "seo": 1,
-    "total": 298
+    "total": 392
   },
-  "firstContentfulPaint": 1065.154,
-  "speedIndex": 1065.154,
-  "totalBlockingTime": 74.5,
+  "firstContentfulPaint": 1026.313,
+  "speedIndex": 1026.313,
+  "largestContentfulPaint": 1965.924,
+  "totalBlockingTime": 48.5,
   "cumulativeLayoutShift": 0.8515625,
-  "timeToInteractive": 2047.297,
-  "maxPotentialFirstInputDelay": 109,
-  "timeToFirstByte": 10.510999999999996,
+  "timeToInteractive": 1965.924,
+  "maxPotentialFirstInputDelay": 100,
+  "timeToFirstByte": 5.006999999999998,
   "weight": {
     "summary": "10 requests • 154 KiB",
-    "total": 157390,
+    "total": 157387,
     "image": 101688,
     "imageCount": 4,
-    "script": 22995,
+    "script": 22996,
     "scriptCount": 2,
-    "document": 22728,
+    "document": 22725,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 9334,
+    "stylesheet": 9333,
     "stylesheetCount": 1,
-    "thirdParty": 125328,
+    "thirdParty": 125329,
     "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 1,
+    "total": 1
   },
   "axe": {
     "passes": 635,

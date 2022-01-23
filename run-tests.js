@@ -2,7 +2,6 @@ require("dotenv").config();
 const path = require("path");
 const fs = require("fs").promises;
 const shortHash = require("short-hash");
-const fetch = require("node-fetch");
 const fastglob = require("fast-glob");
 const PerfLeaderboard = require("performance-leaderboard");
 
@@ -107,10 +106,14 @@ async function tryToPreventNetlifyBuildTimeout(dateTestsStarted, numberOfUrls, e
 
 		let runCount =
 			group.options && group.options.runs ? group.options.runs : NUMBER_OF_RUNS;
+		let options = Object.assign({
+			chromeFlags: ['--headless', '--disable-dev-shm-usage']
+		}, group.options);
+
 		let results = await PerfLeaderboard(
 			group.urls,
 			runCount,
-			group.options || {}
+			options,
 		);
 
 		let promises = [];

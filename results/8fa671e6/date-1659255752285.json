@@ -1,43 +1,43 @@
 {
   "url": "https://eslint.org/",
   "requestedUrl": "https://eslint.org/",
-  "timestamp": 1657960086671,
+  "timestamp": 1659256028166,
   "ranks": {
     "hundos": 3,
-    "performance": 6,
+    "performance": 9,
     "accessibility": 1,
     "cumulative": 3
   },
   "lighthouse": {
-    "version": "9.6.3",
-    "performance": 0.9,
+    "version": "9.6.4",
+    "performance": 0.89,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 390
+    "total": 389
   },
-  "firstContentfulPaint": 1602.539,
-  "firstMeaningfulPaint": 1602.539,
-  "speedIndex": 3602.3490238450213,
-  "largestContentfulPaint": 2733.254,
-  "totalBlockingTime": 148,
+  "firstContentfulPaint": 1694.8760000000002,
+  "firstMeaningfulPaint": 1694.8760000000002,
+  "speedIndex": 3106.513013915899,
+  "largestContentfulPaint": 3209.906,
+  "totalBlockingTime": 63.829000000000406,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 5057.303,
-  "maxPotentialFirstInputDelay": 138,
-  "timeToFirstByte": 186.648,
+  "timeToInteractive": 4811.936000000001,
+  "maxPotentialFirstInputDelay": 98,
+  "timeToFirstByte": 43.673,
   "weight": {
-    "summary": "33 requests • 784 KiB",
-    "total": 802955,
-    "image": 321498,
+    "summary": "33 requests • 761 KiB",
+    "total": 779418,
+    "image": 291953,
     "imageCount": 15,
-    "script": 127967,
+    "script": 130385,
     "scriptCount": 10,
-    "document": 16101,
-    "font": 325001,
+    "document": 16074,
+    "font": 324976,
     "fontCount": 5,
-    "stylesheet": 12045,
+    "stylesheet": 15696,
     "stylesheetCount": 1,
-    "thirdParty": 372416,
+    "thirdParty": 344829,
     "thirdPartyCount": 11
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 7,
     "+weight.font": 1,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 9,
-    "-totalBlockingTime": 4,
-    "-largestContentfulPaint": 6
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 9
   },
   "axe": {
-    "passes": 1120,
+    "passes": 1111,
     "violations": 1
   }
 }

@@ -1,43 +1,43 @@
 {
   "url": "https://codeigniter.com/",
   "requestedUrl": "https://codeigniter.com/",
-  "timestamp": 1658061276393,
+  "timestamp": 1659357659862,
   "ranks": {
     "hundos": 3,
-    "performance": 3,
-    "accessibility": 2,
+    "performance": 1,
+    "accessibility": 3,
     "cumulative": 3
   },
   "lighthouse": {
-    "version": "9.6.3",
-    "performance": 0.82,
+    "version": "9.6.4",
+    "performance": 0.91,
     "accessibility": 0.97,
     "bestPractices": 0.83,
     "seo": 0.92,
-    "total": 354
+    "total": 363
   },
-  "firstContentfulPaint": 1074.077,
-  "firstMeaningfulPaint": 1520.7440000000001,
-  "speedIndex": 2128.9170096701037,
-  "largestContentfulPaint": 2124.077,
-  "totalBlockingTime": 659,
+  "firstContentfulPaint": 1081.357,
+  "firstMeaningfulPaint": 1428.3355000000001,
+  "speedIndex": 1606.065344104596,
+  "largestContentfulPaint": 2148.001,
+  "totalBlockingTime": 327.644,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2813.077,
-  "maxPotentialFirstInputDelay": 689,
-  "timeToFirstByte": 311.704,
+  "timeToInteractive": 2509.001,
+  "maxPotentialFirstInputDelay": 436,
+  "timeToFirstByte": 44.370999999999995,
   "weight": {
     "summary": "13 requests • 135 KiB",
-    "total": 138342,
-    "image": 4515,
+    "total": 137866,
+    "image": 4504,
     "imageCount": 1,
-    "script": 52347,
+    "script": 51546,
     "scriptCount": 3,
-    "document": 12620,
-    "font": 42732,
+    "document": 12565,
+    "font": 42723,
     "fontCount": 2,
-    "stylesheet": 16116,
+    "stylesheet": 16105,
     "stylesheetCount": 3,
-    "thirdParty": 36942,
+    "thirdParty": 36933,
     "thirdPartyCount": 2
   },
   "run": {
@@ -56,12 +56,11 @@
     "-weight.font": 1,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 5,
-    "-totalBlockingTime": 3,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 56,
-    "violations": 8
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

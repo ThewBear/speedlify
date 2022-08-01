@@ -1,43 +1,43 @@
 {
   "url": "https://nextjs.org/",
   "requestedUrl": "https://nextjs.org/",
-  "timestamp": 1658061586004,
+  "timestamp": 1659357950426,
   "ranks": {
-    "hundos": 5,
+    "hundos": 4,
     "performance": 5,
-    "accessibility": 3,
-    "cumulative": 5
+    "accessibility": 2,
+    "cumulative": 4
   },
   "lighthouse": {
-    "version": "9.6.3",
-    "performance": 0.82,
+    "version": "9.6.4",
+    "performance": 0.89,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 382
+    "total": 389
   },
-  "firstContentfulPaint": 1518.248,
-  "firstMeaningfulPaint": 1518.248,
-  "speedIndex": 1518.248,
-  "largestContentfulPaint": 2130.125,
-  "totalBlockingTime": 516.6459999999988,
+  "firstContentfulPaint": 1405.929,
+  "firstMeaningfulPaint": 1405.929,
+  "speedIndex": 1405.929,
+  "largestContentfulPaint": 2385.9305000000004,
+  "totalBlockingTime": 286.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 5602.4884999999995,
-  "maxPotentialFirstInputDelay": 427,
-  "timeToFirstByte": 5.5859999999999985,
+  "timeToInteractive": 5457.929,
+  "maxPotentialFirstInputDelay": 304,
+  "timeToFirstByte": 34.906,
   "weight": {
-    "summary": "59 requests • 540 KiB",
-    "total": 552593,
+    "summary": "59 requests • 550 KiB",
+    "total": 563124,
     "image": 4269,
     "imageCount": 4,
-    "script": 331769,
+    "script": 341045,
     "scriptCount": 26,
-    "document": 47810,
+    "document": 47807,
     "font": 37052,
     "fontCount": 1,
-    "stylesheet": 6071,
+    "stylesheet": 6065,
     "stylesheetCount": 2,
-    "thirdParty": 129976,
+    "thirdParty": 131710,
     "thirdPartyCount": 17
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 2,
     "+weight.font": 9,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 6,
+    "-timeToFirstByte": 10,
     "-totalBlockingTime": 5,
-    "-largestContentfulPaint": 5
+    "-largestContentfulPaint": 8
   },
   "axe": {
-    "passes": 887,
-    "violations": 6
+    "passes": 893,
+    "violations": 5
   }
 }

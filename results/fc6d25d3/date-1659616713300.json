@@ -1,47 +1,47 @@
 {
   "url": "https://codeigniter.com/",
   "requestedUrl": "https://codeigniter.com/",
-  "timestamp": 1658320903525,
+  "timestamp": 1659616898817,
   "ranks": {
     "hundos": 3,
-    "performance": 2,
-    "accessibility": 3,
+    "performance": 1,
+    "accessibility": 2,
     "cumulative": 3
   },
   "lighthouse": {
-    "version": "9.6.3",
-    "performance": 0.85,
+    "version": "9.6.5",
+    "performance": 0.91,
     "accessibility": 0.97,
     "bestPractices": 0.83,
     "seo": 0.92,
-    "total": 357
+    "total": 363
   },
-  "firstContentfulPaint": 1072.6309999999999,
-  "firstMeaningfulPaint": 1508.33,
-  "speedIndex": 1681.161891322695,
-  "largestContentfulPaint": 2077.1165,
-  "totalBlockingTime": 549,
+  "firstContentfulPaint": 1076.1680000000001,
+  "firstMeaningfulPaint": 1422.712,
+  "speedIndex": 1689.2660549716068,
+  "largestContentfulPaint": 2074.143,
+  "totalBlockingTime": 346.97500000000014,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2733.481,
-  "maxPotentialFirstInputDelay": 593,
-  "timeToFirstByte": 76.37899999999999,
+  "timeToInteractive": 2521.143,
+  "maxPotentialFirstInputDelay": 447,
+  "timeToFirstByte": 96.24199999999999,
   "weight": {
-    "summary": "13 requests • 134 KiB",
-    "total": 136910,
-    "image": 4508,
+    "summary": "13 requests • 131 KiB",
+    "total": 134441,
+    "image": 4514,
     "imageCount": 1,
-    "script": 51323,
+    "script": 49516,
     "scriptCount": 3,
-    "document": 12637,
-    "font": 42738,
+    "document": 12748,
+    "font": 42734,
     "fontCount": 2,
-    "stylesheet": 16120,
+    "stylesheet": 16105,
     "stylesheetCount": 3,
-    "thirdParty": 36932,
+    "thirdParty": 36933,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -57,10 +57,11 @@
     "+weight.font": 4,
     "+weight.fontCount": 3,
     "-timeToFirstByte": 2,
-    "-totalBlockingTime": 3,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "error": "{\"name\":\"TimeoutError\"}"
+    "passes": 84,
+    "violations": 3
   }
 }

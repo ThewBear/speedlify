@@ -1,47 +1,47 @@
 {
   "url": "https://www.11ty.dev/",
   "requestedUrl": "https://www.11ty.dev/",
-  "timestamp": 1658407695145,
+  "timestamp": 1659703430407,
   "ranks": {
-    "hundos": 1,
-    "performance": 1,
+    "hundos": 3,
+    "performance": 2,
     "accessibility": 1,
-    "cumulative": 1
+    "cumulative": 3
   },
   "lighthouse": {
-    "version": "9.6.3",
+    "version": "9.6.5",
     "performance": 1,
     "accessibility": 1,
-    "bestPractices": 1,
+    "bestPractices": 0.92,
     "seo": 1,
-    "total": 400
+    "total": 392
   },
-  "firstContentfulPaint": 1077.758,
-  "firstMeaningfulPaint": 1077.758,
-  "speedIndex": 1077.758,
-  "largestContentfulPaint": 1077.758,
-  "totalBlockingTime": 10.5,
-  "cumulativeLayoutShift": 0.006627950668334961,
-  "timeToInteractive": 1138.258,
-  "maxPotentialFirstInputDelay": 62,
-  "timeToFirstByte": 130.94799999999998,
+  "firstContentfulPaint": 1136.096,
+  "firstMeaningfulPaint": 1149.096,
+  "speedIndex": 1207.0717673922109,
+  "largestContentfulPaint": 1149.096,
+  "totalBlockingTime": 14,
+  "cumulativeLayoutShift": 0.006587737401326498,
+  "timeToInteractive": 1225.596,
+  "maxPotentialFirstInputDelay": 78,
+  "timeToFirstByte": 100.35999999999999,
   "weight": {
-    "summary": "29 requests • 311 KiB",
-    "total": 318941,
-    "image": 265623,
+    "summary": "29 requests • 261 KiB",
+    "total": 267433,
+    "image": 212886,
     "imageCount": 25,
-    "script": 3143,
+    "script": 3327,
     "scriptCount": 1,
-    "document": 30620,
-    "font": 15784,
+    "document": 31707,
+    "font": 15785,
     "fontCount": 1,
-    "stylesheet": 3771,
+    "stylesheet": 3728,
     "stylesheetCount": 1,
-    "thirdParty": 15784,
+    "thirdParty": 15785,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -57,11 +57,11 @@
     "+weight.font": 10,
     "+weight.fontCount": 6,
     "-timeToFirstByte": 12,
-    "-totalBlockingTime": 1,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 1
   },
   "axe": {
-    "passes": 768,
+    "passes": 875,
     "violations": 0
   }
 }

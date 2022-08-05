@@ -1,7 +1,7 @@
 {
   "url": "https://webdriver.io/",
   "requestedUrl": "https://webdriver.io/",
-  "timestamp": 1658435024953,
+  "timestamp": 1659731069497,
   "ranks": {
     "hundos": 10,
     "performance": 10,
@@ -9,39 +9,39 @@
     "cumulative": 10
   },
   "lighthouse": {
-    "version": "9.6.3",
-    "performance": 0.32,
+    "version": "9.6.5",
+    "performance": 0.37,
     "accessibility": 0.91,
     "bestPractices": 0.83,
     "seo": 0.97,
-    "total": 303
+    "total": 308
   },
-  "firstContentfulPaint": 2945.2360000000003,
-  "firstMeaningfulPaint": 6443.213,
-  "speedIndex": 5122.955966546757,
-  "largestContentfulPaint": 7737.33,
-  "totalBlockingTime": 1537.0339999999983,
+  "firstContentfulPaint": 2730.3869999999997,
+  "firstMeaningfulPaint": 6187.004500000001,
+  "speedIndex": 4914.173691538743,
+  "largestContentfulPaint": 6187.0045,
+  "totalBlockingTime": 1175.7090000000003,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 14385.764,
-  "maxPotentialFirstInputDelay": 395.9999999999982,
-  "timeToFirstByte": 20.929000000000002,
+  "timeToInteractive": 14272.894,
+  "maxPotentialFirstInputDelay": 360,
+  "timeToFirstByte": 10.402000000000001,
   "weight": {
-    "summary": "69 requests • 2,275 KiB",
-    "total": 2329857,
-    "image": 538223,
+    "summary": "69 requests • 2,278 KiB",
+    "total": 2332430,
+    "image": 538251,
     "imageCount": 31,
-    "script": 1450688,
+    "script": 1453187,
     "scriptCount": 15,
-    "document": 101221,
-    "font": 57228,
+    "document": 101378,
+    "font": 57231,
     "fontCount": 5,
-    "stylesheet": 149658,
+    "stylesheet": 149692,
     "stylesheetCount": 4,
-    "thirdParty": 1138833,
+    "thirdParty": 1141383,
     "thirdPartyCount": 33
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 3,
     "+weight.font": 5,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 5,
+    "-timeToFirstByte": 1,
     "-totalBlockingTime": 8,
     "-largestContentfulPaint": 10
   },
   "axe": {
-    "passes": 1104,
+    "passes": 1105,
     "violations": 16
   }
 }

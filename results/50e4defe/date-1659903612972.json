@@ -1,47 +1,47 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1658608034946,
+  "timestamp": 1659903748534,
   "ranks": {
     "hundos": 8,
-    "performance": 4,
+    "performance": 8,
     "accessibility": 8,
     "cumulative": 8
   },
   "lighthouse": {
-    "version": "9.6.3",
-    "performance": 0.92,
+    "version": "9.6.5",
+    "performance": 0.9,
     "accessibility": 0.74,
     "bestPractices": 0.92,
     "seo": 0.66,
-    "total": 324
+    "total": 322
   },
-  "firstContentfulPaint": 1373.88,
-  "firstMeaningfulPaint": 1373.88,
-  "speedIndex": 1586.1277629236092,
-  "largestContentfulPaint": 1373.88,
-  "totalBlockingTime": 325.3520000000001,
+  "firstContentfulPaint": 1167.754,
+  "firstMeaningfulPaint": 1407.754,
+  "speedIndex": 1535.8988188728385,
+  "largestContentfulPaint": 1232.254,
+  "totalBlockingTime": 383.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2697.026,
-  "maxPotentialFirstInputDelay": 482,
-  "timeToFirstByte": 36.926,
+  "timeToInteractive": 2652.792,
+  "maxPotentialFirstInputDelay": 328,
+  "timeToFirstByte": 18.866000000000014,
   "weight": {
-    "summary": "7 requests • 188 KiB",
-    "total": 192841,
-    "image": 77135,
+    "summary": "7 requests • 185 KiB",
+    "total": 189951,
+    "image": 74341,
     "imageCount": 3,
-    "script": 39490,
+    "script": 39547,
     "scriptCount": 1,
-    "document": 66700,
+    "document": 66547,
     "font": 0,
     "fontCount": 0,
     "stylesheet": 9351,
     "stylesheetCount": 1,
-    "thirdParty": 41558,
+    "thirdParty": 41623,
     "thirdPartyCount": 4
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 5,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 6,
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 7,
     "-largestContentfulPaint": 2
   },
   "axe": {
-    "passes": 10327,
+    "passes": 10288,
     "violations": 932
   }
 }

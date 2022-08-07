@@ -1,7 +1,7 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1658564996242,
+  "timestamp": 1659860841787,
   "ranks": {
     "hundos": 8,
     "performance": 7,
@@ -9,35 +9,35 @@
     "cumulative": 8
   },
   "lighthouse": {
-    "version": "9.6.3",
-    "performance": 0.87,
+    "version": "9.6.5",
+    "performance": 0.86,
     "accessibility": 0.74,
     "bestPractices": 0.92,
     "seo": 0.66,
-    "total": 319
+    "total": 318
   },
-  "firstContentfulPaint": 1292.0880000000002,
-  "firstMeaningfulPaint": 1607.0880000000002,
-  "speedIndex": 1829.5926234509707,
-  "largestContentfulPaint": 1308.0880000000002,
-  "totalBlockingTime": 491.5,
+  "firstContentfulPaint": 1259.056,
+  "firstMeaningfulPaint": 1562.056,
+  "speedIndex": 1528.2993958498753,
+  "largestContentfulPaint": 1275.556,
+  "totalBlockingTime": 525.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 3082.491,
-  "maxPotentialFirstInputDelay": 516,
-  "timeToFirstByte": 124.775,
+  "timeToInteractive": 2944.9235000000003,
+  "maxPotentialFirstInputDelay": 422,
+  "timeToFirstByte": 23.506,
   "weight": {
-    "summary": "7 requests • 183 KiB",
-    "total": 187617,
-    "image": 77142,
+    "summary": "7 requests • 180 KiB",
+    "total": 184624,
+    "image": 74289,
     "imageCount": 3,
-    "script": 39517,
+    "script": 39545,
     "scriptCount": 1,
-    "document": 61445,
+    "document": 61294,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 9348,
+    "stylesheet": 9331,
     "stylesheetCount": 1,
-    "thirdParty": 41566,
+    "thirdParty": 41598,
     "thirdPartyCount": 4
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 5,
-    "-timeToFirstByte": 8,
+    "-timeToFirstByte": 4,
     "-totalBlockingTime": 8,
     "-largestContentfulPaint": 2
   },
   "axe": {
-    "passes": 10327,
+    "passes": 10288,
     "violations": 932
   }
 }

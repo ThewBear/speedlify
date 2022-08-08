@@ -1,7 +1,7 @@
 {
   "url": "https://symfony.com/",
   "requestedUrl": "https://symfony.com/",
-  "timestamp": 1658666260432,
+  "timestamp": 1659962469791,
   "ranks": {
     "hundos": 4,
     "performance": 4,
@@ -9,39 +9,39 @@
     "cumulative": 4
   },
   "lighthouse": {
-    "version": "9.6.3",
-    "performance": 0.75,
+    "version": "9.6.5",
+    "performance": 0.71,
     "accessibility": 0.92,
     "bestPractices": 0.92,
     "seo": 0.95,
-    "total": 354
+    "total": 350
   },
-  "firstContentfulPaint": 1229.8830000000003,
-  "firstMeaningfulPaint": 1229.8830000000003,
-  "speedIndex": 1734.759112422086,
-  "largestContentfulPaint": 1889.259,
-  "totalBlockingTime": 978.7020000000002,
-  "cumulativeLayoutShift": 0.02790301513671875,
-  "timeToInteractive": 5464.103000000001,
-  "maxPotentialFirstInputDelay": 545.0000000000005,
-  "timeToFirstByte": 101.85300000000001,
+  "firstContentfulPaint": 1335.587,
+  "firstMeaningfulPaint": 1335.587,
+  "speedIndex": 2754.9295326338342,
+  "largestContentfulPaint": 2051.0789999999997,
+  "totalBlockingTime": 1208.6680000000001,
+  "cumulativeLayoutShift": 0.02773895263671875,
+  "timeToInteractive": 5744.446999999999,
+  "maxPotentialFirstInputDelay": 684,
+  "timeToFirstByte": 468.581,
   "weight": {
     "summary": "34 requests • 386 KiB",
-    "total": 395137,
-    "image": 96783,
+    "total": 394819,
+    "image": 96707,
     "imageCount": 14,
-    "script": 236986,
+    "script": 236809,
     "scriptCount": 10,
-    "document": 15567,
+    "document": 15680,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 37763,
+    "stylesheet": 37398,
     "stylesheetCount": 5,
     "thirdParty": 38155,
     "thirdPartyCount": 5
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -55,10 +55,10 @@
     "+weight.image": 3,
     "-weight.font": 1,
     "+weight.font": 5,
-    "+weight.fontCount": 3,
-    "-timeToFirstByte": 3,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 4,
-    "-largestContentfulPaint": 1
+    "-largestContentfulPaint": 2
   },
   "axe": {
     "passes": 907,

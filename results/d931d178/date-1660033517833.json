@@ -1,47 +1,47 @@
 {
   "url": "https://webhint.io/",
   "requestedUrl": "https://webhint.io/",
-  "timestamp": 1658737702634,
+  "timestamp": 1660033847086,
   "ranks": {
-    "hundos": 2,
-    "performance": 4,
+    "hundos": 3,
+    "performance": 2,
     "accessibility": 2,
-    "cumulative": 2
+    "cumulative": 3
   },
   "lighthouse": {
-    "version": "9.6.3",
-    "performance": 0.98,
+    "version": "9.6.5",
+    "performance": 0.99,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 390
+    "total": 391
   },
-  "firstContentfulPaint": 1623.475,
-  "firstMeaningfulPaint": 1623.475,
-  "speedIndex": 1623.475,
-  "largestContentfulPaint": 2303.5284999999994,
-  "totalBlockingTime": 28.5,
+  "firstContentfulPaint": 1523.168,
+  "firstMeaningfulPaint": 1523.168,
+  "speedIndex": 1523.168,
+  "largestContentfulPaint": 2096.932,
+  "totalBlockingTime": 8.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2280.0284999999994,
-  "maxPotentialFirstInputDelay": 107,
-  "timeToFirstByte": 113.739,
+  "timeToInteractive": 1881.176,
+  "maxPotentialFirstInputDelay": 67,
+  "timeToFirstByte": 9.284000000000006,
   "weight": {
-    "summary": "19 requests • 176 KiB",
-    "total": 179864,
-    "image": 35632,
+    "summary": "19 requests • 175 KiB",
+    "total": 179677,
+    "image": 35514,
     "imageCount": 9,
-    "script": 50270,
+    "script": 50404,
     "scriptCount": 2,
-    "document": 6498,
-    "font": 72628,
+    "document": 6497,
+    "font": 72601,
     "fontCount": 4,
-    "stylesheet": 14836,
+    "stylesheet": 14661,
     "stylesheetCount": 3,
-    "thirdParty": 55060,
+    "thirdParty": 55056,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,8 +56,8 @@
     "-weight.font": 4,
     "+weight.font": 4,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 6,
-    "-totalBlockingTime": 3,
+    "-timeToFirstByte": 1,
+    "-totalBlockingTime": 1,
     "-largestContentfulPaint": 5
   },
   "axe": {

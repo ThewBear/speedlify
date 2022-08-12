@@ -1,47 +1,47 @@
 {
   "url": "https://www.zachleat.com/web/eleventy/",
   "requestedUrl": "https://www.zachleat.com/web/eleventy/",
-  "timestamp": 1659026819776,
+  "timestamp": 1660322554533,
   "ranks": {
-    "hundos": 6,
-    "performance": 7,
+    "hundos": 5,
+    "performance": 5,
     "accessibility": 5,
     "cumulative": 5
   },
   "lighthouse": {
-    "version": "9.6.4",
-    "performance": 0.97,
-    "accessibility": 0.98,
+    "version": "9.6.5",
+    "performance": 1,
+    "accessibility": 1,
     "bestPractices": 0.92,
     "seo": 1,
-    "total": 387
+    "total": 392
   },
-  "firstContentfulPaint": 1172.159,
-  "firstMeaningfulPaint": 1172.159,
-  "speedIndex": 1352.7218461309978,
-  "largestContentfulPaint": 2533.9,
-  "totalBlockingTime": 25.5,
+  "firstContentfulPaint": 1027.821,
+  "firstMeaningfulPaint": 1027.821,
+  "speedIndex": 1027.821,
+  "largestContentfulPaint": 1225.757,
+  "totalBlockingTime": 7,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2786.125,
-  "maxPotentialFirstInputDelay": 153,
-  "timeToFirstByte": 78.453,
+  "timeToInteractive": 1846.6395,
+  "maxPotentialFirstInputDelay": 64,
+  "timeToFirstByte": 29.450000000000003,
   "weight": {
     "summary": "27 requests • 129 KiB",
-    "total": 132228,
-    "image": 45521,
+    "total": 132314,
+    "image": 45497,
     "imageCount": 18,
-    "script": 21882,
+    "script": 21881,
     "scriptCount": 3,
-    "document": 14714,
-    "font": 45232,
+    "document": 14797,
+    "font": 45234,
     "fontCount": 4,
-    "stylesheet": 4879,
+    "stylesheet": 4905,
     "stylesheetCount": 1,
-    "thirdParty": 42056,
+    "thirdParty": 42061,
     "thirdPartyCount": 16
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -50,18 +50,18 @@
     "-weight.document": 5,
     "+weight.document": 7,
     "-weight.script": 3,
-    "+weight.script": 6,
+    "+weight.script": 4,
     "-weight.image": 6,
     "+weight.image": 6,
     "-weight.font": 6,
     "+weight.font": 5,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 8,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 3,
-    "-largestContentfulPaint": 9
+    "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 1009,
-    "violations": 1
+    "passes": 1011,
+    "violations": 0
   }
 }

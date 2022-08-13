@@ -1,47 +1,47 @@
 {
   "url": "https://sapper.svelte.dev/",
   "requestedUrl": "https://sapper.svelte.dev/",
-  "timestamp": 1659099030778,
+  "timestamp": 1660394614969,
   "ranks": {
-    "hundos": 4,
-    "performance": 2,
+    "hundos": 5,
+    "performance": 1,
     "accessibility": 10,
-    "cumulative": 4
+    "cumulative": 5
   },
   "lighthouse": {
-    "version": "9.6.4",
+    "version": "9.6.5",
     "performance": 1,
     "accessibility": 0.95,
     "bestPractices": 1,
     "seo": 0.92,
     "total": 387
   },
-  "firstContentfulPaint": 1194.5720000000001,
-  "firstMeaningfulPaint": 1310.0720000000001,
-  "speedIndex": 1194.5720000000001,
-  "largestContentfulPaint": 1310.0720000000001,
+  "firstContentfulPaint": 1052.8600000000001,
+  "firstMeaningfulPaint": 1218.8600000000001,
+  "speedIndex": 1052.8600000000001,
+  "largestContentfulPaint": 1352.8600000000001,
   "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0.012729058159722221,
-  "timeToInteractive": 1310.0720000000001,
-  "maxPotentialFirstInputDelay": 37,
-  "timeToFirstByte": 87.987,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1218.8600000000001,
+  "maxPotentialFirstInputDelay": 32,
+  "timeToFirstByte": 1.8939999999999992,
   "weight": {
     "summary": "15 requests • 86 KiB",
-    "total": 88436,
-    "image": 4456,
+    "total": 88419,
+    "image": 4582,
     "imageCount": 5,
-    "script": 17105,
+    "script": 17167,
     "scriptCount": 3,
-    "document": 3417,
-    "font": 55966,
+    "document": 3437,
+    "font": 55806,
     "fontCount": 3,
-    "stylesheet": 7492,
+    "stylesheet": 7427,
     "stylesheetCount": 3,
     "thirdParty": 0,
     "thirdPartyCount": 0
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -55,10 +55,10 @@
     "+weight.image": 10,
     "-weight.font": 5,
     "+weight.font": 6,
-    "+weight.fontCount": 3,
-    "-timeToFirstByte": 11,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 1,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 1
+    "-largestContentfulPaint": 2
   },
   "axe": {
     "passes": 121,

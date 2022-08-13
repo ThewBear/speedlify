@@ -1,47 +1,47 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1659126160158,
+  "timestamp": 1660422256139,
   "ranks": {
-    "hundos": 7,
+    "hundos": 8,
     "performance": 6,
     "accessibility": 8,
-    "cumulative": 7
+    "cumulative": 8
   },
   "lighthouse": {
-    "version": "9.6.4",
+    "version": "9.6.5",
     "performance": 0.92,
     "accessibility": 0.74,
     "bestPractices": 0.92,
     "seo": 0.66,
     "total": 324
   },
-  "firstContentfulPaint": 1271.8110000000001,
-  "firstMeaningfulPaint": 1473.3110000000001,
-  "speedIndex": 1600.9453945430291,
-  "largestContentfulPaint": 1294.3110000000001,
-  "totalBlockingTime": 325,
+  "firstContentfulPaint": 1195.144,
+  "firstMeaningfulPaint": 1407.144,
+  "speedIndex": 1470.4796109570893,
+  "largestContentfulPaint": 1195.144,
+  "totalBlockingTime": 350,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2886.0470000000005,
-  "maxPotentialFirstInputDelay": 358,
-  "timeToFirstByte": 52.31999999999999,
+  "timeToInteractive": 2704.2110000000002,
+  "maxPotentialFirstInputDelay": 380,
+  "timeToFirstByte": 21.269000000000005,
   "weight": {
     "summary": "7 requests • 183 KiB",
-    "total": 187489,
-    "image": 77097,
+    "total": 187103,
+    "image": 76669,
     "imageCount": 3,
-    "script": 39481,
+    "script": 39500,
     "scriptCount": 1,
-    "document": 61426,
+    "document": 61421,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 9320,
+    "stylesheet": 9348,
     "stylesheetCount": 1,
-    "thirdParty": 41524,
+    "thirdParty": 41555,
     "thirdPartyCount": 4
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 5,
-    "-timeToFirstByte": 8,
-    "-totalBlockingTime": 6,
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 7,
     "-largestContentfulPaint": 2
   },
   "axe": {
-    "passes": 10323,
+    "passes": 10330,
     "violations": 932
   }
 }

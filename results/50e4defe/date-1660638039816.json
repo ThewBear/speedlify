@@ -1,43 +1,43 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1659342500098,
+  "timestamp": 1660638182504,
   "ranks": {
-    "hundos": 7,
-    "performance": 3,
+    "hundos": 8,
+    "performance": 7,
     "accessibility": 8,
-    "cumulative": 7
+    "cumulative": 8
   },
   "lighthouse": {
-    "version": "9.6.4",
-    "performance": 0.97,
+    "version": "9.6.5",
+    "performance": 0.89,
     "accessibility": 0.74,
     "bestPractices": 0.92,
     "seo": 0.66,
-    "total": 329
+    "total": 321
   },
-  "firstContentfulPaint": 1410.904,
-  "firstMeaningfulPaint": 1534.443,
-  "speedIndex": 1419.3278042406514,
-  "largestContentfulPaint": 1410.904,
-  "totalBlockingTime": 199.07799999999997,
+  "firstContentfulPaint": 1247.1440000000002,
+  "firstMeaningfulPaint": 1524.6440000000002,
+  "speedIndex": 1625.545339674622,
+  "largestContentfulPaint": 1258.1440000000002,
+  "totalBlockingTime": 433,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2277.698,
-  "maxPotentialFirstInputDelay": 355,
-  "timeToFirstByte": 18.501000000000005,
+  "timeToInteractive": 2946.6319999999996,
+  "maxPotentialFirstInputDelay": 379,
+  "timeToFirstByte": 26.199000000000012,
   "weight": {
-    "summary": "7 requests • 187 KiB",
-    "total": 191640,
-    "image": 75917,
+    "summary": "7 requests • 183 KiB",
+    "total": 187726,
+    "image": 77313,
     "imageCount": 3,
-    "script": 39507,
+    "script": 39490,
     "scriptCount": 1,
-    "document": 66700,
+    "document": 61438,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 9351,
+    "stylesheet": 9320,
     "stylesheetCount": 1,
-    "thirdParty": 41569,
+    "thirdParty": 41549,
     "thirdPartyCount": 4
   },
   "run": {
@@ -57,11 +57,11 @@
     "+weight.font": 8,
     "+weight.fontCount": 5,
     "-timeToFirstByte": 3,
-    "-totalBlockingTime": 6,
+    "-totalBlockingTime": 7,
     "-largestContentfulPaint": 2
   },
   "axe": {
-    "passes": 10330,
+    "passes": 10344,
     "violations": 932
   }
 }

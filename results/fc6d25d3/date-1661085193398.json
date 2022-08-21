@@ -1,43 +1,43 @@
 {
   "url": "https://codeigniter.com/",
   "requestedUrl": "https://codeigniter.com/",
-  "timestamp": 1659789259269,
+  "timestamp": 1661085312852,
   "ranks": {
     "hundos": 3,
     "performance": 1,
-    "accessibility": 2,
+    "accessibility": 3,
     "cumulative": 3
   },
   "lighthouse": {
-    "version": "9.6.5",
-    "performance": 0.93,
+    "version": "9.6.6",
+    "performance": 0.89,
     "accessibility": 0.97,
     "bestPractices": 0.83,
     "seo": 0.92,
-    "total": 365
+    "total": 361
   },
-  "firstContentfulPaint": 1071.592,
-  "firstMeaningfulPaint": 1419.5790000000002,
-  "speedIndex": 1570.8635957629563,
-  "largestContentfulPaint": 2127.983,
-  "totalBlockingTime": 270.3910000000001,
+  "firstContentfulPaint": 1077.167,
+  "firstMeaningfulPaint": 1302.167,
+  "speedIndex": 2091.19203129364,
+  "largestContentfulPaint": 2090.9844999999996,
+  "totalBlockingTime": 408.8174999999999,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2433.983,
-  "maxPotentialFirstInputDelay": 381,
-  "timeToFirstByte": 45.946999999999996,
+  "timeToInteractive": 2585.9844999999996,
+  "maxPotentialFirstInputDelay": 495,
+  "timeToFirstByte": 446.29,
   "weight": {
-    "summary": "13 requests • 134 KiB",
-    "total": 136999,
-    "image": 4509,
+    "summary": "13 requests • 133 KiB",
+    "total": 136561,
+    "image": 4513,
     "imageCount": 1,
-    "script": 51937,
+    "script": 51419,
     "scriptCount": 3,
-    "document": 12591,
-    "font": 42726,
+    "document": 12611,
+    "font": 42739,
     "fontCount": 2,
-    "stylesheet": 16105,
+    "stylesheet": 16130,
     "stylesheetCount": 3,
-    "thirdParty": 36932,
+    "thirdParty": 36941,
     "thirdPartyCount": 2
   },
   "run": {
@@ -56,12 +56,11 @@
     "-weight.font": 1,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 2,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 2
+    "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 83,
-    "violations": 4
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

@@ -1,7 +1,7 @@
 {
   "url": "https://th.m.wikipedia.org/wiki/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81",
   "requestedUrl": "https://th.wikipedia.org/",
-  "timestamp": 1659889804811,
+  "timestamp": 1661185887274,
   "ranks": {
     "hundos": 1,
     "performance": 1,
@@ -9,35 +9,35 @@
     "cumulative": 1
   },
   "lighthouse": {
-    "version": "9.6.5",
-    "performance": 0.91,
-    "accessibility": 0.96,
+    "version": "9.6.6",
+    "performance": 0.92,
+    "accessibility": 0.92,
     "bestPractices": 0.83,
     "seo": 0.92,
-    "total": 362
+    "total": 359
   },
-  "firstContentfulPaint": 1792.327,
-  "firstMeaningfulPaint": 1880.327,
-  "speedIndex": 1877.7536945023721,
-  "largestContentfulPaint": 2489.801,
-  "totalBlockingTime": 220.00000000000023,
+  "firstContentfulPaint": 1827.1999999999998,
+  "firstMeaningfulPaint": 1964.1999999999998,
+  "speedIndex": 1868.3059845150142,
+  "largestContentfulPaint": 2155.2,
+  "totalBlockingTime": 252,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 3920.827,
-  "maxPotentialFirstInputDelay": 176,
-  "timeToFirstByte": 20.365000000000002,
+  "timeToInteractive": 4026.2000000000003,
+  "maxPotentialFirstInputDelay": 161,
+  "timeToFirstByte": 12.188,
   "weight": {
-    "summary": "34 requests • 390 KiB",
-    "total": 399609,
-    "image": 171819,
+    "summary": "34 requests • 388 KiB",
+    "total": 396841,
+    "image": 168495,
     "imageCount": 26,
-    "script": 191883,
+    "script": 192680,
     "scriptCount": 4,
-    "document": 22274,
+    "document": 22040,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 10940,
+    "stylesheet": 10926,
     "stylesheetCount": 1,
-    "thirdParty": 151902,
+    "thirdParty": 148552,
     "thirdPartyCount": 16
   },
   "run": {
@@ -47,8 +47,8 @@
   "sidequests": {
     "-weight.total": 1,
     "+weight.total": 7,
-    "-weight.document": 2,
-    "+weight.document": 6,
+    "-weight.document": 3,
+    "+weight.document": 5,
     "-weight.script": 1,
     "+weight.script": 7,
     "-weight.image": 2,
@@ -58,10 +58,10 @@
     "+weight.fontCount": 5,
     "-timeToFirstByte": 1,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 3
+    "-largestContentfulPaint": 1
   },
   "axe": {
-    "passes": 2013,
-    "violations": 11
+    "passes": 1968,
+    "violations": 8
   }
 }

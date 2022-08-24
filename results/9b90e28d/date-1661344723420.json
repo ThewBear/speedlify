@@ -1,7 +1,7 @@
 {
   "url": "https://symfony.com/",
   "requestedUrl": "https://symfony.com/",
-  "timestamp": 1660049064194,
+  "timestamp": 1661344756542,
   "ranks": {
     "hundos": 4,
     "performance": 4,
@@ -9,39 +9,39 @@
     "cumulative": 4
   },
   "lighthouse": {
-    "version": "9.6.5",
-    "performance": 0.78,
+    "version": "9.6.6",
+    "performance": 0.66,
     "accessibility": 0.92,
     "bestPractices": 0.92,
     "seo": 0.95,
-    "total": 357
+    "total": 345
   },
-  "firstContentfulPaint": 1219.125,
-  "firstMeaningfulPaint": 1219.125,
-  "speedIndex": 1853.7829579813815,
-  "largestContentfulPaint": 1886.263,
-  "totalBlockingTime": 741.4999999999995,
+  "firstContentfulPaint": 1217.126,
+  "firstMeaningfulPaint": 1217.1260000000002,
+  "speedIndex": 1701.6575849358273,
+  "largestContentfulPaint": 2763.925,
+  "totalBlockingTime": 1508.9999999999998,
   "cumulativeLayoutShift": 0.0556419677734375,
-  "timeToInteractive": 5435.985999999999,
-  "maxPotentialFirstInputDelay": 480.99999999999955,
-  "timeToFirstByte": 108.207,
+  "timeToInteractive": 5944.596,
+  "maxPotentialFirstInputDelay": 748.9999999999998,
+  "timeToFirstByte": 102.48899999999999,
   "weight": {
-    "summary": "34 requests • 393 KiB",
-    "total": 402104,
-    "image": 103723,
+    "summary": "34 requests • 386 KiB",
+    "total": 395172,
+    "image": 96783,
     "imageCount": 14,
-    "script": 237007,
+    "script": 236963,
     "scriptCount": 10,
-    "document": 15629,
+    "document": 15617,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 37776,
+    "stylesheet": 37761,
     "stylesheetCount": 5,
     "thirdParty": 38155,
     "thirdPartyCount": 5
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -51,17 +51,17 @@
     "+weight.document": 3,
     "-weight.script": 4,
     "+weight.script": 2,
-    "-weight.image": 4,
-    "+weight.image": 2,
+    "-weight.image": 3,
+    "+weight.image": 3,
     "-weight.font": 1,
     "+weight.font": 5,
     "+weight.fontCount": 4,
     "-timeToFirstByte": 3,
-    "-totalBlockingTime": 3,
-    "-largestContentfulPaint": 1
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 907,
-    "violations": 36
+    "passes": 904,
+    "violations": 34
   }
 }

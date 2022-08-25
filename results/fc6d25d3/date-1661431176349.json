@@ -1,43 +1,43 @@
 {
   "url": "https://codeigniter.com/",
   "requestedUrl": "https://codeigniter.com/",
-  "timestamp": 1660135170592,
+  "timestamp": 1661431303873,
   "ranks": {
     "hundos": 3,
     "performance": 1,
-    "accessibility": 3,
+    "accessibility": 2,
     "cumulative": 3
   },
   "lighthouse": {
-    "version": "9.6.5",
-    "performance": 0.94,
+    "version": "9.6.6",
+    "performance": 0.89,
     "accessibility": 0.97,
     "bestPractices": 0.83,
     "seo": 0.92,
-    "total": 366
+    "total": 361
   },
-  "firstContentfulPaint": 1077.008,
-  "firstMeaningfulPaint": 1426.4855000000002,
-  "speedIndex": 1693.1645658403104,
-  "largestContentfulPaint": 2127.0080000000003,
-  "totalBlockingTime": 250.78550000000018,
+  "firstContentfulPaint": 1102.7240000000002,
+  "firstMeaningfulPaint": 1534.9,
+  "speedIndex": 1754.4229786830351,
+  "largestContentfulPaint": 2127.0915000000005,
+  "totalBlockingTime": 387.2025000000001,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2427.7935000000007,
-  "maxPotentialFirstInputDelay": 370,
-  "timeToFirstByte": 131.15,
+  "timeToInteractive": 2635.0915000000005,
+  "maxPotentialFirstInputDelay": 508,
+  "timeToFirstByte": 104.291,
   "weight": {
-    "summary": "13 requests • 133 KiB",
-    "total": 136091,
-    "image": 4507,
+    "summary": "13 requests • 132 KiB",
+    "total": 135070,
+    "image": 4547,
     "imageCount": 1,
-    "script": 50863,
+    "script": 50517,
     "scriptCount": 3,
-    "document": 12628,
-    "font": 42724,
+    "document": 12633,
+    "font": 42728,
     "fontCount": 2,
-    "stylesheet": 16117,
+    "stylesheet": 16088,
     "stylesheetCount": 3,
-    "thirdParty": 36933,
+    "thirdParty": 36941,
     "thirdPartyCount": 2
   },
   "run": {
@@ -57,10 +57,11 @@
     "+weight.font": 4,
     "+weight.fontCount": 3,
     "-timeToFirstByte": 2,
-    "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 3
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 2
   },
   "axe": {
-    "error": "{\"name\":\"TimeoutError\"}"
+    "passes": 77,
+    "violations": 3
   }
 }

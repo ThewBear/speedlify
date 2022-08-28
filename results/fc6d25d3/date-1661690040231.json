@@ -1,43 +1,43 @@
 {
   "url": "https://codeigniter.com/",
   "requestedUrl": "https://codeigniter.com/",
-  "timestamp": 1660394004055,
+  "timestamp": 1661690083924,
   "ranks": {
     "hundos": 3,
     "performance": 1,
-    "accessibility": 2,
+    "accessibility": 3,
     "cumulative": 3
   },
   "lighthouse": {
-    "version": "9.6.5",
-    "performance": 0.91,
+    "version": "9.6.6",
+    "performance": 0.92,
     "accessibility": 0.97,
     "bestPractices": 0.83,
     "seo": 0.92,
-    "total": 363
+    "total": 364
   },
-  "firstContentfulPaint": 1079.841,
-  "firstMeaningfulPaint": 1409.4799999999998,
-  "speedIndex": 1989.3350734647781,
-  "largestContentfulPaint": 2061.712,
-  "totalBlockingTime": 335.87099999999987,
+  "firstContentfulPaint": 1068.712,
+  "firstMeaningfulPaint": 1368.712,
+  "speedIndex": 1587.7722418523308,
+  "largestContentfulPaint": 2083.978,
+  "totalBlockingTime": 295.2660000000001,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2515.7119999999995,
-  "maxPotentialFirstInputDelay": 454,
-  "timeToFirstByte": 313.411,
+  "timeToInteractive": 2457.978,
+  "maxPotentialFirstInputDelay": 374,
+  "timeToFirstByte": 53.30200000000001,
   "weight": {
-    "summary": "13 requests • 133 KiB",
-    "total": 136439,
-    "image": 4504,
+    "summary": "13 requests • 132 KiB",
+    "total": 135162,
+    "image": 4514,
     "imageCount": 1,
-    "script": 51426,
+    "script": 50729,
     "scriptCount": 3,
-    "document": 12555,
-    "font": 42732,
+    "document": 12637,
+    "font": 42738,
     "fontCount": 2,
-    "stylesheet": 16097,
+    "stylesheet": 16108,
     "stylesheetCount": 3,
-    "thirdParty": 36933,
+    "thirdParty": 36942,
     "thirdPartyCount": 2
   },
   "run": {
@@ -56,12 +56,11 @@
     "-weight.font": 1,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 5,
-    "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 2
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 77,
-    "violations": 3
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

@@ -1,7 +1,7 @@
 {
   "url": "https://th.m.wikipedia.org/wiki/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81",
   "requestedUrl": "https://th.wikipedia.org/",
-  "timestamp": 1660494744482,
+  "timestamp": 1661790899069,
   "ranks": {
     "hundos": 1,
     "performance": 1,
@@ -9,35 +9,35 @@
     "cumulative": 1
   },
   "lighthouse": {
-    "version": "9.6.5",
-    "performance": 0.92,
-    "accessibility": 0.96,
+    "version": "9.6.6",
+    "performance": 0.95,
+    "accessibility": 0.92,
     "bestPractices": 0.83,
     "seo": 0.92,
-    "total": 363
+    "total": 362
   },
-  "firstContentfulPaint": 1809.0300000000002,
-  "firstMeaningfulPaint": 1937.0300000000002,
-  "speedIndex": 1945.1799463229756,
-  "largestContentfulPaint": 2523.2875000000004,
-  "totalBlockingTime": 205,
+  "firstContentfulPaint": 1799.336,
+  "firstMeaningfulPaint": 1878.336,
+  "speedIndex": 1890.4011042966297,
+  "largestContentfulPaint": 1879.836,
+  "totalBlockingTime": 177.00000000000023,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 3913.5300000000007,
-  "maxPotentialFirstInputDelay": 146,
-  "timeToFirstByte": 30.253,
+  "timeToInteractive": 3941.3360000000002,
+  "maxPotentialFirstInputDelay": 158,
+  "timeToFirstByte": 19.53,
   "weight": {
-    "summary": "34 requests • 386 KiB",
-    "total": 395059,
-    "image": 168531,
+    "summary": "34 requests • 388 KiB",
+    "total": 397060,
+    "image": 168714,
     "imageCount": 26,
-    "script": 191007,
+    "script": 192843,
     "scriptCount": 4,
-    "document": 21885,
+    "document": 21896,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 10944,
+    "stylesheet": 10916,
     "stylesheetCount": 1,
-    "thirdParty": 148570,
+    "thirdParty": 148745,
     "thirdPartyCount": 16
   },
   "run": {
@@ -58,10 +58,10 @@
     "+weight.fontCount": 5,
     "-timeToFirstByte": 1,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 2
+    "-largestContentfulPaint": 1
   },
   "axe": {
-    "passes": 1968,
-    "violations": 9
+    "passes": 1980,
+    "violations": 8
   }
 }

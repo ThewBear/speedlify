@@ -12,6 +12,7 @@ module.exports = {
 	urls: [
 		"https://www.thewdhanat.com/",
 		"https://www.thewdhanat.com/awesome/",
+		"https://www.thewdhanat.com/awesome/all/",
 		"https://www.thewdhanat.com/blog/",
 		"https://www.thewdhanat.com/certificates/"
 	]

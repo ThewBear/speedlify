@@ -1,7 +1,7 @@
 {
   "url": "https://laravel.com/",
   "requestedUrl": "https://laravel.com/",
-  "timestamp": 1662784909556,
+  "timestamp": 1664080090225,
   "ranks": {
     "hundos": 2,
     "performance": 2,
@@ -10,38 +10,38 @@
   },
   "lighthouse": {
     "version": "9.6.7",
-    "performance": 0.87,
+    "performance": 0.86,
     "accessibility": 0.97,
     "bestPractices": 1,
     "seo": 0.89,
-    "total": 373
+    "total": 372
   },
-  "firstContentfulPaint": 2789.0950000000003,
-  "firstMeaningfulPaint": 2789.0950000000003,
-  "speedIndex": 2789.0950000000003,
-  "largestContentfulPaint": 3294.8010000000004,
-  "totalBlockingTime": 17,
-  "cumulativeLayoutShift": 0.0005915743509928385,
-  "timeToInteractive": 3294.8010000000004,
-  "maxPotentialFirstInputDelay": 84,
-  "timeToFirstByte": 13.997999999999998,
+  "firstContentfulPaint": 2778.913,
+  "firstMeaningfulPaint": 2778.913,
+  "speedIndex": 2778.913,
+  "largestContentfulPaint": 3472.156,
+  "totalBlockingTime": 15.5,
+  "cumulativeLayoutShift": 0.00043369452158610025,
+  "timeToInteractive": 3472.156,
+  "maxPotentialFirstInputDelay": 81,
+  "timeToFirstByte": 28.516000000000005,
   "weight": {
     "summary": "60 requests • 2,005 KiB",
-    "total": 2052963,
-    "image": 1848487,
+    "total": 2053265,
+    "image": 1848450,
     "imageCount": 51,
-    "script": 60340,
+    "script": 60364,
     "scriptCount": 3,
-    "document": 89328,
+    "document": 89647,
     "font": 43762,
     "fontCount": 2,
-    "stylesheet": 11046,
+    "stylesheet": 11042,
     "stylesheetCount": 3,
-    "thirdParty": 65866,
+    "thirdParty": 65868,
     "thirdPartyCount": 8
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -57,11 +57,11 @@
     "+weight.font": 3,
     "+weight.fontCount": 3,
     "-timeToFirstByte": 1,
-    "-totalBlockingTime": 1,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 1418,
+    "passes": 1424,
     "violations": 51
   }
 }

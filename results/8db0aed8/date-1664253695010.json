@@ -1,7 +1,7 @@
 {
   "url": "https://astro.build/",
   "requestedUrl": "https://astro.build/",
-  "timestamp": 1662958904390,
+  "timestamp": 1664254355795,
   "ranks": {
     "hundos": 4,
     "performance": 4,
@@ -10,38 +10,38 @@
   },
   "lighthouse": {
     "version": "9.6.7",
-    "performance": 0.98,
+    "performance": 0.99,
     "accessibility": 0.98,
     "bestPractices": 1,
     "seo": 1,
-    "total": 396
+    "total": 397
   },
-  "firstContentfulPaint": 1572.4180000000001,
-  "firstMeaningfulPaint": 1586.9180000000001,
-  "speedIndex": 1572.4180000000001,
-  "largestContentfulPaint": 2309.053,
+  "firstContentfulPaint": 1353.5970000000002,
+  "firstMeaningfulPaint": 1353.5970000000002,
+  "speedIndex": 1353.5970000000002,
+  "largestContentfulPaint": 2104.9320000000002,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1593.4180000000001,
-  "maxPotentialFirstInputDelay": 313,
-  "timeToFirstByte": 38.59300000000002,
+  "timeToInteractive": 1353.5970000000002,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 8.972999999999999,
   "weight": {
-    "summary": "18 requests • 119 KiB",
-    "total": 121366,
-    "image": 14373,
+    "summary": "18 requests • 123 KiB",
+    "total": 126452,
+    "image": 14378,
     "imageCount": 6,
-    "script": 6756,
+    "script": 7189,
     "scriptCount": 4,
-    "document": 61931,
+    "document": 65332,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 11928,
+    "stylesheet": 13183,
     "stylesheetCount": 6,
-    "thirdParty": 26378,
+    "thirdParty": 26370,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -55,13 +55,13 @@
     "+weight.image": 12,
     "-weight.font": 1,
     "+weight.font": 11,
-    "+weight.fontCount": 6,
+    "+weight.fontCount": 7,
     "-timeToFirstByte": 5,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 7
+    "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 1712,
+    "passes": 1723,
     "violations": 1
   }
 }

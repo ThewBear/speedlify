@@ -1,43 +1,43 @@
 {
   "url": "https://shopee.co.th/",
   "requestedUrl": "https://shopee.co.th/",
-  "timestamp": 1663737231491,
+  "timestamp": 1665035676272,
   "ranks": {
-    "hundos": 6,
+    "hundos": 5,
     "performance": 8,
     "accessibility": 5,
-    "cumulative": 6
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "9.6.7",
-    "performance": 0.14,
+    "performance": 0.04,
     "accessibility": 0.79,
     "bestPractices": 0.92,
     "seo": 0.93,
-    "total": 278
+    "total": 268
   },
-  "firstContentfulPaint": 2393.365,
-  "firstMeaningfulPaint": 6095.9185,
-  "speedIndex": 9375.75501789219,
-  "largestContentfulPaint": 16844.1095,
-  "totalBlockingTime": 2073,
-  "cumulativeLayoutShift": 0.4271051867802938,
-  "timeToInteractive": 24910.739500000003,
-  "maxPotentialFirstInputDelay": 548,
-  "timeToFirstByte": 438.408,
+  "firstContentfulPaint": 4716.545,
+  "firstMeaningfulPaint": 6845.625,
+  "speedIndex": 10292.938025945201,
+  "largestContentfulPaint": 17969.790999999997,
+  "totalBlockingTime": 2875.1059999999925,
+  "cumulativeLayoutShift": 0.8575047302246094,
+  "timeToInteractive": 25788.02,
+  "maxPotentialFirstInputDelay": 745,
+  "timeToFirstByte": 259.568,
   "weight": {
-    "summary": "236 requests • 6,527 KiB",
-    "total": 6683644,
-    "image": 4754004,
+    "summary": "236 requests • 5,243 KiB",
+    "total": 5368699,
+    "image": 3341915,
     "imageCount": 92,
-    "script": 1389738,
+    "script": 1585102,
     "scriptCount": 38,
-    "document": 21501,
+    "document": 20034,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 44578,
+    "stylesheet": 50063,
     "stylesheetCount": 12,
-    "thirdParty": 1835439,
+    "thirdParty": 1926924,
     "thirdPartyCount": 158
   },
   "run": {
@@ -49,19 +49,19 @@
     "+weight.total": 1,
     "-weight.document": 1,
     "+weight.document": 8,
-    "-weight.script": 6,
-    "+weight.script": 3,
+    "-weight.script": 7,
+    "+weight.script": 2,
     "-weight.image": 8,
     "+weight.image": 1,
     "-weight.font": 1,
     "+weight.font": 5,
     "+weight.fontCount": 5,
     "-timeToFirstByte": 4,
-    "-totalBlockingTime": 7,
+    "-totalBlockingTime": 8,
     "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 4566,
-    "violations": 151
+    "passes": 4898,
+    "violations": 187
   }
 }

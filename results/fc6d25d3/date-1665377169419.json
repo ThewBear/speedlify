@@ -1,43 +1,43 @@
 {
   "url": "https://codeigniter.com/",
   "requestedUrl": "https://codeigniter.com/",
-  "timestamp": 1664080038778,
+  "timestamp": 1665377281824,
   "ranks": {
     "hundos": 3,
     "performance": 1,
-    "accessibility": 2,
+    "accessibility": 3,
     "cumulative": 3
   },
   "lighthouse": {
     "version": "9.6.7",
-    "performance": 0.88,
+    "performance": 0.9,
     "accessibility": 0.97,
     "bestPractices": 0.83,
     "seo": 0.92,
-    "total": 360
+    "total": 362
   },
-  "firstContentfulPaint": 1079.709,
-  "firstMeaningfulPaint": 1522.2135,
-  "speedIndex": 1702.196152554121,
-  "largestContentfulPaint": 2172.5125,
-  "totalBlockingTime": 436.8035,
+  "firstContentfulPaint": 1111.346,
+  "firstMeaningfulPaint": 1453.3909999999998,
+  "speedIndex": 1739.7626360633458,
+  "largestContentfulPaint": 2172.1960000000004,
+  "totalBlockingTime": 371.2249999999997,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2613.5125,
-  "maxPotentialFirstInputDelay": 516,
-  "timeToFirstByte": 93.369,
+  "timeToInteractive": 2593.4210000000003,
+  "maxPotentialFirstInputDelay": 497,
+  "timeToFirstByte": 84.52000000000001,
   "weight": {
-    "summary": "13 requests • 133 KiB",
-    "total": 136342,
-    "image": 4465,
+    "summary": "13 requests • 134 KiB",
+    "total": 137272,
+    "image": 4490,
     "imageCount": 1,
-    "script": 52573,
+    "script": 51627,
     "scriptCount": 3,
-    "document": 12623,
-    "font": 42636,
+    "document": 12533,
+    "font": 42621,
     "fontCount": 2,
-    "stylesheet": 15925,
+    "stylesheet": 15863,
     "stylesheetCount": 3,
-    "thirdParty": 36860,
+    "thirdParty": 36868,
     "thirdPartyCount": 2
   },
   "run": {
@@ -57,11 +57,10 @@
     "+weight.font": 4,
     "+weight.fontCount": 3,
     "-timeToFirstByte": 2,
-    "-totalBlockingTime": 3,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 77,
-    "violations": 3
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

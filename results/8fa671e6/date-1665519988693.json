@@ -1,7 +1,7 @@
 {
   "url": "https://eslint.org/",
   "requestedUrl": "https://eslint.org/",
-  "timestamp": 1664224081204,
+  "timestamp": 1665520004732,
   "ranks": {
     "hundos": 3,
     "performance": 9,
@@ -10,38 +10,38 @@
   },
   "lighthouse": {
     "version": "9.6.7",
-    "performance": 0.85,
+    "performance": 0.81,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 385
+    "total": 381
   },
-  "firstContentfulPaint": 1736.391,
-  "firstMeaningfulPaint": 1736.391,
-  "speedIndex": 3759.3777145392332,
-  "largestContentfulPaint": 3426.2035,
-  "totalBlockingTime": 76,
+  "firstContentfulPaint": 1665.6,
+  "firstMeaningfulPaint": 1665.6,
+  "speedIndex": 3288.6121960979026,
+  "largestContentfulPaint": 3872.3500000000004,
+  "totalBlockingTime": 169.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 5848.5785,
-  "maxPotentialFirstInputDelay": 110,
-  "timeToFirstByte": 44.69499999999999,
+  "timeToInteractive": 5790.85,
+  "maxPotentialFirstInputDelay": 221,
+  "timeToFirstByte": 22.036999999999978,
   "weight": {
-    "summary": "35 requests • 901 KiB",
-    "total": 922204,
-    "image": 234934,
+    "summary": "35 requests • 902 KiB",
+    "total": 923986,
+    "image": 235065,
     "imageCount": 16,
-    "script": 132547,
+    "script": 133136,
     "scriptCount": 10,
-    "document": 16294,
-    "font": 523371,
+    "document": 16263,
+    "font": 523394,
     "fontCount": 6,
-    "stylesheet": 14715,
+    "stylesheet": 15785,
     "stylesheetCount": 1,
-    "thirdParty": 290033,
+    "thirdParty": 291486,
     "thirdPartyCount": 12
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -57,11 +57,11 @@
     "+weight.font": 1,
     "+weight.fontCount": 1,
     "-timeToFirstByte": 5,
-    "-totalBlockingTime": 4,
+    "-totalBlockingTime": 5,
     "-largestContentfulPaint": 9
   },
   "axe": {
-    "passes": 1122,
+    "passes": 1113,
     "violations": 1
   }
 }

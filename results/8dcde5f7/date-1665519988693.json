@@ -1,47 +1,47 @@
 {
   "url": "https://gruntjs.com/",
   "requestedUrl": "https://gruntjs.com/",
-  "timestamp": 1664224141325,
+  "timestamp": 1665520210250,
   "ranks": {
     "hundos": 6,
-    "performance": 2,
+    "performance": 5,
     "accessibility": 6,
     "cumulative": 6
   },
   "lighthouse": {
     "version": "9.6.7",
-    "performance": 0.99,
+    "performance": 0.93,
     "accessibility": 0.87,
     "bestPractices": 0.83,
     "seo": 0.69,
-    "total": 338
+    "total": 332
   },
-  "firstContentfulPaint": 1641.9609999999998,
-  "firstMeaningfulPaint": 1641.9609999999998,
-  "speedIndex": 1641.9609999999998,
-  "largestContentfulPaint": 1641.9609999999998,
-  "totalBlockingTime": 21,
-  "cumulativeLayoutShift": 0.011946320078181279,
-  "timeToInteractive": 1975.3359999999998,
-  "maxPotentialFirstInputDelay": 71,
-  "timeToFirstByte": 127.14099999999999,
+  "firstContentfulPaint": 2593.223,
+  "firstMeaningfulPaint": 2593.223,
+  "speedIndex": 2593.223,
+  "largestContentfulPaint": 2593.2230000000004,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.009311506765934641,
+  "timeToInteractive": 2593.223,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 179.56900000000002,
   "weight": {
     "summary": "28 requests • 145 KiB",
-    "total": 148498,
-    "image": 77367,
+    "total": 148712,
+    "image": 77322,
     "imageCount": 19,
-    "script": 20223,
+    "script": 20436,
     "scriptCount": 2,
     "document": 3984,
     "font": 30836,
     "fontCount": 3,
-    "stylesheet": 15884,
+    "stylesheet": 15930,
     "stylesheetCount": 2,
-    "thirdParty": 50199,
+    "thirdParty": 50412,
     "thirdPartyCount": 6
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -56,9 +56,9 @@
     "-weight.font": 2,
     "+weight.font": 6,
     "+weight.fontCount": 4,
-    "-timeToFirstByte": 8,
-    "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 3
+    "-timeToFirstByte": 10,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 5
   },
   "axe": {
     "passes": 398,

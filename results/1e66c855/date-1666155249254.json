@@ -1,52 +1,52 @@
 {
   "url": "https://laravel.com/",
   "requestedUrl": "https://laravel.com/",
-  "timestamp": 1664856692269,
+  "timestamp": 1666155351352,
   "ranks": {
     "hundos": 2,
-    "performance": 2,
+    "performance": 1,
     "accessibility": 3,
     "cumulative": 2
   },
   "lighthouse": {
     "version": "9.6.7",
-    "performance": 0.87,
+    "performance": 0.86,
     "accessibility": 0.97,
     "bestPractices": 1,
     "seo": 0.89,
-    "total": 373
+    "total": 372
   },
-  "firstContentfulPaint": 2754.947,
-  "firstMeaningfulPaint": 2754.947,
-  "speedIndex": 2754.947,
-  "largestContentfulPaint": 3279.9230000000002,
-  "totalBlockingTime": 8,
+  "firstContentfulPaint": 2790.134,
+  "firstMeaningfulPaint": 2790.134,
+  "speedIndex": 2790.134,
+  "largestContentfulPaint": 3448.129,
+  "totalBlockingTime": 63,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 3034.9985,
-  "maxPotentialFirstInputDelay": 66,
-  "timeToFirstByte": 13.235999999999997,
+  "timeToInteractive": 3448.129,
+  "maxPotentialFirstInputDelay": 113,
+  "timeToFirstByte": 61.235,
   "weight": {
-    "summary": "60 requests • 2,005 KiB",
-    "total": 2053006,
-    "image": 1848437,
+    "summary": "60 requests • 2,034 KiB",
+    "total": 2083295,
+    "image": 1878873,
     "imageCount": 51,
-    "script": 60387,
+    "script": 60384,
     "scriptCount": 3,
-    "document": 89374,
+    "document": 89242,
     "font": 43762,
     "fontCount": 2,
-    "stylesheet": 11046,
+    "stylesheet": 11034,
     "stylesheetCount": 3,
-    "thirdParty": 65890,
+    "thirdParty": 65892,
     "thirdPartyCount": 8
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
-    "-weight.total": 5,
-    "+weight.total": 1,
+    "-weight.total": 4,
+    "+weight.total": 2,
     "-weight.document": 4,
     "+weight.document": 2,
     "-weight.script": 3,
@@ -57,11 +57,11 @@
     "+weight.font": 3,
     "+weight.fontCount": 3,
     "-timeToFirstByte": 1,
-    "-totalBlockingTime": 1,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 1424,
+    "passes": 1418,
     "violations": 51
   }
 }

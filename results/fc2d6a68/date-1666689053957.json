@@ -1,47 +1,47 @@
 {
   "url": "https://karma-runner.github.io/latest/index.html",
   "requestedUrl": "https://karma-runner.github.io/latest/index.html",
-  "timestamp": 1665390937940,
+  "timestamp": 1666689374355,
   "ranks": {
     "hundos": 8,
-    "performance": 5,
+    "performance": 4,
     "accessibility": 9,
     "cumulative": 8
   },
   "lighthouse": {
     "version": "9.6.7",
-    "performance": 0.92,
+    "performance": 0.94,
     "accessibility": 0.66,
     "bestPractices": 0.83,
     "seo": 0.83,
-    "total": 324
+    "total": 326
   },
-  "firstContentfulPaint": 1059.337,
-  "firstMeaningfulPaint": 2194.0150000000003,
-  "speedIndex": 1705.1440934230322,
-  "largestContentfulPaint": 2796.519,
-  "totalBlockingTime": 42,
-  "cumulativeLayoutShift": 0.13808146158854165,
-  "timeToInteractive": 2501.3369999999995,
-  "maxPotentialFirstInputDelay": 240,
-  "timeToFirstByte": 8.282000000000004,
+  "firstContentfulPaint": 1052.6599999999999,
+  "firstMeaningfulPaint": 2256.2259999999997,
+  "speedIndex": 1496.312657956218,
+  "largestContentfulPaint": 2706.526,
+  "totalBlockingTime": 68,
+  "cumulativeLayoutShift": 0.11680936686197917,
+  "timeToInteractive": 2536.093,
+  "maxPotentialFirstInputDelay": 110,
+  "timeToFirstByte": 5.385000000000002,
   "weight": {
-    "summary": "19 requests • 845 KiB",
-    "total": 865593,
-    "image": 698640,
+    "summary": "19 requests • 869 KiB",
+    "total": 889573,
+    "image": 698616,
     "imageCount": 11,
-    "script": 56587,
+    "script": 56574,
     "scriptCount": 2,
-    "document": 4290,
-    "font": 85220,
+    "document": 4307,
+    "font": 109220,
     "fontCount": 4,
     "stylesheet": 20856,
     "stylesheetCount": 1,
-    "thirdParty": 105577,
+    "thirdParty": 129567,
     "thirdPartyCount": 11
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 5,
     "+weight.font": 3,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 5,
+    "-timeToFirstByte": 1,
     "-totalBlockingTime": 3,
     "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 299,
-    "violations": 28
+    "passes": 272,
+    "violations": 39
   }
 }

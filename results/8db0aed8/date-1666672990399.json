@@ -1,43 +1,43 @@
 {
   "url": "https://astro.build/",
   "requestedUrl": "https://astro.build/",
-  "timestamp": 1665377865910,
+  "timestamp": 1666673675970,
   "ranks": {
-    "hundos": 4,
+    "hundos": 3,
     "performance": 4,
-    "accessibility": 5,
-    "cumulative": 4
+    "accessibility": 1,
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "9.6.7",
     "performance": 0.98,
-    "accessibility": 0.98,
+    "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 396
+    "total": 398
   },
-  "firstContentfulPaint": 1528.443,
-  "firstMeaningfulPaint": 1528.443,
-  "speedIndex": 1528.443,
-  "largestContentfulPaint": 2278.1719999999996,
+  "firstContentfulPaint": 1446.1329999999998,
+  "firstMeaningfulPaint": 1457.1329999999998,
+  "speedIndex": 1446.1329999999998,
+  "largestContentfulPaint": 2168.424,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1528.443,
-  "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 36.59500000000003,
+  "timeToInteractive": 1457.1329999999998,
+  "maxPotentialFirstInputDelay": 22,
+  "timeToFirstByte": 26.350999999999985,
   "weight": {
-    "summary": "18 requests • 122 KiB",
-    "total": 125312,
-    "image": 14341,
+    "summary": "18 requests • 127 KiB",
+    "total": 129749,
+    "image": 14447,
     "imageCount": 6,
-    "script": 5303,
+    "script": 5549,
     "scriptCount": 4,
-    "document": 67192,
+    "document": 70211,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 12100,
+    "stylesheet": 13172,
     "stylesheetCount": 6,
-    "thirdParty": 26376,
+    "thirdParty": 26370,
     "thirdPartyCount": 1
   },
   "run": {
@@ -55,13 +55,13 @@
     "+weight.image": 12,
     "-weight.font": 1,
     "+weight.font": 11,
-    "+weight.fontCount": 7,
-    "-timeToFirstByte": 5,
+    "+weight.fontCount": 6,
+    "-timeToFirstByte": 4,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 1735,
-    "violations": 1
+    "passes": 1685,
+    "violations": 0
   }
 }

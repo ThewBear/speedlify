@@ -1,11 +1,11 @@
 {
   "url": "https://jekyllrb.com/",
   "requestedUrl": "https://jekyllrb.com/",
-  "timestamp": 1665377725114,
+  "timestamp": 1666673535384,
   "ranks": {
     "hundos": 2,
     "performance": 3,
-    "accessibility": 2,
+    "accessibility": 4,
     "cumulative": 2
   },
   "lighthouse": {
@@ -16,28 +16,28 @@
     "seo": 1,
     "total": 399
   },
-  "firstContentfulPaint": 1056.028,
-  "firstMeaningfulPaint": 1056.028,
-  "speedIndex": 1056.028,
-  "largestContentfulPaint": 2106.0280000000002,
-  "totalBlockingTime": 18.5,
+  "firstContentfulPaint": 1058.135,
+  "firstMeaningfulPaint": 1058.135,
+  "speedIndex": 1058.135,
+  "largestContentfulPaint": 2108.135,
+  "totalBlockingTime": 51,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2127.0435,
-  "maxPotentialFirstInputDelay": 62,
-  "timeToFirstByte": 8.734000000000002,
+  "timeToInteractive": 2301.9049999999997,
+  "maxPotentialFirstInputDelay": 84,
+  "timeToFirstByte": 14.881999999999998,
   "weight": {
-    "summary": "10 requests • 201 KiB",
-    "total": 205453,
-    "image": 72693,
+    "summary": "10 requests • 200 KiB",
+    "total": 205177,
+    "image": 72715,
     "imageCount": 3,
-    "script": 68640,
+    "script": 68414,
     "scriptCount": 2,
-    "document": 3643,
-    "font": 46411,
+    "document": 3645,
+    "font": 46316,
     "fontCount": 2,
-    "stylesheet": 14044,
+    "stylesheet": 14065,
     "stylesheetCount": 1,
-    "thirdParty": 68662,
+    "thirdParty": 68436,
     "thirdPartyCount": 3
   },
   "run": {
@@ -51,17 +51,17 @@
     "+weight.document": 12,
     "-weight.script": 4,
     "+weight.script": 10,
-    "-weight.image": 5,
-    "+weight.image": 8,
+    "-weight.image": 4,
+    "+weight.image": 9,
     "-weight.font": 2,
     "+weight.font": 9,
-    "+weight.fontCount": 5,
+    "+weight.fontCount": 4,
     "-timeToFirstByte": 2,
     "-totalBlockingTime": 3,
     "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 248,
-    "violations": 6
+    "passes": 231,
+    "violations": 13
   }
 }

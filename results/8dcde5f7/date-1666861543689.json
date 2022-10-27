@@ -1,12 +1,12 @@
 {
   "url": "https://gruntjs.com/",
   "requestedUrl": "https://gruntjs.com/",
-  "timestamp": 1665563590799,
+  "timestamp": 1666861926223,
   "ranks": {
-    "hundos": 7,
-    "performance": 3,
+    "hundos": 6,
+    "performance": 2,
     "accessibility": 6,
-    "cumulative": 7
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "9.6.7",
@@ -16,32 +16,32 @@
     "seo": 0.69,
     "total": 338
   },
-  "firstContentfulPaint": 1629.7825,
-  "firstMeaningfulPaint": 1629.7825,
-  "speedIndex": 1629.7825,
-  "largestContentfulPaint": 1630.8020000000001,
-  "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0.010025064467618227,
-  "timeToInteractive": 1629.7825,
-  "maxPotentialFirstInputDelay": 38,
-  "timeToFirstByte": 110.232,
+  "firstContentfulPaint": 1547.9569999999999,
+  "firstMeaningfulPaint": 1547.9569999999999,
+  "speedIndex": 1547.9569999999999,
+  "largestContentfulPaint": 1547.9569999999999,
+  "totalBlockingTime": 61,
+  "cumulativeLayoutShift": 0.010514787200877054,
+  "timeToInteractive": 1931.1349999999998,
+  "maxPotentialFirstInputDelay": 111,
+  "timeToFirstByte": 16.12,
   "weight": {
     "summary": "28 requests • 145 KiB",
-    "total": 148713,
-    "image": 77322,
+    "total": 148718,
+    "image": 77321,
     "imageCount": 19,
     "script": 20436,
     "scriptCount": 2,
-    "document": 3984,
-    "font": 30837,
+    "document": 4000,
+    "font": 30836,
     "fontCount": 3,
-    "stylesheet": 15930,
+    "stylesheet": 15921,
     "stylesheetCount": 2,
-    "thirdParty": 50413,
+    "thirdParty": 50412,
     "thirdPartyCount": 6
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 2,
     "+weight.font": 6,
     "+weight.fontCount": 4,
-    "-timeToFirstByte": 9,
-    "-totalBlockingTime": 1,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 4,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 398,
-    "violations": 30
+    "passes": 360,
+    "violations": 42
   }
 }

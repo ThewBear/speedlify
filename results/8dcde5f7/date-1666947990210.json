@@ -1,43 +1,43 @@
 {
   "url": "https://gruntjs.com/",
   "requestedUrl": "https://gruntjs.com/",
-  "timestamp": 1665650214207,
+  "timestamp": 1666948323629,
   "ranks": {
-    "hundos": 6,
-    "performance": 5,
+    "hundos": 7,
+    "performance": 3,
     "accessibility": 6,
     "cumulative": 6
   },
   "lighthouse": {
     "version": "9.6.7",
-    "performance": 0.93,
+    "performance": 0.99,
     "accessibility": 0.87,
     "bestPractices": 0.83,
     "seo": 0.69,
-    "total": 332
+    "total": 338
   },
-  "firstContentfulPaint": 2585.2599999999993,
-  "firstMeaningfulPaint": 2585.2599999999993,
-  "speedIndex": 2585.2599999999993,
-  "largestContentfulPaint": 2585.2599999999993,
-  "totalBlockingTime": 0,
+  "firstContentfulPaint": 1681.737,
+  "firstMeaningfulPaint": 1681.737,
+  "speedIndex": 1681.737,
+  "largestContentfulPaint": 1688.007,
+  "totalBlockingTime": 23,
   "cumulativeLayoutShift": 0.009311506765934641,
-  "timeToInteractive": 2585.2599999999993,
-  "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 175.96499999999997,
+  "timeToInteractive": 2039.7510000000002,
+  "maxPotentialFirstInputDelay": 73,
+  "timeToFirstByte": 145.29700000000003,
   "weight": {
     "summary": "28 requests • 145 KiB",
-    "total": 148717,
+    "total": 148709,
     "image": 77316,
     "imageCount": 19,
     "script": 20436,
     "scriptCount": 2,
-    "document": 3991,
-    "font": 30886,
+    "document": 3984,
+    "font": 30885,
     "fontCount": 3,
     "stylesheet": 15884,
     "stylesheetCount": 2,
-    "thirdParty": 50413,
+    "thirdParty": 50412,
     "thirdPartyCount": 6
   },
   "run": {
@@ -57,11 +57,11 @@
     "+weight.font": 6,
     "+weight.fontCount": 4,
     "-timeToFirstByte": 10,
-    "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 5
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 398,
-    "violations": 30
+    "passes": 360,
+    "violations": 42
   }
 }

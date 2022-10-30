@@ -1,7 +1,7 @@
 {
   "url": "https://gulpjs.com/",
   "requestedUrl": "https://gulpjs.com/",
-  "timestamp": 1665865623824,
+  "timestamp": 1667164103032,
   "ranks": {
     "hundos": 5,
     "performance": 7,
@@ -10,35 +10,35 @@
   },
   "lighthouse": {
     "version": "9.6.7",
-    "performance": 0.92,
+    "performance": 0.91,
     "accessibility": 0.97,
     "bestPractices": 0.92,
     "seo": 0.89,
-    "total": 370
+    "total": 369
   },
-  "firstContentfulPaint": 1561.999,
-  "firstMeaningfulPaint": 2289.421,
-  "speedIndex": 2043.022507619136,
-  "largestContentfulPaint": 2146.658,
-  "totalBlockingTime": 250.99999999999977,
-  "cumulativeLayoutShift": 0.04508200242784288,
-  "timeToInteractive": 4023.3664999999996,
-  "maxPotentialFirstInputDelay": 262.99999999999955,
-  "timeToFirstByte": 26.554000000000002,
+  "firstContentfulPaint": 2378.229,
+  "firstMeaningfulPaint": 2378.229,
+  "speedIndex": 2718.9672160348764,
+  "largestContentfulPaint": 2542.5429999999997,
+  "totalBlockingTime": 132,
+  "cumulativeLayoutShift": 0.042312155405680334,
+  "timeToInteractive": 4291.496999999999,
+  "maxPotentialFirstInputDelay": 259,
+  "timeToFirstByte": 144.87599999999998,
   "weight": {
-    "summary": "62 requests • 1,307 KiB",
-    "total": 1338418,
-    "image": 1082195,
-    "imageCount": 32,
-    "script": 194459,
+    "summary": "56 requests • 1,308 KiB",
+    "total": 1339429,
+    "image": 1082154,
+    "imageCount": 26,
+    "script": 195376,
     "scriptCount": 12,
-    "document": 5447,
+    "document": 5415,
     "font": 19619,
     "fontCount": 2,
-    "stylesheet": 21295,
+    "stylesheet": 21516,
     "stylesheetCount": 4,
-    "thirdParty": 955933,
-    "thirdPartyCount": 24
+    "thirdParty": 956932,
+    "thirdPartyCount": 18
   },
   "run": {
     "number": 2,
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 7,
     "+weight.fontCount": 5,
-    "-timeToFirstByte": 7,
-    "-totalBlockingTime": 6,
+    "-timeToFirstByte": 10,
+    "-totalBlockingTime": 5,
     "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 483,
+    "passes": 451,
     "violations": 1
   }
 }

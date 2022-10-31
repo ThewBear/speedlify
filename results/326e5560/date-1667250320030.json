@@ -1,43 +1,43 @@
 {
   "url": "https://theintern.io/",
   "requestedUrl": "https://theintern.io/",
-  "timestamp": 1665952246490,
+  "timestamp": 1667250691236,
   "ranks": {
     "hundos": 9,
-    "performance": 7,
+    "performance": 3,
     "accessibility": 10,
     "cumulative": 9
   },
   "lighthouse": {
     "version": "9.6.7",
-    "performance": 0.92,
+    "performance": 0.94,
     "accessibility": 0.48,
     "bestPractices": 1,
     "seo": 0.75,
-    "total": 315
+    "total": 317
   },
-  "firstContentfulPaint": 1804.96,
-  "firstMeaningfulPaint": 3166.487,
-  "speedIndex": 1804.96,
-  "largestContentfulPaint": 3166.487,
+  "firstContentfulPaint": 1709.979,
+  "firstMeaningfulPaint": 2914.887,
+  "speedIndex": 1709.979,
+  "largestContentfulPaint": 2914.887,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.0001580810546875,
-  "timeToInteractive": 3166.487,
+  "timeToInteractive": 2914.887,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 61.46600000000001,
+  "timeToFirstByte": 41.06,
   "weight": {
     "summary": "11 requests • 198 KiB",
-    "total": 202829,
-    "image": 9347,
+    "total": 202556,
+    "image": 9350,
     "imageCount": 2,
     "script": 0,
     "scriptCount": 0,
-    "document": 17441,
-    "font": 136185,
+    "document": 17439,
+    "font": 135904,
     "fontCount": 5,
-    "stylesheet": 39856,
+    "stylesheet": 39863,
     "stylesheetCount": 3,
-    "thirdParty": 144397,
+    "thirdParty": 144120,
     "thirdPartyCount": 7
   },
   "run": {
@@ -47,8 +47,8 @@
   "sidequests": {
     "-weight.total": 5,
     "+weight.total": 6,
-    "-weight.document": 7,
-    "+weight.document": 4,
+    "-weight.document": 8,
+    "+weight.document": 3,
     "-weight.script": 1,
     "+weight.script": 10,
     "-weight.image": 2,
@@ -58,10 +58,10 @@
     "+weight.fontCount": 2,
     "-timeToFirstByte": 8,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 9
+    "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 721,
-    "violations": 26
+    "passes": 680,
+    "violations": 39
   }
 }

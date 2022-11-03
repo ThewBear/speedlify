@@ -1,43 +1,43 @@
 {
   "url": "https://www.thewdhanat.com/awesome/",
   "requestedUrl": "https://www.thewdhanat.com/awesome/",
-  "timestamp": 1666169210738,
+  "timestamp": 1667466857989,
   "ranks": {
-    "hundos": 4,
-    "performance": 4,
-    "accessibility": 2,
-    "cumulative": 4
+    "hundos": 2,
+    "performance": 3,
+    "accessibility": 3,
+    "cumulative": 2
   },
   "lighthouse": {
-    "version": "9.6.7",
-    "performance": 0.99,
+    "version": "9.6.8",
+    "performance": 0.96,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 399
+    "total": 396
   },
-  "firstContentfulPaint": 926.99,
-  "firstMeaningfulPaint": 926.99,
-  "speedIndex": 926.99,
-  "largestContentfulPaint": 1707.638,
-  "totalBlockingTime": 37,
+  "firstContentfulPaint": 905.4890000000001,
+  "firstMeaningfulPaint": 905.4890000000001,
+  "speedIndex": 905.4890000000001,
+  "largestContentfulPaint": 1656.005,
+  "totalBlockingTime": 217,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2681.355,
-  "maxPotentialFirstInputDelay": 87,
-  "timeToFirstByte": 40.149,
+  "timeToInteractive": 2771.235,
+  "maxPotentialFirstInputDelay": 197,
+  "timeToFirstByte": 9.437999999999999,
   "weight": {
     "summary": "14 requests • 104 KiB",
-    "total": 106295,
-    "image": 2871,
+    "total": 106691,
+    "image": 2884,
     "imageCount": 3,
-    "script": 81259,
+    "script": 81642,
     "scriptCount": 3,
     "document": 10036,
     "font": 2362,
     "fontCount": 1,
-    "stylesheet": 6700,
+    "stylesheet": 6678,
     "stylesheetCount": 2,
-    "thirdParty": 86150,
+    "thirdParty": 86546,
     "thirdPartyCount": 8
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 1,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 1,
-    "-totalBlockingTime": 1,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 455,
+    "passes": 410,
     "violations": 0
   }
 }

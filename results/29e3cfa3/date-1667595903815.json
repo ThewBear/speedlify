@@ -1,7 +1,7 @@
 {
   "url": "https://gulpjs.com/",
   "requestedUrl": "https://gulpjs.com/",
-  "timestamp": 1666297630992,
+  "timestamp": 1667596225559,
   "ranks": {
     "hundos": 5,
     "performance": 8,
@@ -9,39 +9,39 @@
     "cumulative": 5
   },
   "lighthouse": {
-    "version": "9.6.7",
-    "performance": 0.85,
+    "version": "9.6.8",
+    "performance": 0.87,
     "accessibility": 0.97,
     "bestPractices": 0.92,
     "seo": 0.89,
-    "total": 363
+    "total": 365
   },
-  "firstContentfulPaint": 3108.2720000000004,
-  "firstMeaningfulPaint": 3108.2720000000004,
-  "speedIndex": 3108.2720000000004,
-  "largestContentfulPaint": 3108.2720000000004,
-  "totalBlockingTime": 140,
-  "cumulativeLayoutShift": 0.04095193990071614,
-  "timeToInteractive": 4281.4805,
-  "maxPotentialFirstInputDelay": 280,
-  "timeToFirstByte": 145.805,
+  "firstContentfulPaint": 2400.991,
+  "firstMeaningfulPaint": 2400.991,
+  "speedIndex": 2842.139928057317,
+  "largestContentfulPaint": 3056.367,
+  "totalBlockingTime": 155.5,
+  "cumulativeLayoutShift": 0.043728568183051215,
+  "timeToInteractive": 4142.775,
+  "maxPotentialFirstInputDelay": 277,
+  "timeToFirstByte": 149.76600000000002,
   "weight": {
     "summary": "56 requests • 1,308 KiB",
-    "total": 1339604,
-    "image": 1082011,
+    "total": 1339143,
+    "image": 1082063,
     "imageCount": 26,
-    "script": 195694,
+    "script": 195571,
     "scriptCount": 12,
-    "document": 5413,
+    "document": 5426,
     "font": 19618,
     "fontCount": 2,
-    "stylesheet": 21312,
+    "stylesheet": 21277,
     "stylesheetCount": 4,
-    "thirdParty": 956975,
+    "thirdParty": 956637,
     "thirdPartyCount": 18
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -57,11 +57,11 @@
     "+weight.font": 7,
     "+weight.fontCount": 5,
     "-timeToFirstByte": 10,
-    "-totalBlockingTime": 4,
-    "-largestContentfulPaint": 8
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 483,
+    "passes": 451,
     "violations": 1
   }
 }

@@ -1,47 +1,47 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1666861846155,
+  "timestamp": 1668157886947,
   "ranks": {
-    "hundos": 7,
-    "performance": 7,
+    "hundos": 6,
+    "performance": 3,
     "accessibility": 8,
-    "cumulative": 7
+    "cumulative": 6
   },
   "lighthouse": {
-    "version": "9.6.7",
-    "performance": 0.86,
+    "version": "9.6.8",
+    "performance": 0.99,
     "accessibility": 0.74,
     "bestPractices": 1,
     "seo": 0.66,
-    "total": 326
+    "total": 339
   },
-  "firstContentfulPaint": 1275.536,
-  "firstMeaningfulPaint": 1582.036,
-  "speedIndex": 1550.755124763382,
-  "largestContentfulPaint": 1377.036,
-  "totalBlockingTime": 532,
+  "firstContentfulPaint": 1589.217,
+  "firstMeaningfulPaint": 1621.717,
+  "speedIndex": 1961.2351875982094,
+  "largestContentfulPaint": 1621.717,
+  "totalBlockingTime": 11.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2959.5275,
-  "maxPotentialFirstInputDelay": 410,
-  "timeToFirstByte": 30.326000000000008,
+  "timeToInteractive": 2391.9725,
+  "maxPotentialFirstInputDelay": 376,
+  "timeToFirstByte": 45.768,
   "weight": {
-    "summary": "7 requests • 187 KiB",
-    "total": 191113,
-    "image": 79657,
+    "summary": "7 requests • 186 KiB",
+    "total": 190552,
+    "image": 79157,
     "imageCount": 3,
-    "script": 40279,
+    "script": 40250,
     "scriptCount": 1,
-    "document": 61663,
+    "document": 61636,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 9349,
+    "stylesheet": 9344,
     "stylesheetCount": 1,
-    "thirdParty": 42269,
+    "thirdParty": 42256,
     "thirdPartyCount": 4
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -57,11 +57,11 @@
     "+weight.font": 8,
     "+weight.fontCount": 6,
     "-timeToFirstByte": 5,
-    "-totalBlockingTime": 9,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 2
   },
   "axe": {
-    "passes": 10199,
+    "passes": 10211,
     "violations": 932
   }
 }

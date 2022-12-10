@@ -1,47 +1,47 @@
 {
   "url": "https://webhint.io/",
   "requestedUrl": "https://webhint.io/",
-  "timestamp": 1669367342551,
+  "timestamp": 1670663180857,
   "ranks": {
-    "hundos": 2,
-    "performance": 3,
+    "hundos": 3,
+    "performance": 4,
     "accessibility": 2,
-    "cumulative": 2
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "9.6.8",
-    "performance": 0.98,
+    "performance": 0.92,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 390
+    "total": 384
   },
-  "firstContentfulPaint": 1603.458,
-  "firstMeaningfulPaint": 1603.458,
-  "speedIndex": 1603.458,
-  "largestContentfulPaint": 2197.858,
-  "totalBlockingTime": 21.5,
-  "cumulativeLayoutShift": 0.04742115020751953,
-  "timeToInteractive": 2249.358,
-  "maxPotentialFirstInputDelay": 82,
-  "timeToFirstByte": 3.626999999999999,
+  "firstContentfulPaint": 1618.9889999999998,
+  "firstMeaningfulPaint": 1618.9889999999998,
+  "speedIndex": 1618.9889999999998,
+  "largestContentfulPaint": 2228.4999999999995,
+  "totalBlockingTime": 16,
+  "cumulativeLayoutShift": 0.20341832892100017,
+  "timeToInteractive": 1993.2809999999995,
+  "maxPotentialFirstInputDelay": 70,
+  "timeToFirstByte": 119.43,
   "weight": {
     "summary": "19 requests • 175 KiB",
-    "total": 179690,
-    "image": 35694,
+    "total": 179663,
+    "image": 35665,
     "imageCount": 9,
-    "script": 50277,
+    "script": 50281,
     "scriptCount": 2,
     "document": 6493,
-    "font": 72493,
+    "font": 72451,
     "fontCount": 4,
-    "stylesheet": 14733,
+    "stylesheet": 14773,
     "stylesheetCount": 3,
-    "thirdParty": 54968,
+    "thirdParty": 54971,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -56,8 +56,8 @@
     "-weight.font": 4,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 4,
-    "-totalBlockingTime": 2,
+    "-timeToFirstByte": 7,
+    "-totalBlockingTime": 1,
     "-largestContentfulPaint": 5
   },
   "axe": {

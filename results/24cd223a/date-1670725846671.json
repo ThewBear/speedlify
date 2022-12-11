@@ -1,44 +1,44 @@
 {
   "url": "https://www.wongnai.com/",
   "requestedUrl": "https://www.wongnai.com/",
-  "timestamp": 1669430901301,
+  "timestamp": 1670726004025,
   "ranks": {
-    "hundos": 5,
+    "hundos": 4,
     "performance": 5,
     "accessibility": 7,
-    "cumulative": 5
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "9.6.8",
-    "performance": 0.29,
+    "performance": 0.33,
     "accessibility": 0.72,
     "bestPractices": 0.83,
     "seo": 0.98,
-    "total": 282
+    "total": 286
   },
-  "firstContentfulPaint": 3071.8059999999996,
-  "firstMeaningfulPaint": 3221.8059999999996,
-  "speedIndex": 12467.987309677876,
-  "largestContentfulPaint": 4571.806,
-  "totalBlockingTime": 5341.777999999997,
+  "firstContentfulPaint": 2713.3669999999997,
+  "firstMeaningfulPaint": 2713.3669999999997,
+  "speedIndex": 11732.498416236009,
+  "largestContentfulPaint": 4213.366999999999,
+  "totalBlockingTime": 5253.035500000003,
   "cumulativeLayoutShift": 0.005963730706108941,
-  "timeToInteractive": 19772.805999999997,
-  "maxPotentialFirstInputDelay": 1440,
-  "timeToFirstByte": 2058.116,
+  "timeToInteractive": 19566.367000000002,
+  "maxPotentialFirstInputDelay": 1372,
+  "timeToFirstByte": 1647.1239999999998,
   "weight": {
-    "summary": "95 requests • 2,560 KiB",
-    "total": 2621526,
-    "image": 716778,
+    "summary": "96 requests • 2,615 KiB",
+    "total": 2677654,
+    "image": 752029,
     "imageCount": 49,
-    "script": 1677710,
-    "scriptCount": 28,
-    "document": 87614,
+    "script": 1677242,
+    "scriptCount": 29,
+    "document": 110677,
     "font": 87342,
     "fontCount": 3,
     "stylesheet": 38258,
     "stylesheetCount": 1,
-    "thirdParty": 402649,
-    "thirdPartyCount": 30
+    "thirdParty": 403972,
+    "thirdPartyCount": 31
   },
   "run": {
     "number": 1,
@@ -49,8 +49,8 @@
     "+weight.total": 3,
     "-weight.document": 7,
     "+weight.document": 2,
-    "-weight.script": 6,
-    "+weight.script": 3,
+    "-weight.script": 7,
+    "+weight.script": 2,
     "-weight.image": 6,
     "+weight.image": 3,
     "-weight.font": 4,
@@ -61,7 +61,7 @@
     "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 90,
-    "violations": 2
+    "passes": 85,
+    "violations": 1
   }
 }

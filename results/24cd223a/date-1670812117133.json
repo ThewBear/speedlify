@@ -1,7 +1,7 @@
 {
   "url": "https://www.wongnai.com/",
   "requestedUrl": "https://www.wongnai.com/",
-  "timestamp": 1669517535119,
+  "timestamp": 1670812424657,
   "ranks": {
     "hundos": 5,
     "performance": 5,
@@ -10,34 +10,34 @@
   },
   "lighthouse": {
     "version": "9.6.8",
-    "performance": 0.28,
+    "performance": 0.26,
     "accessibility": 0.72,
     "bestPractices": 0.83,
     "seo": 0.98,
-    "total": 281
+    "total": 279
   },
-  "firstContentfulPaint": 3307.9,
-  "firstMeaningfulPaint": 3457.9,
-  "speedIndex": 10575.937667634613,
-  "largestContentfulPaint": 4807.900000000001,
-  "totalBlockingTime": 3373.107500000002,
+  "firstContentfulPaint": 3505.486,
+  "firstMeaningfulPaint": 3655.486,
+  "speedIndex": 9638.09530570489,
+  "largestContentfulPaint": 5530.048,
+  "totalBlockingTime": 2682.500000000002,
   "cumulativeLayoutShift": 0.005963730706108941,
-  "timeToInteractive": 19429.424,
-  "maxPotentialFirstInputDelay": 1091.0000000000018,
-  "timeToFirstByte": 1352.056,
+  "timeToInteractive": 19123.972500000003,
+  "maxPotentialFirstInputDelay": 969,
+  "timeToFirstByte": 1670.906,
   "weight": {
-    "summary": "97 requests • 2,702 KiB",
-    "total": 2766695,
-    "image": 866595,
-    "imageCount": 50,
+    "summary": "96 requests • 2,612 KiB",
+    "total": 2674297,
+    "image": 751753,
+    "imageCount": 49,
     "script": 1676071,
     "scriptCount": 29,
-    "document": 87681,
-    "font": 87337,
+    "document": 109983,
+    "font": 87335,
     "fontCount": 3,
-    "stylesheet": 38282,
+    "stylesheet": 38281,
     "stylesheetCount": 1,
-    "thirdParty": 403995,
+    "thirdParty": 404032,
     "thirdPartyCount": 31
   },
   "run": {
@@ -53,15 +53,15 @@
     "+weight.script": 2,
     "-weight.image": 7,
     "+weight.image": 2,
-    "-weight.font": 3,
+    "-weight.font": 5,
     "+weight.font": 2,
     "+weight.fontCount": 2,
     "-timeToFirstByte": 8,
-    "-totalBlockingTime": 8,
-    "-largestContentfulPaint": 3
+    "-totalBlockingTime": 7,
+    "-largestContentfulPaint": 5
   },
   "axe": {
-    "passes": 90,
-    "violations": 2
+    "passes": 85,
+    "violations": 1
   }
 }

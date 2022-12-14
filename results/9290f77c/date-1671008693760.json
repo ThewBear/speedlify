@@ -1,47 +1,47 @@
 {
   "url": "https://www.thewdhanat.com/certificates/",
   "requestedUrl": "https://www.thewdhanat.com/certificates/",
-  "timestamp": 1669713277088,
+  "timestamp": 1671009155795,
   "ranks": {
-    "hundos": 1,
-    "performance": 1,
+    "hundos": 4,
+    "performance": 2,
     "accessibility": 2,
-    "cumulative": 1
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "9.6.8",
-    "performance": 0.98,
+    "performance": 0.99,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 398
+    "total": 399
   },
-  "firstContentfulPaint": 1055.865,
-  "firstMeaningfulPaint": 1055.865,
-  "speedIndex": 1055.865,
-  "largestContentfulPaint": 1525.5310000000002,
-  "totalBlockingTime": 170,
+  "firstContentfulPaint": 903.6480000000001,
+  "firstMeaningfulPaint": 903.6480000000001,
+  "speedIndex": 903.6480000000001,
+  "largestContentfulPaint": 978.7525,
+  "totalBlockingTime": 85.33249999999975,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2696.3480000000004,
-  "maxPotentialFirstInputDelay": 159,
-  "timeToFirstByte": 9.012999999999998,
+  "timeToInteractive": 2734.9404999999997,
+  "maxPotentialFirstInputDelay": 132,
+  "timeToFirstByte": 51.653999999999996,
   "weight": {
     "summary": "12 requests • 103 KiB",
-    "total": 105208,
+    "total": 105481,
     "image": 1335,
     "imageCount": 1,
-    "script": 81716,
+    "script": 81977,
     "scriptCount": 3,
-    "document": 10051,
+    "document": 10060,
     "font": 2362,
     "fontCount": 1,
-    "stylesheet": 6676,
+    "stylesheet": 6681,
     "stylesheetCount": 2,
-    "thirdParty": 85071,
+    "thirdParty": 85332,
     "thirdPartyCount": 6
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -49,19 +49,19 @@
     "+weight.total": 5,
     "-weight.document": 3,
     "+weight.document": 3,
-    "-weight.script": 4,
-    "+weight.script": 2,
+    "-weight.script": 3,
+    "+weight.script": 3,
     "-weight.image": 1,
     "+weight.image": 4,
     "-weight.font": 1,
     "+weight.font": 1,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 4,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 1
   },
   "axe": {
-    "passes": 434,
+    "passes": 444,
     "violations": 0
   }
 }

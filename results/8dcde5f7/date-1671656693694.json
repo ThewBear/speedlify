@@ -1,47 +1,47 @@
 {
   "url": "https://gruntjs.com/",
   "requestedUrl": "https://gruntjs.com/",
-  "timestamp": 1670360783293,
+  "timestamp": 1671656910806,
   "ranks": {
     "hundos": 6,
-    "performance": 5,
+    "performance": 2,
     "accessibility": 7,
     "cumulative": 6
   },
   "lighthouse": {
     "version": "9.6.8",
-    "performance": 0.93,
+    "performance": 0.99,
     "accessibility": 0.87,
     "bestPractices": 0.83,
     "seo": 0.69,
-    "total": 332
+    "total": 338
   },
-  "firstContentfulPaint": 2606.9120000000003,
-  "firstMeaningfulPaint": 2606.9120000000003,
-  "speedIndex": 2606.9120000000003,
-  "largestContentfulPaint": 2606.9120000000003,
-  "totalBlockingTime": 0,
+  "firstContentfulPaint": 1758.241,
+  "firstMeaningfulPaint": 1758.241,
+  "speedIndex": 1810.2761459999974,
+  "largestContentfulPaint": 1758.241,
+  "totalBlockingTime": 23,
   "cumulativeLayoutShift": 0.009311506765934641,
-  "timeToInteractive": 2606.9120000000003,
-  "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 250.38,
+  "timeToInteractive": 2122.535,
+  "maxPotentialFirstInputDelay": 73,
+  "timeToFirstByte": 154.98399999999998,
   "weight": {
     "summary": "28 requests • 145 KiB",
-    "total": 148723,
-    "image": 77393,
+    "total": 148276,
+    "image": 77277,
     "imageCount": 19,
     "script": 20436,
     "scriptCount": 2,
     "document": 3984,
-    "font": 30827,
+    "font": 30842,
     "fontCount": 3,
-    "stylesheet": 15879,
+    "stylesheet": 15533,
     "stylesheetCount": 2,
-    "thirdParty": 50412,
+    "thirdParty": 50413,
     "thirdPartyCount": 6
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -57,11 +57,11 @@
     "+weight.font": 6,
     "+weight.fontCount": 4,
     "-timeToFirstByte": 10,
-    "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 5
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 360,
-    "violations": 42
+    "passes": 359,
+    "violations": 39
   }
 }

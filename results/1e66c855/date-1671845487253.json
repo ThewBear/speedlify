@@ -1,47 +1,47 @@
 {
   "url": "https://laravel.com/",
   "requestedUrl": "https://laravel.com/",
-  "timestamp": 1670549740537,
+  "timestamp": 1671845647470,
   "ranks": {
     "hundos": 2,
-    "performance": 1,
-    "accessibility": 2,
+    "performance": 2,
+    "accessibility": 3,
     "cumulative": 2
   },
   "lighthouse": {
     "version": "9.6.8",
-    "performance": 0.86,
+    "performance": 0.87,
     "accessibility": 0.97,
     "bestPractices": 1,
     "seo": 0.89,
-    "total": 372
+    "total": 373
   },
-  "firstContentfulPaint": 2762.7070000000003,
-  "firstMeaningfulPaint": 2762.7070000000003,
-  "speedIndex": 2762.7070000000003,
-  "largestContentfulPaint": 3470.912,
-  "totalBlockingTime": 34.708000000000084,
-  "cumulativeLayoutShift": 0.00043369452158610025,
-  "timeToInteractive": 3468.912,
-  "maxPotentialFirstInputDelay": 92,
-  "timeToFirstByte": 96.68700000000001,
+  "firstContentfulPaint": 2742.011,
+  "firstMeaningfulPaint": 2742.011,
+  "speedIndex": 2742.011,
+  "largestContentfulPaint": 3318.4939999999997,
+  "totalBlockingTime": 8,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3046.3469999999998,
+  "maxPotentialFirstInputDelay": 66,
+  "timeToFirstByte": 20.11,
   "weight": {
-    "summary": "60 requests • 1,984 KiB",
-    "total": 2032121,
-    "image": 1828028,
+    "summary": "60 requests • 1,985 KiB",
+    "total": 2032811,
+    "image": 1828095,
     "imageCount": 51,
-    "script": 60351,
+    "script": 60266,
     "scriptCount": 3,
-    "document": 88975,
+    "document": 89697,
     "font": 43762,
     "fontCount": 2,
-    "stylesheet": 11005,
+    "stylesheet": 10991,
     "stylesheetCount": 3,
-    "thirdParty": 65856,
+    "thirdParty": 65850,
     "thirdPartyCount": 8
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -58,10 +58,10 @@
     "+weight.fontCount": 3,
     "-timeToFirstByte": 1,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 5
+    "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 1328,
+    "passes": 1326,
     "violations": 59
   }
 }

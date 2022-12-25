@@ -1,47 +1,47 @@
 {
   "url": "https://webhint.io/",
   "requestedUrl": "https://webhint.io/",
-  "timestamp": 1670663180857,
+  "timestamp": 1671959442332,
   "ranks": {
-    "hundos": 3,
-    "performance": 4,
+    "hundos": 2,
+    "performance": 3,
     "accessibility": 2,
-    "cumulative": 3
+    "cumulative": 2
   },
   "lighthouse": {
     "version": "9.6.8",
-    "performance": 0.92,
+    "performance": 0.98,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 384
+    "total": 390
   },
-  "firstContentfulPaint": 1618.9889999999998,
-  "firstMeaningfulPaint": 1618.9889999999998,
-  "speedIndex": 1618.9889999999998,
-  "largestContentfulPaint": 2228.4999999999995,
-  "totalBlockingTime": 16,
-  "cumulativeLayoutShift": 0.20341832892100017,
-  "timeToInteractive": 1993.2809999999995,
-  "maxPotentialFirstInputDelay": 70,
-  "timeToFirstByte": 119.43,
+  "firstContentfulPaint": 1613.34,
+  "firstMeaningfulPaint": 1613.34,
+  "speedIndex": 1613.34,
+  "largestContentfulPaint": 2210.8904999999995,
+  "totalBlockingTime": 14.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1982.7259999999997,
+  "maxPotentialFirstInputDelay": 65,
+  "timeToFirstByte": 8.756000000000004,
   "weight": {
     "summary": "19 requests • 175 KiB",
-    "total": 179663,
-    "image": 35665,
+    "total": 179677,
+    "image": 35667,
     "imageCount": 9,
-    "script": 50281,
+    "script": 50687,
     "scriptCount": 2,
-    "document": 6493,
-    "font": 72451,
+    "document": 6494,
+    "font": 72575,
     "fontCount": 4,
-    "stylesheet": 14773,
+    "stylesheet": 14254,
     "stylesheetCount": 3,
-    "thirdParty": 54971,
+    "thirdParty": 54975,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -56,8 +56,8 @@
     "-weight.font": 4,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 7,
-    "-totalBlockingTime": 1,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 5
   },
   "axe": {

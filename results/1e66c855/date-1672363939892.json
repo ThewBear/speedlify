@@ -1,7 +1,7 @@
 {
   "url": "https://laravel.com/",
   "requestedUrl": "https://laravel.com/",
-  "timestamp": 1671068084930,
+  "timestamp": 1672363959020,
   "ranks": {
     "hundos": 2,
     "performance": 2,
@@ -10,38 +10,38 @@
   },
   "lighthouse": {
     "version": "9.6.8",
-    "performance": 0.87,
+    "performance": 0.85,
     "accessibility": 0.97,
     "bestPractices": 1,
     "seo": 0.89,
-    "total": 373
+    "total": 371
   },
-  "firstContentfulPaint": 2758.685,
-  "firstMeaningfulPaint": 2758.685,
-  "speedIndex": 2758.685,
-  "largestContentfulPaint": 3342.4284999999995,
-  "totalBlockingTime": 8,
+  "firstContentfulPaint": 2758.426,
+  "firstMeaningfulPaint": 2758.426,
+  "speedIndex": 2758.426,
+  "largestContentfulPaint": 3530.419,
+  "totalBlockingTime": 28,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 3072.4399999999996,
-  "maxPotentialFirstInputDelay": 66,
-  "timeToFirstByte": 67.814,
+  "timeToInteractive": 3530.4190000000003,
+  "maxPotentialFirstInputDelay": 106,
+  "timeToFirstByte": 22.926999999999992,
   "weight": {
     "summary": "60 requests • 1,985 KiB",
-    "total": 2032900,
-    "image": 1828174,
+    "total": 2032757,
+    "image": 1828025,
     "imageCount": 51,
-    "script": 60261,
+    "script": 60267,
     "scriptCount": 3,
     "document": 89698,
     "font": 43762,
     "fontCount": 2,
     "stylesheet": 11005,
     "stylesheetCount": 3,
-    "thirdParty": 65855,
+    "thirdParty": 65775,
     "thirdPartyCount": 8
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -49,19 +49,19 @@
     "+weight.total": 1,
     "-weight.document": 4,
     "+weight.document": 2,
-    "-weight.script": 2,
-    "+weight.script": 4,
+    "-weight.script": 3,
+    "+weight.script": 3,
     "-weight.image": 5,
     "+weight.image": 1,
     "-weight.font": 2,
     "+weight.font": 3,
     "+weight.fontCount": 3,
     "-timeToFirstByte": 1,
-    "-totalBlockingTime": 1,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 1326,
+    "passes": 1327,
     "violations": 59
   }
 }

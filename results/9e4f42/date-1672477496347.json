@@ -1,47 +1,47 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1671181707839,
+  "timestamp": 1672477866196,
   "ranks": {
-    "hundos": 4,
+    "hundos": 5,
     "performance": 7,
     "accessibility": 6,
-    "cumulative": 4
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "9.6.8",
-    "performance": 0.9,
+    "performance": 0.89,
     "accessibility": 0.9,
-    "bestPractices": 1,
+    "bestPractices": 0.92,
     "seo": 0.92,
-    "total": 372
+    "total": 363
   },
-  "firstContentfulPaint": 1693.9909999999998,
-  "firstMeaningfulPaint": 1693.9909999999998,
-  "speedIndex": 1693.9909999999998,
-  "largestContentfulPaint": 1693.991,
-  "totalBlockingTime": 354,
-  "cumulativeLayoutShift": 0.0011328125,
-  "timeToInteractive": 3870.3900000000003,
-  "maxPotentialFirstInputDelay": 404,
-  "timeToFirstByte": 13.600000000000001,
+  "firstContentfulPaint": 1637.199,
+  "firstMeaningfulPaint": 1637.199,
+  "speedIndex": 1637.199,
+  "largestContentfulPaint": 1637.199,
+  "totalBlockingTime": 366.9999999999998,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3895.585,
+  "maxPotentialFirstInputDelay": 417,
+  "timeToFirstByte": 28.08700000000001,
   "weight": {
-    "summary": "9 requests • 554 KiB",
-    "total": 567784,
-    "image": 230141,
+    "summary": "9 requests • 552 KiB",
+    "total": 565715,
+    "image": 230197,
     "imageCount": 3,
-    "script": 327219,
+    "script": 325107,
     "scriptCount": 3,
-    "document": 8810,
+    "document": 8802,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1614,
+    "stylesheet": 1609,
     "stylesheetCount": 1,
-    "thirdParty": 6333,
+    "thirdParty": 4263,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 6,
+    "-timeToFirstByte": 4,
     "-totalBlockingTime": 7,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 164,
+    "passes": 160,
     "violations": 12
   }
 }

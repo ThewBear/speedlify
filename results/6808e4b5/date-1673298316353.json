@@ -1,12 +1,12 @@
 {
   "url": "https://www.thewdhanat.com/",
   "requestedUrl": "https://www.thewdhanat.com/",
-  "timestamp": 1672002790764,
+  "timestamp": 1673298865314,
   "ranks": {
-    "hundos": 2,
-    "performance": 2,
-    "accessibility": 4,
-    "cumulative": 2
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 2,
+    "cumulative": 1
   },
   "lighthouse": {
     "version": "9.6.8",
@@ -16,32 +16,32 @@
     "seo": 1,
     "total": 399
   },
-  "firstContentfulPaint": 905.131,
-  "firstMeaningfulPaint": 905.131,
-  "speedIndex": 905.131,
-  "largestContentfulPaint": 1520.595,
-  "totalBlockingTime": 94,
+  "firstContentfulPaint": 927.957,
+  "firstMeaningfulPaint": 927.957,
+  "speedIndex": 927.957,
+  "largestContentfulPaint": 1557.9569999999999,
+  "totalBlockingTime": 90,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2774.293,
-  "maxPotentialFirstInputDelay": 132,
-  "timeToFirstByte": 6.782999999999998,
+  "timeToInteractive": 2813.718,
+  "maxPotentialFirstInputDelay": 123,
+  "timeToFirstByte": 38.15199999999999,
   "weight": {
     "summary": "13 requests • 104 KiB",
-    "total": 106887,
-    "image": 2558,
+    "total": 106827,
+    "image": 0,
     "imageCount": 2,
-    "script": 81951,
+    "script": 83996,
     "scriptCount": 3,
-    "document": 10468,
-    "font": 2362,
+    "document": 10990,
+    "font": 2358,
     "fontCount": 1,
-    "stylesheet": 6491,
+    "stylesheet": 6425,
     "stylesheetCount": 2,
-    "thirdParty": 86525,
+    "thirdParty": 86012,
     "thirdPartyCount": 7
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -49,19 +49,18 @@
     "+weight.total": 3,
     "-weight.document": 4,
     "+weight.document": 2,
-    "-weight.script": 1,
+    "-weight.script": 2,
     "+weight.script": 4,
-    "-weight.image": 2,
-    "+weight.image": 3,
+    "-weight.image": 1,
+    "+weight.image": 1,
     "-weight.font": 1,
-    "+weight.font": 1,
+    "+weight.font": 2,
     "+weight.fontCount": 1,
     "-timeToFirstByte": 1,
     "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 2
+    "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 353,
-    "violations": 0
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

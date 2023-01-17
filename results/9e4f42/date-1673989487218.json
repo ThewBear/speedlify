@@ -1,47 +1,47 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1672693582534,
+  "timestamp": 1673989859990,
   "ranks": {
-    "hundos": 5,
-    "performance": 9,
+    "hundos": 4,
+    "performance": 6,
     "accessibility": 6,
-    "cumulative": 5
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "9.6.8",
-    "performance": 0.89,
+    "performance": 0.92,
     "accessibility": 0.9,
-    "bestPractices": 0.92,
+    "bestPractices": 1,
     "seo": 0.92,
-    "total": 363
+    "total": 374
   },
-  "firstContentfulPaint": 1713.123,
-  "firstMeaningfulPaint": 1713.123,
-  "speedIndex": 1713.123,
-  "largestContentfulPaint": 1713.123,
-  "totalBlockingTime": 363,
+  "firstContentfulPaint": 1680.364,
+  "firstMeaningfulPaint": 1680.364,
+  "speedIndex": 1680.364,
+  "largestContentfulPaint": 1680.364,
+  "totalBlockingTime": 285,
   "cumulativeLayoutShift": 0.0011328125,
-  "timeToInteractive": 3949.889,
-  "maxPotentialFirstInputDelay": 413,
-  "timeToFirstByte": 95.286,
+  "timeToInteractive": 3975.237,
+  "maxPotentialFirstInputDelay": 410,
+  "timeToFirstByte": 57.136,
   "weight": {
-    "summary": "9 requests • 552 KiB",
-    "total": 565639,
-    "image": 230333,
+    "summary": "9 requests • 554 KiB",
+    "total": 567782,
+    "image": 230426,
     "imageCount": 3,
-    "script": 324885,
+    "script": 326909,
     "scriptCount": 3,
-    "document": 8802,
+    "document": 8810,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1619,
+    "stylesheet": 1637,
     "stylesheetCount": 1,
-    "thirdParty": 4264,
+    "thirdParty": 6402,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 8,
+    "-timeToFirstByte": 7,
     "-totalBlockingTime": 7,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 160,
+    "passes": 164,
     "violations": 12
   }
 }

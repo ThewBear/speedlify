@@ -1,47 +1,47 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1672952783973,
+  "timestamp": 1674249069899,
   "ranks": {
-    "hundos": 4,
-    "performance": 8,
+    "hundos": 5,
+    "performance": 7,
     "accessibility": 6,
-    "cumulative": 4
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "9.6.8",
     "performance": 0.9,
     "accessibility": 0.9,
-    "bestPractices": 1,
+    "bestPractices": 0.92,
     "seo": 0.92,
-    "total": 372
+    "total": 364
   },
-  "firstContentfulPaint": 1670.2369999999999,
-  "firstMeaningfulPaint": 1670.2369999999999,
-  "speedIndex": 1670.2369999999999,
-  "largestContentfulPaint": 1670.2369999999999,
+  "firstContentfulPaint": 1642.19,
+  "firstMeaningfulPaint": 1642.19,
+  "speedIndex": 1642.19,
+  "largestContentfulPaint": 1642.19,
   "totalBlockingTime": 355,
-  "cumulativeLayoutShift": 0.0011328125,
-  "timeToInteractive": 3882.3639999999996,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3869.8150000000005,
   "maxPotentialFirstInputDelay": 405,
-  "timeToFirstByte": 24.257000000000005,
+  "timeToFirstByte": 31.978,
   "weight": {
-    "summary": "9 requests • 555 KiB",
-    "total": 567884,
-    "image": 230410,
+    "summary": "9 requests • 552 KiB",
+    "total": 565582,
+    "image": 230316,
     "imageCount": 3,
-    "script": 327064,
+    "script": 324840,
     "scriptCount": 3,
-    "document": 8811,
+    "document": 8816,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1599,
+    "stylesheet": 1610,
     "stylesheetCount": 1,
-    "thirdParty": 6356,
+    "thirdParty": 4305,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 7,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 7,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 164,
+    "passes": 160,
     "violations": 12
   }
 }

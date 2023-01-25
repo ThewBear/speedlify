@@ -1,43 +1,43 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1673385108933,
+  "timestamp": 1674681066548,
   "ranks": {
-    "hundos": 4,
+    "hundos": 5,
     "performance": 7,
     "accessibility": 6,
-    "cumulative": 4
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "9.6.8",
-    "performance": 0.87,
+    "performance": 0.89,
     "accessibility": 0.9,
-    "bestPractices": 1,
+    "bestPractices": 0.92,
     "seo": 0.92,
-    "total": 369
+    "total": 363
   },
-  "firstContentfulPaint": 1671.261,
-  "firstMeaningfulPaint": 1671.261,
-  "speedIndex": 1671.261,
-  "largestContentfulPaint": 1671.261,
-  "totalBlockingTime": 428.1444999999999,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 4110.896500000001,
-  "maxPotentialFirstInputDelay": 532,
-  "timeToFirstByte": 29.902,
+  "firstContentfulPaint": 1688.906,
+  "firstMeaningfulPaint": 1701.406,
+  "speedIndex": 1688.906,
+  "largestContentfulPaint": 1701.406,
+  "totalBlockingTime": 356,
+  "cumulativeLayoutShift": 0.0011328125,
+  "timeToInteractive": 3950.575,
+  "maxPotentialFirstInputDelay": 406,
+  "timeToFirstByte": 74.307,
   "weight": {
-    "summary": "9 requests • 555 KiB",
-    "total": 567852,
-    "image": 230318,
+    "summary": "9 requests • 552 KiB",
+    "total": 565665,
+    "image": 230134,
     "imageCount": 3,
-    "script": 327146,
+    "script": 325132,
     "scriptCount": 3,
-    "document": 8804,
+    "document": 8810,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1584,
+    "stylesheet": 1589,
     "stylesheetCount": 1,
-    "thirdParty": 6439,
+    "thirdParty": 4299,
     "thirdPartyCount": 3
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 5,
-    "-totalBlockingTime": 6,
+    "-timeToFirstByte": 7,
+    "-totalBlockingTime": 7,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 164,
+    "passes": 160,
     "violations": 12
   }
 }

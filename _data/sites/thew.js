@@ -14,6 +14,11 @@ module.exports = {
 		"https://www.thewdhanat.com/awesome/",
 		"https://www.thewdhanat.com/awesome/all/",
 		"https://www.thewdhanat.com/blog/",
-		"https://www.thewdhanat.com/certificates/"
+		"https://www.thewdhanat.com/certificates/",
+		"https://twitter.com/ThewDhanat",
+		"https://mastodon.thewdhanat.com/@thewdhanat",
+		"https://github.com/ThewBear",
+		"https://www.linkedin.com/in/thew-dhanat",
+		"https://polywork.thewdhanat.com/",
 	]
 };

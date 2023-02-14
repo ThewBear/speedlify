@@ -17,6 +17,9 @@ module.exports = {
         "https://www.dek-d.com/",
         "https://www.wongnai.com/",
         "https://th.wikipedia.org/",
-        "https://www.blognone.com/"
+        "https://www.blognone.com/",
+        "https://www.apple.com/th/",
+        "https://www.youtube.com/",
+        "https://twitter.com/",
     ],
 };

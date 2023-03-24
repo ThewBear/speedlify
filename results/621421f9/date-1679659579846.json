@@ -1,47 +1,47 @@
 {
   "url": "https://jekyllrb.com/",
   "requestedUrl": "https://jekyllrb.com/",
-  "timestamp": 1678364007882,
+  "timestamp": 1679659847211,
   "ranks": {
-    "hundos": 4,
+    "hundos": 3,
     "performance": 4,
     "accessibility": 4,
-    "cumulative": 4
+    "cumulative": 3
   },
   "lighthouse": {
-    "version": "10.0.2",
+    "version": "10.1.0",
     "performance": 0.98,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
     "total": 398
   },
-  "firstContentfulPaint": 903.25,
-  "firstMeaningfulPaint": 903.25,
-  "speedIndex": 903.25,
-  "largestContentfulPaint": 2403.25,
-  "totalBlockingTime": 24,
+  "firstContentfulPaint": 902.052,
+  "firstMeaningfulPaint": 1296.3300000000002,
+  "speedIndex": 902.052,
+  "largestContentfulPaint": 2402.0520000000006,
+  "totalBlockingTime": 3,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1900.2615,
-  "maxPotentialFirstInputDelay": 73,
-  "timeToFirstByte": 9.322,
+  "timeToInteractive": 1509.8975000000003,
+  "maxPotentialFirstInputDelay": 99,
+  "timeToFirstByte": 2.8659999999999997,
   "weight": {
     "summary": "10 requests • 201 KiB",
-    "total": 205476,
-    "image": 72709,
+    "total": 205500,
+    "image": 72655,
     "imageCount": 3,
-    "script": 68685,
+    "script": 68691,
     "scriptCount": 2,
-    "document": 3646,
-    "font": 46376,
+    "document": 3641,
+    "font": 46406,
     "fontCount": 2,
-    "stylesheet": 14037,
+    "stylesheet": 14084,
     "stylesheetCount": 1,
-    "thirdParty": 68708,
+    "thirdParty": 68714,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -55,10 +55,10 @@
     "+weight.image": 10,
     "-weight.font": 2,
     "+weight.font": 11,
-    "+weight.fontCount": 5,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 7
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 6
   },
   "axe": {
     "passes": 231,

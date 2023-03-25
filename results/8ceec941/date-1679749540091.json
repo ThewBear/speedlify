@@ -1,47 +1,47 @@
 {
   "url": "https://www.lazada.co.th/",
   "requestedUrl": "https://www.lazada.co.th/",
-  "timestamp": 1678454054808,
+  "timestamp": 1679749996409,
   "ranks": {
-    "hundos": 10,
+    "hundos": 9,
     "performance": 4,
     "accessibility": 11,
-    "cumulative": 10
+    "cumulative": 9
   },
   "lighthouse": {
-    "version": "10.0.2",
-    "performance": 0.54,
+    "version": "10.1.0",
+    "performance": 0.62,
     "accessibility": 0.53,
     "bestPractices": 0.83,
     "seo": 0.85,
-    "total": 275
+    "total": 283
   },
-  "firstContentfulPaint": 2548.5559999999996,
-  "firstMeaningfulPaint": 2950.5154999999995,
-  "speedIndex": 6778.837001176222,
-  "largestContentfulPaint": 6560.808499999998,
-  "totalBlockingTime": 494.49999999999955,
+  "firstContentfulPaint": 2243.4590000000007,
+  "firstMeaningfulPaint": 2567.3870000000006,
+  "speedIndex": 5638.128846643502,
+  "largestContentfulPaint": 6185.903000000002,
+  "totalBlockingTime": 380,
   "cumulativeLayoutShift": 0.0034548450569410367,
-  "timeToInteractive": 6077.177999999999,
-  "maxPotentialFirstInputDelay": 314,
-  "timeToFirstByte": 335.24399999999997,
+  "timeToInteractive": 5719.047000000002,
+  "maxPotentialFirstInputDelay": 183,
+  "timeToFirstByte": 249.87700000000007,
   "weight": {
-    "summary": "33 requests • 442 KiB",
-    "total": 452325,
-    "image": 84180,
+    "summary": "33 requests • 443 KiB",
+    "total": 453520,
+    "image": 84177,
     "imageCount": 7,
-    "script": 305992,
+    "script": 307058,
     "scriptCount": 20,
-    "document": 2494,
-    "font": 5803,
+    "document": 2497,
+    "font": 5788,
     "fontCount": 1,
-    "stylesheet": 3283,
+    "stylesheet": 3294,
     "stylesheetCount": 1,
-    "thirdParty": 449362,
+    "thirdParty": 450554,
     "thirdPartyCount": 29
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -61,7 +61,6 @@
     "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 80,
-    "violations": 13
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

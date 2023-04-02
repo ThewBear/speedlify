@@ -1,43 +1,43 @@
 {
   "url": "https://record-collector.net/",
   "requestedUrl": "https://record-collector.net/",
-  "timestamp": 1679141505546,
+  "timestamp": 1680441234178,
   "ranks": {
-    "hundos": 2,
+    "hundos": 6,
     "performance": 1,
     "accessibility": 3,
-    "cumulative": 2
+    "cumulative": 6
   },
   "lighthouse": {
-    "version": "10.0.2",
+    "version": "10.1.0",
     "performance": 1,
     "accessibility": 1,
-    "bestPractices": 1,
+    "bestPractices": 0.92,
     "seo": 1,
-    "total": 400
+    "total": 392
   },
-  "firstContentfulPaint": 903.319,
-  "firstMeaningfulPaint": 903.319,
-  "speedIndex": 1088.2854539999607,
-  "largestContentfulPaint": 1155.319,
+  "firstContentfulPaint": 902.3810000000001,
+  "firstMeaningfulPaint": 902.3810000000001,
+  "speedIndex": 1158.9777900000959,
+  "largestContentfulPaint": 1305.381,
   "totalBlockingTime": 8.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1362.819,
+  "timeToInteractive": 1366.881,
   "maxPotentialFirstInputDelay": 67,
-  "timeToFirstByte": 141.902,
+  "timeToFirstByte": 87.12100000000001,
   "weight": {
     "summary": "5 requests • 91 KiB",
-    "total": 93459,
-    "image": 6116,
+    "total": 93497,
+    "image": 6119,
     "imageCount": 1,
-    "script": 27358,
+    "script": 27383,
     "scriptCount": 1,
-    "document": 3361,
-    "font": 50271,
+    "document": 3367,
+    "font": 50275,
     "fontCount": 1,
     "stylesheet": 6353,
     "stylesheetCount": 1,
-    "thirdParty": 6116,
+    "thirdParty": 6119,
     "thirdPartyCount": 1
   },
   "run": {
@@ -53,12 +53,12 @@
     "+weight.script": 12,
     "-weight.image": 1,
     "+weight.image": 13,
-    "-weight.font": 3,
+    "-weight.font": 2,
     "+weight.font": 10,
-    "+weight.fontCount": 5,
-    "-timeToFirstByte": 14,
+    "+weight.fontCount": 6,
+    "-timeToFirstByte": 12,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 1
+    "-largestContentfulPaint": 2
   },
   "axe": {
     "passes": 168,

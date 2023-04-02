@@ -1,47 +1,47 @@
 {
   "url": "https://polywork.thewdhanat.com/",
   "requestedUrl": "https://polywork.thewdhanat.com/",
-  "timestamp": 1679109259061,
+  "timestamp": 1680405425144,
   "ranks": {
     "hundos": 10,
-    "performance": 10,
+    "performance": 8,
     "accessibility": 9,
     "cumulative": 10
   },
   "lighthouse": {
-    "version": "10.0.2",
-    "performance": 0.28,
+    "version": "10.1.0",
+    "performance": 0.39,
     "accessibility": 0.84,
     "bestPractices": 0.92,
-    "seo": 0.85,
-    "total": 289
+    "seo": null,
+    "total": 215
   },
-  "firstContentfulPaint": 4798.969000000001,
-  "firstMeaningfulPaint": 4798.969000000001,
-  "speedIndex": 5145.647930831022,
-  "largestContentfulPaint": 11096.861499999999,
-  "totalBlockingTime": 994.5,
-  "cumulativeLayoutShift": 0.24014098652610877,
-  "timeToInteractive": 7990.486499999999,
-  "maxPotentialFirstInputDelay": 461,
-  "timeToFirstByte": 220.291,
+  "firstContentfulPaint": 4799.4619999999995,
+  "firstMeaningfulPaint": 4799.4619999999995,
+  "speedIndex": 5311.210567673137,
+  "largestContentfulPaint": 11016.662,
+  "totalBlockingTime": 1157.4999999999995,
+  "cumulativeLayoutShift": 0.0007530044940444036,
+  "timeToInteractive": 8020.382,
+  "maxPotentialFirstInputDelay": 470,
+  "timeToFirstByte": 216.245,
   "weight": {
-    "summary": "28 requests • 1,629 KiB",
-    "total": 1668237,
-    "image": 25395,
+    "summary": "28 requests • 1,633 KiB",
+    "total": 1671906,
+    "image": 25398,
     "imageCount": 9,
-    "script": 769451,
+    "script": 769372,
     "scriptCount": 10,
-    "document": 22494,
-    "font": 672477,
+    "document": 22467,
+    "font": 672410,
     "fontCount": 3,
-    "stylesheet": 159629,
+    "stylesheet": 162410,
     "stylesheetCount": 2,
-    "thirdParty": 1627454,
+    "thirdParty": 1630101,
     "thirdPartyCount": 26
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -51,7 +51,7 @@
     "+weight.document": 4,
     "-weight.script": 9,
     "+weight.script": 2,
-    "-weight.image": 7,
+    "-weight.image": 6,
     "+weight.image": 4,
     "-weight.font": 5,
     "+weight.font": 1,
@@ -61,7 +61,7 @@
     "-largestContentfulPaint": 9
   },
   "axe": {
-    "passes": 630,
-    "violations": 26
+    "passes": 629,
+    "violations": 23
   }
 }

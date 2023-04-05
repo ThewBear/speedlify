@@ -1,7 +1,7 @@
 {
   "url": "https://www.linkedin.com/in/thew-dhanat?original_referer=",
   "requestedUrl": "https://www.linkedin.com/in/thew-dhanat",
-  "timestamp": 1679368845794,
+  "timestamp": 1680664714920,
   "ranks": {
     "hundos": 6,
     "performance": 6,
@@ -9,35 +9,35 @@
     "cumulative": 6
   },
   "lighthouse": {
-    "version": "10.0.2",
-    "performance": 0.66,
+    "version": "10.1.0",
+    "performance": 0.7,
     "accessibility": 1,
     "bestPractices": 0.83,
     "seo": 0.97,
-    "total": 346
+    "total": 350
   },
-  "firstContentfulPaint": 2366.822,
-  "firstMeaningfulPaint": 2366.822,
-  "speedIndex": 3873.4877407848912,
-  "largestContentfulPaint": 2366.822,
-  "totalBlockingTime": 1855.8319999999994,
-  "cumulativeLayoutShift": 0.004310535183694915,
-  "timeToInteractive": 9430.862000000001,
-  "maxPotentialFirstInputDelay": 953,
-  "timeToFirstByte": 431.67400000000004,
+  "firstContentfulPaint": 2345.6220000000003,
+  "firstMeaningfulPaint": 2345.6220000000003,
+  "speedIndex": 2768.3478975040307,
+  "largestContentfulPaint": 2808.4680000000003,
+  "totalBlockingTime": 1115.9359999999992,
+  "cumulativeLayoutShift": 0.0041516013635914005,
+  "timeToInteractive": 6941.698,
+  "maxPotentialFirstInputDelay": 734,
+  "timeToFirstByte": 359.002,
   "weight": {
-    "summary": "58 requests • 719 KiB",
-    "total": 736066,
-    "image": 3951,
+    "summary": "58 requests • 761 KiB",
+    "total": 779178,
+    "image": 3582,
     "imageCount": 4,
-    "script": 603015,
+    "script": 593789,
     "scriptCount": 8,
-    "document": 57310,
+    "document": 58168,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 46481,
+    "stylesheet": 46399,
     "stylesheetCount": 1,
-    "thirdParty": 664292,
+    "thirdParty": 653949,
     "thirdPartyCount": 43
   },
   "run": {
@@ -54,14 +54,13 @@
     "-weight.image": 6,
     "+weight.image": 5,
     "-weight.font": 1,
-    "+weight.font": 6,
+    "+weight.font": 7,
     "+weight.fontCount": 4,
     "-timeToFirstByte": 8,
-    "-totalBlockingTime": 9,
+    "-totalBlockingTime": 7,
     "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 586,
-    "violations": 2
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

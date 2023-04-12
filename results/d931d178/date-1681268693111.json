@@ -1,47 +1,47 @@
 {
   "url": "https://webhint.io/",
   "requestedUrl": "https://webhint.io/",
-  "timestamp": 1679973035476,
+  "timestamp": 1681268908155,
   "ranks": {
-    "hundos": 2,
+    "hundos": 3,
     "performance": 3,
     "accessibility": 2,
-    "cumulative": 2
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "10.1.0",
-    "performance": 0.98,
+    "performance": 0.92,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 390
+    "total": 384
   },
-  "firstContentfulPaint": 1551.1799999999998,
-  "firstMeaningfulPaint": 1551.1799999999998,
-  "speedIndex": 1551.1799999999998,
-  "largestContentfulPaint": 2183.1625,
-  "totalBlockingTime": 9,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1934.1699999999998,
-  "maxPotentialFirstInputDelay": 65,
-  "timeToFirstByte": 9.907000000000004,
+  "firstContentfulPaint": 1616.392,
+  "firstMeaningfulPaint": 1616.392,
+  "speedIndex": 1616.392,
+  "largestContentfulPaint": 2195.448,
+  "totalBlockingTime": 7,
+  "cumulativeLayoutShift": 0.14590025171571983,
+  "timeToInteractive": 1975.924,
+  "maxPotentialFirstInputDelay": 64,
+  "timeToFirstByte": 81.90199999999999,
   "weight": {
     "summary": "19 requests • 175 KiB",
-    "total": 179668,
-    "image": 35724,
+    "total": 179623,
+    "image": 35537,
     "imageCount": 9,
-    "script": 50243,
+    "script": 50251,
     "scriptCount": 2,
-    "document": 6495,
-    "font": 72589,
+    "document": 6490,
+    "font": 72741,
     "fontCount": 4,
-    "stylesheet": 14617,
+    "stylesheet": 14604,
     "stylesheetCount": 3,
-    "thirdParty": 54978,
+    "thirdParty": 54983,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -56,9 +56,9 @@
     "-weight.font": 4,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 1,
+    "-timeToFirstByte": 4,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 4
+    "-largestContentfulPaint": 3
   },
   "axe": {
     "passes": 392,

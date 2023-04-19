@@ -1,47 +1,47 @@
 {
   "url": "https://webhint.io/",
   "requestedUrl": "https://webhint.io/",
-  "timestamp": 1680577573224,
+  "timestamp": 1681873844160,
   "ranks": {
-    "hundos": 2,
-    "performance": 3,
+    "hundos": 3,
+    "performance": 4,
     "accessibility": 2,
-    "cumulative": 2
+    "cumulative": 3
   },
   "lighthouse": {
-    "version": "10.1.0",
-    "performance": 0.98,
+    "version": "10.1.1",
+    "performance": 0.93,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 390
+    "total": 385
   },
-  "firstContentfulPaint": 1625.1659999999997,
-  "firstMeaningfulPaint": 1625.1659999999997,
-  "speedIndex": 1625.1659999999997,
-  "largestContentfulPaint": 2215.0874999999996,
-  "totalBlockingTime": 11,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1994.7639999999997,
-  "maxPotentialFirstInputDelay": 72,
-  "timeToFirstByte": 101.34100000000001,
+  "firstContentfulPaint": 1518.3349999999998,
+  "firstMeaningfulPaint": 1518.3349999999998,
+  "speedIndex": 1518.3349999999998,
+  "largestContentfulPaint": 2102.3419999999996,
+  "totalBlockingTime": 10,
+  "cumulativeLayoutShift": 0.1419838455052611,
+  "timeToInteractive": 1882.339,
+  "maxPotentialFirstInputDelay": 68,
+  "timeToFirstByte": 2.9179999999999993,
   "weight": {
     "summary": "19 requests • 175 KiB",
-    "total": 179691,
-    "image": 35703,
+    "total": 179681,
+    "image": 35686,
     "imageCount": 9,
-    "script": 50249,
+    "script": 50270,
     "scriptCount": 2,
-    "document": 6490,
-    "font": 72523,
+    "document": 6497,
+    "font": 72551,
     "fontCount": 4,
-    "stylesheet": 14726,
+    "stylesheet": 14677,
     "stylesheetCount": 3,
-    "thirdParty": 54977,
+    "thirdParty": 54982,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,8 +56,8 @@
     "-weight.font": 4,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 7,
-    "-totalBlockingTime": 1,
+    "-timeToFirstByte": 1,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 4
   },
   "axe": {

@@ -1,47 +1,47 @@
 {
   "url": "https://record-collector.net/",
   "requestedUrl": "https://record-collector.net/",
-  "timestamp": 1681391493566,
+  "timestamp": 1682687640056,
   "ranks": {
     "hundos": 6,
     "performance": 1,
     "accessibility": 3,
-    "cumulative": 6
+    "cumulative": 5
   },
   "lighthouse": {
-    "version": "10.1.0",
+    "version": "10.1.1",
     "performance": 1,
     "accessibility": 1,
     "bestPractices": 0.92,
     "seo": 1,
     "total": 392
   },
-  "firstContentfulPaint": 855.139,
-  "firstMeaningfulPaint": 855.139,
-  "speedIndex": 855.139,
-  "largestContentfulPaint": 1548.1390000000001,
-  "totalBlockingTime": 10.5,
+  "firstContentfulPaint": 877.058,
+  "firstMeaningfulPaint": 877.058,
+  "speedIndex": 993.8287559999228,
+  "largestContentfulPaint": 1566.058,
+  "totalBlockingTime": 21,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1314.1390000000001,
-  "maxPotentialFirstInputDelay": 71,
-  "timeToFirstByte": 72.352,
+  "timeToInteractive": 1566.058,
+  "maxPotentialFirstInputDelay": 90,
+  "timeToFirstByte": 82.98500000000001,
   "weight": {
     "summary": "5 requests • 91 KiB",
-    "total": 93465,
-    "image": 6119,
+    "total": 93452,
+    "image": 6108,
     "imageCount": 1,
     "script": 27359,
     "scriptCount": 1,
-    "document": 3368,
+    "document": 3366,
     "font": 50266,
     "fontCount": 1,
     "stylesheet": 6353,
     "stylesheetCount": 1,
-    "thirdParty": 6119,
+    "thirdParty": 6108,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -53,12 +53,12 @@
     "+weight.script": 12,
     "-weight.image": 1,
     "+weight.image": 13,
-    "-weight.font": 2,
-    "+weight.font": 10,
+    "-weight.font": 3,
+    "+weight.font": 9,
     "+weight.fontCount": 5,
-    "-timeToFirstByte": 12,
-    "-totalBlockingTime": 3,
-    "-largestContentfulPaint": 1
+    "-timeToFirstByte": 13,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 2
   },
   "axe": {
     "passes": 168,

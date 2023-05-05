@@ -1,43 +1,43 @@
 {
   "url": "https://eslint.org/",
   "requestedUrl": "https://eslint.org/",
-  "timestamp": 1682003112668,
+  "timestamp": 1683299112595,
   "ranks": {
     "hundos": 3,
-    "performance": 8,
+    "performance": 9,
     "accessibility": 1,
     "cumulative": 3
   },
   "lighthouse": {
-    "version": "10.1.1",
-    "performance": 0.89,
+    "version": "10.2.0",
+    "performance": 0.81,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 389
+    "total": 381
   },
-  "firstContentfulPaint": 1512.7559999999999,
-  "firstMeaningfulPaint": 1512.7559999999999,
-  "speedIndex": 2979.1198405123605,
-  "largestContentfulPaint": 3324.9359999999997,
-  "totalBlockingTime": 151,
+  "firstContentfulPaint": 2084.995,
+  "firstMeaningfulPaint": 2102.495,
+  "speedIndex": 3291.141153765216,
+  "largestContentfulPaint": 4182.385,
+  "totalBlockingTime": 179,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 4466.472500000001,
-  "maxPotentialFirstInputDelay": 164,
-  "timeToFirstByte": 4.574999999999989,
+  "timeToInteractive": 3338.1305,
+  "maxPotentialFirstInputDelay": 200,
+  "timeToFirstByte": 4.025000000000006,
   "weight": {
-    "summary": "24 requests • 741 KiB",
-    "total": 758576,
-    "image": 65974,
-    "imageCount": 5,
-    "script": 137585,
+    "summary": "23 requests • 734 KiB",
+    "total": 751453,
+    "image": 58909,
+    "imageCount": 4,
+    "script": 138094,
     "scriptCount": 10,
-    "document": 16797,
-    "font": 523315,
+    "document": 16599,
+    "font": 522942,
     "fontCount": 6,
-    "stylesheet": 14655,
+    "stylesheet": 14659,
     "stylesheetCount": 1,
-    "thirdParty": 224440,
+    "thirdParty": 224764,
     "thirdPartyCount": 6
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 7,
     "+weight.font": 1,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 5,
+    "-timeToFirstByte": 3,
     "-totalBlockingTime": 5,
     "-largestContentfulPaint": 9
   },
   "axe": {
-    "passes": 1103,
+    "passes": 1095,
     "violations": 1
   }
 }

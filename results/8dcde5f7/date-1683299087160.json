@@ -1,47 +1,47 @@
 {
   "url": "https://gruntjs.com/",
   "requestedUrl": "https://gruntjs.com/",
-  "timestamp": 1682003417446,
+  "timestamp": 1683299292380,
   "ranks": {
-    "hundos": 6,
-    "performance": 3,
+    "hundos": 8,
+    "performance": 7,
     "accessibility": 7,
-    "cumulative": 6
+    "cumulative": 8
   },
   "lighthouse": {
-    "version": "10.1.1",
-    "performance": 0.99,
+    "version": "10.2.0",
+    "performance": 0.92,
     "accessibility": 0.86,
     "bestPractices": 0.83,
     "seo": 0.69,
-    "total": 337
+    "total": 330
   },
-  "firstContentfulPaint": 1647.048,
-  "firstMeaningfulPaint": 1647.048,
-  "speedIndex": 1647.048,
-  "largestContentfulPaint": 1647.048,
-  "totalBlockingTime": 28,
-  "cumulativeLayoutShift": 0.008470922522895167,
-  "timeToInteractive": 2017.498,
-  "maxPotentialFirstInputDelay": 78,
-  "timeToFirstByte": 50.711,
+  "firstContentfulPaint": 2724.308,
+  "firstMeaningfulPaint": 2724.308,
+  "speedIndex": 2724.308,
+  "largestContentfulPaint": 2724.308,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.009571750026186786,
+  "timeToInteractive": 2724.308,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 66.05099999999999,
   "weight": {
     "summary": "28 requests • 145 KiB",
-    "total": 148062,
-    "image": 77293,
+    "total": 148770,
+    "image": 77333,
     "imageCount": 19,
-    "script": 20389,
+    "script": 21041,
     "scriptCount": 2,
-    "document": 4007,
-    "font": 30736,
+    "document": 3984,
+    "font": 30756,
     "fontCount": 3,
-    "stylesheet": 15432,
+    "stylesheet": 15451,
     "stylesheetCount": 2,
-    "thirdParty": 50174,
+    "thirdParty": 50871,
     "thirdPartyCount": 6
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -57,8 +57,8 @@
     "+weight.font": 6,
     "+weight.fontCount": 4,
     "-timeToFirstByte": 10,
-    "-totalBlockingTime": 3,
-    "-largestContentfulPaint": 2
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 6
   },
   "axe": {
     "passes": 359,

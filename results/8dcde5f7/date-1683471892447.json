@@ -1,43 +1,43 @@
 {
   "url": "https://gruntjs.com/",
   "requestedUrl": "https://gruntjs.com/",
-  "timestamp": 1682175957818,
+  "timestamp": 1683471978681,
   "ranks": {
-    "hundos": 7,
-    "performance": 4,
+    "hundos": 6,
+    "performance": 3,
     "accessibility": 7,
-    "cumulative": 7
+    "cumulative": 6
   },
   "lighthouse": {
-    "version": "10.1.1",
-    "performance": 0.95,
+    "version": "10.2.0",
+    "performance": 0.99,
     "accessibility": 0.86,
     "bestPractices": 0.83,
     "seo": 0.69,
-    "total": 333
+    "total": 337
   },
-  "firstContentfulPaint": 2396.947,
-  "firstMeaningfulPaint": 2396.947,
-  "speedIndex": 2396.947,
-  "largestContentfulPaint": 2396.947,
-  "totalBlockingTime": 0,
+  "firstContentfulPaint": 1715.9145000000003,
+  "firstMeaningfulPaint": 1715.9145000000003,
+  "speedIndex": 1735.755248000003,
+  "largestContentfulPaint": 1726.1220000000003,
+  "totalBlockingTime": 35.99999999999977,
   "cumulativeLayoutShift": 0.008470922522895167,
-  "timeToInteractive": 2396.947,
-  "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 48.767999999999994,
+  "timeToInteractive": 2087.7160000000003,
+  "maxPotentialFirstInputDelay": 85.99999999999977,
+  "timeToFirstByte": 141.257,
   "weight": {
     "summary": "28 requests • 145 KiB",
-    "total": 148064,
-    "image": 77224,
+    "total": 148707,
+    "image": 77293,
     "imageCount": 19,
-    "script": 20389,
+    "script": 21041,
     "scriptCount": 2,
     "document": 3984,
-    "font": 30759,
+    "font": 30733,
     "fontCount": 3,
-    "stylesheet": 15503,
+    "stylesheet": 15451,
     "stylesheetCount": 2,
-    "thirdParty": 50199,
+    "thirdParty": 50842,
     "thirdPartyCount": 6
   },
   "run": {
@@ -56,9 +56,9 @@
     "-weight.font": 2,
     "+weight.font": 6,
     "+weight.fontCount": 4,
-    "-timeToFirstByte": 10,
-    "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 4
+    "-timeToFirstByte": 9,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 3
   },
   "axe": {
     "passes": 359,

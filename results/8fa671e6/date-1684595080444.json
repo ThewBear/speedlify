@@ -1,43 +1,43 @@
 {
   "url": "https://eslint.org/",
   "requestedUrl": "https://eslint.org/",
-  "timestamp": 1683299112595,
+  "timestamp": 1684595103311,
   "ranks": {
     "hundos": 3,
-    "performance": 9,
+    "performance": 8,
     "accessibility": 1,
     "cumulative": 3
   },
   "lighthouse": {
     "version": "10.2.0",
-    "performance": 0.81,
+    "performance": 0.9,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 381
+    "total": 390
   },
-  "firstContentfulPaint": 2084.995,
-  "firstMeaningfulPaint": 2102.495,
-  "speedIndex": 3291.141153765216,
-  "largestContentfulPaint": 4182.385,
-  "totalBlockingTime": 179,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 3338.1305,
-  "maxPotentialFirstInputDelay": 200,
-  "timeToFirstByte": 4.025000000000006,
+  "firstContentfulPaint": 1490.592,
+  "firstMeaningfulPaint": 1490.592,
+  "speedIndex": 3089.802658272094,
+  "largestContentfulPaint": 3344.8949999999995,
+  "totalBlockingTime": 105,
+  "cumulativeLayoutShift": 0.02362077103163659,
+  "timeToInteractive": 5313.198,
+  "maxPotentialFirstInputDelay": 114,
+  "timeToFirstByte": 21.660999999999994,
   "weight": {
-    "summary": "23 requests • 734 KiB",
-    "total": 751453,
-    "image": 58909,
+    "summary": "23 requests • 735 KiB",
+    "total": 752456,
+    "image": 58856,
     "imageCount": 4,
-    "script": 138094,
+    "script": 138937,
     "scriptCount": 10,
-    "document": 16599,
-    "font": 522942,
+    "document": 16696,
+    "font": 523061,
     "fontCount": 6,
-    "stylesheet": 14659,
+    "stylesheet": 14656,
     "stylesheetCount": 1,
-    "thirdParty": 224764,
+    "thirdParty": 225482,
     "thirdPartyCount": 6
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 7,
     "+weight.font": 1,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 5,
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 4,
     "-largestContentfulPaint": 9
   },
   "axe": {
-    "passes": 1095,
+    "passes": 1103,
     "violations": 1
   }
 }

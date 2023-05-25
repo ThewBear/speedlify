@@ -1,43 +1,43 @@
 {
   "url": "https://eslint.org/",
   "requestedUrl": "https://eslint.org/",
-  "timestamp": 1683687941821,
+  "timestamp": 1684983927508,
   "ranks": {
-    "hundos": 2,
+    "hundos": 3,
     "performance": 8,
     "accessibility": 1,
-    "cumulative": 2
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "10.2.0",
-    "performance": 0.87,
+    "performance": 0.9,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 387
+    "total": 390
   },
-  "firstContentfulPaint": 1497.605,
-  "firstMeaningfulPaint": 1497.605,
-  "speedIndex": 2707.8258067591014,
-  "largestContentfulPaint": 3453.9849999999997,
-  "totalBlockingTime": 205.1134999999997,
-  "cumulativeLayoutShift": 0.00022888663175215922,
-  "timeToInteractive": 4498.460499999999,
-  "maxPotentialFirstInputDelay": 180,
-  "timeToFirstByte": 24.97099999999999,
+  "firstContentfulPaint": 1510.505,
+  "firstMeaningfulPaint": 1510.505,
+  "speedIndex": 2667.37202426355,
+  "largestContentfulPaint": 3441.8035,
+  "totalBlockingTime": 109.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4463.498,
+  "maxPotentialFirstInputDelay": 116,
+  "timeToFirstByte": 22.250999999999998,
   "weight": {
-    "summary": "23 requests • 734 KiB",
-    "total": 751754,
-    "image": 58836,
+    "summary": "23 requests • 735 KiB",
+    "total": 752584,
+    "image": 58907,
     "imageCount": 4,
-    "script": 138435,
+    "script": 139044,
     "scriptCount": 10,
-    "document": 16586,
-    "font": 522989,
+    "document": 16699,
+    "font": 523054,
     "fontCount": 6,
-    "stylesheet": 14658,
+    "stylesheet": 14630,
     "stylesheetCount": 1,
-    "thirdParty": 225012,
+    "thirdParty": 225551,
     "thirdPartyCount": 6
   },
   "run": {
@@ -57,11 +57,11 @@
     "+weight.font": 1,
     "+weight.fontCount": 1,
     "-timeToFirstByte": 5,
-    "-totalBlockingTime": 5,
+    "-totalBlockingTime": 4,
     "-largestContentfulPaint": 9
   },
   "axe": {
-    "passes": 1095,
+    "passes": 1103,
     "violations": 1
   }
 }

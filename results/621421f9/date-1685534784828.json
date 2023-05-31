@@ -1,47 +1,47 @@
 {
   "url": "https://jekyllrb.com/",
   "requestedUrl": "https://jekyllrb.com/",
-  "timestamp": 1684239028317,
+  "timestamp": 1685534900131,
   "ranks": {
-    "hundos": 1,
-    "performance": 2,
-    "accessibility": 4,
-    "cumulative": 2
+    "hundos": 4,
+    "performance": 5,
+    "accessibility": 5,
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "10.2.0",
-    "performance": 0.99,
+    "performance": 0.95,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 399
+    "total": 395
   },
-  "firstContentfulPaint": 903.25,
-  "firstMeaningfulPaint": 903.25,
-  "speedIndex": 903.25,
-  "largestContentfulPaint": 2052.559,
-  "totalBlockingTime": 19.000000000000114,
+  "firstContentfulPaint": 936.507,
+  "firstMeaningfulPaint": 936.507,
+  "speedIndex": 936.507,
+  "largestContentfulPaint": 3013.1359999999995,
+  "totalBlockingTime": 21.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1915.116,
-  "maxPotentialFirstInputDelay": 62,
-  "timeToFirstByte": 2.2959999999999994,
+  "timeToInteractive": 3013.1359999999995,
+  "maxPotentialFirstInputDelay": 85,
+  "timeToFirstByte": 14.600999999999999,
   "weight": {
     "summary": "10 requests • 202 KiB",
-    "total": 207054,
-    "image": 72726,
+    "total": 207011,
+    "image": 72533,
     "imageCount": 3,
-    "script": 70243,
+    "script": 70245,
     "scriptCount": 2,
     "document": 3648,
-    "font": 46376,
+    "font": 46471,
     "fontCount": 2,
-    "stylesheet": 14038,
+    "stylesheet": 14091,
     "stylesheetCount": 1,
-    "thirdParty": 70266,
+    "thirdParty": 70268,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -53,12 +53,12 @@
     "+weight.script": 10,
     "-weight.image": 3,
     "+weight.image": 11,
-    "-weight.font": 2,
-    "+weight.font": 10,
+    "-weight.font": 1,
+    "+weight.font": 11,
     "+weight.fontCount": 4,
     "-timeToFirstByte": 1,
     "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 6
+    "-largestContentfulPaint": 8
   },
   "axe": {
     "passes": 231,

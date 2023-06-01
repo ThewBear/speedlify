@@ -1,43 +1,43 @@
 {
   "url": "https://polywork.thewdhanat.com/",
   "requestedUrl": "https://polywork.thewdhanat.com/",
-  "timestamp": 1684336673966,
+  "timestamp": 1685632677870,
   "ranks": {
     "hundos": 9,
-    "performance": 9,
+    "performance": 10,
     "accessibility": 9,
     "cumulative": 9
   },
   "lighthouse": {
     "version": "10.2.0",
-    "performance": 0.32,
+    "performance": 0.31,
     "accessibility": 0.84,
     "bestPractices": 0.92,
     "seo": 0.85,
-    "total": 293
+    "total": 292
   },
-  "firstContentfulPaint": 5421.716999999999,
-  "firstMeaningfulPaint": 5421.716999999999,
-  "speedIndex": 6359.863336113514,
-  "largestContentfulPaint": 12219.200499999999,
-  "totalBlockingTime": 1932.0755000000008,
-  "cumulativeLayoutShift": 0.0007497148735795988,
-  "timeToInteractive": 11542.984499999999,
-  "maxPotentialFirstInputDelay": 671.0000000000009,
-  "timeToFirstByte": 290.105,
+  "firstContentfulPaint": 5607.844,
+  "firstMeaningfulPaint": 5607.844,
+  "speedIndex": 6800.48329337404,
+  "largestContentfulPaint": 12742.844000000001,
+  "totalBlockingTime": 2163.643500000001,
+  "cumulativeLayoutShift": 0.005257154491807605,
+  "timeToInteractive": 11761.267000000002,
+  "maxPotentialFirstInputDelay": 653,
+  "timeToFirstByte": 454.053,
   "weight": {
-    "summary": "36 requests • 1,866 KiB",
-    "total": 1910588,
-    "image": 23633,
+    "summary": "36 requests • 1,887 KiB",
+    "total": 1931938,
+    "image": 23637,
     "imageCount": 10,
-    "script": 1004339,
+    "script": 1021314,
     "scriptCount": 14,
-    "document": 24398,
-    "font": 672419,
+    "document": 25427,
+    "font": 672413,
     "fontCount": 3,
-    "stylesheet": 164842,
+    "stylesheet": 168172,
     "stylesheetCount": 2,
-    "thirdParty": 1868271,
+    "thirdParty": 1889672,
     "thirdPartyCount": 34
   },
   "run": {
@@ -51,17 +51,16 @@
     "+weight.document": 4,
     "-weight.script": 9,
     "+weight.script": 2,
-    "-weight.image": 7,
+    "-weight.image": 6,
     "+weight.image": 4,
-    "-weight.font": 6,
+    "-weight.font": 7,
     "+weight.font": 1,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 7,
+    "-timeToFirstByte": 8,
     "-totalBlockingTime": 8,
     "-largestContentfulPaint": 9
   },
   "axe": {
-    "passes": 656,
-    "violations": 24
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

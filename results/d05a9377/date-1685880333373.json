@@ -1,7 +1,7 @@
 {
   "url": "https://remix.run/",
   "requestedUrl": "https://remix.run/",
-  "timestamp": 1684584821474,
+  "timestamp": 1685880477461,
   "ranks": {
     "hundos": 7,
     "performance": 8,
@@ -10,38 +10,38 @@
   },
   "lighthouse": {
     "version": "10.2.0",
-    "performance": 0.81,
+    "performance": 0.85,
     "accessibility": 0.97,
     "bestPractices": 1,
     "seo": 1,
-    "total": 378
+    "total": 382
   },
-  "firstContentfulPaint": 1183.4769999999999,
-  "firstMeaningfulPaint": 1183.4769999999999,
-  "speedIndex": 1426.2952580026108,
-  "largestContentfulPaint": 3164.477,
-  "totalBlockingTime": 500.5,
-  "cumulativeLayoutShift": 0.0019809159154805197,
-  "timeToInteractive": 3225.477,
-  "maxPotentialFirstInputDelay": 424,
-  "timeToFirstByte": 2.0429999999999993,
+  "firstContentfulPaint": 1141.915,
+  "firstMeaningfulPaint": 1141.915,
+  "speedIndex": 1141.915,
+  "largestContentfulPaint": 3020.915,
+  "totalBlockingTime": 190,
+  "cumulativeLayoutShift": 0.1556717994827398,
+  "timeToInteractive": 1431.915,
+  "maxPotentialFirstInputDelay": 245,
+  "timeToFirstByte": 7.018999999999998,
   "weight": {
     "summary": "52 requests • 880 KiB",
-    "total": 901353,
-    "image": 451740,
+    "total": 901370,
+    "image": 451609,
     "imageCount": 18,
-    "script": 110672,
+    "script": 110854,
     "scriptCount": 25,
-    "document": 22444,
-    "font": 304952,
+    "document": 22446,
+    "font": 304955,
     "fontCount": 5,
-    "stylesheet": 11545,
+    "stylesheet": 11506,
     "stylesheetCount": 3,
-    "thirdParty": 2952,
+    "thirdParty": 2949,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -55,10 +55,10 @@
     "+weight.image": 1,
     "-weight.font": 11,
     "+weight.font": 1,
-    "+weight.fontCount": 2,
-    "-timeToFirstByte": 1,
-    "-totalBlockingTime": 8,
-    "-largestContentfulPaint": 11
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 10
   },
   "axe": {
     "passes": 1286,

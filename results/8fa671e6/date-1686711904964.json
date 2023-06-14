@@ -1,7 +1,7 @@
 {
   "url": "https://eslint.org/",
   "requestedUrl": "https://eslint.org/",
-  "timestamp": 1685416171627,
+  "timestamp": 1686712179912,
   "ranks": {
     "hundos": 3,
     "performance": 8,
@@ -9,35 +9,35 @@
     "cumulative": 3
   },
   "lighthouse": {
-    "version": "10.2.0",
-    "performance": 0.86,
+    "version": "10.3.0",
+    "performance": 0.91,
     "accessibility": 1,
-    "bestPractices": 0.92,
+    "bestPractices": 1,
     "seo": 1,
-    "total": 378
+    "total": 391
   },
-  "firstContentfulPaint": 1517.321,
-  "firstMeaningfulPaint": 1517.321,
-  "speedIndex": 2896.3859945600775,
-  "largestContentfulPaint": 4089.5860000000002,
-  "totalBlockingTime": 32.5,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 4552.62,
-  "maxPotentialFirstInputDelay": 105,
-  "timeToFirstByte": 21.278999999999996,
+  "firstContentfulPaint": 1481.662,
+  "firstMeaningfulPaint": 1843.136,
+  "speedIndex": 3045.8973845889877,
+  "largestContentfulPaint": 3358.8875000000003,
+  "totalBlockingTime": 80,
+  "cumulativeLayoutShift": 0.00008847036475526721,
+  "timeToInteractive": 5469.35,
+  "maxPotentialFirstInputDelay": 113,
+  "timeToFirstByte": 19.787000000000006,
   "weight": {
-    "summary": "23 requests • 735 KiB",
-    "total": 752699,
-    "image": 58827,
+    "summary": "23 requests • 737 KiB",
+    "total": 754951,
+    "image": 58938,
     "imageCount": 4,
-    "script": 139351,
+    "script": 141648,
     "scriptCount": 10,
-    "document": 16587,
-    "font": 523026,
+    "document": 16531,
+    "font": 522949,
     "fontCount": 6,
-    "stylesheet": 14658,
+    "stylesheet": 14635,
     "stylesheetCount": 1,
-    "thirdParty": 225871,
+    "thirdParty": 228335,
     "thirdPartyCount": 6
   },
   "run": {
@@ -57,11 +57,11 @@
     "+weight.font": 1,
     "+weight.fontCount": 1,
     "-timeToFirstByte": 5,
-    "-totalBlockingTime": 4,
+    "-totalBlockingTime": 5,
     "-largestContentfulPaint": 9
   },
   "axe": {
-    "passes": 1095,
+    "passes": 1087,
     "violations": 1
   }
 }

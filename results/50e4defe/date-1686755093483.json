@@ -1,43 +1,43 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1685459382549,
+  "timestamp": 1686755377281,
   "ranks": {
-    "hundos": 7,
-    "performance": 4,
+    "hundos": 6,
+    "performance": 3,
     "accessibility": 8,
-    "cumulative": 7
+    "cumulative": 6
   },
   "lighthouse": {
-    "version": "10.2.0",
-    "performance": 0.92,
-    "accessibility": 0.72,
+    "version": "10.3.0",
+    "performance": 0.95,
+    "accessibility": 0.73,
     "bestPractices": 1,
     "seo": 0.66,
-    "total": 330
+    "total": 334
   },
-  "firstContentfulPaint": 1408.3020000000001,
-  "firstMeaningfulPaint": 1418.8020000000001,
-  "speedIndex": 1654.8888763666237,
-  "largestContentfulPaint": 2037.6240000000003,
-  "totalBlockingTime": 326,
+  "firstContentfulPaint": 1400.154,
+  "firstMeaningfulPaint": 1441.654,
+  "speedIndex": 1829.0260098970316,
+  "largestContentfulPaint": 2059.9505,
+  "totalBlockingTime": 224,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2884.902,
-  "maxPotentialFirstInputDelay": 242,
-  "timeToFirstByte": 25.757000000000005,
+  "timeToInteractive": 2775.4915,
+  "maxPotentialFirstInputDelay": 212,
+  "timeToFirstByte": 34.380000000000024,
   "weight": {
     "summary": "7 requests • 181 KiB",
-    "total": 185335,
-    "image": 73281,
+    "total": 185395,
+    "image": 73325,
     "imageCount": 3,
-    "script": 40216,
+    "script": 40256,
     "scriptCount": 1,
-    "document": 61776,
+    "document": 61775,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 9897,
+    "stylesheet": 9874,
     "stylesheetCount": 1,
-    "thirdParty": 42193,
+    "thirdParty": 42278,
     "thirdPartyCount": 4
   },
   "run": {
@@ -56,9 +56,9 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 4,
-    "-totalBlockingTime": 6,
-    "-largestContentfulPaint": 3
+    "-timeToFirstByte": 9,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 2
   },
   "axe": {
     "passes": 10185,

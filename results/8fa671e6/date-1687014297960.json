@@ -1,43 +1,43 @@
 {
   "url": "https://eslint.org/",
   "requestedUrl": "https://eslint.org/",
-  "timestamp": 1685718332190,
+  "timestamp": 1687014323046,
   "ranks": {
-    "hundos": 3,
+    "hundos": 2,
     "performance": 8,
     "accessibility": 1,
-    "cumulative": 3
+    "cumulative": 2
   },
   "lighthouse": {
-    "version": "10.2.0",
+    "version": "10.3.0",
     "performance": 0.9,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
     "total": 390
   },
-  "firstContentfulPaint": 1561.939,
-  "firstMeaningfulPaint": 1561.939,
-  "speedIndex": 2864.3700192163215,
-  "largestContentfulPaint": 3441.4180000000006,
-  "totalBlockingTime": 86,
+  "firstContentfulPaint": 1526.152,
+  "firstMeaningfulPaint": 1526.152,
+  "speedIndex": 2860.5385315681215,
+  "largestContentfulPaint": 3358.3495000000003,
+  "totalBlockingTime": 96.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 3413.8295000000003,
-  "maxPotentialFirstInputDelay": 116,
-  "timeToFirstByte": 38.434,
+  "timeToInteractive": 3627.1499999999996,
+  "maxPotentialFirstInputDelay": 127,
+  "timeToFirstByte": 30.319000000000003,
   "weight": {
-    "summary": "23 requests • 735 KiB",
-    "total": 752854,
-    "image": 58951,
+    "summary": "23 requests • 737 KiB",
+    "total": 754992,
+    "image": 58833,
     "imageCount": 4,
-    "script": 139541,
+    "script": 141816,
     "scriptCount": 10,
-    "document": 16568,
-    "font": 522894,
+    "document": 16527,
+    "font": 522938,
     "fontCount": 6,
-    "stylesheet": 14650,
+    "stylesheet": 14628,
     "stylesheetCount": 1,
-    "thirdParty": 226155,
+    "thirdParty": 228516,
     "thirdPartyCount": 6
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 7,
     "+weight.font": 1,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 7,
-    "-totalBlockingTime": 5,
-    "-largestContentfulPaint": 9
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 8
   },
   "axe": {
-    "passes": 1093,
+    "passes": 1087,
     "violations": 1
   }
 }

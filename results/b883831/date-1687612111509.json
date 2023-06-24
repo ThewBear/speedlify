@@ -1,43 +1,43 @@
 {
   "url": "https://nextjs.org/",
   "requestedUrl": "https://nextjs.org/",
-  "timestamp": 1686316162683,
+  "timestamp": 1687612333952,
   "ranks": {
-    "hundos": 10,
-    "performance": 9,
+    "hundos": 11,
+    "performance": 8,
     "accessibility": 13,
-    "cumulative": 10
+    "cumulative": 11
   },
   "lighthouse": {
-    "version": "10.2.0",
-    "performance": 0.85,
+    "version": "10.3.0",
+    "performance": 0.78,
     "accessibility": 0.84,
     "bestPractices": 0.92,
     "seo": 0.9,
-    "total": 351
+    "total": 344
   },
-  "firstContentfulPaint": 1541.7340000000004,
-  "firstMeaningfulPaint": 1541.7340000000004,
-  "speedIndex": 3747.3325713954164,
-  "largestContentfulPaint": 2195.7540000000004,
-  "totalBlockingTime": 470,
+  "firstContentfulPaint": 1210.8564999999999,
+  "firstMeaningfulPaint": 1966.5724999999998,
+  "speedIndex": 3280.915071604296,
+  "largestContentfulPaint": 1888.8564999999999,
+  "totalBlockingTime": 862.8474999999999,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 6608.886500000002,
-  "maxPotentialFirstInputDelay": 368,
-  "timeToFirstByte": 52.031000000000006,
+  "timeToInteractive": 7074.3565,
+  "maxPotentialFirstInputDelay": 424,
+  "timeToFirstByte": 23.368000000000002,
   "weight": {
-    "summary": "67 requests • 776 KiB",
-    "total": 794226,
-    "image": 116962,
+    "summary": "53 requests • 795 KiB",
+    "total": 814029,
+    "image": 116949,
     "imageCount": 3,
-    "script": 431188,
-    "scriptCount": 25,
-    "document": 36014,
-    "font": 55408,
+    "script": 493850,
+    "scriptCount": 29,
+    "document": 35419,
+    "font": 55433,
     "fontCount": 2,
-    "stylesheet": 103683,
-    "stylesheetCount": 23,
-    "thirdParty": 135635,
+    "stylesheet": 47721,
+    "stylesheetCount": 6,
+    "thirdParty": 135859,
     "thirdPartyCount": 9
   },
   "run": {
@@ -58,7 +58,7 @@
     "+weight.fontCount": 4,
     "-timeToFirstByte": 9,
     "-totalBlockingTime": 10,
-    "-largestContentfulPaint": 6
+    "-largestContentfulPaint": 5
   },
   "axe": {
     "passes": 1235,

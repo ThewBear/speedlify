@@ -1,12 +1,12 @@
 {
   "url": "https://v2.nuxt.com/",
   "requestedUrl": "https://nuxtjs.org/",
-  "timestamp": 1686834786837,
+  "timestamp": 1688130867858,
   "ranks": {
-    "hundos": 10,
-    "performance": 14,
+    "hundos": 12,
+    "performance": 13,
     "accessibility": 9,
-    "cumulative": 10
+    "cumulative": 12
   },
   "lighthouse": {
     "version": "10.3.0",
@@ -16,28 +16,28 @@
     "seo": 1,
     "total": 344
   },
-  "firstContentfulPaint": 2673.8444999999997,
-  "firstMeaningfulPaint": 2673.8444999999997,
-  "speedIndex": 3092.5685701395373,
-  "largestContentfulPaint": 5892.4995,
-  "totalBlockingTime": 1814,
-  "cumulativeLayoutShift": 0.06388959364687281,
-  "timeToInteractive": 7580.6965,
-  "maxPotentialFirstInputDelay": 1531,
-  "timeToFirstByte": 51.968,
+  "firstContentfulPaint": 2803.3334999999997,
+  "firstMeaningfulPaint": 2803.3334999999997,
+  "speedIndex": 3320.175145748384,
+  "largestContentfulPaint": 6024.1404999999995,
+  "totalBlockingTime": 1696.5425,
+  "cumulativeLayoutShift": 0.028409645653837294,
+  "timeToInteractive": 8218.8855,
+  "maxPotentialFirstInputDelay": 1448,
+  "timeToFirstByte": 118.33500000000001,
   "weight": {
     "summary": "59 requests • 863 KiB",
-    "total": 883611,
-    "image": 41137,
+    "total": 884183,
+    "image": 41110,
     "imageCount": 31,
-    "script": 619373,
+    "script": 619317,
     "scriptCount": 14,
-    "document": 30517,
-    "font": 72330,
+    "document": 30566,
+    "font": 73259,
     "fontCount": 5,
-    "stylesheet": 2093,
+    "stylesheet": 2094,
     "stylesheetCount": 2,
-    "thirdParty": 158593,
+    "thirdParty": 159594,
     "thirdPartyCount": 12
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 6,
     "+weight.font": 6,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 11,
+    "-timeToFirstByte": 13,
     "-totalBlockingTime": 11,
     "-largestContentfulPaint": 13
   },
   "axe": {
-    "passes": 1132,
+    "passes": 1133,
     "violations": 81
   }
 }

@@ -1,12 +1,12 @@
 {
   "url": "https://astro.build/",
   "requestedUrl": "https://astro.build/",
-  "timestamp": 1687266817364,
+  "timestamp": 1688563016325,
   "ranks": {
     "hundos": 4,
     "performance": 5,
     "accessibility": 2,
-    "cumulative": 3
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "10.3.0",
@@ -16,32 +16,32 @@
     "seo": 1,
     "total": 398
   },
-  "firstContentfulPaint": 1356.2205,
-  "firstMeaningfulPaint": 1395.7205,
-  "speedIndex": 1356.2205,
-  "largestContentfulPaint": 2226.6394999999998,
-  "totalBlockingTime": 14.5,
-  "cumulativeLayoutShift": 0.013568184737402355,
-  "timeToInteractive": 1455.7205,
-  "maxPotentialFirstInputDelay": 194,
-  "timeToFirstByte": 26.165999999999997,
+  "firstContentfulPaint": 1341.6135000000002,
+  "firstMeaningfulPaint": 1388.6135000000002,
+  "speedIndex": 1429.1900485239594,
+  "largestContentfulPaint": 2228.7555,
+  "totalBlockingTime": 22,
+  "cumulativeLayoutShift": 0.013786793992800417,
+  "timeToInteractive": 1457.1135000000002,
+  "maxPotentialFirstInputDelay": 181,
+  "timeToFirstByte": 26.081999999999994,
   "weight": {
-    "summary": "26 requests • 405 KiB",
-    "total": 414279,
-    "image": 129558,
+    "summary": "26 requests • 407 KiB",
+    "total": 416403,
+    "image": 129595,
     "imageCount": 7,
-    "script": 15652,
+    "script": 15760,
     "scriptCount": 10,
-    "document": 56104,
-    "font": 202054,
+    "document": 57983,
+    "font": 202022,
     "fontCount": 5,
-    "stylesheet": 10911,
+    "stylesheet": 11043,
     "stylesheetCount": 3,
-    "thirdParty": 2948,
+    "thirdParty": 3050,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -57,11 +57,11 @@
     "+weight.font": 2,
     "+weight.fontCount": 2,
     "-timeToFirstByte": 5,
-    "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 5
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 8
   },
   "axe": {
-    "passes": 958,
+    "passes": 953,
     "violations": 1
   }
 }

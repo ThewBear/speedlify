@@ -1,47 +1,47 @@
 {
   "url": "https://kit.svelte.dev/",
   "requestedUrl": "https://kit.svelte.dev/",
-  "timestamp": 1687785848785,
+  "timestamp": 1689084585627,
   "ranks": {
-    "hundos": 3,
-    "performance": 4,
+    "hundos": 2,
+    "performance": 3,
     "accessibility": 3,
     "cumulative": 2
   },
   "lighthouse": {
-    "version": "10.3.0",
+    "version": "10.4.0",
     "performance": 0.99,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
     "total": 399
   },
-  "firstContentfulPaint": 1228.6100000000001,
-  "firstMeaningfulPaint": 1303.6100000000001,
-  "speedIndex": 1228.6100000000001,
-  "largestContentfulPaint": 1678.6100000000001,
-  "totalBlockingTime": 74,
+  "firstContentfulPaint": 1213.824,
+  "firstMeaningfulPaint": 1213.824,
+  "speedIndex": 1213.824,
+  "largestContentfulPaint": 1813.824,
+  "totalBlockingTime": 56,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1502.6100000000001,
-  "maxPotentialFirstInputDelay": 124,
-  "timeToFirstByte": 12.225999999999999,
+  "timeToInteractive": 1469.824,
+  "maxPotentialFirstInputDelay": 106,
+  "timeToFirstByte": 11.869,
   "weight": {
     "summary": "56 requests • 271 KiB",
-    "total": 277652,
-    "image": 127029,
+    "total": 277935,
+    "image": 126913,
     "imageCount": 28,
-    "script": 65138,
+    "script": 65436,
     "scriptCount": 16,
-    "document": 12375,
-    "font": 55770,
+    "document": 12412,
+    "font": 55771,
     "fontCount": 3,
-    "stylesheet": 12541,
+    "stylesheet": 12605,
     "stylesheetCount": 6,
-    "thirdParty": 259,
+    "thirdParty": 258,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -55,13 +55,13 @@
     "+weight.image": 7,
     "-weight.font": 5,
     "+weight.font": 7,
-    "+weight.fontCount": 4,
-    "-timeToFirstByte": 5,
-    "-totalBlockingTime": 3,
-    "-largestContentfulPaint": 3
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 5
   },
   "axe": {
-    "passes": 543,
+    "passes": 544,
     "violations": 1
   }
 }

@@ -1,47 +1,47 @@
 {
   "url": "https://www.11ty.dev/",
   "requestedUrl": "https://www.11ty.dev/",
-  "timestamp": 1687784997920,
+  "timestamp": 1689084473870,
   "ranks": {
     "hundos": 1,
-    "performance": 1,
+    "performance": 2,
     "accessibility": 1,
     "cumulative": 1
   },
   "lighthouse": {
-    "version": "10.3.0",
+    "version": "10.4.0",
     "performance": 1,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
     "total": 400
   },
-  "firstContentfulPaint": 1283.404,
-  "firstMeaningfulPaint": 1294.404,
-  "speedIndex": 1283.404,
-  "largestContentfulPaint": 1294.404,
+  "firstContentfulPaint": 1172.6825,
+  "firstMeaningfulPaint": 1172.6825,
+  "speedIndex": 1172.6825,
+  "largestContentfulPaint": 1741.0785,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.016213651355695594,
-  "timeToInteractive": 1294.404,
-  "maxPotentialFirstInputDelay": 44,
-  "timeToFirstByte": 31.823999999999998,
+  "timeToInteractive": 1172.6825,
+  "maxPotentialFirstInputDelay": 43,
+  "timeToFirstByte": 9.218000000000004,
   "weight": {
-    "summary": "34 requests • 233 KiB",
-    "total": 238168,
-    "image": 192810,
+    "summary": "34 requests • 232 KiB",
+    "total": 237196,
+    "image": 192882,
     "imageCount": 30,
-    "script": 7800,
+    "script": 7777,
     "scriptCount": 2,
-    "document": 33029,
+    "document": 32009,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 4529,
+    "stylesheet": 4528,
     "stylesheetCount": 1,
-    "thirdParty": 4269,
+    "thirdParty": 4270,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -55,13 +55,13 @@
     "+weight.image": 3,
     "-weight.font": 1,
     "+weight.font": 12,
-    "+weight.fontCount": 7,
-    "-timeToFirstByte": 11,
+    "+weight.fontCount": 6,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 1
+    "-largestContentfulPaint": 2
   },
   "axe": {
-    "passes": 1096,
+    "passes": 1091,
     "violations": 0
   }
 }

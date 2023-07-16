@@ -1,43 +1,43 @@
 {
   "url": "https://gruntjs.com/",
   "requestedUrl": "https://gruntjs.com/",
-  "timestamp": 1688181636163,
+  "timestamp": 1689477620465,
   "ranks": {
-    "hundos": 9,
-    "performance": 7,
+    "hundos": 7,
+    "performance": 3,
     "accessibility": 7,
-    "cumulative": 9
+    "cumulative": 7
   },
   "lighthouse": {
-    "version": "10.3.0",
-    "performance": 0.92,
-    "accessibility": 0.86,
+    "version": "10.4.0",
+    "performance": 0.99,
+    "accessibility": 0.8,
     "bestPractices": 0.83,
     "seo": 0.69,
-    "total": 330
+    "total": 331
   },
-  "firstContentfulPaint": 2691.5519999999997,
-  "firstMeaningfulPaint": 2691.5519999999997,
-  "speedIndex": 2691.5519999999997,
-  "largestContentfulPaint": 2691.552,
-  "totalBlockingTime": 64.5,
+  "firstContentfulPaint": 1760.0155,
+  "firstMeaningfulPaint": 1760.0155,
+  "speedIndex": 1760.0155,
+  "largestContentfulPaint": 1766.6205,
+  "totalBlockingTime": 91,
   "cumulativeLayoutShift": 0.008470922522895167,
-  "timeToInteractive": 3720.8235,
-  "maxPotentialFirstInputDelay": 173,
-  "timeToFirstByte": 239.846,
+  "timeToInteractive": 3633.3575,
+  "maxPotentialFirstInputDelay": 134,
+  "timeToFirstByte": 143.676,
   "weight": {
-    "summary": "30 requests • 223 KiB",
-    "total": 228447,
-    "image": 77338,
+    "summary": "30 requests • 224 KiB",
+    "total": 229031,
+    "image": 77316,
     "imageCount": 19,
-    "script": 100669,
+    "script": 101249,
     "scriptCount": 3,
-    "document": 4000,
-    "font": 30751,
+    "document": 4007,
+    "font": 30773,
     "fontCount": 3,
-    "stylesheet": 15454,
+    "stylesheet": 15451,
     "stylesheetCount": 2,
-    "thirdParty": 130530,
+    "thirdParty": 131110,
     "thirdPartyCount": 8
   },
   "run": {
@@ -57,8 +57,8 @@
     "+weight.font": 6,
     "+weight.fontCount": 4,
     "-timeToFirstByte": 10,
-    "-totalBlockingTime": 3,
-    "-largestContentfulPaint": 6
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 2
   },
   "axe": {
     "passes": 359,

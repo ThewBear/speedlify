@@ -1,7 +1,7 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1689779496654,
+  "timestamp": 1691075263122,
   "ranks": {
     "hundos": 6,
     "performance": 3,
@@ -10,38 +10,38 @@
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.98,
+    "performance": 0.97,
     "accessibility": 0.74,
     "bestPractices": 1,
     "seo": 0.66,
-    "total": 338
+    "total": 337
   },
-  "firstContentfulPaint": 1384.3039999999999,
-  "firstMeaningfulPaint": 1423.3039999999999,
-  "speedIndex": 1645.655881402458,
-  "largestContentfulPaint": 2051.991,
-  "totalBlockingTime": 109,
+  "firstContentfulPaint": 1423.712,
+  "firstMeaningfulPaint": 1510.212,
+  "speedIndex": 1600.7765654675586,
+  "largestContentfulPaint": 1510.212,
+  "totalBlockingTime": 183,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2278.30425,
-  "maxPotentialFirstInputDelay": 222,
-  "timeToFirstByte": 23.042,
+  "timeToInteractive": 2954.0369999999994,
+  "maxPotentialFirstInputDelay": 233,
+  "timeToFirstByte": 22.453999999999994,
   "weight": {
     "summary": "7 requests • 181 KiB",
-    "total": 185389,
+    "total": 185642,
     "image": 73287,
     "imageCount": 3,
-    "script": 40260,
+    "script": 40244,
     "scriptCount": 1,
-    "document": 61777,
+    "document": 62062,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 9900,
+    "stylesheet": 9884,
     "stylesheetCount": 1,
-    "thirdParty": 42238,
+    "thirdParty": 42222,
     "thirdPartyCount": 4
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -51,14 +51,14 @@
     "+weight.document": 2,
     "-weight.script": 1,
     "+weight.script": 9,
-    "-weight.image": 4,
-    "+weight.image": 7,
+    "-weight.image": 5,
+    "+weight.image": 6,
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
     "-timeToFirstByte": 4,
-    "-totalBlockingTime": 5,
-    "-largestContentfulPaint": 3
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 2
   },
   "axe": {
     "passes": 10185,

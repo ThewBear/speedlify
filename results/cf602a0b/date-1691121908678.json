@@ -1,44 +1,44 @@
 {
   "url": "https://github.com/ThewBear",
   "requestedUrl": "https://github.com/ThewBear",
-  "timestamp": 1689825999713,
+  "timestamp": 1691122036031,
   "ranks": {
     "hundos": 7,
-    "performance": 7,
+    "performance": 6,
     "accessibility": 7,
     "cumulative": 7
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.64,
+    "performance": 0.63,
     "accessibility": 0.91,
     "bestPractices": 0.92,
     "seo": 0.89,
-    "total": 336
+    "total": 335
   },
-  "firstContentfulPaint": 2879.18,
-  "firstMeaningfulPaint": 2879.18,
-  "speedIndex": 4349.00667454764,
-  "largestContentfulPaint": 6451.222500000002,
-  "totalBlockingTime": 305,
-  "cumulativeLayoutShift": 0.02487931357216991,
-  "timeToInteractive": 6177.352500000001,
-  "maxPotentialFirstInputDelay": 483,
-  "timeToFirstByte": 459.468,
+  "firstContentfulPaint": 2960.385,
+  "firstMeaningfulPaint": 2960.385,
+  "speedIndex": 5001.0662125788585,
+  "largestContentfulPaint": 5908.385,
+  "totalBlockingTime": 302,
+  "cumulativeLayoutShift": 0.024948847118465196,
+  "timeToInteractive": 6401.885,
+  "maxPotentialFirstInputDelay": 358,
+  "timeToFirstByte": 484.48400000000004,
   "weight": {
-    "summary": "65 requests • 875 KiB",
-    "total": 896216,
-    "image": 377237,
+    "summary": "63 requests • 882 KiB",
+    "total": 902916,
+    "image": 377346,
     "imageCount": 7,
-    "script": 346663,
-    "scriptCount": 47,
-    "document": 40106,
+    "script": 351747,
+    "scriptCount": 46,
+    "document": 40161,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 131705,
+    "stylesheet": 133156,
     "stylesheetCount": 7,
-    "thirdParty": 896216,
-    "thirdPartyCount": 65
+    "thirdParty": 902916,
+    "thirdPartyCount": 63
   },
   "run": {
     "number": 1,
@@ -49,7 +49,7 @@
     "+weight.total": 3,
     "-weight.document": 8,
     "+weight.document": 2,
-    "-weight.script": 4,
+    "-weight.script": 5,
     "+weight.script": 4,
     "-weight.image": 7,
     "+weight.image": 2,
@@ -57,11 +57,11 @@
     "+weight.font": 6,
     "+weight.fontCount": 4,
     "-timeToFirstByte": 8,
-    "-totalBlockingTime": 6,
+    "-totalBlockingTime": 4,
     "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 3266,
+    "passes": 3263,
     "violations": 2
   }
 }

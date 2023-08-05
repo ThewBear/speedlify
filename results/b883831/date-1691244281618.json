@@ -1,12 +1,12 @@
 {
   "url": "https://nextjs.org/",
   "requestedUrl": "https://nextjs.org/",
-  "timestamp": 1689948721617,
+  "timestamp": 1691244348538,
   "ranks": {
-    "hundos": 11,
-    "performance": 9,
+    "hundos": 10,
+    "performance": 8,
     "accessibility": 13,
-    "cumulative": 11
+    "cumulative": 10
   },
   "lighthouse": {
     "version": "10.4.0",
@@ -16,32 +16,32 @@
     "seo": 0.9,
     "total": 339
   },
-  "firstContentfulPaint": 1662.63,
-  "firstMeaningfulPaint": 2368.63,
-  "speedIndex": 3353.2455956752165,
-  "largestContentfulPaint": 2368.63,
-  "totalBlockingTime": 1139.5000000000005,
+  "firstContentfulPaint": 1766.738,
+  "firstMeaningfulPaint": 2366.738,
+  "speedIndex": 3311.727244466604,
+  "largestContentfulPaint": 1766.738,
+  "totalBlockingTime": 1279,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 7387.129999999999,
-  "maxPotentialFirstInputDelay": 539,
-  "timeToFirstByte": 36.397999999999996,
+  "timeToInteractive": 7378.738,
+  "maxPotentialFirstInputDelay": 582,
+  "timeToFirstByte": 52.70599999999999,
   "weight": {
-    "summary": "57 requests • 902 KiB",
-    "total": 923168,
+    "summary": "57 requests • 912 KiB",
+    "total": 934334,
     "image": 116897,
     "imageCount": 3,
-    "script": 624200,
+    "script": 632346,
     "scriptCount": 33,
-    "document": 35737,
-    "font": 22683,
+    "document": 35366,
+    "font": 22682,
     "fontCount": 1,
-    "stylesheet": 47082,
+    "stylesheet": 48795,
     "stylesheetCount": 6,
-    "thirdParty": 266161,
+    "thirdParty": 268062,
     "thirdPartyCount": 12
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -57,11 +57,11 @@
     "+weight.font": 10,
     "+weight.fontCount": 5,
     "-timeToFirstByte": 10,
-    "-totalBlockingTime": 11,
-    "-largestContentfulPaint": 7
+    "-totalBlockingTime": 10,
+    "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 1261,
+    "passes": 1262,
     "violations": 7
   }
 }

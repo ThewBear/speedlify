@@ -1,47 +1,47 @@
 {
   "url": "https://webhint.io/",
   "requestedUrl": "https://webhint.io/",
-  "timestamp": 1689952183784,
+  "timestamp": 1691248094094,
   "ranks": {
-    "hundos": 2,
-    "performance": 3,
+    "hundos": 3,
+    "performance": 6,
     "accessibility": 2,
-    "cumulative": 2
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.98,
+    "performance": 0.92,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 390
+    "total": 384
   },
-  "firstContentfulPaint": 1529.4099999999999,
-  "firstMeaningfulPaint": 1529.4099999999999,
-  "speedIndex": 1529.4099999999999,
-  "largestContentfulPaint": 2175.41,
-  "totalBlockingTime": 15,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1889.9099999999999,
-  "maxPotentialFirstInputDelay": 80,
-  "timeToFirstByte": 13.855999999999995,
+  "firstContentfulPaint": 1597.29,
+  "firstMeaningfulPaint": 1597.29,
+  "speedIndex": 1597.29,
+  "largestContentfulPaint": 2352.29,
+  "totalBlockingTime": 27.5,
+  "cumulativeLayoutShift": 0.1419838455052611,
+  "timeToInteractive": 2240.29,
+  "maxPotentialFirstInputDelay": 81,
+  "timeToFirstByte": 2.961999999999996,
   "weight": {
-    "summary": "19 requests • 177 KiB",
-    "total": 180863,
-    "image": 35774,
+    "summary": "19 requests • 176 KiB",
+    "total": 180489,
+    "image": 35573,
     "imageCount": 9,
-    "script": 51625,
+    "script": 51527,
     "scriptCount": 2,
-    "document": 6497,
-    "font": 72510,
+    "document": 6492,
+    "font": 72530,
     "fontCount": 4,
-    "stylesheet": 14457,
+    "stylesheet": 14367,
     "stylesheetCount": 3,
-    "thirdParty": 55961,
+    "thirdParty": 55960,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -56,8 +56,8 @@
     "-weight.font": 4,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 1,
+    "-timeToFirstByte": 1,
+    "-totalBlockingTime": 3,
     "-largestContentfulPaint": 4
   },
   "axe": {

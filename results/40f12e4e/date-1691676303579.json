@@ -1,43 +1,43 @@
 {
   "url": "https://gohugo.io/",
   "requestedUrl": "https://gohugo.io/",
-  "timestamp": 1690380503663,
+  "timestamp": 1691676530866,
   "ranks": {
-    "hundos": 6,
-    "performance": 5,
+    "hundos": 4,
+    "performance": 4,
     "accessibility": 12,
-    "cumulative": 6
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.99,
+    "performance": 0.97,
     "accessibility": 0.94,
     "bestPractices": 1,
     "seo": 1,
-    "total": 393
+    "total": 391
   },
-  "firstContentfulPaint": 1131.971,
-  "firstMeaningfulPaint": 1131.971,
-  "speedIndex": 1576.2282261786722,
-  "largestContentfulPaint": 1985.647,
-  "totalBlockingTime": 38,
+  "firstContentfulPaint": 1328.169,
+  "firstMeaningfulPaint": 1328.169,
+  "speedIndex": 1748.9125670351814,
+  "largestContentfulPaint": 2183.164,
+  "totalBlockingTime": 115.5,
   "cumulativeLayoutShift": 0.045895349883351776,
-  "timeToInteractive": 3294.7929999999997,
-  "maxPotentialFirstInputDelay": 150,
-  "timeToFirstByte": 21.191000000000003,
+  "timeToInteractive": 3399.453,
+  "maxPotentialFirstInputDelay": 204,
+  "timeToFirstByte": 23.666999999999994,
   "weight": {
-    "summary": "25 requests • 391 KiB",
-    "total": 399974,
-    "image": 142956,
+    "summary": "25 requests • 392 KiB",
+    "total": 401407,
+    "image": 142982,
     "imageCount": 14,
-    "script": 134964,
+    "script": 136436,
     "scriptCount": 3,
-    "document": 16874,
-    "font": 86669,
+    "document": 16858,
+    "font": 86664,
     "fontCount": 5,
-    "stylesheet": 18442,
+    "stylesheet": 18398,
     "stylesheetCount": 1,
-    "thirdParty": 234930,
+    "thirdParty": 236440,
     "thirdPartyCount": 16
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 6,
     "+weight.font": 5,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 6,
+    "-timeToFirstByte": 8,
     "-totalBlockingTime": 3,
     "-largestContentfulPaint": 5
   },
   "axe": {
-    "passes": 647,
+    "passes": 642,
     "violations": 44
   }
 }

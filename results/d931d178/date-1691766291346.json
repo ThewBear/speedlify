@@ -1,47 +1,47 @@
 {
   "url": "https://webhint.io/",
   "requestedUrl": "https://webhint.io/",
-  "timestamp": 1690470525437,
+  "timestamp": 1691766363242,
   "ranks": {
-    "hundos": 2,
-    "performance": 2,
+    "hundos": 3,
+    "performance": 6,
     "accessibility": 2,
-    "cumulative": 2
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.99,
+    "performance": 0.93,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 391
+    "total": 385
   },
-  "firstContentfulPaint": 1547.296,
-  "firstMeaningfulPaint": 1547.296,
-  "speedIndex": 1547.296,
-  "largestContentfulPaint": 2122.872,
-  "totalBlockingTime": 8.5,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1906.268,
-  "maxPotentialFirstInputDelay": 67,
-  "timeToFirstByte": 11.267000000000003,
+  "firstContentfulPaint": 1526.41,
+  "firstMeaningfulPaint": 1526.41,
+  "speedIndex": 1526.41,
+  "largestContentfulPaint": 2106.7475000000004,
+  "totalBlockingTime": 2.5,
+  "cumulativeLayoutShift": 0.1419838455052611,
+  "timeToInteractive": 1882.46,
+  "maxPotentialFirstInputDelay": 55,
+  "timeToFirstByte": 9.505999999999997,
   "weight": {
-    "summary": "19 requests • 176 KiB",
-    "total": 180718,
-    "image": 35736,
+    "summary": "19 requests • 177 KiB",
+    "total": 180774,
+    "image": 35717,
     "imageCount": 9,
-    "script": 51169,
+    "script": 51197,
     "scriptCount": 2,
-    "document": 6498,
-    "font": 72591,
+    "document": 6499,
+    "font": 72608,
     "fontCount": 4,
-    "stylesheet": 14724,
+    "stylesheet": 14753,
     "stylesheetCount": 3,
-    "thirdParty": 55962,
+    "thirdParty": 55960,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -56,8 +56,8 @@
     "-weight.font": 4,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 2,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 1,
     "-largestContentfulPaint": 4
   },
   "axe": {

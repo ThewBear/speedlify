@@ -1,47 +1,47 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1690816265867,
+  "timestamp": 1692112024618,
   "ranks": {
     "hundos": 4,
-    "performance": 4,
+    "performance": 7,
     "accessibility": 6,
     "cumulative": 4
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.94,
+    "performance": 0.89,
     "accessibility": 0.9,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 376
+    "total": 371
   },
-  "firstContentfulPaint": 1607.827,
-  "firstMeaningfulPaint": 1607.827,
-  "speedIndex": 1607.827,
-  "largestContentfulPaint": 2571.5559999999996,
-  "totalBlockingTime": 168.5,
+  "firstContentfulPaint": 1719.261,
+  "firstMeaningfulPaint": 1719.261,
+  "speedIndex": 1719.261,
+  "largestContentfulPaint": 2603.043,
+  "totalBlockingTime": 316,
   "cumulativeLayoutShift": 0.04181389271081311,
-  "timeToInteractive": 4408.5495,
-  "maxPotentialFirstInputDelay": 383,
-  "timeToFirstByte": 15.843999999999998,
+  "timeToInteractive": 4566.6285,
+  "maxPotentialFirstInputDelay": 512,
+  "timeToFirstByte": 69.118,
   "weight": {
-    "summary": "9 requests • 554 KiB",
-    "total": 567733,
-    "image": 230134,
+    "summary": "9 requests • 555 KiB",
+    "total": 567975,
+    "image": 230355,
     "imageCount": 3,
-    "script": 327220,
+    "script": 327209,
     "scriptCount": 3,
-    "document": 8787,
+    "document": 8792,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1592,
+    "stylesheet": 1619,
     "stylesheetCount": 1,
-    "thirdParty": 6532,
+    "thirdParty": 6592,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -56,9 +56,9 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 6,
+    "-timeToFirstByte": 8,
     "-totalBlockingTime": 6,
-    "-largestContentfulPaint": 6
+    "-largestContentfulPaint": 5
   },
   "axe": {
     "passes": 164,

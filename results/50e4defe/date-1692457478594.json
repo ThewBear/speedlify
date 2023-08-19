@@ -1,47 +1,47 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1691161663547,
+  "timestamp": 1692457748873,
   "ranks": {
     "hundos": 6,
-    "performance": 7,
+    "performance": 3,
     "accessibility": 8,
     "cumulative": 6
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.91,
+    "performance": 0.98,
     "accessibility": 0.74,
     "bestPractices": 1,
     "seo": 0.66,
-    "total": 331
+    "total": 338
   },
-  "firstContentfulPaint": 1495.0200000000002,
-  "firstMeaningfulPaint": 1681.0200000000002,
-  "speedIndex": 1894.7228621142185,
-  "largestContentfulPaint": 1681.0200000000002,
-  "totalBlockingTime": 363.0000000000002,
+  "firstContentfulPaint": 1288.788,
+  "firstMeaningfulPaint": 1288.788,
+  "speedIndex": 1469.0805552121892,
+  "largestContentfulPaint": 1982.5055,
+  "totalBlockingTime": 105.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2913.9085000000005,
-  "maxPotentialFirstInputDelay": 372,
-  "timeToFirstByte": 39.956999999999994,
+  "timeToInteractive": 2134.329,
+  "maxPotentialFirstInputDelay": 194,
+  "timeToFirstByte": 5.001000000000005,
   "weight": {
     "summary": "7 requests • 181 KiB",
-    "total": 185345,
-    "image": 73279,
+    "total": 185371,
+    "image": 73276,
     "imageCount": 3,
-    "script": 40220,
+    "script": 40247,
     "scriptCount": 1,
-    "document": 61781,
+    "document": 61782,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 9900,
+    "stylesheet": 9901,
     "stylesheetCount": 1,
-    "thirdParty": 42190,
+    "thirdParty": 42220,
     "thirdPartyCount": 4
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -56,9 +56,9 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 6,
-    "-totalBlockingTime": 7,
-    "-largestContentfulPaint": 2
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 3
   },
   "axe": {
     "passes": 10185,

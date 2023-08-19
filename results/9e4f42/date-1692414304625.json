@@ -1,47 +1,47 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1691118539120,
+  "timestamp": 1692414662824,
   "ranks": {
     "hundos": 4,
-    "performance": 7,
+    "performance": 5,
     "accessibility": 6,
     "cumulative": 4
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.91,
+    "performance": 0.97,
     "accessibility": 0.9,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 373
+    "total": 379
   },
-  "firstContentfulPaint": 1625.2269999999999,
-  "firstMeaningfulPaint": 1625.2269999999999,
-  "speedIndex": 1625.2269999999999,
-  "largestContentfulPaint": 2568.607,
-  "totalBlockingTime": 254,
-  "cumulativeLayoutShift": 0.04181389271081311,
-  "timeToInteractive": 4528.437,
-  "maxPotentialFirstInputDelay": 432,
-  "timeToFirstByte": 18.203000000000003,
+  "firstContentfulPaint": 1621.232,
+  "firstMeaningfulPaint": 1621.232,
+  "speedIndex": 1621.232,
+  "largestContentfulPaint": 1621.232,
+  "totalBlockingTime": 152.5,
+  "cumulativeLayoutShift": 0.024198501891073084,
+  "timeToInteractive": 4476.901,
+  "maxPotentialFirstInputDelay": 355,
+  "timeToFirstByte": 41.357000000000006,
   "weight": {
     "summary": "10 requests • 555 KiB",
-    "total": 567956,
-    "image": 230332,
+    "total": 567974,
+    "image": 230339,
     "imageCount": 3,
-    "script": 327195,
+    "script": 327207,
     "scriptCount": 3,
-    "document": 8793,
+    "document": 8791,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1589,
+    "stylesheet": 1619,
     "stylesheetCount": 1,
-    "thirdParty": 6607,
+    "thirdParty": 6608,
     "thirdPartyCount": 4
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,9 +56,9 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 5,
+    "-timeToFirstByte": 7,
     "-totalBlockingTime": 6,
-    "-largestContentfulPaint": 6
+    "-largestContentfulPaint": 3
   },
   "axe": {
     "passes": 164,

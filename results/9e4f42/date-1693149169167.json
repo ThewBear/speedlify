@@ -1,47 +1,47 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1691853029131,
+  "timestamp": 1693149282842,
   "ranks": {
     "hundos": 4,
-    "performance": 5,
+    "performance": 7,
     "accessibility": 6,
     "cumulative": 4
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.95,
+    "performance": 0.9,
     "accessibility": 0.9,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 377
+    "total": 372
   },
-  "firstContentfulPaint": 1596.56,
-  "firstMeaningfulPaint": 1596.56,
-  "speedIndex": 1596.56,
-  "largestContentfulPaint": 2418.9669999999996,
-  "totalBlockingTime": 153.5,
-  "cumulativeLayoutShift": 0.04181389271081311,
-  "timeToInteractive": 4355.313999999999,
-  "maxPotentialFirstInputDelay": 357,
-  "timeToFirstByte": 19.113,
+  "firstContentfulPaint": 2076.703,
+  "firstMeaningfulPaint": 2076.703,
+  "speedIndex": 2076.703,
+  "largestContentfulPaint": 2830.892,
+  "totalBlockingTime": 192.5,
+  "cumulativeLayoutShift": 0.05180787256202393,
+  "timeToInteractive": 4873.6685,
+  "maxPotentialFirstInputDelay": 435,
+  "timeToFirstByte": 122.816,
   "weight": {
-    "summary": "9 requests • 555 KiB",
-    "total": 568035,
-    "image": 230209,
+    "summary": "11 requests • 555 KiB",
+    "total": 568345,
+    "image": 230124,
     "imageCount": 3,
-    "script": 327410,
-    "scriptCount": 3,
-    "document": 8799,
+    "script": 327804,
+    "scriptCount": 4,
+    "document": 8779,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1617,
+    "stylesheet": 1591,
     "stylesheetCount": 1,
-    "thirdParty": 6595,
-    "thirdPartyCount": 3
+    "thirdParty": 6641,
+    "thirdPartyCount": 5
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -56,9 +56,9 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 4,
+    "-timeToFirstByte": 8,
     "-totalBlockingTime": 6,
-    "-largestContentfulPaint": 5
+    "-largestContentfulPaint": 6
   },
   "axe": {
     "passes": 164,

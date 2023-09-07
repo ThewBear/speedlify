@@ -1,7 +1,7 @@
 {
   "url": "https://gulpjs.com/",
   "requestedUrl": "https://gulpjs.com/",
-  "timestamp": 1692760543276,
+  "timestamp": 1694056531014,
   "ranks": {
     "hundos": 5,
     "performance": 9,
@@ -10,34 +10,34 @@
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.64,
+    "performance": 0.72,
     "accessibility": 0.97,
     "bestPractices": 0.83,
     "seo": 0.9,
-    "total": 334
+    "total": 342
   },
-  "firstContentfulPaint": 2644.4970000000003,
-  "firstMeaningfulPaint": 2644.4970000000003,
-  "speedIndex": 2822.184743858398,
-  "largestContentfulPaint": 3394.6280000000006,
-  "totalBlockingTime": 643.4999999999995,
-  "cumulativeLayoutShift": 0.16718022278976102,
-  "timeToInteractive": 4054.4579999999996,
-  "maxPotentialFirstInputDelay": 353.99999999999955,
-  "timeToFirstByte": 120.84700000000001,
+  "firstContentfulPaint": 2657.3900000000003,
+  "firstMeaningfulPaint": 2657.3900000000003,
+  "speedIndex": 2657.3900000000003,
+  "largestContentfulPaint": 3221.8650000000002,
+  "totalBlockingTime": 383.5,
+  "cumulativeLayoutShift": 0.16583789918379718,
+  "timeToInteractive": 4118.8395,
+  "maxPotentialFirstInputDelay": 257,
+  "timeToFirstByte": 148.064,
   "weight": {
     "summary": "50 requests • 559 KiB",
-    "total": 572603,
-    "image": 212721,
+    "total": 572846,
+    "image": 212685,
     "imageCount": 17,
-    "script": 299938,
+    "script": 300137,
     "scriptCount": 13,
-    "document": 5437,
-    "font": 19524,
+    "document": 5411,
+    "font": 19526,
     "fontCount": 2,
-    "stylesheet": 21259,
+    "stylesheet": 21365,
     "stylesheetCount": 4,
-    "thirdParty": 190129,
+    "thirdParty": 190401,
     "thirdPartyCount": 11
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 7,
     "+weight.fontCount": 5,
-    "-timeToFirstByte": 8,
-    "-totalBlockingTime": 8,
+    "-timeToFirstByte": 10,
+    "-totalBlockingTime": 7,
     "-largestContentfulPaint": 8
   },
   "axe": {
-    "passes": 396,
+    "passes": 395,
     "violations": 1
   }
 }

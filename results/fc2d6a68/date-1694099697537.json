@@ -1,43 +1,43 @@
 {
   "url": "https://karma-runner.github.io/latest/index.html",
   "requestedUrl": "https://karma-runner.github.io/latest/index.html",
-  "timestamp": 1692803854056,
+  "timestamp": 1694099890296,
   "ranks": {
     "hundos": 9,
-    "performance": 6,
+    "performance": 7,
     "accessibility": 9,
     "cumulative": 9
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.93,
+    "performance": 0.91,
     "accessibility": 0.58,
     "bestPractices": 0.92,
     "seo": 0.83,
-    "total": 326
+    "total": 324
   },
-  "firstContentfulPaint": 1059.0925,
-  "firstMeaningfulPaint": 2166.2165,
-  "speedIndex": 1763.3945343432124,
-  "largestContentfulPaint": 2636.4065,
-  "totalBlockingTime": 24,
-  "cumulativeLayoutShift": 0.1193090730584857,
-  "timeToInteractive": 2475.2055,
-  "maxPotentialFirstInputDelay": 72,
-  "timeToFirstByte": 15.167000000000002,
+  "firstContentfulPaint": 1142.5539999999999,
+  "firstMeaningfulPaint": 2237.649,
+  "speedIndex": 1802.3411870457835,
+  "largestContentfulPaint": 2783.1295,
+  "totalBlockingTime": 51,
+  "cumulativeLayoutShift": 0.13667472864967156,
+  "timeToInteractive": 2588.676,
+  "maxPotentialFirstInputDelay": 92,
+  "timeToFirstByte": 92.75200000000001,
   "weight": {
     "summary": "19 requests • 845 KiB",
-    "total": 865510,
-    "image": 698730,
+    "total": 865451,
+    "image": 698680,
     "imageCount": 11,
-    "script": 56479,
+    "script": 56484,
     "scriptCount": 2,
-    "document": 4289,
-    "font": 85155,
+    "document": 4284,
+    "font": 85130,
     "fontCount": 4,
-    "stylesheet": 20857,
+    "stylesheet": 20873,
     "stylesheetCount": 1,
-    "thirdParty": 865510,
+    "thirdParty": 865451,
     "thirdPartyCount": 19
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 5,
     "+weight.font": 3,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 2,
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 3,
     "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 272,
+    "passes": 266,
     "violations": 39
   }
 }

@@ -1,43 +1,43 @@
 {
   "url": "https://gridsome.org/",
   "requestedUrl": "https://gridsome.org/",
-  "timestamp": 1693145899164,
+  "timestamp": 1694441999963,
   "ranks": {
     "hundos": 10,
-    "performance": 13,
-    "accessibility": 5,
+    "performance": 11,
+    "accessibility": 6,
     "cumulative": 10
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.58,
+    "performance": 0.63,
     "accessibility": 0.99,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 349
+    "total": 354
   },
-  "firstContentfulPaint": 1225.362,
-  "firstMeaningfulPaint": 1436.362,
-  "speedIndex": 1944.0312862355358,
-  "largestContentfulPaint": 5560.373758804321,
-  "totalBlockingTime": 919.5,
+  "firstContentfulPaint": 1402.26,
+  "firstMeaningfulPaint": 1448.76,
+  "speedIndex": 1850.3065340875694,
+  "largestContentfulPaint": 5509.2717588043215,
+  "totalBlockingTime": 646.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 5475.149758804321,
-  "maxPotentialFirstInputDelay": 277,
-  "timeToFirstByte": 37.672,
+  "timeToInteractive": 4796.198758804321,
+  "maxPotentialFirstInputDelay": 221,
+  "timeToFirstByte": 30.522999999999996,
   "weight": {
-    "summary": "109 requests • 1,135 KiB",
-    "total": 1162101,
+    "summary": "109 requests • 1,137 KiB",
+    "total": 1164235,
     "image": 0,
     "imageCount": 0,
-    "script": 262743,
+    "script": 263591,
     "scriptCount": 4,
-    "document": 50721,
-    "font": 143694,
+    "document": 50803,
+    "font": 143883,
     "fontCount": 4,
-    "stylesheet": 14076,
+    "stylesheet": 14111,
     "stylesheetCount": 1,
-    "thirdParty": 101919,
+    "thirdParty": 103810,
     "thirdPartyCount": 4
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 8,
     "+weight.font": 3,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 6,
+    "-timeToFirstByte": 14,
     "-totalBlockingTime": 8,
     "-largestContentfulPaint": 13
   },
   "axe": {
-    "passes": 759,
+    "passes": 758,
     "violations": 37
   }
 }

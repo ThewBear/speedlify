@@ -1,47 +1,47 @@
 {
   "url": "https://karma-runner.github.io/latest/index.html",
   "requestedUrl": "https://karma-runner.github.io/latest/index.html",
-  "timestamp": 1693278976020,
+  "timestamp": 1694575187866,
   "ranks": {
     "hundos": 9,
-    "performance": 7,
+    "performance": 5,
     "accessibility": 9,
     "cumulative": 9
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.9,
+    "performance": 0.94,
     "accessibility": 0.58,
     "bestPractices": 0.92,
     "seo": 0.83,
-    "total": 323
+    "total": 327
   },
-  "firstContentfulPaint": 1151.298,
-  "firstMeaningfulPaint": 2250.559,
-  "speedIndex": 1947.4773648826044,
-  "largestContentfulPaint": 2798.6360000000004,
-  "totalBlockingTime": 61,
-  "cumulativeLayoutShift": 0.13823384368665284,
-  "timeToInteractive": 2594.576,
-  "maxPotentialFirstInputDelay": 92,
-  "timeToFirstByte": 89.738,
+  "firstContentfulPaint": 1054.2255,
+  "firstMeaningfulPaint": 2040.6290000000001,
+  "speedIndex": 1643.9518352624327,
+  "largestContentfulPaint": 2568.0855,
+  "totalBlockingTime": 24,
+  "cumulativeLayoutShift": 0.1124534896759741,
+  "timeToInteractive": 2367.5945,
+  "maxPotentialFirstInputDelay": 68,
+  "timeToFirstByte": 3.526,
   "weight": {
     "summary": "19 requests • 845 KiB",
-    "total": 865476,
-    "image": 698477,
+    "total": 865584,
+    "image": 698661,
     "imageCount": 11,
-    "script": 56692,
+    "script": 56544,
     "scriptCount": 2,
-    "document": 4303,
-    "font": 85146,
+    "document": 4291,
+    "font": 85230,
     "fontCount": 4,
     "stylesheet": 20858,
     "stylesheetCount": 1,
-    "thirdParty": 865476,
+    "thirdParty": 865584,
     "thirdPartyCount": 19
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 5,
     "+weight.font": 3,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 7,
-    "-totalBlockingTime": 3,
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 272,
+    "passes": 266,
     "violations": 39
   }
 }

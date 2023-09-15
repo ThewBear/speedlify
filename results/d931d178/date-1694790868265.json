@@ -1,47 +1,47 @@
 {
   "url": "https://webhint.io/",
   "requestedUrl": "https://webhint.io/",
-  "timestamp": 1693495280892,
+  "timestamp": 1694791066535,
   "ranks": {
     "hundos": 2,
-    "performance": 2,
+    "performance": 3,
     "accessibility": 2,
     "cumulative": 2
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.94,
+    "performance": 0.98,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 386
+    "total": 390
   },
-  "firstContentfulPaint": 1516.993,
-  "firstMeaningfulPaint": 1516.993,
-  "speedIndex": 1516.993,
-  "largestContentfulPaint": 2214.109,
-  "totalBlockingTime": 40,
-  "cumulativeLayoutShift": 0.12337691967271443,
-  "timeToInteractive": 2230.8445,
-  "maxPotentialFirstInputDelay": 93,
-  "timeToFirstByte": 2.378999999999998,
+  "firstContentfulPaint": 1544.674,
+  "firstMeaningfulPaint": 1544.674,
+  "speedIndex": 1544.674,
+  "largestContentfulPaint": 2130.4745000000003,
+  "totalBlockingTime": 6,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1904.5600000000002,
+  "maxPotentialFirstInputDelay": 58,
+  "timeToFirstByte": 2.3919999999999995,
   "weight": {
     "summary": "19 requests • 176 KiB",
-    "total": 180732,
-    "image": 35602,
+    "total": 180578,
+    "image": 35606,
     "imageCount": 9,
-    "script": 51327,
+    "script": 51199,
     "scriptCount": 2,
-    "document": 6495,
-    "font": 72452,
+    "document": 6496,
+    "font": 72567,
     "fontCount": 4,
-    "stylesheet": 14856,
+    "stylesheet": 14710,
     "stylesheetCount": 3,
     "thirdParty": 55959,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 4,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 1,
+    "-timeToFirstByte": 2,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 3
+    "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 392,
+    "passes": 412,
     "violations": 1
   }
 }

@@ -1,47 +1,47 @@
 {
   "url": "https://gohugo.io/",
   "requestedUrl": "https://gohugo.io/",
-  "timestamp": 1693577985806,
+  "timestamp": 1694873527035,
   "ranks": {
-    "hundos": 5,
+    "hundos": 6,
     "performance": 5,
     "accessibility": 12,
-    "cumulative": 5
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.97,
+    "performance": 0.98,
     "accessibility": 0.94,
     "bestPractices": 1,
     "seo": 1,
-    "total": 391
+    "total": 392
   },
-  "firstContentfulPaint": 1211.3529999999998,
-  "firstMeaningfulPaint": 1222.3529999999998,
-  "speedIndex": 1838.9916598651525,
-  "largestContentfulPaint": 2241.9919999999993,
-  "totalBlockingTime": 122,
+  "firstContentfulPaint": 1211.9040000000002,
+  "firstMeaningfulPaint": 1211.9040000000002,
+  "speedIndex": 1628.3829610076161,
+  "largestContentfulPaint": 2199.5075000000006,
+  "totalBlockingTime": 49,
   "cumulativeLayoutShift": 0.045895349883351776,
-  "timeToInteractive": 3380.786,
-  "maxPotentialFirstInputDelay": 199,
-  "timeToFirstByte": 35.168000000000006,
+  "timeToInteractive": 3283.1720000000005,
+  "maxPotentialFirstInputDelay": 136,
+  "timeToFirstByte": 1.9449999999999932,
   "weight": {
-    "summary": "25 requests • 393 KiB",
-    "total": 402849,
-    "image": 142611,
+    "summary": "25 requests • 395 KiB",
+    "total": 404760,
+    "image": 143024,
     "imageCount": 14,
-    "script": 137886,
+    "script": 139383,
     "scriptCount": 3,
-    "document": 16847,
-    "font": 86666,
+    "document": 16832,
+    "font": 86676,
     "fontCount": 5,
-    "stylesheet": 18590,
+    "stylesheet": 18596,
     "stylesheetCount": 1,
-    "thirdParty": 237211,
+    "thirdParty": 239373,
     "thirdPartyCount": 16
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 6,
     "+weight.font": 5,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 6,
-    "-totalBlockingTime": 6,
-    "-largestContentfulPaint": 9
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 642,
+    "passes": 662,
     "violations": 44
   }
 }

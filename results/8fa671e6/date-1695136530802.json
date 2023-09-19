@@ -1,7 +1,7 @@
 {
   "url": "https://eslint.org/",
   "requestedUrl": "https://eslint.org/",
-  "timestamp": 1693840678231,
+  "timestamp": 1695136682976,
   "ranks": {
     "hundos": 3,
     "performance": 8,
@@ -10,35 +10,35 @@
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.85,
+    "performance": 0.89,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 385
+    "total": 389
   },
-  "firstContentfulPaint": 1626.782,
-  "firstMeaningfulPaint": 1626.782,
-  "speedIndex": 3092.963619275961,
-  "largestContentfulPaint": 3504.287,
-  "totalBlockingTime": 231.5,
+  "firstContentfulPaint": 1514.8449999999998,
+  "firstMeaningfulPaint": 1514.8449999999998,
+  "speedIndex": 2970.7072255611847,
+  "largestContentfulPaint": 3636.6989999999996,
+  "totalBlockingTime": 73,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 5556.197,
-  "maxPotentialFirstInputDelay": 177,
-  "timeToFirstByte": 37.108000000000004,
+  "timeToInteractive": 5208.3089999999975,
+  "maxPotentialFirstInputDelay": 109,
+  "timeToFirstByte": 4.954000000000008,
   "weight": {
-    "summary": "24 requests • 756 KiB",
-    "total": 773970,
-    "image": 76998,
-    "imageCount": 5,
-    "script": 142271,
+    "summary": "23 requests • 740 KiB",
+    "total": 757522,
+    "image": 58938,
+    "imageCount": 4,
+    "script": 143977,
     "scriptCount": 10,
-    "document": 16745,
-    "font": 522961,
+    "document": 16719,
+    "font": 522944,
     "fontCount": 6,
-    "stylesheet": 14745,
+    "stylesheet": 14703,
     "stylesheetCount": 1,
-    "thirdParty": 246838,
-    "thirdPartyCount": 7
+    "thirdParty": 230566,
+    "thirdPartyCount": 6
   },
   "run": {
     "number": 2,
@@ -51,17 +51,17 @@
     "+weight.document": 4,
     "-weight.script": 6,
     "+weight.script": 4,
-    "-weight.image": 5,
-    "+weight.image": 6,
+    "-weight.image": 4,
+    "+weight.image": 7,
     "-weight.font": 7,
     "+weight.font": 1,
     "+weight.fontCount": 1,
     "-timeToFirstByte": 4,
     "-totalBlockingTime": 4,
-    "-largestContentfulPaint": 8
+    "-largestContentfulPaint": 9
   },
   "axe": {
-    "passes": 1095,
-    "violations": 1
+    "passes": 1168,
+    "violations": 0
   }
 }

@@ -1,43 +1,43 @@
 {
   "url": "https://github.com/ThewBear",
   "requestedUrl": "https://github.com/ThewBear",
-  "timestamp": 1693891449129,
+  "timestamp": 1695187147023,
   "ranks": {
     "hundos": 7,
-    "performance": 6,
-    "accessibility": 7,
+    "performance": 7,
+    "accessibility": 9,
     "cumulative": 7
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.7,
-    "accessibility": 0.91,
+    "performance": 0.61,
+    "accessibility": 0.84,
     "bestPractices": 0.83,
     "seo": 0.89,
-    "total": 333
+    "total": 317
   },
-  "firstContentfulPaint": 2689.4399999999996,
-  "firstMeaningfulPaint": 2689.4399999999996,
-  "speedIndex": 3979.8759178031037,
-  "largestContentfulPaint": 6300.322000000004,
-  "totalBlockingTime": 166,
+  "firstContentfulPaint": 2989.977,
+  "firstMeaningfulPaint": 2989.977,
+  "speedIndex": 4695.675049907401,
+  "largestContentfulPaint": 6562.977,
+  "totalBlockingTime": 333.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 5889.620000000001,
-  "maxPotentialFirstInputDelay": 231,
-  "timeToFirstByte": 287.20000000000005,
+  "timeToInteractive": 6269.477,
+  "maxPotentialFirstInputDelay": 498,
+  "timeToFirstByte": 526.271,
   "weight": {
-    "summary": "64 requests • 880 KiB",
-    "total": 900860,
-    "image": 377240,
+    "summary": "64 requests • 885 KiB",
+    "total": 906268,
+    "image": 377366,
     "imageCount": 7,
-    "script": 349501,
+    "script": 352827,
     "scriptCount": 47,
-    "document": 40579,
+    "document": 41611,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 133034,
+    "stylesheet": 133958,
     "stylesheetCount": 7,
-    "thirdParty": 900860,
+    "thirdParty": 906268,
     "thirdPartyCount": 64
   },
   "run": {
@@ -54,14 +54,14 @@
     "-weight.image": 7,
     "+weight.image": 2,
     "-weight.font": 1,
-    "+weight.font": 5,
+    "+weight.font": 6,
     "+weight.fontCount": 4,
     "-timeToFirstByte": 8,
-    "-totalBlockingTime": 4,
+    "-totalBlockingTime": 5,
     "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 3255,
-    "violations": 2
+    "passes": 4046,
+    "violations": 4
   }
 }

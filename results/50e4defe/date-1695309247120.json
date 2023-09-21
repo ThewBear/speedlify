@@ -1,47 +1,47 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1694013850750,
+  "timestamp": 1695309408944,
   "ranks": {
-    "hundos": 6,
-    "performance": 7,
+    "hundos": 8,
+    "performance": 8,
     "accessibility": 8,
-    "cumulative": 6
+    "cumulative": 8
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.91,
+    "performance": 0.87,
     "accessibility": 0.74,
     "bestPractices": 1,
     "seo": 0.66,
-    "total": 331
+    "total": 327
   },
-  "firstContentfulPaint": 1432.5269999999998,
-  "firstMeaningfulPaint": 1452.0269999999998,
-  "speedIndex": 1797.6966589186832,
-  "largestContentfulPaint": 1452.0269999999998,
-  "totalBlockingTime": 356,
+  "firstContentfulPaint": 1555.2749999999999,
+  "firstMeaningfulPaint": 1819.2749999999996,
+  "speedIndex": 2038.8413529990721,
+  "largestContentfulPaint": 1819.2749999999996,
+  "totalBlockingTime": 484.4999999999998,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2895.9644999999996,
-  "maxPotentialFirstInputDelay": 291,
-  "timeToFirstByte": 31.485,
+  "timeToInteractive": 2926.9474999999993,
+  "maxPotentialFirstInputDelay": 480.9999999999998,
+  "timeToFirstByte": 43.02599999999998,
   "weight": {
     "summary": "7 requests • 181 KiB",
-    "total": 185385,
-    "image": 73309,
+    "total": 185450,
+    "image": 73276,
     "imageCount": 3,
-    "script": 40230,
+    "script": 40246,
     "scriptCount": 1,
-    "document": 61780,
+    "document": 61778,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 9901,
+    "stylesheet": 9985,
     "stylesheetCount": 1,
-    "thirdParty": 42216,
+    "thirdParty": 42218,
     "thirdPartyCount": 4
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -51,17 +51,17 @@
     "+weight.document": 2,
     "-weight.script": 1,
     "+weight.script": 9,
-    "-weight.image": 4,
-    "+weight.image": 7,
+    "-weight.image": 5,
+    "+weight.image": 6,
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 5,
+    "-timeToFirstByte": 4,
     "-totalBlockingTime": 6,
     "-largestContentfulPaint": 2
   },
   "axe": {
-    "passes": 10185,
-    "violations": 932
+    "passes": 10022,
+    "violations": 930
   }
 }

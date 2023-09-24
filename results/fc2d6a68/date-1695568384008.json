@@ -1,10 +1,10 @@
 {
   "url": "https://karma-runner.github.io/latest/index.html",
   "requestedUrl": "https://karma-runner.github.io/latest/index.html",
-  "timestamp": 1694272560593,
+  "timestamp": 1695568434598,
   "ranks": {
     "hundos": 9,
-    "performance": 7,
+    "performance": 6,
     "accessibility": 9,
     "cumulative": 9
   },
@@ -16,32 +16,32 @@
     "seo": 0.83,
     "total": 325
   },
-  "firstContentfulPaint": 1091.6825,
-  "firstMeaningfulPaint": 2282.4455,
-  "speedIndex": 1832.934479613148,
-  "largestContentfulPaint": 2673.1535000000003,
-  "totalBlockingTime": 6,
-  "cumulativeLayoutShift": 0.12573894801836344,
-  "timeToInteractive": 2503.49,
-  "maxPotentialFirstInputDelay": 62,
-  "timeToFirstByte": 51.9,
+  "firstContentfulPaint": 1155.865,
+  "firstMeaningfulPaint": 2329.5305,
+  "speedIndex": 2028.4524965964647,
+  "largestContentfulPaint": 2795.5505,
+  "totalBlockingTime": 17,
+  "cumulativeLayoutShift": 0.11425825300018046,
+  "timeToInteractive": 2526.5739999999996,
+  "maxPotentialFirstInputDelay": 78,
+  "timeToFirstByte": 113.475,
   "weight": {
     "summary": "19 requests • 845 KiB",
-    "total": 865492,
-    "image": 698479,
+    "total": 865444,
+    "image": 698665,
     "imageCount": 11,
-    "script": 56697,
+    "script": 56480,
     "scriptCount": 2,
-    "document": 4292,
-    "font": 85164,
+    "document": 4287,
+    "font": 85153,
     "fontCount": 4,
-    "stylesheet": 20860,
+    "stylesheet": 20859,
     "stylesheetCount": 1,
-    "thirdParty": 865492,
+    "thirdParty": 865444,
     "thirdPartyCount": 19
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,11 @@
     "-weight.font": 5,
     "+weight.font": 3,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 8,
-    "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 6
+    "-timeToFirstByte": 7,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 5
   },
   "axe": {
-    "passes": 266,
-    "violations": 39
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

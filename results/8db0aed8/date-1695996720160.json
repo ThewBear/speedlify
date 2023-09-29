@@ -1,47 +1,47 @@
 {
   "url": "https://astro.build/",
   "requestedUrl": "https://astro.build/",
-  "timestamp": 1694701224577,
+  "timestamp": 1695996824619,
   "ranks": {
-    "hundos": 3,
-    "performance": 3,
+    "hundos": 4,
+    "performance": 5,
     "accessibility": 3,
-    "cumulative": 3
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.99,
+    "performance": 0.97,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 399
+    "total": 397
   },
-  "firstContentfulPaint": 1303.1825,
-  "firstMeaningfulPaint": 1303.1825,
-  "speedIndex": 1303.1825,
-  "largestContentfulPaint": 2116.1825,
-  "totalBlockingTime": 0,
+  "firstContentfulPaint": 1451.633,
+  "firstMeaningfulPaint": 1451.633,
+  "speedIndex": 1471.231514552663,
+  "largestContentfulPaint": 1992.633,
+  "totalBlockingTime": 134.99999999999977,
   "cumulativeLayoutShift": 0.04926354105611896,
-  "timeToInteractive": 1303.1825,
-  "maxPotentialFirstInputDelay": 35,
-  "timeToFirstByte": 21.819000000000003,
+  "timeToInteractive": 2742.633,
+  "maxPotentialFirstInputDelay": 185,
+  "timeToFirstByte": 7.524000000000001,
   "weight": {
-    "summary": "24 requests • 464 KiB",
-    "total": 474889,
-    "image": 198758,
+    "summary": "24 requests • 463 KiB",
+    "total": 474616,
+    "image": 198784,
     "imageCount": 9,
-    "script": 17397,
+    "script": 17393,
     "scriptCount": 9,
-    "document": 60749,
-    "font": 186259,
+    "document": 60712,
+    "font": 186209,
     "fontCount": 4,
-    "stylesheet": 11726,
+    "stylesheet": 11518,
     "stylesheetCount": 1,
-    "thirdParty": 2939,
+    "thirdParty": 2951,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 9,
     "+weight.font": 2,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 8,
-    "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 7
+    "-timeToFirstByte": 10,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 985,
+    "passes": 980,
     "violations": 1
   }
 }

@@ -1,44 +1,44 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1694877544851,
+  "timestamp": 1696173558053,
   "ranks": {
     "hundos": 4,
-    "performance": 8,
+    "performance": 6,
     "accessibility": 6,
     "cumulative": 4
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.89,
+    "performance": 0.93,
     "accessibility": 0.9,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 371
+    "total": 375
   },
-  "firstContentfulPaint": 1635.834,
-  "firstMeaningfulPaint": 2410.4005,
-  "speedIndex": 2022.191766679461,
-  "largestContentfulPaint": 3335.715,
-  "totalBlockingTime": 156,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 3787.9590000000003,
-  "maxPotentialFirstInputDelay": 206,
-  "timeToFirstByte": 141.466,
+  "firstContentfulPaint": 1612.7989999999998,
+  "firstMeaningfulPaint": 1612.7989999999998,
+  "speedIndex": 1612.7989999999998,
+  "largestContentfulPaint": 2586.519,
+  "totalBlockingTime": 183,
+  "cumulativeLayoutShift": 0.05180787256202393,
+  "timeToInteractive": 4413.4415,
+  "maxPotentialFirstInputDelay": 390,
+  "timeToFirstByte": 34.44799999999999,
   "weight": {
-    "summary": "11 requests • 554 KiB",
-    "total": 567704,
-    "image": 230341,
+    "summary": "9 requests • 555 KiB",
+    "total": 567979,
+    "image": 230376,
     "imageCount": 3,
-    "script": 326957,
-    "scriptCount": 4,
-    "document": 8789,
+    "script": 327207,
+    "scriptCount": 3,
+    "document": 8797,
     "font": 0,
     "fontCount": 0,
     "stylesheet": 1599,
     "stylesheetCount": 1,
-    "thirdParty": 6628,
-    "thirdPartyCount": 5
+    "thirdParty": 6589,
+    "thirdPartyCount": 3
   },
   "run": {
     "number": 3,
@@ -56,9 +56,9 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 8,
+    "-timeToFirstByte": 4,
     "-totalBlockingTime": 6,
-    "-largestContentfulPaint": 8
+    "-largestContentfulPaint": 5
   },
   "axe": {
     "passes": 166,

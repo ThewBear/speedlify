@@ -1,43 +1,43 @@
 {
   "url": "https://gohugo.io/",
   "requestedUrl": "https://gohugo.io/",
-  "timestamp": 1695392034018,
+  "timestamp": 1696687534464,
   "ranks": {
-    "hundos": 7,
-    "performance": 6,
+    "hundos": 5,
+    "performance": 5,
     "accessibility": 12,
-    "cumulative": 7
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.95,
+    "performance": 0.98,
     "accessibility": 0.94,
     "bestPractices": 1,
     "seo": 1,
-    "total": 389
+    "total": 392
   },
-  "firstContentfulPaint": 1136.85,
-  "firstMeaningfulPaint": 1282.4899999999998,
-  "speedIndex": 2000.0553216864678,
-  "largestContentfulPaint": 2275.79,
-  "totalBlockingTime": 192.5,
-  "cumulativeLayoutShift": 0.045895349883351776,
-  "timeToInteractive": 3331.4999999999995,
-  "maxPotentialFirstInputDelay": 170,
-  "timeToFirstByte": 7.3729999999999905,
+  "firstContentfulPaint": 1207.7420000000002,
+  "firstMeaningfulPaint": 1207.7420000000002,
+  "speedIndex": 1541.778511137686,
+  "largestContentfulPaint": 2189.866,
+  "totalBlockingTime": 109,
+  "cumulativeLayoutShift": 0.04592510204578271,
+  "timeToInteractive": 3281.1315000000004,
+  "maxPotentialFirstInputDelay": 199,
+  "timeToFirstByte": 3.711000000000002,
   "weight": {
     "summary": "25 requests • 395 KiB",
-    "total": 404984,
-    "image": 143051,
+    "total": 404854,
+    "image": 143035,
     "imageCount": 14,
-    "script": 139610,
+    "script": 139256,
     "scriptCount": 3,
-    "document": 16803,
+    "document": 16348,
     "font": 86673,
     "fontCount": 5,
-    "stylesheet": 18598,
+    "stylesheet": 19293,
     "stylesheetCount": 1,
-    "thirdParty": 239625,
+    "thirdParty": 239737,
     "thirdPartyCount": 16
   },
   "run": {
@@ -55,13 +55,13 @@
     "+weight.image": 7,
     "-weight.font": 6,
     "+weight.font": 5,
-    "+weight.fontCount": 1,
-    "-timeToFirstByte": 7,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 3,
     "-totalBlockingTime": 5,
-    "-largestContentfulPaint": 8
+    "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 662,
+    "passes": 658,
     "violations": 44
   }
 }

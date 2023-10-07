@@ -1,47 +1,47 @@
 {
   "url": "https://symfony.com/",
   "requestedUrl": "https://symfony.com/",
-  "timestamp": 1695406877275,
+  "timestamp": 1696705578786,
   "ranks": {
     "hundos": 1,
-    "performance": 1,
+    "performance": 2,
     "accessibility": 2,
     "cumulative": 1
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 1,
+    "performance": 0.95,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 400
+    "total": 395
   },
-  "firstContentfulPaint": 1065.4025,
-  "firstMeaningfulPaint": 1065.4025,
-  "speedIndex": 1373.3356072209954,
-  "largestContentfulPaint": 1215.9354999999998,
-  "totalBlockingTime": 80.73350000000005,
+  "firstContentfulPaint": 1058.8075,
+  "firstMeaningfulPaint": 2003.254,
+  "speedIndex": 2498.249573520865,
+  "largestContentfulPaint": 1058.8075,
+  "totalBlockingTime": 249,
   "cumulativeLayoutShift": 0.021997157216064864,
-  "timeToInteractive": 2876.998999999999,
-  "maxPotentialFirstInputDelay": 204,
-  "timeToFirstByte": 156.45,
+  "timeToInteractive": 3880.7005,
+  "maxPotentialFirstInputDelay": 275,
+  "timeToFirstByte": 510.12100000000004,
   "weight": {
-    "summary": "31 requests • 298 KiB",
-    "total": 305202,
-    "image": 78589,
+    "summary": "30 requests • 290 KiB",
+    "total": 297191,
+    "image": 68594,
     "imageCount": 5,
-    "script": 152939,
+    "script": 153084,
     "scriptCount": 16,
-    "document": 37412,
+    "document": 39751,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 28041,
+    "stylesheet": 28209,
     "stylesheetCount": 5,
-    "thirdParty": 11627,
-    "thirdPartyCount": 2
+    "thirdParty": 15420,
+    "thirdPartyCount": 3
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -51,17 +51,17 @@
     "+weight.document": 3,
     "-weight.script": 4,
     "+weight.script": 2,
-    "-weight.image": 3,
-    "+weight.image": 3,
+    "-weight.image": 4,
+    "+weight.image": 2,
     "-weight.font": 1,
     "+weight.font": 5,
     "+weight.fontCount": 4,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 1,
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 4,
     "-largestContentfulPaint": 1
   },
   "axe": {
-    "passes": 792,
+    "passes": 787,
     "violations": 6
   }
 }

@@ -1,10 +1,10 @@
 {
   "url": "https://karma-runner.github.io/latest/index.html",
   "requestedUrl": "https://karma-runner.github.io/latest/index.html",
-  "timestamp": 1695568434598,
+  "timestamp": 1696864265318,
   "ranks": {
     "hundos": 9,
-    "performance": 6,
+    "performance": 5,
     "accessibility": 9,
     "cumulative": 9
   },
@@ -16,32 +16,32 @@
     "seo": 0.83,
     "total": 325
   },
-  "firstContentfulPaint": 1155.865,
-  "firstMeaningfulPaint": 2329.5305,
-  "speedIndex": 2028.4524965964647,
-  "largestContentfulPaint": 2795.5505,
-  "totalBlockingTime": 17,
-  "cumulativeLayoutShift": 0.11425825300018046,
-  "timeToInteractive": 2526.5739999999996,
-  "maxPotentialFirstInputDelay": 78,
-  "timeToFirstByte": 113.475,
+  "firstContentfulPaint": 933.0665,
+  "firstMeaningfulPaint": 2084.6035,
+  "speedIndex": 1753.3508157212414,
+  "largestContentfulPaint": 2708.4155,
+  "totalBlockingTime": 87,
+  "cumulativeLayoutShift": 0.11971541643864483,
+  "timeToInteractive": 2566.3745,
+  "maxPotentialFirstInputDelay": 151,
+  "timeToFirstByte": 16.374999999999993,
   "weight": {
     "summary": "19 requests • 845 KiB",
-    "total": 865444,
-    "image": 698665,
+    "total": 865554,
+    "image": 698641,
     "imageCount": 11,
-    "script": 56480,
+    "script": 56540,
     "scriptCount": 2,
-    "document": 4287,
-    "font": 85153,
+    "document": 4291,
+    "font": 85203,
     "fontCount": 4,
-    "stylesheet": 20859,
+    "stylesheet": 20879,
     "stylesheetCount": 1,
-    "thirdParty": 865444,
+    "thirdParty": 865554,
     "thirdPartyCount": 19
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,11 +56,12 @@
     "-weight.font": 5,
     "+weight.font": 3,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 7,
+    "-timeToFirstByte": 3,
     "-totalBlockingTime": 3,
-    "-largestContentfulPaint": 5
+    "-largestContentfulPaint": 6
   },
   "axe": {
-    "error": "{\"name\":\"TimeoutError\"}"
+    "passes": 266,
+    "violations": 39
   }
 }

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.zachleat.com/web/speedlify/",
+  "requestedUrl": "https://www.zachleat.com/web/speedlify/",
+  "timestamp": 1697984072102,
+  "ranks": {
+    "hundos": 4,
+    "performance": 9,
+    "accessibility": 7,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1256.0969999999998,
+  "firstMeaningfulPaint": 1256.0969999999998,
+  "speedIndex": 1256.0969999999998,
+  "largestContentfulPaint": 2292.7304999999997,
+  "totalBlockingTime": 87.5,
+  "cumulativeLayoutShift": 0.00020538806290906775,
+  "timeToInteractive": 1852.1849999999997,
+  "maxPotentialFirstInputDelay": 153,
+  "timeToFirstByte": 36.559999999999995,
+  "weight": {
+    "summary": "18 requests • 260 KiB",
+    "total": 266381,
+    "image": 151285,
+    "imageCount": 9,
+    "script": 5419,
+    "scriptCount": 2,
+    "document": 49225,
+    "font": 55864,
+    "fontCount": 4,
+    "stylesheet": 4453,
+    "stylesheetCount": 1,
+    "thirdParty": 8338,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 9,
+    "+weight.total": 3,
+    "-weight.document": 11,
+    "+weight.document": 1,
+    "-weight.script": 4,
+    "+weight.script": 6,
+    "-weight.image": 9,
+    "+weight.image": 3,
+    "-weight.font": 2,
+    "+weight.font": 8,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 10
+  },
+  "axe": {
+    "passes": 3269,
+    "violations": 2
+  }
+}

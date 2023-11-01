@@ -1,12 +1,12 @@
 {
   "url": "https://www.zachleat.com/web/lighthouse-in-footer/",
   "requestedUrl": "https://www.zachleat.com/web/lighthouse-in-footer/",
-  "timestamp": 1697552299709,
+  "timestamp": 1698848211357,
   "ranks": {
-    "hundos": 11,
-    "performance": 2,
+    "hundos": 10,
+    "performance": 5,
     "accessibility": 11,
-    "cumulative": 11
+    "cumulative": 10
   },
   "lighthouse": {
     "version": "10.4.0",
@@ -16,32 +16,32 @@
     "seo": 0.92,
     "total": 382
   },
-  "firstContentfulPaint": 1221.1585,
-  "firstMeaningfulPaint": 1259.1585,
-  "speedIndex": 1221.1585,
-  "largestContentfulPaint": 1436.1585,
-  "totalBlockingTime": 57.5,
-  "cumulativeLayoutShift": 0.000185007052240334,
-  "timeToInteractive": 1392.6585,
-  "maxPotentialFirstInputDelay": 238,
-  "timeToFirstByte": 56.59800000000001,
+  "firstContentfulPaint": 1127.726,
+  "firstMeaningfulPaint": 1148.226,
+  "speedIndex": 1127.726,
+  "largestContentfulPaint": 1354.726,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0002455772898334946,
+  "timeToInteractive": 1148.226,
+  "maxPotentialFirstInputDelay": 41,
+  "timeToFirstByte": 85.744,
   "weight": {
     "summary": "13 requests • 112 KiB",
-    "total": 115064,
-    "image": 13441,
+    "total": 115034,
+    "image": 13517,
     "imageCount": 4,
-    "script": 5428,
+    "script": 5420,
     "scriptCount": 2,
-    "document": 35727,
-    "font": 55875,
+    "document": 35567,
+    "font": 55863,
     "fontCount": 4,
-    "stylesheet": 4458,
+    "stylesheet": 4532,
     "stylesheetCount": 1,
-    "thirdParty": 3471,
+    "thirdParty": 3472,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -54,11 +54,11 @@
     "-weight.image": 2,
     "+weight.image": 10,
     "-weight.font": 3,
-    "+weight.font": 8,
+    "+weight.font": 7,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 7,
-    "-totalBlockingTime": 7,
-    "-largestContentfulPaint": 5
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 7
   },
   "axe": {
     "passes": 1958,

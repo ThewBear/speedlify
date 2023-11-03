@@ -1,7 +1,7 @@
 {
   "url": "https://remix.run/",
   "requestedUrl": "https://remix.run/",
-  "timestamp": 1697724781737,
+  "timestamp": 1699020600794,
   "ranks": {
     "hundos": 7,
     "performance": 7,
@@ -10,38 +10,38 @@
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.93,
+    "performance": 0.88,
     "accessibility": 0.97,
     "bestPractices": 1,
     "seo": 1,
-    "total": 390
+    "total": 385
   },
-  "firstContentfulPaint": 1233.621,
-  "firstMeaningfulPaint": 1233.621,
-  "speedIndex": 1233.621,
-  "largestContentfulPaint": 3180.621,
-  "totalBlockingTime": 21,
-  "cumulativeLayoutShift": 0.0019809159154805197,
-  "timeToInteractive": 2028.121,
-  "maxPotentialFirstInputDelay": 253,
-  "timeToFirstByte": 15.334000000000003,
+  "firstContentfulPaint": 1081.509,
+  "firstMeaningfulPaint": 1081.509,
+  "speedIndex": 1082.7956772325037,
+  "largestContentfulPaint": 3162.509,
+  "totalBlockingTime": 271,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2100.509,
+  "maxPotentialFirstInputDelay": 317,
+  "timeToFirstByte": 4.611,
   "weight": {
     "summary": "53 requests • 873 KiB",
-    "total": 894457,
-    "image": 442774,
+    "total": 894022,
+    "image": 442350,
     "imageCount": 18,
-    "script": 112534,
+    "script": 112352,
     "scriptCount": 26,
-    "document": 22354,
-    "font": 305009,
+    "document": 22348,
+    "font": 304899,
     "fontCount": 5,
-    "stylesheet": 11786,
+    "stylesheet": 12073,
     "stylesheetCount": 3,
-    "thirdParty": 2938,
+    "thirdParty": 2948,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -55,10 +55,10 @@
     "+weight.image": 1,
     "-weight.font": 9,
     "+weight.font": 2,
-    "+weight.fontCount": 3,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 4,
-    "-largestContentfulPaint": 11
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 7,
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 9
   },
   "axe": {
     "passes": 1353,

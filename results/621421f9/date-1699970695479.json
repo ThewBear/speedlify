@@ -1,47 +1,47 @@
 {
   "url": "https://jekyllrb.com/",
   "requestedUrl": "https://jekyllrb.com/",
-  "timestamp": 1698674796654,
+  "timestamp": 1699971169808,
   "ranks": {
-    "hundos": 6,
+    "hundos": 5,
     "performance": 5,
     "accessibility": 10,
     "cumulative": 5
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.98,
+    "performance": 0.93,
     "accessibility": 0.96,
     "bestPractices": 1,
     "seo": 1,
-    "total": 394
+    "total": 389
   },
-  "firstContentfulPaint": 907.665,
-  "firstMeaningfulPaint": 907.665,
-  "speedIndex": 907.665,
-  "largestContentfulPaint": 2047.1219999999998,
-  "totalBlockingTime": 101,
+  "firstContentfulPaint": 903.976,
+  "firstMeaningfulPaint": 1898.9825,
+  "speedIndex": 1376.5762266674806,
+  "largestContentfulPaint": 2968.9889999999996,
+  "totalBlockingTime": 142.99999999999977,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 3234.932,
-  "maxPotentialFirstInputDelay": 122,
-  "timeToFirstByte": 6.694000000000003,
+  "timeToInteractive": 4403.063,
+  "maxPotentialFirstInputDelay": 179,
+  "timeToFirstByte": 3.2819999999999965,
   "weight": {
     "summary": "12 requests • 283 KiB",
-    "total": 289791,
-    "image": 72693,
+    "total": 290076,
+    "image": 72643,
     "imageCount": 3,
-    "script": 152999,
+    "script": 153276,
     "scriptCount": 3,
-    "document": 3644,
-    "font": 46363,
+    "document": 3640,
+    "font": 46398,
     "fontCount": 2,
-    "stylesheet": 14040,
+    "stylesheet": 14067,
     "stylesheetCount": 1,
-    "thirdParty": 153051,
+    "thirdParty": 153328,
     "thirdPartyCount": 5
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -55,10 +55,10 @@
     "+weight.image": 10,
     "-weight.font": 1,
     "+weight.font": 10,
-    "+weight.fontCount": 5,
+    "+weight.fontCount": 4,
     "-timeToFirstByte": 2,
     "-totalBlockingTime": 5,
-    "-largestContentfulPaint": 7
+    "-largestContentfulPaint": 9
   },
   "axe": {
     "passes": 235,

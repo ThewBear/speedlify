@@ -1,41 +1,41 @@
 {
   "url": "https://astro.build/",
   "requestedUrl": "https://astro.build/",
-  "timestamp": 1699193474911,
+  "timestamp": 1700489464049,
   "ranks": {
-    "hundos": 2,
-    "performance": 4,
+    "hundos": 4,
+    "performance": 5,
     "accessibility": 3,
-    "cumulative": 2
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 399
+    "total": 398
   },
-  "firstContentfulPaint": 1284.3925,
-  "firstMeaningfulPaint": 1306.8925,
-  "speedIndex": 1284.3925,
-  "largestContentfulPaint": 1812.3925,
+  "firstContentfulPaint": 1277.2555,
+  "firstMeaningfulPaint": 1294.2555,
+  "speedIndex": 1277.2555,
+  "largestContentfulPaint": 2265.2555,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.04926354105611896,
-  "timeToInteractive": 1306.8925,
-  "maxPotentialFirstInputDelay": 45,
-  "timeToFirstByte": 20.548000000000002,
+  "timeToInteractive": 1294.2555,
+  "maxPotentialFirstInputDelay": 34,
+  "timeToFirstByte": 30.298999999999992,
   "weight": {
     "summary": "24 requests • 464 KiB",
-    "total": 474848,
-    "image": 198837,
+    "total": 475382,
+    "image": 198772,
     "imageCount": 9,
-    "script": 17489,
+    "script": 17398,
     "scriptCount": 9,
-    "document": 60659,
-    "font": 186300,
+    "document": 61414,
+    "font": 186213,
     "fontCount": 4,
-    "stylesheet": 11563,
+    "stylesheet": 11585,
     "stylesheetCount": 1,
     "thirdParty": 2949,
     "thirdPartyCount": 2
@@ -53,15 +53,15 @@
     "+weight.script": 13,
     "-weight.image": 11,
     "+weight.image": 3,
-    "-weight.font": 8,
-    "+weight.font": 3,
-    "+weight.fontCount": 3,
-    "-timeToFirstByte": 8,
+    "-weight.font": 9,
+    "+weight.font": 2,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 9,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 980,
+    "passes": 992,
     "violations": 1
   }
 }

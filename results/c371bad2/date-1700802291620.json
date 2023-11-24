@@ -1,0 +1,66 @@
+{
+  "url": "https://m.youtube.com/",
+  "requestedUrl": "https://www.youtube.com/",
+  "timestamp": 1700802448562,
+  "ranks": {
+    "hundos": 7,
+    "performance": 6,
+    "accessibility": 9,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "10.4.0",
+    "performance": 0.47,
+    "accessibility": 0.69,
+    "bestPractices": 0.75,
+    "seo": 0.98,
+    "total": 297
+  },
+  "firstContentfulPaint": 4311.5145,
+  "firstMeaningfulPaint": 4569.0195,
+  "speedIndex": 5905.914039003393,
+  "largestContentfulPaint": 6906.3145,
+  "totalBlockingTime": 665.3095000000003,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 11128.3585,
+  "maxPotentialFirstInputDelay": 179,
+  "timeToFirstByte": 48.5,
+  "weight": {
+    "summary": "102 requests • 2,525 KiB",
+    "total": 2585107,
+    "image": 123891,
+    "imageCount": 20,
+    "script": 914833,
+    "scriptCount": 10,
+    "document": 44591,
+    "font": 28868,
+    "fontCount": 2,
+    "stylesheet": 130023,
+    "stylesheetCount": 2,
+    "thirdParty": 2585107,
+    "thirdPartyCount": 102
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 7,
+    "+weight.total": 4,
+    "-weight.document": 6,
+    "+weight.document": 5,
+    "-weight.script": 5,
+    "+weight.script": 6,
+    "-weight.image": 3,
+    "+weight.image": 8,
+    "-weight.font": 1,
+    "+weight.font": 6,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 7,
+    "-largestContentfulPaint": 5
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

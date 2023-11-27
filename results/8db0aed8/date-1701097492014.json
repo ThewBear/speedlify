@@ -1,43 +1,43 @@
 {
   "url": "https://astro.build/",
   "requestedUrl": "https://astro.build/",
-  "timestamp": 1699798765220,
+  "timestamp": 1701097584494,
   "ranks": {
-    "hundos": 4,
-    "performance": 4,
+    "hundos": 5,
+    "performance": 6,
     "accessibility": 3,
     "cumulative": 4
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.97,
+    "performance": 0.95,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 397
+    "total": 395
   },
-  "firstContentfulPaint": 1383.2589999999998,
-  "firstMeaningfulPaint": 1417.2589999999998,
-  "speedIndex": 1716.8492270957822,
-  "largestContentfulPaint": 2282.747,
-  "totalBlockingTime": 70.5,
+  "firstContentfulPaint": 1597.516,
+  "firstMeaningfulPaint": 1597.516,
+  "speedIndex": 1597.516,
+  "largestContentfulPaint": 2647.516,
+  "totalBlockingTime": 105,
   "cumulativeLayoutShift": 0.04926354105611896,
-  "timeToInteractive": 2189.0944999999997,
-  "maxPotentialFirstInputDelay": 223,
-  "timeToFirstByte": 61.625,
+  "timeToInteractive": 2647.516,
+  "maxPotentialFirstInputDelay": 115,
+  "timeToFirstByte": 10.082999999999998,
   "weight": {
     "summary": "24 requests • 464 KiB",
-    "total": 474775,
-    "image": 198786,
+    "total": 475382,
+    "image": 198739,
     "imageCount": 9,
-    "script": 17408,
+    "script": 17449,
     "scriptCount": 9,
-    "document": 60719,
-    "font": 186278,
+    "document": 61376,
+    "font": 186245,
     "fontCount": 4,
-    "stylesheet": 11584,
+    "stylesheet": 11573,
     "stylesheetCount": 1,
-    "thirdParty": 2938,
+    "thirdParty": 2939,
     "thirdPartyCount": 2
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 9,
     "+weight.font": 2,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 12,
-    "-totalBlockingTime": 4,
+    "-timeToFirstByte": 7,
+    "-totalBlockingTime": 5,
     "-largestContentfulPaint": 8
   },
   "axe": {
-    "passes": 980,
+    "passes": 987,
     "violations": 1
   }
 }

@@ -1,43 +1,43 @@
 {
   "url": "https://webhint.io/",
   "requestedUrl": "https://webhint.io/",
-  "timestamp": 1700453321642,
+  "timestamp": 1701749308971,
   "ranks": {
-    "hundos": 2,
-    "performance": 3,
+    "hundos": 3,
+    "performance": 5,
     "accessibility": 2,
-    "cumulative": 2
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.98,
+    "performance": 0.94,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 390
+    "total": 386
   },
-  "firstContentfulPaint": 1614.4654999999998,
-  "firstMeaningfulPaint": 1614.4654999999998,
-  "speedIndex": 1614.4654999999998,
-  "largestContentfulPaint": 2195.96,
-  "totalBlockingTime": 2.5,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1942.8194999999998,
-  "maxPotentialFirstInputDelay": 55,
-  "timeToFirstByte": 1.7800000000000011,
+  "firstContentfulPaint": 1538.0525000000002,
+  "firstMeaningfulPaint": 1538.0525000000002,
+  "speedIndex": 1538.0525000000002,
+  "largestContentfulPaint": 2065.3345,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.12337691967271443,
+  "timeToInteractive": 1538.0525000000002,
+  "maxPotentialFirstInputDelay": 44,
+  "timeToFirstByte": 35.679,
   "weight": {
     "summary": "19 requests • 176 KiB",
-    "total": 180656,
-    "image": 35785,
+    "total": 180702,
+    "image": 35884,
     "imageCount": 9,
-    "script": 51185,
+    "script": 51180,
     "scriptCount": 2,
     "document": 6495,
-    "font": 72461,
+    "font": 72428,
     "fontCount": 4,
-    "stylesheet": 14730,
+    "stylesheet": 14715,
     "stylesheetCount": 3,
-    "thirdParty": 55949,
+    "thirdParty": 55959,
     "thirdPartyCount": 2
   },
   "run": {
@@ -56,9 +56,9 @@
     "-weight.font": 4,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 1,
-    "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 3
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 4
   },
   "axe": {
     "passes": 412,

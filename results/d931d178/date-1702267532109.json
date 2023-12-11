@@ -1,47 +1,47 @@
 {
   "url": "https://webhint.io/",
   "requestedUrl": "https://webhint.io/",
-  "timestamp": 1700971562729,
+  "timestamp": 1702267830755,
   "ranks": {
-    "hundos": 3,
-    "performance": 6,
+    "hundos": 2,
+    "performance": 2,
     "accessibility": 2,
-    "cumulative": 3
+    "cumulative": 2
   },
   "lighthouse": {
     "version": "10.4.0",
-    "performance": 0.94,
+    "performance": 0.99,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 386
+    "total": 391
   },
-  "firstContentfulPaint": 1509.9254999999996,
-  "firstMeaningfulPaint": 1509.9254999999996,
-  "speedIndex": 1509.9254999999996,
-  "largestContentfulPaint": 2080.9254999999994,
+  "firstContentfulPaint": 1515.2424999999998,
+  "firstMeaningfulPaint": 1515.2424999999998,
+  "speedIndex": 1515.2424999999998,
+  "largestContentfulPaint": 2092.7325,
   "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0.12337691967271443,
-  "timeToInteractive": 1509.9254999999996,
-  "maxPotentialFirstInputDelay": 46,
-  "timeToFirstByte": 7.0589999999999975,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1515.2424999999998,
+  "maxPotentialFirstInputDelay": 45,
+  "timeToFirstByte": 4.082000000000001,
   "weight": {
-    "summary": "19 requests • 177 KiB",
-    "total": 180808,
-    "image": 35765,
+    "summary": "19 requests • 176 KiB",
+    "total": 180661,
+    "image": 35537,
     "imageCount": 9,
-    "script": 51200,
+    "script": 51356,
     "scriptCount": 2,
     "document": 6497,
-    "font": 72624,
+    "font": 72560,
     "fontCount": 4,
-    "stylesheet": 14722,
+    "stylesheet": 14711,
     "stylesheetCount": 3,
-    "thirdParty": 55960,
+    "thirdParty": 55959,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -58,7 +58,7 @@
     "+weight.fontCount": 3,
     "-timeToFirstByte": 3,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 5
+    "-largestContentfulPaint": 4
   },
   "axe": {
     "passes": 412,

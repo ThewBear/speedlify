@@ -1,12 +1,12 @@
 {
   "url": "https://karma-runner.github.io/latest/index.html",
   "requestedUrl": "https://karma-runner.github.io/latest/index.html",
-  "timestamp": 1706864894087,
+  "timestamp": 1708160860053,
   "ranks": {
     "hundos": 9,
-    "performance": 6,
+    "performance": 7,
     "accessibility": 9,
-    "cumulative": 9
+    "cumulative": 10
   },
   "lighthouse": {
     "version": "10.4.0",
@@ -16,28 +16,28 @@
     "seo": 0.83,
     "total": 316
   },
-  "firstContentfulPaint": 1098.876,
-  "firstMeaningfulPaint": 2158.214,
-  "speedIndex": 1728.3793345635254,
-  "largestContentfulPaint": 2686.1899999999996,
-  "totalBlockingTime": 9,
-  "cumulativeLayoutShift": 0.1193090730584857,
-  "timeToInteractive": 2405.575,
-  "maxPotentialFirstInputDelay": 58,
-  "timeToFirstByte": 104.286,
+  "firstContentfulPaint": 1063.2895,
+  "firstMeaningfulPaint": 2120.3075000000003,
+  "speedIndex": 1564.8767207890319,
+  "largestContentfulPaint": 2647.4880000000003,
+  "totalBlockingTime": 1.5,
+  "cumulativeLayoutShift": 0.1304322760531383,
+  "timeToInteractive": 2368.7385000000004,
+  "maxPotentialFirstInputDelay": 51,
+  "timeToFirstByte": 6.925000000000001,
   "weight": {
     "summary": "19 requests • 838 KiB",
-    "total": 858606,
-    "image": 691593,
+    "total": 858468,
+    "image": 691461,
     "imageCount": 11,
-    "script": 56711,
+    "script": 56608,
     "scriptCount": 2,
-    "document": 4290,
-    "font": 85128,
+    "document": 4291,
+    "font": 85248,
     "fontCount": 4,
-    "stylesheet": 20884,
+    "stylesheet": 20860,
     "stylesheetCount": 1,
-    "thirdParty": 858606,
+    "thirdParty": 858468,
     "thirdPartyCount": 19
   },
   "run": {
@@ -56,9 +56,9 @@
     "-weight.font": 5,
     "+weight.font": 3,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 5,
-    "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 6
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 7
   },
   "axe": {
     "passes": 266,

@@ -1,7 +1,7 @@
 {
   "url": "https://www.11ty.dev/",
   "requestedUrl": "https://www.11ty.dev/",
-  "timestamp": 1708463246766,
+  "timestamp": 1709759342788,
   "ranks": {
     "hundos": 1,
     "performance": 2,
@@ -9,39 +9,39 @@
     "cumulative": 1
   },
   "lighthouse": {
-    "version": "10.4.0",
+    "version": "11.6.0",
     "performance": 1,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
     "total": 400
   },
-  "firstContentfulPaint": 1084.7240000000002,
-  "firstMeaningfulPaint": 1084.7240000000002,
-  "speedIndex": 1237.042327999957,
-  "largestContentfulPaint": 1658.4975000000002,
-  "totalBlockingTime": 2.5,
+  "firstContentfulPaint": 1012.677,
+  "firstMeaningfulPaint": 1012.677,
+  "speedIndex": 1012.677,
+  "largestContentfulPaint": 1012.677,
+  "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.01715371449143177,
-  "timeToInteractive": 1112.2240000000002,
-  "maxPotentialFirstInputDelay": 143.0000000000001,
-  "timeToFirstByte": 2.9389999999999645,
+  "timeToInteractive": 1012.677,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 5.434000000000005,
   "weight": {
-    "summary": "34 requests • 230 KiB",
-    "total": 235812,
-    "image": 200689,
-    "imageCount": 31,
-    "script": 3536,
+    "summary": "33 requests • 193.8 KiB",
+    "total": 189463,
+    "image": 148716,
+    "imageCount": 29,
+    "script": 3531,
     "scriptCount": 1,
-    "document": 26776,
-    "font": 0,
-    "fontCount": 0,
-    "stylesheet": 4811,
+    "document": 32381,
+    "font": 8996,
+    "fontCount": 1,
+    "stylesheet": 4835,
     "stylesheetCount": 1,
     "thirdParty": 0,
     "thirdPartyCount": 0
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -55,13 +55,13 @@
     "+weight.image": 5,
     "-weight.font": 1,
     "+weight.font": 11,
-    "+weight.fontCount": 6,
-    "-timeToFirstByte": 4,
+    "+weight.fontCount": 5,
+    "-timeToFirstByte": 3,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 2
+    "-largestContentfulPaint": 1
   },
   "axe": {
-    "passes": 1069,
+    "passes": 1082,
     "violations": 0
   }
 }

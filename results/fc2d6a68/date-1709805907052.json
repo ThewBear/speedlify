@@ -1,44 +1,44 @@
 {
   "url": "https://karma-runner.github.io/latest/index.html",
   "requestedUrl": "https://karma-runner.github.io/latest/index.html",
-  "timestamp": 1708506619327,
+  "timestamp": 1709806111733,
   "ranks": {
     "hundos": 9,
-    "performance": 7,
+    "performance": 9,
     "accessibility": 9,
     "cumulative": 9
   },
   "lighthouse": {
-    "version": "10.4.0",
-    "performance": 0.93,
-    "accessibility": 0.58,
-    "bestPractices": 0.83,
+    "version": "11.6.0",
+    "performance": 0.75,
+    "accessibility": 0.54,
+    "bestPractices": 0.93,
     "seo": 0.83,
-    "total": 317
+    "total": 305
   },
-  "firstContentfulPaint": 1052.0900000000001,
-  "firstMeaningfulPaint": 2109.0580000000004,
-  "speedIndex": 1530.1630646707517,
-  "largestContentfulPaint": 2635.5840000000007,
-  "totalBlockingTime": 4,
-  "cumulativeLayoutShift": 0.1250132892783156,
-  "timeToInteractive": 2359.379000000001,
-  "maxPotentialFirstInputDelay": 56,
-  "timeToFirstByte": 5.823,
+  "firstContentfulPaint": 1053.3345,
+  "firstMeaningfulPaint": 2110.9145,
+  "speedIndex": 2749.213187336786,
+  "largestContentfulPaint": 5989.834499999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.10056103867838273,
+  "timeToInteractive": 2110.9145,
+  "maxPotentialFirstInputDelay": 46,
+  "timeToFirstByte": 1.3079999999999998,
   "weight": {
-    "summary": "19 requests • 838 KiB",
-    "total": 858463,
-    "image": 691413,
+    "summary": "19 requests • 838.3 KiB",
+    "total": 858418,
+    "image": 691390,
     "imageCount": 11,
-    "script": 56608,
+    "script": 56610,
     "scriptCount": 2,
-    "document": 4290,
-    "font": 85252,
+    "document": 4310,
+    "font": 85189,
     "fontCount": 4,
-    "stylesheet": 20900,
+    "stylesheet": 20919,
     "stylesheetCount": 1,
-    "thirdParty": 858463,
-    "thirdPartyCount": 19
+    "thirdParty": 76645,
+    "thirdPartyCount": 3
   },
   "run": {
     "number": 3,
@@ -58,7 +58,7 @@
     "+weight.fontCount": 3,
     "-timeToFirstByte": 1,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 7
+    "-largestContentfulPaint": 9
   },
   "axe": {
     "passes": 266,

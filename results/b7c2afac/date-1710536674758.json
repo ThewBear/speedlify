@@ -1,47 +1,47 @@
 {
   "url": "https://www.zachleat.com/web/speedlify/",
   "requestedUrl": "https://www.zachleat.com/web/speedlify/",
-  "timestamp": 1709241597516,
+  "timestamp": 1710537112554,
   "ranks": {
-    "hundos": 8,
-    "performance": 10,
+    "hundos": 6,
+    "performance": 2,
     "accessibility": 7,
-    "cumulative": 8
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "11.6.0",
-    "performance": 0.99,
+    "performance": 1,
     "accessibility": 0.96,
     "bestPractices": 1,
     "seo": 0.99,
-    "total": 394
+    "total": 395
   },
-  "firstContentfulPaint": 1211.1029999999998,
-  "firstMeaningfulPaint": 1211.1029999999998,
-  "speedIndex": 1211.1029999999998,
-  "largestContentfulPaint": 1963.8829999999998,
+  "firstContentfulPaint": 1246.0790000000002,
+  "firstMeaningfulPaint": 1246.0790000000002,
+  "speedIndex": 1246.0790000000002,
+  "largestContentfulPaint": 1430.3165000000004,
   "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1211.1029999999998,
-  "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 37.215,
+  "cumulativeLayoutShift": 0.00005719926128454848,
+  "timeToInteractive": 1246.0790000000002,
+  "maxPotentialFirstInputDelay": 26,
+  "timeToFirstByte": 195.06,
   "weight": {
-    "summary": "19 requests • 314.0 KiB",
-    "total": 321532,
-    "image": 206392,
+    "summary": "19 requests • 313.8 KiB",
+    "total": 321348,
+    "image": 206248,
     "imageCount": 11,
-    "script": 5238,
+    "script": 5196,
     "scriptCount": 1,
-    "document": 49776,
+    "document": 49779,
     "font": 55888,
     "fontCount": 4,
-    "stylesheet": 4062,
+    "stylesheet": 4061,
     "stylesheetCount": 1,
-    "thirdParty": 63448,
+    "thirdParty": 63304,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -49,19 +49,19 @@
     "+weight.total": 2,
     "-weight.document": 11,
     "+weight.document": 1,
-    "-weight.script": 2,
+    "-weight.script": 1,
     "+weight.script": 8,
     "-weight.image": 11,
     "+weight.image": 1,
     "-weight.font": 2,
     "+weight.font": 8,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 5,
+    "-timeToFirstByte": 11,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 11
+    "-largestContentfulPaint": 8
   },
   "axe": {
-    "passes": 3278,
+    "passes": 3282,
     "violations": 2
   }
 }

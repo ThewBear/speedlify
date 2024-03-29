@@ -1,43 +1,43 @@
 {
   "url": "https://docusaurus.io/",
   "requestedUrl": "https://docusaurus.io/",
-  "timestamp": 1710450795914,
+  "timestamp": 1711746466528,
   "ranks": {
-    "hundos": 8,
+    "hundos": 7,
     "performance": 8,
     "accessibility": 7,
-    "cumulative": 8
+    "cumulative": 7
   },
   "lighthouse": {
-    "version": "11.6.0",
-    "performance": 0.86,
+    "version": "11.7.0",
+    "performance": 0.89,
     "accessibility": 0.98,
     "bestPractices": 1,
     "seo": 0.96,
-    "total": 380
+    "total": 383
   },
-  "firstContentfulPaint": 2815.6767,
-  "firstMeaningfulPaint": 2815.6767,
-  "speedIndex": 3552.967601930534,
-  "largestContentfulPaint": 3133.2693,
-  "totalBlockingTime": 138.5,
+  "firstContentfulPaint": 1543.1605,
+  "firstMeaningfulPaint": 1543.1605,
+  "speedIndex": 1866.102018947569,
+  "largestContentfulPaint": 3162.91275,
+  "totalBlockingTime": 210.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 4620.936,
-  "maxPotentialFirstInputDelay": 272,
-  "timeToFirstByte": 320.487,
+  "timeToInteractive": 4564.812,
+  "maxPotentialFirstInputDelay": 342,
+  "timeToFirstByte": 19.795,
   "weight": {
-    "summary": "46 requests • 551.3 KiB",
-    "total": 564516,
-    "image": 115701,
+    "summary": "46 requests • 563.0 KiB",
+    "total": 576507,
+    "image": 116378,
     "imageCount": 18,
-    "script": 334932,
+    "script": 350515,
     "scriptCount": 8,
-    "document": 13075,
+    "document": 13047,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 30398,
+    "stylesheet": 30415,
     "stylesheetCount": 2,
-    "thirdParty": 164598,
+    "thirdParty": 170885,
     "thirdPartyCount": 8
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 11,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 14,
-    "-totalBlockingTime": 7,
-    "-largestContentfulPaint": 8
+    "-timeToFirstByte": 12,
+    "-totalBlockingTime": 9,
+    "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 613,
+    "passes": 612,
     "violations": 1
   }
 }

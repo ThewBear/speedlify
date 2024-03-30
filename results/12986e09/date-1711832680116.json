@@ -1,47 +1,47 @@
 {
   "url": "https://www.zachleat.com/web/lighthouse-in-footer/",
   "requestedUrl": "https://www.zachleat.com/web/lighthouse-in-footer/",
-  "timestamp": 1710537197681,
+  "timestamp": 1711833319927,
   "ranks": {
     "hundos": 7,
-    "performance": 3,
+    "performance": 4,
     "accessibility": 8,
     "cumulative": 7
   },
   "lighthouse": {
-    "version": "11.6.0",
+    "version": "11.7.0",
     "performance": 1,
     "accessibility": 0.96,
     "bestPractices": 1,
     "seo": 0.99,
     "total": 395
   },
-  "firstContentfulPaint": 1033.4859999999999,
-  "firstMeaningfulPaint": 1033.4859999999999,
-  "speedIndex": 1301.9020749422536,
-  "largestContentfulPaint": 1358.4859999999999,
-  "totalBlockingTime": 15.5,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1658.4859999999999,
-  "maxPotentialFirstInputDelay": 81,
-  "timeToFirstByte": 46.936,
+  "firstContentfulPaint": 1125.4634999999998,
+  "firstMeaningfulPaint": 1125.4634999999998,
+  "speedIndex": 1554.2616310000258,
+  "largestContentfulPaint": 1335.0914999999998,
+  "totalBlockingTime": 43.000000000000114,
+  "cumulativeLayoutShift": 0.00003289620464804881,
+  "timeToInteractive": 1844.9754999999998,
+  "maxPotentialFirstInputDelay": 100,
+  "timeToFirstByte": 54.653999999999996,
   "weight": {
     "summary": "10 requests • 102.3 KiB",
-    "total": 104756,
-    "image": 3065,
+    "total": 104750,
+    "image": 3063,
     "imageCount": 2,
-    "script": 5242,
+    "script": 5241,
     "scriptCount": 1,
     "document": 36310,
-    "font": 55889,
+    "font": 55899,
     "fontCount": 4,
-    "stylesheet": 4074,
+    "stylesheet": 4061,
     "stylesheetCount": 1,
     "thirdParty": 975,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -53,15 +53,15 @@
     "+weight.script": 6,
     "-weight.image": 2,
     "+weight.image": 10,
-    "-weight.font": 3,
-    "+weight.font": 7,
+    "-weight.font": 2,
+    "+weight.font": 8,
     "+weight.fontCount": 2,
     "-timeToFirstByte": 9,
-    "-totalBlockingTime": 5,
-    "-largestContentfulPaint": 5
+    "-totalBlockingTime": 7,
+    "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 1960,
+    "passes": 1962,
     "violations": 4
   }
 }

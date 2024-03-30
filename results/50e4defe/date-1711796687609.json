@@ -1,7 +1,7 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1710501246288,
+  "timestamp": 1711796967633,
   "ranks": {
     "hundos": 5,
     "performance": 2,
@@ -9,35 +9,35 @@
     "cumulative": 5
   },
   "lighthouse": {
-    "version": "11.6.0",
+    "version": "11.7.0",
     "performance": 0.99,
     "accessibility": 0.89,
     "bestPractices": 1,
     "seo": 0.82,
     "total": 370
   },
-  "firstContentfulPaint": 1383.042,
-  "firstMeaningfulPaint": 1383.042,
-  "speedIndex": 1390.9452680000682,
-  "largestContentfulPaint": 2021.8109999999997,
+  "firstContentfulPaint": 1379.2790000000005,
+  "firstMeaningfulPaint": 1379.2790000000005,
+  "speedIndex": 1386.396881999981,
+  "largestContentfulPaint": 1990.4470000000006,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1383.042,
+  "timeToInteractive": 1379.2790000000005,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 21.162000000000006,
+  "timeToFirstByte": 5.138000000000005,
   "weight": {
-    "summary": "11 requests • 212.1 KiB",
-    "total": 217174,
-    "image": 93751,
+    "summary": "11 requests • 210.9 KiB",
+    "total": 215989,
+    "image": 92353,
     "imageCount": 7,
-    "script": 40549,
+    "script": 40844,
     "scriptCount": 1,
-    "document": 73643,
+    "document": 73521,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 9066,
+    "stylesheet": 9106,
     "stylesheetCount": 1,
-    "thirdParty": 43732,
+    "thirdParty": 44024,
     "thirdPartyCount": 3
   },
   "run": {
@@ -51,17 +51,17 @@
     "+weight.document": 2,
     "-weight.script": 1,
     "+weight.script": 9,
-    "-weight.image": 6,
-    "+weight.image": 5,
+    "-weight.image": 5,
+    "+weight.image": 6,
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 4,
+    "-timeToFirstByte": 2,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 10229,
+    "passes": 10199,
     "violations": 933
   }
 }

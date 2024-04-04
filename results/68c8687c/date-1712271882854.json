@@ -1,12 +1,12 @@
 {
   "url": "https://www.thewdhanat.com/blog/",
   "requestedUrl": "https://www.thewdhanat.com/blog/",
-  "timestamp": 1710976388207,
+  "timestamp": 1712272326850,
   "ranks": {
-    "hundos": 2,
+    "hundos": 3,
     "performance": 4,
     "accessibility": 6,
-    "cumulative": 2
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.0",
@@ -16,28 +16,28 @@
     "seo": 1,
     "total": 399
   },
-  "firstContentfulPaint": 1562.233,
-  "firstMeaningfulPaint": 1562.233,
-  "speedIndex": 1562.233,
-  "largestContentfulPaint": 1712.508,
-  "totalBlockingTime": 9,
+  "firstContentfulPaint": 1564.3470000000002,
+  "firstMeaningfulPaint": 1564.3470000000002,
+  "speedIndex": 1564.3470000000002,
+  "largestContentfulPaint": 1715.728,
+  "totalBlockingTime": 56,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2692.0150000000003,
-  "maxPotentialFirstInputDelay": 55,
-  "timeToFirstByte": 9.544,
+  "timeToInteractive": 2741.0340000000006,
+  "maxPotentialFirstInputDelay": 101,
+  "timeToFirstByte": 5.880000000000003,
   "weight": {
-    "summary": "16 requests • 123.6 KiB",
-    "total": 126593,
-    "image": 2727,
+    "summary": "16 requests • 124.0 KiB",
+    "total": 126986,
+    "image": 2718,
     "imageCount": 2,
-    "script": 99149,
+    "script": 99525,
     "scriptCount": 4,
-    "document": 11176,
+    "document": 11185,
     "font": 2269,
     "fontCount": 1,
-    "stylesheet": 7668,
+    "stylesheet": 7700,
     "stylesheetCount": 3,
-    "thirdParty": 103428,
+    "thirdParty": 103802,
     "thirdPartyCount": 5
   },
   "run": {
@@ -49,19 +49,19 @@
     "+weight.total": 6,
     "-weight.document": 3,
     "+weight.document": 7,
-    "-weight.script": 2,
-    "+weight.script": 7,
-    "-weight.image": 4,
+    "-weight.script": 1,
+    "+weight.script": 9,
+    "-weight.image": 5,
     "+weight.image": 5,
-    "-weight.font": 3,
+    "-weight.font": 1,
     "+weight.font": 4,
     "+weight.fontCount": 4,
     "-timeToFirstByte": 2,
-    "-totalBlockingTime": 1,
+    "-totalBlockingTime": 3,
     "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 300,
+    "passes": 312,
     "violations": 0
   }
 }

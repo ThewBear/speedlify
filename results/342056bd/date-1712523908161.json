@@ -1,43 +1,43 @@
 {
   "url": "https://docusaurus.io/",
   "requestedUrl": "https://docusaurus.io/",
-  "timestamp": 1711228168882,
+  "timestamp": 1712524207255,
   "ranks": {
-    "hundos": 7,
-    "performance": 8,
+    "hundos": 8,
+    "performance": 10,
     "accessibility": 7,
-    "cumulative": 7
+    "cumulative": 8
   },
   "lighthouse": {
     "version": "11.7.0",
-    "performance": 0.91,
+    "performance": 0.81,
     "accessibility": 0.98,
     "bestPractices": 1,
     "seo": 0.96,
-    "total": 385
+    "total": 375
   },
-  "firstContentfulPaint": 1534.9180999999999,
-  "firstMeaningfulPaint": 1534.9180999999999,
-  "speedIndex": 2375.46036484485,
-  "largestContentfulPaint": 3141.5126500000006,
-  "totalBlockingTime": 145.00000000000045,
+  "firstContentfulPaint": 2308.3838,
+  "firstMeaningfulPaint": 2894.9761,
+  "speedIndex": 2958.1983345158897,
+  "largestContentfulPaint": 4242.6364,
+  "totalBlockingTime": 143.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 4583.38365,
-  "maxPotentialFirstInputDelay": 320.0000000000009,
-  "timeToFirstByte": 27.875,
+  "timeToInteractive": 4360.4568,
+  "maxPotentialFirstInputDelay": 273,
+  "timeToFirstByte": 69.69,
   "weight": {
-    "summary": "46 requests • 555.2 KiB",
-    "total": 568573,
-    "image": 116427,
+    "summary": "46 requests • 558.7 KiB",
+    "total": 572112,
+    "image": 116426,
     "imageCount": 18,
-    "script": 337818,
+    "script": 346083,
     "scriptCount": 8,
-    "document": 13078,
+    "document": 13058,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 30343,
+    "stylesheet": 30420,
     "stylesheetCount": 2,
-    "thirdParty": 168309,
+    "thirdParty": 168724,
     "thirdPartyCount": 8
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 11,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 12,
+    "-timeToFirstByte": 13,
     "-totalBlockingTime": 8,
-    "-largestContentfulPaint": 8
+    "-largestContentfulPaint": 12
   },
   "axe": {
-    "passes": 613,
+    "passes": 612,
     "violations": 1
   }
 }

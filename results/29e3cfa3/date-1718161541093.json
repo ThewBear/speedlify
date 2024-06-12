@@ -1,7 +1,7 @@
 {
   "url": "https://gulpjs.com/",
   "requestedUrl": "https://gulpjs.com/",
-  "timestamp": 1716865749606,
+  "timestamp": 1718161756991,
   "ranks": {
     "hundos": 5,
     "performance": 7,
@@ -10,34 +10,34 @@
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.86,
+    "performance": 0.85,
     "accessibility": 0.95,
     "bestPractices": 1,
     "seo": 0.9,
-    "total": 371
+    "total": 370
   },
-  "firstContentfulPaint": 1733.5095,
-  "firstMeaningfulPaint": 1829.0095,
-  "speedIndex": 2016.8251855388944,
-  "largestContentfulPaint": 3605.8025,
-  "totalBlockingTime": 93.5,
-  "cumulativeLayoutShift": 0.10291677804373137,
-  "timeToInteractive": 3893.915,
-  "maxPotentialFirstInputDelay": 199,
-  "timeToFirstByte": 43.595,
+  "firstContentfulPaint": 1897.4395,
+  "firstMeaningfulPaint": 2079.14675,
+  "speedIndex": 1897.4395,
+  "largestContentfulPaint": 3602.3814999999995,
+  "totalBlockingTime": 110,
+  "cumulativeLayoutShift": 0.10584361163616232,
+  "timeToInteractive": 3891.2532499999998,
+  "maxPotentialFirstInputDelay": 205,
+  "timeToFirstByte": 36.255,
   "weight": {
-    "summary": "44 requests • 618.7 KiB",
-    "total": 633591,
-    "image": 218599,
+    "summary": "44 requests • 621.0 KiB",
+    "total": 635938,
+    "image": 218393,
     "imageCount": 18,
-    "script": 328326,
+    "script": 331077,
     "scriptCount": 7,
-    "document": 5974,
+    "document": 5802,
     "font": 27507,
     "fontCount": 3,
-    "stylesheet": 22205,
+    "stylesheet": 22203,
     "stylesheetCount": 2,
-    "thirdParty": 218168,
+    "thirdParty": 220697,
     "thirdPartyCount": 3
   },
   "run": {
@@ -49,19 +49,19 @@
     "+weight.total": 4,
     "-weight.document": 4,
     "+weight.document": 7,
-    "-weight.script": 7,
-    "+weight.script": 3,
+    "-weight.script": 8,
+    "+weight.script": 2,
     "-weight.image": 6,
     "+weight.image": 5,
     "-weight.font": 1,
     "+weight.font": 7,
     "+weight.fontCount": 4,
-    "-timeToFirstByte": 9,
-    "-totalBlockingTime": 4,
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 6,
     "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 442,
-    "violations": 2
+    "passes": 429,
+    "violations": 1
   }
 }

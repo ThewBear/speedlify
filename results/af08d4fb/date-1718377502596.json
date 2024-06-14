@@ -1,7 +1,7 @@
 {
   "url": "https://mastodon.thewdhanat.com/@thewdhanat",
   "requestedUrl": "https://mastodon.thewdhanat.com/@thewdhanat",
-  "timestamp": 1717082651764,
+  "timestamp": 1718377886082,
   "ranks": {
     "hundos": 8,
     "performance": 8,
@@ -10,43 +10,43 @@
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.38,
+    "performance": 0.51,
     "accessibility": 0.73,
     "bestPractices": 0.93,
     "seo": 0.93,
-    "total": 297
+    "total": 310
   },
-  "firstContentfulPaint": 4354.341,
-  "firstMeaningfulPaint": 5517.341,
-  "speedIndex": 16472.685168148855,
-  "largestContentfulPaint": 8329.841,
-  "totalBlockingTime": 789.5,
+  "firstContentfulPaint": 4368.653,
+  "firstMeaningfulPaint": 5343.653,
+  "speedIndex": 9528.680221425762,
+  "largestContentfulPaint": 7743.653,
+  "totalBlockingTime": 327,
   "cumulativeLayoutShift": 0.048142498962264496,
-  "timeToInteractive": 8292.341,
-  "maxPotentialFirstInputDelay": 461,
-  "timeToFirstByte": 2414.0499999999997,
+  "timeToInteractive": 7664.653,
+  "maxPotentialFirstInputDelay": 429,
+  "timeToFirstByte": 2339.476,
   "weight": {
     "summary": "47 requests • 2.2 MiB",
-    "total": 2330782,
-    "image": 1134655,
+    "total": 2331214,
+    "image": 1134781,
     "imageCount": 27,
-    "script": 441695,
+    "script": 441921,
     "scriptCount": 5,
-    "document": 12420,
-    "font": 656566,
+    "document": 12494,
+    "font": 656616,
     "fontCount": 4,
-    "stylesheet": 65448,
+    "stylesheet": 65408,
     "stylesheetCount": 4,
     "thirdParty": 0,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
-    "-weight.total": 9,
-    "+weight.total": 1,
+    "-weight.total": 8,
+    "+weight.total": 2,
     "-weight.document": 5,
     "+weight.document": 5,
     "-weight.script": 7,
@@ -57,10 +57,11 @@
     "+weight.font": 1,
     "+weight.fontCount": 2,
     "-timeToFirstByte": 9,
-    "-totalBlockingTime": 7,
+    "-totalBlockingTime": 6,
     "-largestContentfulPaint": 8
   },
   "axe": {
-    "error": "{\"name\":\"TimeoutError\"}"
+    "passes": 290,
+    "violations": 8
   }
 }

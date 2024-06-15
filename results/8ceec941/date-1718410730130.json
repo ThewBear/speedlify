@@ -1,0 +1,66 @@
+{
+  "url": "https://www.lazada.co.th/",
+  "requestedUrl": "https://www.lazada.co.th/",
+  "timestamp": 1718410957155,
+  "ranks": {
+    "hundos": 10,
+    "performance": 4,
+    "accessibility": 11,
+    "cumulative": 10
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.54,
+    "accessibility": 0.49,
+    "bestPractices": 0.56,
+    "seo": 0.86,
+    "total": 245
+  },
+  "firstContentfulPaint": 1848.1660000000002,
+  "firstMeaningfulPaint": 1861.1660000000002,
+  "speedIndex": 6631.320389293138,
+  "largestContentfulPaint": 7368.385,
+  "totalBlockingTime": 598,
+  "cumulativeLayoutShift": 0.0003420667763713285,
+  "timeToInteractive": 10999.385,
+  "maxPotentialFirstInputDelay": 486,
+  "timeToFirstByte": 624.835,
+  "weight": {
+    "summary": "129 requests • 1.5 MiB",
+    "total": 1567104,
+    "image": 708134,
+    "imageCount": 102,
+    "script": 636129,
+    "scriptCount": 16,
+    "document": 73511,
+    "font": 131437,
+    "fontCount": 5,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 1475907,
+    "thirdPartyCount": 6
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 5,
+    "+weight.total": 7,
+    "-weight.document": 7,
+    "+weight.document": 5,
+    "-weight.script": 4,
+    "+weight.script": 8,
+    "-weight.image": 7,
+    "+weight.image": 5,
+    "-weight.font": 6,
+    "+weight.font": 4,
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 9,
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 6
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

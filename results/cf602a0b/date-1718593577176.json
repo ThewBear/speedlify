@@ -1,43 +1,43 @@
 {
   "url": "https://github.com/ThewBear",
   "requestedUrl": "https://github.com/ThewBear",
-  "timestamp": 1717297966547,
+  "timestamp": 1718593961863,
   "ranks": {
     "hundos": 6,
-    "performance": 6,
+    "performance": 7,
     "accessibility": 1,
     "cumulative": 6
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.55,
+    "performance": 0.62,
     "accessibility": 1,
     "bestPractices": 0.96,
     "seo": 0.97,
-    "total": 348
+    "total": 355
   },
-  "firstContentfulPaint": 3255.6245000000004,
-  "firstMeaningfulPaint": 3255.6245000000004,
-  "speedIndex": 5360.233183979977,
-  "largestContentfulPaint": 4680.9475,
-  "totalBlockingTime": 730.4999999999995,
-  "cumulativeLayoutShift": 0.024948847118465196,
-  "timeToInteractive": 7585.559499999999,
-  "maxPotentialFirstInputDelay": 426,
-  "timeToFirstByte": 178.005,
+  "firstContentfulPaint": 2813.963,
+  "firstMeaningfulPaint": 2813.963,
+  "speedIndex": 4016.1618000873714,
+  "largestContentfulPaint": 3938.9629999999997,
+  "totalBlockingTime": 836.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 7114.963,
+  "maxPotentialFirstInputDelay": 317,
+  "timeToFirstByte": 311.714,
   "weight": {
-    "summary": "86 requests • 1.2 MiB",
-    "total": 1290772,
-    "image": 376806,
+    "summary": "85 requests • 1.2 MiB",
+    "total": 1249551,
+    "image": 376834,
     "imageCount": 7,
-    "script": 708120,
+    "script": 674950,
     "scriptCount": 65,
-    "document": 38759,
+    "document": 38672,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 141718,
+    "stylesheet": 133674,
     "stylesheetCount": 8,
-    "thirdParty": 1046699,
+    "thirdParty": 1005493,
     "thirdPartyCount": 1
   },
   "run": {
@@ -54,14 +54,14 @@
     "-weight.image": 8,
     "+weight.image": 2,
     "-weight.font": 1,
-    "+weight.font": 5,
+    "+weight.font": 6,
     "+weight.fontCount": 5,
-    "-timeToFirstByte": 6,
-    "-totalBlockingTime": 6,
+    "-timeToFirstByte": 7,
+    "-totalBlockingTime": 8,
     "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 6597,
+    "passes": 6609,
     "violations": 0
   }
 }

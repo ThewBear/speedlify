@@ -1,43 +1,43 @@
 {
   "url": "https://eslint.org/",
   "requestedUrl": "https://eslint.org/",
-  "timestamp": 1718248134223,
+  "timestamp": 1719544177967,
   "ranks": {
     "hundos": 3,
-    "performance": 6,
+    "performance": 8,
     "accessibility": 1,
     "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.91,
+    "performance": 0.86,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.93,
-    "total": 384
+    "total": 379
   },
-  "firstContentfulPaint": 1581.7024999999999,
-  "firstMeaningfulPaint": 1581.7024999999999,
-  "speedIndex": 2102.2969968945836,
-  "largestContentfulPaint": 3398.3705,
-  "totalBlockingTime": 31,
+  "firstContentfulPaint": 1516.723,
+  "firstMeaningfulPaint": 1837.2084999999997,
+  "speedIndex": 2788.3425051330205,
+  "largestContentfulPaint": 4120.317,
+  "totalBlockingTime": 23,
   "cumulativeLayoutShift": 0.005032904303277951,
-  "timeToInteractive": 3876.6284999999993,
-  "maxPotentialFirstInputDelay": 100,
-  "timeToFirstByte": 78.327,
+  "timeToInteractive": 3801.8599999999997,
+  "maxPotentialFirstInputDelay": 94,
+  "timeToFirstByte": 5.027999999999992,
   "weight": {
-    "summary": "31 requests • 988.9 KiB",
-    "total": 1012588,
-    "image": 297949,
+    "summary": "31 requests • 1,002.0 KiB",
+    "total": 1026083,
+    "image": 311227,
     "imageCount": 12,
-    "script": 159386,
+    "script": 159499,
     "scriptCount": 10,
-    "document": 16777,
-    "font": 523250,
+    "document": 16812,
+    "font": 523302,
     "fontCount": 6,
-    "stylesheet": 14975,
+    "stylesheet": 15002,
     "stylesheetCount": 1,
-    "thirdParty": 478059,
+    "thirdParty": 491578,
     "thirdPartyCount": 6
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 7,
     "+weight.font": 1,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 5,
+    "-timeToFirstByte": 4,
     "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 6
+    "-largestContentfulPaint": 8
   },
   "axe": {
-    "passes": 1186,
+    "passes": 1194,
     "violations": 0
   }
 }

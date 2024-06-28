@@ -1,54 +1,54 @@
 {
   "url": "https://nextjs.org/",
   "requestedUrl": "https://nextjs.org/",
-  "timestamp": 1718313101577,
+  "timestamp": 1719608739602,
   "ranks": {
-    "hundos": 8,
+    "hundos": 9,
     "performance": 10,
-    "accessibility": 4,
-    "cumulative": 8
+    "accessibility": 5,
+    "cumulative": 9
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.79,
+    "performance": 0.76,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.99,
-    "total": 378
+    "total": 375
   },
-  "firstContentfulPaint": 1370.0720000000001,
-  "firstMeaningfulPaint": 1370.0720000000001,
-  "speedIndex": 2027.8103457870975,
-  "largestContentfulPaint": 3620.072,
-  "totalBlockingTime": 451,
+  "firstContentfulPaint": 1407.4450000000002,
+  "firstMeaningfulPaint": 1407.4450000000002,
+  "speedIndex": 2143.3912364181647,
+  "largestContentfulPaint": 3755.852500000001,
+  "totalBlockingTime": 508.49999999999955,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 7399.072,
-  "maxPotentialFirstInputDelay": 292,
-  "timeToFirstByte": 18.157999999999998,
+  "timeToInteractive": 7373.183499999999,
+  "maxPotentialFirstInputDelay": 315,
+  "timeToFirstByte": 16.409,
   "weight": {
     "summary": "76 requests • 1.1 MiB",
-    "total": 1171953,
-    "image": 132176,
+    "total": 1165251,
+    "image": 132173,
     "imageCount": 5,
-    "script": 754201,
+    "script": 743492,
     "scriptCount": 49,
-    "document": 33750,
-    "font": 115287,
+    "document": 33728,
+    "font": 115312,
     "fontCount": 2,
-    "stylesheet": 57137,
+    "stylesheet": 61150,
     "stylesheetCount": 10,
-    "thirdParty": 9169,
-    "thirdPartyCount": 1
+    "thirdParty": 9225,
+    "thirdPartyCount": 2
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
     "-weight.total": 11,
     "+weight.total": 4,
-    "-weight.document": 9,
-    "+weight.document": 6,
+    "-weight.document": 8,
+    "+weight.document": 7,
     "-weight.script": 13,
     "+weight.script": 2,
     "-weight.image": 8,
@@ -56,12 +56,12 @@
     "-weight.font": 7,
     "+weight.font": 5,
     "+weight.fontCount": 4,
-    "-timeToFirstByte": 4,
+    "-timeToFirstByte": 8,
     "-totalBlockingTime": 13,
     "-largestContentfulPaint": 10
   },
   "axe": {
-    "passes": 1195,
+    "passes": 1166,
     "violations": 4
   }
 }

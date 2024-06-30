@@ -1,12 +1,12 @@
 {
   "url": "https://www.zachleat.com/about/",
   "requestedUrl": "https://www.zachleat.com/about/",
-  "timestamp": 1718489360635,
+  "timestamp": 1719785123245,
   "ranks": {
-    "hundos": 8,
+    "hundos": 9,
     "performance": 10,
     "accessibility": 10,
-    "cumulative": 9
+    "cumulative": 10
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,32 +16,32 @@
     "seo": 1,
     "total": 391
   },
-  "firstContentfulPaint": 1014.611,
-  "firstMeaningfulPaint": 1014.611,
-  "speedIndex": 1014.611,
-  "largestContentfulPaint": 2036.0560000000003,
+  "firstContentfulPaint": 1190.0040000000001,
+  "firstMeaningfulPaint": 1190.0040000000001,
+  "speedIndex": 1190.0040000000001,
+  "largestContentfulPaint": 2024.8595000000005,
   "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0.0006817859355236969,
-  "timeToInteractive": 1014.611,
+  "cumulativeLayoutShift": 0.04471634166679722,
+  "timeToInteractive": 1190.0040000000001,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 68.87299999999999,
+  "timeToFirstByte": 171.046,
   "weight": {
-    "summary": "26 requests • 213.4 KiB",
-    "total": 218508,
-    "image": 119776,
+    "summary": "26 requests • 213.5 KiB",
+    "total": 218609,
+    "image": 119870,
     "imageCount": 17,
-    "script": 6049,
+    "script": 6110,
     "scriptCount": 1,
-    "document": 17557,
-    "font": 70768,
+    "document": 17529,
+    "font": 70721,
     "fontCount": 5,
-    "stylesheet": 4181,
+    "stylesheet": 4178,
     "stylesheetCount": 1,
-    "thirdParty": 20531,
+    "thirdParty": 20624,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -53,10 +53,10 @@
     "+weight.script": 5,
     "-weight.image": 9,
     "+weight.image": 3,
-    "-weight.font": 10,
-    "+weight.font": 1,
+    "-weight.font": 8,
+    "+weight.font": 3,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 6,
+    "-timeToFirstByte": 11,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 10
   },

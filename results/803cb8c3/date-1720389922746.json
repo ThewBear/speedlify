@@ -1,47 +1,47 @@
 {
   "url": "https://www.zachleat.com/about/",
   "requestedUrl": "https://www.zachleat.com/about/",
-  "timestamp": 1719094150807,
+  "timestamp": 1720390050396,
   "ranks": {
-    "hundos": 9,
+    "hundos": 11,
     "performance": 10,
     "accessibility": 10,
-    "cumulative": 10
+    "cumulative": 11
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.96,
     "bestPractices": 0.96,
     "seo": 1,
-    "total": 391
+    "total": 390
   },
-  "firstContentfulPaint": 999.6610000000002,
-  "firstMeaningfulPaint": 999.6610000000002,
-  "speedIndex": 999.6610000000002,
-  "largestContentfulPaint": 1222.9270000000001,
+  "firstContentfulPaint": 1002.805,
+  "firstMeaningfulPaint": 1020.8049999999998,
+  "speedIndex": 1002.805,
+  "largestContentfulPaint": 2035.1324999999997,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.07886591086107542,
-  "timeToInteractive": 999.6610000000002,
-  "maxPotentialFirstInputDelay": 27.999999999999886,
-  "timeToFirstByte": 25.701999999999998,
+  "timeToInteractive": 1020.8049999999998,
+  "maxPotentialFirstInputDelay": 35.999999999999886,
+  "timeToFirstByte": 69.824,
   "weight": {
-    "summary": "26 requests • 213.3 KiB",
-    "total": 218434,
-    "image": 119803,
+    "summary": "26 requests • 213.5 KiB",
+    "total": 218634,
+    "image": 119869,
     "imageCount": 17,
-    "script": 6035,
+    "script": 6131,
     "scriptCount": 1,
-    "document": 17484,
-    "font": 70758,
+    "document": 17500,
+    "font": 70754,
     "fontCount": 5,
-    "stylesheet": 4177,
+    "stylesheet": 4178,
     "stylesheetCount": 1,
-    "thirdParty": 20534,
+    "thirdParty": 20637,
     "thirdPartyCount": 2
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -49,18 +49,19 @@
     "+weight.total": 4,
     "-weight.document": 3,
     "+weight.document": 9,
-    "-weight.script": 6,
-    "+weight.script": 5,
+    "-weight.script": 7,
+    "+weight.script": 4,
     "-weight.image": 9,
     "+weight.image": 3,
-    "-weight.font": 8,
+    "-weight.font": 10,
     "+weight.font": 1,
     "+weight.fontCount": 1,
     "-timeToFirstByte": 5,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 4
+    "-largestContentfulPaint": 10
   },
   "axe": {
-    "error": "{\"name\":\"TimeoutError\"}"
+    "passes": 728,
+    "violations": 11
   }
 }

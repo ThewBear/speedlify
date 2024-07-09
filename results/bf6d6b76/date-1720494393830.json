@@ -1,42 +1,43 @@
 {
   "url": "https://www.linkedin.com/in/thew-dhanat",
   "requestedUrl": "https://www.linkedin.com/in/thew-dhanat",
-  "timestamp": 1719199404735,
+  "timestamp": 1720494975033,
   "ranks": {
     "hundos": 7,
     "performance": 7,
+    "accessibility": 7,
     "cumulative": 7
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.63,
+    "performance": 0.64,
     "accessibility": 1,
     "bestPractices": 0.7,
     "seo": 0.98,
-    "total": 331
+    "total": 332
   },
-  "firstContentfulPaint": 2012.7889999999995,
-  "firstMeaningfulPaint": 2012.7889999999995,
-  "speedIndex": 3481.3180181114294,
-  "largestContentfulPaint": 3681.632,
-  "totalBlockingTime": 579,
+  "firstContentfulPaint": 2040.1250000000002,
+  "firstMeaningfulPaint": 2040.1250000000002,
+  "speedIndex": 3693.070313350382,
+  "largestContentfulPaint": 3706.3940000000002,
+  "totalBlockingTime": 532,
   "cumulativeLayoutShift": 0.18879151758140167,
-  "timeToInteractive": 11092.013726135254,
-  "maxPotentialFirstInputDelay": 433,
-  "timeToFirstByte": 449.82099999999997,
+  "timeToInteractive": 10916.538226135253,
+  "maxPotentialFirstInputDelay": 417,
+  "timeToFirstByte": 577.08,
   "weight": {
-    "summary": "141 requests • 1.4 MiB",
-    "total": 1512140,
-    "image": 194104,
+    "summary": "96 requests • 1.4 MiB",
+    "total": 1492467,
+    "image": 186232,
     "imageCount": 9,
-    "script": 535032,
+    "script": 534991,
     "scriptCount": 5,
-    "document": 683705,
-    "font": 29994,
+    "document": 680611,
+    "font": 29997,
     "fontCount": 15,
-    "stylesheet": 47967,
+    "stylesheet": 47586,
     "stylesheetCount": 1,
-    "thirdParty": 684809,
+    "thirdParty": 677922,
     "thirdPartyCount": 4
   },
   "run": {
@@ -52,11 +53,15 @@
     "+weight.script": 3,
     "-weight.image": 7,
     "+weight.image": 3,
-    "-weight.font": 2,
+    "-weight.font": 4,
     "+weight.font": 3,
     "+weight.fontCount": 1,
     "-timeToFirstByte": 8,
     "-totalBlockingTime": 7,
-    "-largestContentfulPaint": 7
+    "-largestContentfulPaint": 6
+  },
+  "axe": {
+    "passes": 694,
+    "violations": 1
   }
 }

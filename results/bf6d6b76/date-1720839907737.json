@@ -1,7 +1,7 @@
 {
   "url": "https://www.linkedin.com/in/thew-dhanat",
   "requestedUrl": "https://www.linkedin.com/in/thew-dhanat",
-  "timestamp": 1719544524956,
+  "timestamp": 1720840593174,
   "ranks": {
     "hundos": 7,
     "performance": 6,
@@ -10,39 +10,39 @@
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.74,
+    "performance": 0.76,
     "accessibility": 1,
-    "bestPractices": 0.74,
+    "bestPractices": 0.7,
     "seo": 0.98,
-    "total": 346
+    "total": 344
   },
-  "firstContentfulPaint": 2015.5025999999998,
-  "firstMeaningfulPaint": 2015.5025999999998,
-  "speedIndex": 3197.2695490491783,
-  "largestContentfulPaint": 2015.5025999999998,
-  "totalBlockingTime": 547.9999999999991,
-  "cumulativeLayoutShift": 0.18872787525084073,
-  "timeToInteractive": 10772.839999999998,
-  "maxPotentialFirstInputDelay": 426,
-  "timeToFirstByte": 537.594,
+  "firstContentfulPaint": 2051.9629999999997,
+  "firstMeaningfulPaint": 2051.9629999999997,
+  "speedIndex": 3320.0479218462788,
+  "largestContentfulPaint": 3716.384,
+  "totalBlockingTime": 413.5,
+  "cumulativeLayoutShift": 0.05785976547199166,
+  "timeToInteractive": 10982.295726135257,
+  "maxPotentialFirstInputDelay": 421,
+  "timeToFirstByte": 581.784,
   "weight": {
-    "summary": "92 requests • 1.4 MiB",
-    "total": 1500585,
-    "image": 192962,
+    "summary": "134 requests • 1.5 MiB",
+    "total": 1607899,
+    "image": 178793,
     "imageCount": 9,
-    "script": 534965,
+    "script": 535007,
     "scriptCount": 5,
-    "document": 682207,
+    "document": 698075,
     "font": 29997,
     "fontCount": 15,
-    "stylesheet": 47589,
+    "stylesheet": 47587,
     "stylesheetCount": 1,
-    "thirdParty": 677938,
+    "thirdParty": 697106,
     "thirdPartyCount": 4
   },
   "run": {
-    "number": 2,
-    "total": 2
+    "number": 3,
+    "total": 3
   },
   "sidequests": {
     "-weight.total": 7,
@@ -53,15 +53,14 @@
     "+weight.script": 3,
     "-weight.image": 7,
     "+weight.image": 3,
-    "-weight.font": 4,
+    "-weight.font": 3,
     "+weight.font": 3,
     "+weight.fontCount": 1,
     "-timeToFirstByte": 8,
-    "-totalBlockingTime": 7,
+    "-totalBlockingTime": 6,
     "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 695,
-    "violations": 1
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

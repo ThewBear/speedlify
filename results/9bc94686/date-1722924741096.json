@@ -1,0 +1,67 @@
+{
+  "url": "https://pantip.com/",
+  "requestedUrl": "https://www.pantip.com/",
+  "timestamp": 1722924972287,
+  "ranks": {
+    "hundos": 10,
+    "performance": 11,
+    "accessibility": 7,
+    "cumulative": 10
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.23,
+    "accessibility": 0.75,
+    "bestPractices": 0.56,
+    "seo": 0.93,
+    "total": 247
+  },
+  "firstContentfulPaint": 4714.3659099999995,
+  "firstMeaningfulPaint": 4714.3659099999995,
+  "speedIndex": 18197.693995629183,
+  "largestContentfulPaint": 5977.441909999999,
+  "totalBlockingTime": 1843.0000000000018,
+  "cumulativeLayoutShift": 0.18670985591935382,
+  "timeToInteractive": 17515.315385,
+  "maxPotentialFirstInputDelay": 2336.0000000000036,
+  "timeToFirstByte": 1050.07,
+  "weight": {
+    "summary": "130 requests • 2.2 MiB",
+    "total": 2265139,
+    "image": 1058170,
+    "imageCount": 70,
+    "script": 1005804,
+    "scriptCount": 20,
+    "document": 25514,
+    "font": 44614,
+    "fontCount": 1,
+    "stylesheet": 74122,
+    "stylesheetCount": 2,
+    "thirdParty": 1130221,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 9,
+    "+weight.total": 3,
+    "-weight.document": 3,
+    "+weight.document": 9,
+    "-weight.script": 8,
+    "+weight.script": 4,
+    "-weight.image": 10,
+    "+weight.image": 2,
+    "-weight.font": 4,
+    "+weight.font": 5,
+    "+weight.fontCount": 6,
+    "-timeToFirstByte": 11,
+    "-totalBlockingTime": 9,
+    "-largestContentfulPaint": 6
+  },
+  "axe": {
+    "passes": 1753,
+    "violations": 453
+  }
+}

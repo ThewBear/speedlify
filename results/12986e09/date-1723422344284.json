@@ -1,0 +1,67 @@
+{
+  "url": "https://www.zachleat.com/web/lighthouse-in-footer/",
+  "requestedUrl": "https://www.zachleat.com/web/lighthouse-in-footer/",
+  "timestamp": 1723422888190,
+  "ranks": {
+    "hundos": 3,
+    "performance": 4,
+    "accessibility": 8,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 0.99,
+    "total": 399
+  },
+  "firstContentfulPaint": 1202.0839999999998,
+  "firstMeaningfulPaint": 1202.0839999999998,
+  "speedIndex": 1202.0839999999998,
+  "largestContentfulPaint": 1502.484,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.00003289620464804881,
+  "timeToInteractive": 1202.0839999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 3.4890000000000008,
+  "weight": {
+    "summary": "11 requests • 104.1 KiB",
+    "total": 106560,
+    "image": 3047,
+    "imageCount": 2,
+    "script": 7015,
+    "scriptCount": 2,
+    "document": 36333,
+    "font": 55870,
+    "fontCount": 4,
+    "stylesheet": 4094,
+    "stylesheetCount": 1,
+    "thirdParty": 980,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1,
+    "+weight.total": 11,
+    "-weight.document": 9,
+    "+weight.document": 3,
+    "-weight.script": 5,
+    "+weight.script": 7,
+    "-weight.image": 1,
+    "+weight.image": 10,
+    "-weight.font": 4,
+    "+weight.font": 6,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 1,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 7
+  },
+  "axe": {
+    "passes": 1958,
+    "violations": 1
+  }
+}

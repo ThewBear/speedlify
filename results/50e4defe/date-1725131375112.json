@@ -1,7 +1,7 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1723832076447,
+  "timestamp": 1725131655050,
   "ranks": {
     "hundos": 5,
     "performance": 3,
@@ -10,38 +10,38 @@
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.98,
+    "performance": 0.99,
     "accessibility": 0.89,
     "bestPractices": 1,
     "seo": 0.82,
-    "total": 369
+    "total": 370
   },
-  "firstContentfulPaint": 1581.866,
-  "firstMeaningfulPaint": 1581.866,
-  "speedIndex": 1696.1770797935055,
-  "largestContentfulPaint": 2126.169,
-  "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0.0016209909434813535,
-  "timeToInteractive": 1602.866,
-  "maxPotentialFirstInputDelay": 404,
-  "timeToFirstByte": 23.733000000000004,
+  "firstContentfulPaint": 1426.2220000000002,
+  "firstMeaningfulPaint": 1426.2220000000002,
+  "speedIndex": 1634.3569882827755,
+  "largestContentfulPaint": 2006.2380000000003,
+  "totalBlockingTime": 2.5,
+  "cumulativeLayoutShift": 0.003241981886962707,
+  "timeToInteractive": 1498.2220000000002,
+  "maxPotentialFirstInputDelay": 354,
+  "timeToFirstByte": 4.695000000000022,
   "weight": {
-    "summary": "113 requests • 276.8 KiB",
-    "total": 283483,
-    "image": 192571,
-    "imageCount": 106,
+    "summary": "109 requests • 272.0 KiB",
+    "total": 278491,
+    "image": 187380,
+    "imageCount": 102,
     "script": 41128,
     "scriptCount": 1,
-    "document": 44447,
+    "document": 44633,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 5166,
+    "stylesheet": 5179,
     "stylesheetCount": 4,
-    "thirdParty": 44062,
+    "thirdParty": 44061,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 5,
-    "-timeToFirstByte": 5,
+    "-timeToFirstByte": 4,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 4
+    "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 9783,
+    "passes": 9759,
     "violations": 935
   }
 }

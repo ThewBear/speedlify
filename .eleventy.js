@@ -301,13 +301,13 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("calc", calc);
 
-	function getWeeklyServiceCacheBuster() {
-		let d = new Date();
-		// Weekly
-		return `_${d.getFullYear()}${pad(d.getMonth()+1)}_${d.getDate() % 7}`;
-	}
 	eleventyConfig.addFilter("generatorImageUrl", (url) => {
-		return `https://v1.generator.11ty.dev/image/${encodeURIComponent(url)}/${getWeeklyServiceCacheBuster()}/`;
+		return `https://v1.generator.11ty.dev/image/${encodeURIComponent(url)}/`;
+	});
+
+	eleventyConfig.addFilter("hostingImageUrl", (url) => {
+		// return `https://v1--eleventy-api-built-with.netlify.app/${encodeURIComponent(url)}/image/host/`;
+		return `https://v1.builtwith.11ty.dev/${encodeURIComponent(url)}/image/host/`;
 	});
 
 	eleventyConfig.addPairedShortcode("starterMessage", (htmlContent) => {

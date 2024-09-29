@@ -24,6 +24,7 @@ counts:
 {%- endif %}
 				<th>URL</th>
 				<th class="leaderboard-hide-md">Built With</th>
+				<th class="leaderboard-hide-md">Host</th>
 				<th class="leaderboard-score">Lighthouse</th>
 				<th class="leaderboard-hide-sm">Page weight</th>
 				<th class="leaderboard-data-right"><span data-sr-only>Data and Graphs</span></th>
@@ -62,6 +63,9 @@ counts:
 				<td class="leaderboard-hide-md">
 					<img src="{{ site[newestKey].url | generatorImageUrl }}" width="60" height="60" alt="Generator for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
 				</td>
+				<td class="leaderboard-hide-md">
+					<img src="{{ site[newestKey].url | hostingImageUrl }}" width="60" height="60" alt="Hosting avatar for {{ site[newestKey].url | displayUrl }}" class="leaderboard-list-entry-thumbnail small" loading="lazy" decoding="async">
+				</td>
 			{%- if site[newestKey].error %}
 				<td colspan="2"></td>
 			{%- else %}
@@ -74,7 +78,7 @@ counts:
 
 			{%- if not site[newestKey].error %}
 			<tr class="leaderboard-list-entry-details">
-				<td colspan="7">
+				<td colspan="8">
 					<details class="leaderboard-details" id="details-{{ site[key].url | shortHash }}">
 						<summary>Show Data</summary>
 						<div class="layout color--lighthouse">
@@ -115,9 +119,7 @@ counts:
 											<td>{% if entry.ranks.cumulative %}#{{ entry.ranks.cumulative }}{% elseif entry.ranks.hundos %}#{{ entry.ranks.hundos }} {% endif %}</td>
 {%- endif %}
 											<td class="results-bool">{%
-											if entry.lighthouse.performance === 1
-												%}<span class="leaderboard-hide-sm">✅</span>{%
-											elseif entry.lighthouse.performance >= 0.9
+											if entry.lighthouse.performance >= 0.9
 												%}{%
 											elseif entry.lighthouse.performance >= 0.5
 												%}<span class="leaderboard-hide-sm">⚠️</span>{%
@@ -127,10 +129,8 @@ counts:
 											%}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.performance * 100) | round }}">{{ (entry.lighthouse.performance * 100) | round }}</td>
 											<td class="results-calc"><a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP={{ entry.firstContentfulPaint }}&SI={{ entry.speedIndex }}&LCP={{ entry.largestContentfulPaint }}&TTI={{ entry.timeToInteractive }}&TBT={{ entry.totalBlockingTime }}&CLS={{ entry.cumulativeLayoutShift }}&FCI=&FMP=&device={{ entry.lighthouse.type or "mobile" }}&version={{ entry.lighthouse.version or "6.0.0" }}" target="_blank" rel="noopener noreferrer" class="leaderboard-hide-md">Calculator</a></td>
-											<td class="results-bool">{% 
-											if entry.lighthouse.accessibility === 1
-												%}<span class="leaderboard-hide-sm">✅</span>{%
-											elseif entry.lighthouse.accessibility >= 0.9
+											<td class="results-bool">{%
+											if entry.lighthouse.accessibility >= 0.9
 												%}{%
 											elseif entry.lighthouse.accessibility >= 0.5
 												%}<span class="leaderboard-hide-sm">⚠️</span>{%
@@ -140,9 +140,7 @@ counts:
 											%}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.accessibility * 100) | round }}">{{ (entry.lighthouse.accessibility * 100) | round }}</td>
 											<td class="results-bool">{%
-											if entry.lighthouse.bestPractices === 1
-												%}<span class="leaderboard-hide-sm">✅</span>{%
-											elseif entry.lighthouse.bestPractices >= 0.9
+											if entry.lighthouse.bestPractices >= 0.9
 												%}{%
 											elseif entry.lighthouse.bestPractices >= 0.5
 												%}<span class="leaderboard-hide-sm">⚠️</span>{%
@@ -152,9 +150,7 @@ counts:
 											%}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.bestPractices * 100) | round }}">{{ (entry.lighthouse.bestPractices * 100) | round }}</td>
 											<td class="results-bool">{%
-											if entry.lighthouse.seo === 1
-												%}<span class="leaderboard-hide-sm">✅</span>{%
-											elseif entry.lighthouse.seo >= 0.9
+											if entry.lighthouse.seo >= 0.9
 												%}{%
 											elseif entry.lighthouse.seo >= 0.5
 												%}<span class="leaderboard-hide-sm">⚠️</span>{%
@@ -163,7 +159,7 @@ counts:
 											endif
 											%}</td>
 											<td data-numeric-value="{{ (entry.lighthouse.seo * 100) | round }}">{{ (entry.lighthouse.seo * 100) | round }}</td>
-											<td class="results-bool">{% if entry.axe.violations == 0 %}<span class="leaderboard-hide-sm">✅</span>{% else %}🚫{% endif %}</td>
+											<td class="results-bool">{% if entry.axe.violations == 0 %}{% else %}🚫{% endif %}</td>
 											<td>{% if entry.axe.error %}Error{% else %}{{ entry.axe.violations }}{% endif %}</td>
 										</tr>
 									{%- endfor %}

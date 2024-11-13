@@ -1,12 +1,12 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1730175005808,
+  "timestamp": 1731471078803,
   "ranks": {
-    "hundos": 4,
+    "hundos": 6,
     "performance": 3,
     "accessibility": 5,
-    "cumulative": 4
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,32 +16,32 @@
     "seo": 0.82,
     "total": 370
   },
-  "firstContentfulPaint": 1475.27,
-  "firstMeaningfulPaint": 1475.27,
-  "speedIndex": 1671.4749479999696,
-  "largestContentfulPaint": 2072.7265000000007,
+  "firstContentfulPaint": 1439.4879999999998,
+  "firstMeaningfulPaint": 1452.4879999999998,
+  "speedIndex": 1439.4879999999998,
+  "largestContentfulPaint": 2030.1054999999997,
   "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1475.27,
-  "maxPotentialFirstInputDelay": 344.0000000000002,
-  "timeToFirstByte": 3.5819999999999936,
+  "cumulativeLayoutShift": 0.003241981886962707,
+  "timeToInteractive": 1459.9879999999998,
+  "maxPotentialFirstInputDelay": 352,
+  "timeToFirstByte": 6.183,
   "weight": {
-    "summary": "115 requests • 281.6 KiB",
-    "total": 288343,
-    "image": 197025,
-    "imageCount": 108,
-    "script": 41106,
+    "summary": "116 requests • 284.1 KiB",
+    "total": 290969,
+    "image": 199381,
+    "imageCount": 109,
+    "script": 41109,
     "scriptCount": 1,
-    "document": 44821,
+    "document": 45134,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 5220,
+    "stylesheet": 5174,
     "stylesheetCount": 4,
-    "thirdParty": 44439,
+    "thirdParty": 44789,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 2,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 9791,
-    "violations": 935
+    "passes": 9864,
+    "violations": 944
   }
 }

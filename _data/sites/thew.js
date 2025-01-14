@@ -19,6 +19,5 @@ module.exports = {
 		"https://mastodon.thewdhanat.com/@thewdhanat",
 		"https://github.com/ThewBear",
 		"https://www.linkedin.com/in/thew-dhanat",
-		"https://polywork.thewdhanat.com/",
 	]
 };

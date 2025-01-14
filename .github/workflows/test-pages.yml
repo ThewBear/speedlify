@@ -20,7 +20,7 @@ jobs:
           cp -r results/. default/_data
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version-file: '.nvmrc'
       - run: npm install
         working-directory: default
       - run: npm run test-pages

@@ -18,6 +18,9 @@ jobs:
           path: default
       - run: |
           cp -r results/. default/_data
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
       - run: npm install
         working-directory: default
       - run: npm run test-pages

@@ -16,7 +16,7 @@ module.exports = {
         "https://www.lazada.co.th/",
         "https://www.dek-d.com/",
         "https://www.wongnai.com/",
-        "https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81",
+        "https://th.wikipedia.org/",
         "https://www.blognone.com/",
         "https://www.apple.com/th/",
         "https://www.youtube.com/",

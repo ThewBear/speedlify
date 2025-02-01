@@ -1,43 +1,43 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1737086946196,
+  "timestamp": 1738382937769,
   "ranks": {
     "hundos": 6,
-    "performance": 8,
+    "performance": 4,
     "accessibility": 6,
-    "cumulative": 6
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.83,
+    "performance": 0.96,
     "accessibility": 0.86,
     "bestPractices": 0.96,
     "seo": 0.92,
-    "total": 357
+    "total": 370
   },
-  "firstContentfulPaint": 1584.1149999999998,
-  "firstMeaningfulPaint": 1584.1149999999998,
-  "speedIndex": 1584.1149999999998,
-  "largestContentfulPaint": 4467.639999999999,
-  "totalBlockingTime": 101,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 4317.639999999999,
-  "maxPotentialFirstInputDelay": 252,
-  "timeToFirstByte": 17.202,
+  "firstContentfulPaint": 1620.5775,
+  "firstMeaningfulPaint": 1620.5775,
+  "speedIndex": 1620.5775,
+  "largestContentfulPaint": 2441.0365,
+  "totalBlockingTime": 93,
+  "cumulativeLayoutShift": 0.04181389271081311,
+  "timeToInteractive": 4329.1375,
+  "maxPotentialFirstInputDelay": 236,
+  "timeToFirstByte": 113.165,
   "weight": {
-    "summary": "11 requests • 558.3 KiB",
-    "total": 571709,
-    "image": 230852,
+    "summary": "11 requests • 558.4 KiB",
+    "total": 571799,
+    "image": 230714,
     "imageCount": 4,
-    "script": 329493,
+    "script": 329725,
     "scriptCount": 4,
-    "document": 9569,
+    "document": 9570,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1795,
+    "stylesheet": 1790,
     "stylesheetCount": 1,
-    "thirdParty": 6315,
+    "thirdParty": 6388,
     "thirdPartyCount": 3
   },
   "run": {
@@ -56,9 +56,9 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 6,
-    "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 8
+    "-timeToFirstByte": 9,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 5
   },
   "axe": {
     "passes": 166,

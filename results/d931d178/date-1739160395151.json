@@ -1,11 +1,11 @@
 {
   "url": "https://webhint.io/",
   "requestedUrl": "https://webhint.io/",
-  "timestamp": 1737864608878,
+  "timestamp": 1739160535965,
   "ranks": {
     "hundos": 2,
     "performance": 3,
-    "accessibility": 1,
+    "accessibility": 2,
     "cumulative": 2
   },
   "lighthouse": {
@@ -16,32 +16,32 @@
     "seo": 1,
     "total": 398
   },
-  "firstContentfulPaint": 1548.7690000000002,
-  "firstMeaningfulPaint": 1548.7690000000002,
-  "speedIndex": 1548.7690000000002,
-  "largestContentfulPaint": 2222.6330000000003,
-  "totalBlockingTime": 0,
+  "firstContentfulPaint": 1549.4009999999998,
+  "firstMeaningfulPaint": 1549.4009999999998,
+  "speedIndex": 1549.4009999999998,
+  "largestContentfulPaint": 2151.653,
+  "totalBlockingTime": 19,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1548.7690000000002,
-  "maxPotentialFirstInputDelay": 41,
-  "timeToFirstByte": 11.829999999999998,
+  "timeToInteractive": 2164.3714999999997,
+  "maxPotentialFirstInputDelay": 88,
+  "timeToFirstByte": 3.9659999999999975,
   "weight": {
-    "summary": "19 requests • 176.9 KiB",
-    "total": 181118,
-    "image": 35584,
+    "summary": "19 requests • 176.7 KiB",
+    "total": 180905,
+    "image": 35695,
     "imageCount": 9,
-    "script": 51838,
+    "script": 51434,
     "scriptCount": 2,
-    "document": 6497,
-    "font": 72578,
+    "document": 6498,
+    "font": 72503,
     "fontCount": 4,
-    "stylesheet": 14621,
+    "stylesheet": 14775,
     "stylesheetCount": 3,
-    "thirdParty": 56519,
+    "thirdParty": 56279,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -53,12 +53,12 @@
     "+weight.script": 7,
     "-weight.image": 3,
     "+weight.image": 8,
-    "-weight.font": 4,
-    "+weight.font": 4,
+    "-weight.font": 3,
+    "+weight.font": 5,
     "+weight.fontCount": 3,
     "-timeToFirstByte": 2,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 3
+    "-largestContentfulPaint": 4
   },
   "axe": {
     "passes": 412,

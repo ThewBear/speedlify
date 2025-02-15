@@ -1,47 +1,47 @@
 {
   "url": "https://remix.run/",
   "requestedUrl": "https://remix.run/",
-  "timestamp": 1738336301838,
+  "timestamp": 1739632194326,
   "ranks": {
-    "hundos": 10,
+    "hundos": 11,
     "performance": 13,
     "accessibility": 2,
-    "cumulative": 10
+    "cumulative": 11
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.75,
+    "performance": 0.72,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 375
+    "total": 372
   },
-  "firstContentfulPaint": 1717.048,
-  "firstMeaningfulPaint": 1717.048,
-  "speedIndex": 1717.048,
-  "largestContentfulPaint": 4436.048,
-  "totalBlockingTime": 380,
+  "firstContentfulPaint": 1715.4185,
+  "firstMeaningfulPaint": 1715.4185,
+  "speedIndex": 1715.4185,
+  "largestContentfulPaint": 4437.4185,
+  "totalBlockingTime": 470,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 3462.048,
-  "maxPotentialFirstInputDelay": 505,
-  "timeToFirstByte": 2.6990000000000016,
+  "timeToInteractive": 3382.4184999999998,
+  "maxPotentialFirstInputDelay": 520,
+  "timeToFirstByte": 2.104000000000001,
   "weight": {
-    "summary": "46 requests • 868.1 KiB",
-    "total": 888947,
-    "image": 438496,
+    "summary": "46 requests • 869.0 KiB",
+    "total": 889886,
+    "image": 438977,
     "imageCount": 18,
-    "script": 118075,
+    "script": 118021,
     "scriptCount": 18,
-    "document": 46926,
-    "font": 267902,
+    "document": 46922,
+    "font": 267817,
     "fontCount": 4,
-    "stylesheet": 16519,
+    "stylesheet": 17142,
     "stylesheetCount": 3,
     "thirdParty": 2776,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -55,9 +55,9 @@
     "+weight.image": 1,
     "-weight.font": 12,
     "+weight.font": 1,
-    "+weight.fontCount": 2,
-    "-timeToFirstByte": 1,
-    "-totalBlockingTime": 13,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 11,
     "-largestContentfulPaint": 14
   },
   "axe": {

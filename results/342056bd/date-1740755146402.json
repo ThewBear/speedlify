@@ -1,47 +1,47 @@
 {
   "url": "https://docusaurus.io/",
   "requestedUrl": "https://docusaurus.io/",
-  "timestamp": 1739459663701,
+  "timestamp": 1740755356540,
   "ranks": {
-    "hundos": 9,
+    "hundos": 12,
     "performance": 12,
     "accessibility": 7,
-    "cumulative": 9
+    "cumulative": 11
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.84,
+    "performance": 0.77,
     "accessibility": 0.98,
     "bestPractices": 1,
     "seo": 0.96,
-    "total": 378
+    "total": 371
   },
-  "firstContentfulPaint": 1550.3585,
-  "firstMeaningfulPaint": 1550.3585,
-  "speedIndex": 1550.3585,
-  "largestContentfulPaint": 3828.6985000000004,
-  "totalBlockingTime": 230.5,
+  "firstContentfulPaint": 1537.3745000000001,
+  "firstMeaningfulPaint": 1537.3745000000001,
+  "speedIndex": 1561.1346650000053,
+  "largestContentfulPaint": 4648.8575,
+  "totalBlockingTime": 295.49999999999955,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 5309.1985,
-  "maxPotentialFirstInputDelay": 359,
-  "timeToFirstByte": 106.97399999999999,
+  "timeToInteractive": 5290.3575,
+  "maxPotentialFirstInputDelay": 433,
+  "timeToFirstByte": 175.786,
   "weight": {
-    "summary": "46 requests • 678.3 KiB",
-    "total": 694536,
-    "image": 118839,
+    "summary": "46 requests • 679.7 KiB",
+    "total": 696003,
+    "image": 119024,
     "imageCount": 18,
-    "script": 451073,
+    "script": 452558,
     "scriptCount": 8,
-    "document": 14381,
+    "document": 14519,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 37864,
+    "stylesheet": 37888,
     "stylesheetCount": 2,
-    "thirdParty": 188406,
+    "thirdParty": 190821,
     "thirdPartyCount": 8
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -57,11 +57,11 @@
     "+weight.font": 13,
     "+weight.fontCount": 5,
     "-timeToFirstByte": 15,
-    "-totalBlockingTime": 9,
-    "-largestContentfulPaint": 11
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 14
   },
   "axe": {
-    "passes": 611,
+    "passes": 614,
     "violations": 1
   }
 }

@@ -1,43 +1,43 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1739419841314,
+  "timestamp": 1740715862492,
   "ranks": {
-    "hundos": 5,
-    "performance": 5,
+    "hundos": 6,
+    "performance": 7,
     "accessibility": 6,
-    "cumulative": 4
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.96,
+    "performance": 0.85,
     "accessibility": 0.86,
     "bestPractices": 0.96,
     "seo": 0.92,
-    "total": 370
+    "total": 359
   },
-  "firstContentfulPaint": 1599.079,
-  "firstMeaningfulPaint": 1599.079,
-  "speedIndex": 1599.079,
-  "largestContentfulPaint": 2564.6130000000003,
-  "totalBlockingTime": 104.5,
-  "cumulativeLayoutShift": 0.05180787256202393,
-  "timeToInteractive": 4323.613,
-  "maxPotentialFirstInputDelay": 259,
-  "timeToFirstByte": 20.704,
+  "firstContentfulPaint": 1624.8495,
+  "firstMeaningfulPaint": 2309.3175,
+  "speedIndex": 1858.4268220272666,
+  "largestContentfulPaint": 4343.7855,
+  "totalBlockingTime": 37,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4193.7855,
+  "maxPotentialFirstInputDelay": 124,
+  "timeToFirstByte": 40.527,
   "weight": {
-    "summary": "11 requests • 558.5 KiB",
-    "total": 571917,
-    "image": 230878,
+    "summary": "11 requests • 558.4 KiB",
+    "total": 571771,
+    "image": 230598,
     "imageCount": 4,
-    "script": 329614,
+    "script": 329579,
     "scriptCount": 4,
-    "document": 9588,
+    "document": 9572,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1837,
+    "stylesheet": 2022,
     "stylesheetCount": 1,
-    "thirdParty": 6408,
+    "thirdParty": 6409,
     "thirdPartyCount": 3
   },
   "run": {
@@ -56,9 +56,9 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 7,
-    "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 5
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 8
   },
   "axe": {
     "passes": 166,

@@ -1,48 +1,48 @@
 {
   "url": "https://docusaurus.io/",
   "requestedUrl": "https://docusaurus.io/",
-  "timestamp": 1739805084400,
+  "timestamp": 1741100841199,
   "ranks": {
-    "hundos": 9,
+    "hundos": 10,
     "performance": 11,
     "accessibility": 7,
-    "cumulative": 8
+    "cumulative": 10
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.83,
+    "performance": 0.79,
     "accessibility": 0.98,
     "bestPractices": 1,
     "seo": 0.96,
-    "total": 377
+    "total": 373
   },
-  "firstContentfulPaint": 1549.71,
-  "firstMeaningfulPaint": 1549.71,
-  "speedIndex": 1549.71,
-  "largestContentfulPaint": 3837.9620000000004,
-  "totalBlockingTime": 251,
+  "firstContentfulPaint": 1563.2504999999999,
+  "firstMeaningfulPaint": 1563.2504999999999,
+  "speedIndex": 1563.2504999999999,
+  "largestContentfulPaint": 4466.7785,
+  "totalBlockingTime": 262,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 5330.9619999999995,
-  "maxPotentialFirstInputDelay": 362,
-  "timeToFirstByte": 31.740000000000002,
+  "timeToInteractive": 5185.2785,
+  "maxPotentialFirstInputDelay": 392,
+  "timeToFirstByte": 39.787,
   "weight": {
-    "summary": "46 requests • 680.0 KiB",
-    "total": 696284,
-    "image": 119405,
+    "summary": "46 requests • 673.3 KiB",
+    "total": 689408,
+    "image": 119402,
     "imageCount": 18,
-    "script": 451918,
+    "script": 452772,
     "scriptCount": 8,
-    "document": 14329,
+    "document": 14485,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 37724,
+    "stylesheet": 32182,
     "stylesheetCount": 2,
-    "thirdParty": 189004,
+    "thirdParty": 190548,
     "thirdPartyCount": 8
   },
   "run": {
-    "number": 3,
-    "total": 3
+    "number": 1,
+    "total": 2
   },
   "sidequests": {
     "-weight.total": 10,
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 13,
     "+weight.fontCount": 5,
-    "-timeToFirstByte": 12,
-    "-totalBlockingTime": 11,
-    "-largestContentfulPaint": 10
+    "-timeToFirstByte": 13,
+    "-totalBlockingTime": 8,
+    "-largestContentfulPaint": 14
   },
   "axe": {
-    "passes": 611,
+    "passes": 614,
     "violations": 1
   }
 }

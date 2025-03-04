@@ -1,47 +1,47 @@
 {
   "url": "https://astro.build/",
   "requestedUrl": "https://astro.build/",
-  "timestamp": 1739804834700,
+  "timestamp": 1741101099044,
   "ranks": {
-    "hundos": 5,
+    "hundos": 6,
     "performance": 5,
     "accessibility": 9,
-    "cumulative": 5
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "11.7.1",
     "performance": 0.97,
     "accessibility": 0.97,
-    "bestPractices": 1,
+    "bestPractices": 0.96,
     "seo": 1,
-    "total": 394
+    "total": 390
   },
-  "firstContentfulPaint": 1247.6865,
-  "firstMeaningfulPaint": 1247.6865,
-  "speedIndex": 1247.6865,
-  "largestContentfulPaint": 2553.6865,
+  "firstContentfulPaint": 1254.9009999999998,
+  "firstMeaningfulPaint": 1254.9009999999998,
+  "speedIndex": 1254.9009999999998,
+  "largestContentfulPaint": 2554.901,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1247.6865,
+  "timeToInteractive": 1254.9009999999998,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 5.713000000000001,
+  "timeToFirstByte": 9.964000000000002,
   "weight": {
-    "summary": "22 requests • 333.1 KiB",
-    "total": 341071,
-    "image": 78192,
+    "summary": "22 requests • 327.5 KiB",
+    "total": 335373,
+    "image": 78149,
     "imageCount": 9,
-    "script": 11406,
+    "script": 7907,
     "scriptCount": 8,
-    "document": 53755,
-    "font": 181956,
+    "document": 51507,
+    "font": 181953,
     "fontCount": 2,
-    "stylesheet": 15762,
+    "stylesheet": 15857,
     "stylesheetCount": 2,
-    "thirdParty": 2775,
+    "thirdParty": 2778,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -49,8 +49,8 @@
     "+weight.total": 12,
     "-weight.document": 15,
     "+weight.document": 1,
-    "-weight.script": 2,
-    "+weight.script": 14,
+    "-weight.script": 1,
+    "+weight.script": 15,
     "-weight.image": 9,
     "+weight.image": 6,
     "-weight.font": 9,
@@ -61,7 +61,7 @@
     "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 1609,
+    "passes": 1559,
     "violations": 0
   }
 }

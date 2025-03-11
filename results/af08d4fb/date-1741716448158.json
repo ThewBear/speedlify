@@ -1,66 +1,67 @@
 {
   "url": "https://mastodon.thewdhanat.com/@thewdhanat",
   "requestedUrl": "https://mastodon.thewdhanat.com/@thewdhanat",
-  "timestamp": 1740420534935,
+  "timestamp": 1741716630876,
   "ranks": {
-    "hundos": 8,
-    "performance": 8,
+    "hundos": 7,
+    "performance": 7,
     "accessibility": 9,
-    "cumulative": 8
+    "cumulative": 7
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.45,
+    "performance": 0.35,
     "accessibility": 0.81,
     "bestPractices": 0.93,
     "seo": 0.93,
-    "total": 312
+    "total": 302
   },
-  "firstContentfulPaint": 4835.0125,
-  "firstMeaningfulPaint": 5735.0125,
-  "speedIndex": 17793.46348493905,
-  "largestContentfulPaint": 9260.0125,
-  "totalBlockingTime": 432.50000000000045,
+  "firstContentfulPaint": 4894.123,
+  "firstMeaningfulPaint": 5724.123,
+  "speedIndex": 13724.775997633664,
+  "largestContentfulPaint": 8424.123,
+  "totalBlockingTime": 1004,
   "cumulativeLayoutShift": 0.05010749891990795,
-  "timeToInteractive": 7952.012500000001,
-  "maxPotentialFirstInputDelay": 571,
-  "timeToFirstByte": 1612.2150000000001,
+  "timeToInteractive": 8066.123,
+  "maxPotentialFirstInputDelay": 588,
+  "timeToFirstByte": 1221.503,
   "weight": {
     "summary": "47 requests • 2.4 MiB",
-    "total": 2503483,
-    "image": 1233732,
+    "total": 2501852,
+    "image": 1233266,
     "imageCount": 28,
-    "script": 546172,
+    "script": 545343,
     "scriptCount": 5,
-    "document": 14164,
-    "font": 578929,
+    "document": 13961,
+    "font": 578853,
     "fontCount": 3,
-    "stylesheet": 108029,
+    "stylesheet": 107990,
     "stylesheetCount": 4,
     "thirdParty": 0,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
-    "-weight.total": 9,
-    "+weight.total": 1,
+    "-weight.total": 7,
+    "+weight.total": 3,
     "-weight.document": 5,
     "+weight.document": 5,
     "-weight.script": 6,
     "+weight.script": 4,
     "-weight.image": 9,
     "+weight.image": 1,
-    "-weight.font": 6,
+    "-weight.font": 4,
     "+weight.font": 1,
     "+weight.fontCount": 3,
     "-timeToFirstByte": 9,
-    "-totalBlockingTime": 6,
+    "-totalBlockingTime": 7,
     "-largestContentfulPaint": 8
   },
   "axe": {
-    "error": "{\"name\":\"TimeoutError\"}"
+    "passes": 303,
+    "violations": 9
   }
 }

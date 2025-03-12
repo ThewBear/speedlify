@@ -1,48 +1,48 @@
 {
   "url": "https://nextjs.org/",
   "requestedUrl": "https://nextjs.org/",
-  "timestamp": 1740496142058,
+  "timestamp": 1741792174569,
   "ranks": {
-    "hundos": 14,
-    "performance": 15,
+    "hundos": 13,
+    "performance": 14,
     "accessibility": 4,
-    "cumulative": 14
+    "cumulative": 13
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.64,
+    "performance": 0.71,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.98,
-    "total": 362
+    "total": 369
   },
-  "firstContentfulPaint": 1361.653,
-  "firstMeaningfulPaint": 1436.653,
-  "speedIndex": 2241.210310252889,
-  "largestContentfulPaint": 3686.6530000000002,
-  "totalBlockingTime": 1403,
+  "firstContentfulPaint": 1361.777,
+  "firstMeaningfulPaint": 1361.777,
+  "speedIndex": 2135.543801700898,
+  "largestContentfulPaint": 3086.777,
+  "totalBlockingTime": 1062,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 5545.653,
-  "maxPotentialFirstInputDelay": 842,
-  "timeToFirstByte": 2.7270000000000003,
+  "timeToInteractive": 5290.777,
+  "maxPotentialFirstInputDelay": 700,
+  "timeToFirstByte": 2.4160000000000004,
   "weight": {
-    "summary": "81 requests • 986.0 KiB",
-    "total": 1009634,
-    "image": 73145,
+    "summary": "77 requests • 897.5 KiB",
+    "total": 919073,
+    "image": 73224,
     "imageCount": 15,
-    "script": 657786,
-    "scriptCount": 43,
-    "document": 36644,
-    "font": 60096,
+    "script": 568747,
+    "scriptCount": 40,
+    "document": 36567,
+    "font": 60103,
     "fontCount": 2,
-    "stylesheet": 73597,
-    "stylesheetCount": 14,
+    "stylesheet": 71961,
+    "stylesheetCount": 13,
     "thirdParty": 0,
     "thirdPartyCount": 0
   },
   "run": {
     "number": 2,
-    "total": 2
+    "total": 3
   },
   "sidequests": {
     "-weight.total": 12,
@@ -56,12 +56,12 @@
     "-weight.font": 6,
     "+weight.font": 7,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 3,
+    "-timeToFirstByte": 2,
     "-totalBlockingTime": 13,
-    "-largestContentfulPaint": 12
+    "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 1284,
+    "passes": 1286,
     "violations": 3
   }
 }

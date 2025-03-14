@@ -1,43 +1,43 @@
 {
   "url": "https://hexo.io/",
   "requestedUrl": "https://hexo.io/",
-  "timestamp": 1740668994278,
+  "timestamp": 1741964970596,
   "ranks": {
     "hundos": 15,
-    "performance": 7,
+    "performance": 4,
     "accessibility": 15,
     "cumulative": 15
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.91,
+    "performance": 0.98,
     "accessibility": 0.66,
     "bestPractices": 1,
     "seo": 0.93,
-    "total": 350
+    "total": 357
   },
-  "firstContentfulPaint": 1686.401,
-  "firstMeaningfulPaint": 1686.401,
-  "speedIndex": 1686.401,
-  "largestContentfulPaint": 3346.4980000000005,
-  "totalBlockingTime": 34,
+  "firstContentfulPaint": 1658.223,
+  "firstMeaningfulPaint": 1658.223,
+  "speedIndex": 1658.223,
+  "largestContentfulPaint": 2108.223,
+  "totalBlockingTime": 26.5,
   "cumulativeLayoutShift": 0.00002013011215799719,
-  "timeToInteractive": 3934.4685,
-  "maxPotentialFirstInputDelay": 109,
-  "timeToFirstByte": 17.182999999999993,
+  "timeToInteractive": 3842.7229999999995,
+  "maxPotentialFirstInputDelay": 103,
+  "timeToFirstByte": 7.838999999999999,
   "weight": {
-    "summary": "22 requests • 565.8 KiB",
-    "total": 579378,
-    "image": 319765,
+    "summary": "22 requests • 566.0 KiB",
+    "total": 579599,
+    "image": 319686,
     "imageCount": 7,
-    "script": 179155,
+    "script": 180661,
     "scriptCount": 6,
-    "document": 4039,
-    "font": 57537,
+    "document": 4014,
+    "font": 57158,
     "fontCount": 1,
-    "stylesheet": 17329,
+    "stylesheet": 16536,
     "stylesheetCount": 4,
-    "thirdParty": 258657,
+    "thirdParty": 258921,
     "thirdPartyCount": 6
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 5,
     "+weight.font": 8,
     "+weight.fontCount": 4,
-    "-timeToFirstByte": 12,
-    "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 8
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 4
   },
   "axe": {
-    "passes": 333,
+    "passes": 337,
     "violations": 18
   }
 }

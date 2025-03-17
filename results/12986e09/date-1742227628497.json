@@ -1,12 +1,12 @@
 {
   "url": "https://www.zachleat.com/web/lighthouse-in-footer/",
   "requestedUrl": "https://www.zachleat.com/web/lighthouse-in-footer/",
-  "timestamp": 1740931898743,
+  "timestamp": 1742228121754,
   "ranks": {
-    "hundos": 4,
-    "performance": 6,
+    "hundos": 5,
+    "performance": 5,
     "accessibility": 8,
-    "cumulative": 4
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,32 +16,32 @@
     "seo": 0.99,
     "total": 399
   },
-  "firstContentfulPaint": 1110.917,
-  "firstMeaningfulPaint": 1110.917,
-  "speedIndex": 1110.917,
-  "largestContentfulPaint": 1763.696,
+  "firstContentfulPaint": 1075.078,
+  "firstMeaningfulPaint": 1075.078,
+  "speedIndex": 1075.078,
+  "largestContentfulPaint": 1697.8169999999998,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1110.917,
-  "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 26.445,
+  "timeToInteractive": 1075.078,
+  "maxPotentialFirstInputDelay": 20,
+  "timeToFirstByte": 20.317,
   "weight": {
-    "summary": "12 requests • 114.7 KiB",
-    "total": 117453,
-    "image": 7792,
+    "summary": "12 requests • 114.8 KiB",
+    "total": 117540,
+    "image": 7796,
     "imageCount": 2,
-    "script": 11301,
+    "script": 11363,
     "scriptCount": 3,
-    "document": 37566,
-    "font": 55888,
+    "document": 37573,
+    "font": 55871,
     "fontCount": 4,
-    "stylesheet": 4078,
+    "stylesheet": 4109,
     "stylesheetCount": 1,
-    "thirdParty": 4972,
+    "thirdParty": 4977,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -53,12 +53,12 @@
     "+weight.script": 5,
     "-weight.image": 2,
     "+weight.image": 10,
-    "-weight.font": 5,
-    "+weight.font": 6,
+    "-weight.font": 1,
+    "+weight.font": 9,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 1,
+    "-timeToFirstByte": 3,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 6
+    "-largestContentfulPaint": 7
   },
   "axe": {
     "passes": 2004,

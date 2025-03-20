@@ -1,12 +1,12 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1741147798403,
+  "timestamp": 1742443889757,
   "ranks": {
-    "hundos": 5,
-    "performance": 3,
+    "hundos": 4,
+    "performance": 4,
     "accessibility": 5,
-    "cumulative": 5
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,32 +16,32 @@
     "seo": 0.82,
     "total": 370
   },
-  "firstContentfulPaint": 1440.478,
-  "firstMeaningfulPaint": 1450.478,
-  "speedIndex": 1440.478,
-  "largestContentfulPaint": 2024.5710000000001,
+  "firstContentfulPaint": 1428.883,
+  "firstMeaningfulPaint": 1428.883,
+  "speedIndex": 1677.0209087514381,
+  "largestContentfulPaint": 2006.194,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.003241981886962707,
-  "timeToInteractive": 1461.978,
-  "maxPotentialFirstInputDelay": 354.0000000000002,
-  "timeToFirstByte": 9.562000000000001,
+  "timeToInteractive": 1449.383,
+  "maxPotentialFirstInputDelay": 344,
+  "timeToFirstByte": 10.394000000000005,
   "weight": {
-    "summary": "109 requests • 281.1 KiB",
-    "total": 287813,
-    "image": 198223,
-    "imageCount": 102,
-    "script": 39008,
+    "summary": "111 requests • 286.1 KiB",
+    "total": 292980,
+    "image": 203473,
+    "imageCount": 104,
+    "script": 39009,
     "scriptCount": 1,
-    "document": 45191,
+    "document": 45163,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 5220,
+    "stylesheet": 5132,
     "stylesheetCount": 4,
-    "thirdParty": 42453,
+    "thirdParty": 42777,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -51,17 +51,17 @@
     "+weight.document": 2,
     "-weight.script": 1,
     "+weight.script": 8,
-    "-weight.image": 5,
-    "+weight.image": 6,
+    "-weight.image": 6,
+    "+weight.image": 5,
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 4,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 9826,
+    "passes": 9838,
     "violations": 944
   }
 }

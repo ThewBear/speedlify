@@ -1,43 +1,43 @@
 {
   "url": "https://www.zachleat.com/web/eleventy/",
   "requestedUrl": "https://www.zachleat.com/web/eleventy/",
-  "timestamp": 1741277740590,
+  "timestamp": 1742573747065,
   "ranks": {
     "hundos": 10,
-    "performance": 7,
+    "performance": 11,
     "accessibility": 3,
-    "cumulative": 9
+    "cumulative": 10
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 1,
     "bestPractices": 0.96,
     "seo": 1,
-    "total": 395
+    "total": 394
   },
-  "firstContentfulPaint": 1060.951,
-  "firstMeaningfulPaint": 1060.951,
-  "speedIndex": 1060.951,
-  "largestContentfulPaint": 2271.3109999999997,
+  "firstContentfulPaint": 1203.228,
+  "firstMeaningfulPaint": 1203.228,
+  "speedIndex": 1203.228,
+  "largestContentfulPaint": 2253.228,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1060.951,
+  "timeToInteractive": 1203.228,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 34.444,
+  "timeToFirstByte": 4.870000000000001,
   "weight": {
-    "summary": "32 requests • 139.7 KiB",
-    "total": 143078,
-    "image": 46871,
-    "imageCount": 19,
-    "script": 11218,
+    "summary": "31 requests • 137.7 KiB",
+    "total": 140999,
+    "image": 44726,
+    "imageCount": 18,
+    "script": 11232,
     "scriptCount": 3,
-    "document": 21356,
-    "font": 58319,
+    "document": 21428,
+    "font": 58301,
     "fontCount": 5,
     "stylesheet": 4078,
     "stylesheetCount": 1,
-    "thirdParty": 29582,
+    "thirdParty": 27443,
     "thirdPartyCount": 3
   },
   "run": {
@@ -54,14 +54,14 @@
     "-weight.image": 7,
     "+weight.image": 5,
     "-weight.font": 6,
-    "+weight.font": 4,
+    "+weight.font": 5,
     "+weight.fontCount": 1,
     "-timeToFirstByte": 5,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 11
   },
   "axe": {
-    "passes": 1468,
+    "passes": 1488,
     "violations": 0
   }
 }

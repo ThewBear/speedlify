@@ -1,12 +1,12 @@
 {
   "url": "https://svelte.dev/",
   "requestedUrl": "https://svelte.dev/",
-  "timestamp": 1742483429126,
+  "timestamp": 1743779285286,
   "ranks": {
-    "hundos": 2,
-    "performance": 5,
+    "hundos": 3,
+    "performance": 7,
     "accessibility": 5,
-    "cumulative": 2
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,32 +16,32 @@
     "seo": 1,
     "total": 397
   },
-  "firstContentfulPaint": 1493.0769999999995,
-  "firstMeaningfulPaint": 1493.0769999999995,
-  "speedIndex": 1493.0769999999995,
-  "largestContentfulPaint": 2452.598025863647,
-  "totalBlockingTime": 31,
+  "firstContentfulPaint": 1522.493,
+  "firstMeaningfulPaint": 1522.493,
+  "speedIndex": 1522.493,
+  "largestContentfulPaint": 2501.567861686707,
+  "totalBlockingTime": 44.999999999999886,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1934.7438616867062,
-  "maxPotentialFirstInputDelay": 112,
-  "timeToFirstByte": 16.505000000000003,
+  "timeToInteractive": 1964.4438616867064,
+  "maxPotentialFirstInputDelay": 139.99999999999977,
+  "timeToFirstByte": 6.290999999999997,
   "weight": {
-    "summary": "83 requests • 6.8 MiB",
-    "total": 7121696,
-    "image": 353774,
+    "summary": "81 requests • 9.8 MiB",
+    "total": 10288632,
+    "image": 354743,
     "imageCount": 27,
-    "script": 90110,
-    "scriptCount": 41,
-    "document": 23784,
-    "font": 70885,
+    "script": 104464,
+    "scriptCount": 39,
+    "document": 23802,
+    "font": 70926,
     "fontCount": 3,
-    "stylesheet": 18790,
-    "stylesheetCount": 6,
-    "thirdParty": 6295354,
+    "stylesheet": 23008,
+    "stylesheetCount": 7,
+    "thirdParty": 9448709,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -56,9 +56,9 @@
     "-weight.font": 7,
     "+weight.font": 6,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 3,
-    "-largestContentfulPaint": 5
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 6
   },
   "axe": {
     "error": "{\"name\":\"TimeoutError\"}"

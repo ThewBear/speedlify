@@ -1,47 +1,47 @@
 {
   "url": "https://svelte.dev/",
   "requestedUrl": "https://svelte.dev/",
-  "timestamp": 1743347245130,
+  "timestamp": 1744643433104,
   "ranks": {
     "hundos": 3,
-    "performance": 6,
+    "performance": 7,
     "accessibility": 5,
-    "cumulative": 4
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.96,
+    "performance": 0.97,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 396
+    "total": 397
   },
-  "firstContentfulPaint": 1572.6810000000005,
-  "firstMeaningfulPaint": 1572.6810000000005,
-  "speedIndex": 1572.6810000000005,
-  "largestContentfulPaint": 2631.2298616867074,
-  "totalBlockingTime": 42.5,
+  "firstContentfulPaint": 1522.359,
+  "firstMeaningfulPaint": 1522.359,
+  "speedIndex": 1522.359,
+  "largestContentfulPaint": 2498.3658616867065,
+  "totalBlockingTime": 45.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2149.330361686707,
-  "maxPotentialFirstInputDelay": 135,
-  "timeToFirstByte": 36.94799999999998,
+  "timeToInteractive": 1964.3658616867065,
+  "maxPotentialFirstInputDelay": 141,
+  "timeToFirstByte": 6.614000000000001,
   "weight": {
-    "summary": "81 requests • 6.8 MiB",
-    "total": 7134225,
-    "image": 354730,
+    "summary": "81 requests • 9.8 MiB",
+    "total": 10289686,
+    "image": 354862,
     "imageCount": 27,
-    "script": 104358,
+    "script": 104721,
     "scriptCount": 39,
-    "document": 23793,
-    "font": 70951,
+    "document": 23660,
+    "font": 70925,
     "fontCount": 3,
-    "stylesheet": 23008,
+    "stylesheet": 23017,
     "stylesheetCount": 7,
-    "thirdParty": 6295383,
+    "thirdParty": 9448746,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -56,9 +56,9 @@
     "-weight.font": 7,
     "+weight.font": 6,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 7,
+    "-timeToFirstByte": 2,
     "-totalBlockingTime": 5,
-    "-largestContentfulPaint": 7
+    "-largestContentfulPaint": 6
   },
   "axe": {
     "error": "{\"name\":\"TimeoutError\"}"

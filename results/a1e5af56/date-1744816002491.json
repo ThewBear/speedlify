@@ -1,41 +1,41 @@
 {
   "url": "https://www.11ty.dev/",
   "requestedUrl": "https://www.11ty.dev/",
-  "timestamp": 1743520181266,
+  "timestamp": 1744816180246,
   "ranks": {
-    "hundos": 4,
+    "hundos": 1,
     "performance": 2,
     "accessibility": 1,
-    "cumulative": 4
+    "cumulative": 1
   },
   "lighthouse": {
     "version": "11.7.1",
     "performance": 1,
     "accessibility": 1,
     "bestPractices": 1,
-    "seo": 0.92,
-    "total": 392
+    "seo": 1,
+    "total": 400
   },
-  "firstContentfulPaint": 1083.559,
-  "firstMeaningfulPaint": 1113.559,
-  "speedIndex": 1083.559,
-  "largestContentfulPaint": 1211.559,
-  "totalBlockingTime": 5,
+  "firstContentfulPaint": 1077.1775,
+  "firstMeaningfulPaint": 1102.6775,
+  "speedIndex": 1077.1775,
+  "largestContentfulPaint": 1218.1515,
+  "totalBlockingTime": 0.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1196.559,
-  "maxPotentialFirstInputDelay": 60,
-  "timeToFirstByte": 2.5749999999999993,
+  "timeToInteractive": 1193.908,
+  "maxPotentialFirstInputDelay": 51,
+  "timeToFirstByte": 17.705,
   "weight": {
-    "summary": "15 requests • 94.0 KiB",
-    "total": 96277,
-    "image": 16132,
-    "imageCount": 9,
-    "script": 13191,
+    "summary": "18 requests • 99.5 KiB",
+    "total": 101864,
+    "image": 22185,
+    "imageCount": 12,
+    "script": 13192,
     "scriptCount": 2,
-    "document": 35406,
+    "document": 34910,
     "font": 21889,
     "fontCount": 2,
-    "stylesheet": 9659,
+    "stylesheet": 9688,
     "stylesheetCount": 1,
     "thirdParty": 0,
     "thirdPartyCount": 0
@@ -51,17 +51,17 @@
     "+weight.document": 6,
     "-weight.script": 2,
     "+weight.script": 14,
-    "-weight.image": 3,
-    "+weight.image": 12,
+    "-weight.image": 5,
+    "+weight.image": 10,
     "-weight.font": 1,
     "+weight.font": 12,
     "+weight.fontCount": 3,
     "-timeToFirstByte": 5,
-    "-totalBlockingTime": 2,
+    "-totalBlockingTime": 1,
     "-largestContentfulPaint": 2
   },
   "axe": {
-    "passes": 1934,
+    "passes": 2012,
     "violations": 0
   }
 }

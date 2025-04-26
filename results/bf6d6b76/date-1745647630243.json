@@ -1,46 +1,47 @@
 {
   "url": "https://www.linkedin.com/in/thew-dhanat",
   "requestedUrl": "https://www.linkedin.com/in/thew-dhanat",
-  "timestamp": 1744351882611,
+  "timestamp": 1745647923372,
   "ranks": {
     "hundos": 8,
     "performance": 6,
+    "accessibility": 7,
     "cumulative": 8
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.54,
+    "performance": 0.53,
     "accessibility": 1,
-    "bestPractices": 0.48,
+    "bestPractices": 0.52,
     "seo": 0.99,
-    "total": 301
+    "total": 304
   },
-  "firstContentfulPaint": 2033.2154999999998,
-  "firstMeaningfulPaint": 2033.2154999999998,
-  "speedIndex": 6789.545304647192,
-  "largestContentfulPaint": 2033.2154999999998,
-  "totalBlockingTime": 1944.4720000000002,
+  "firstContentfulPaint": 2069.0645000000004,
+  "firstMeaningfulPaint": 2069.0645000000004,
+  "speedIndex": 4892.695146950857,
+  "largestContentfulPaint": 4919.0645,
+  "totalBlockingTime": 578.5,
   "cumulativeLayoutShift": 0.192257841539165,
-  "timeToInteractive": 12387.215499999998,
-  "maxPotentialFirstInputDelay": 448,
-  "timeToFirstByte": 637.008,
+  "timeToInteractive": 12488.064500000004,
+  "maxPotentialFirstInputDelay": 476,
+  "timeToFirstByte": 602.239,
   "weight": {
     "summary": "110 requests • 1.8 MiB",
-    "total": 1885213,
-    "image": 192413,
+    "total": 1905902,
+    "image": 207818,
     "imageCount": 8,
-    "script": 802269,
-    "scriptCount": 6,
-    "document": 745765,
+    "script": 848076,
+    "scriptCount": 8,
+    "document": 745661,
     "font": 29996,
     "fontCount": 15,
-    "stylesheet": 50328,
+    "stylesheet": 51950,
     "stylesheetCount": 1,
-    "thirdParty": 818132,
-    "thirdPartyCount": 4
+    "thirdParty": 880645,
+    "thirdPartyCount": 6
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -58,5 +59,9 @@
     "-timeToFirstByte": 8,
     "-totalBlockingTime": 7,
     "-largestContentfulPaint": 6
+  },
+  "axe": {
+    "passes": 501,
+    "violations": 1
   }
 }

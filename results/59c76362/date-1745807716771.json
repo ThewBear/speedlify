@@ -1,0 +1,66 @@
+{
+  "url": "https://tmd.go.th/eventday",
+  "requestedUrl": "https://tmd.go.th/",
+  "timestamp": 1745808482314,
+  "ranks": {
+    "hundos": 6,
+    "performance": 6,
+    "accessibility": 12,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.63,
+    "accessibility": 0.73,
+    "bestPractices": 1,
+    "seo": 0.67,
+    "total": 303
+  },
+  "firstContentfulPaint": 4404.4104,
+  "firstMeaningfulPaint": 4404.4104,
+  "speedIndex": 14877.629162691857,
+  "largestContentfulPaint": 5111.7158,
+  "totalBlockingTime": 67.5,
+  "cumulativeLayoutShift": 0.0017799668692934313,
+  "timeToInteractive": 8551.933299999999,
+  "maxPotentialFirstInputDelay": 94,
+  "timeToFirstByte": 577.993,
+  "weight": {
+    "summary": "52 requests • 4.6 MiB",
+    "total": 4868289,
+    "image": 3849288,
+    "imageCount": 7,
+    "script": 365186,
+    "scriptCount": 20,
+    "document": 22154,
+    "font": 566438,
+    "fontCount": 2,
+    "stylesheet": 64516,
+    "stylesheetCount": 18,
+    "thirdParty": 301957,
+    "thirdPartyCount": 7
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 13,
+    "+weight.total": 4,
+    "-weight.document": 3,
+    "+weight.document": 14,
+    "-weight.script": 3,
+    "+weight.script": 14,
+    "-weight.image": 16,
+    "+weight.image": 1,
+    "-weight.font": 12,
+    "+weight.font": 2,
+    "+weight.fontCount": 8,
+    "-timeToFirstByte": 12,
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 5
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

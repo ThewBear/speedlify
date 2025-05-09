@@ -1,47 +1,48 @@
 {
   "url": "https://www.linkedin.com/in/thew-dhanat",
   "requestedUrl": "https://www.linkedin.com/in/thew-dhanat",
-  "timestamp": 1745518230591,
+  "timestamp": 1746814154534,
   "ranks": {
     "hundos": 7,
     "performance": 6,
+    "accessibility": 7,
     "cumulative": 7
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.6,
+    "performance": 0.64,
     "accessibility": 1,
-    "bestPractices": 0.48,
+    "bestPractices": 0.52,
     "seo": 0.99,
-    "total": 307
+    "total": 315
   },
-  "firstContentfulPaint": 2030.3625000000002,
-  "firstMeaningfulPaint": 2030.3625000000002,
-  "speedIndex": 5569.161783082003,
-  "largestContentfulPaint": 2030.3625000000002,
-  "totalBlockingTime": 1161.1535000000013,
+  "firstContentfulPaint": 2055.23,
+  "firstMeaningfulPaint": 2055.23,
+  "speedIndex": 5725.492564390099,
+  "largestContentfulPaint": 2055.23,
+  "totalBlockingTime": 847.5,
   "cumulativeLayoutShift": 0.192257841539165,
-  "timeToInteractive": 11584.679226135257,
-  "maxPotentialFirstInputDelay": 413.0000000000018,
-  "timeToFirstByte": 729.4680000000001,
+  "timeToInteractive": 11465.914000000004,
+  "maxPotentialFirstInputDelay": 436,
+  "timeToFirstByte": 771.405,
   "weight": {
-    "summary": "103 requests • 1.5 MiB",
-    "total": 1620499,
-    "image": 114930,
+    "summary": "104 requests • 1.6 MiB",
+    "total": 1709567,
+    "image": 200438,
     "imageCount": 8,
-    "script": 654882,
+    "script": 654969,
     "scriptCount": 6,
-    "document": 745633,
+    "document": 749868,
     "font": 29996,
     "fontCount": 15,
-    "stylesheet": 46392,
+    "stylesheet": 46360,
     "stylesheetCount": 1,
-    "thirdParty": 819279,
-    "thirdPartyCount": 5
+    "thirdParty": 822119,
+    "thirdPartyCount": 4
   },
   "run": {
-    "number": 2,
-    "total": 3
+    "number": 1,
+    "total": 2
   },
   "sidequests": {
     "-weight.total": 7,
@@ -56,7 +57,11 @@
     "+weight.font": 3,
     "+weight.fontCount": 1,
     "-timeToFirstByte": 8,
-    "-totalBlockingTime": 8,
-    "-largestContentfulPaint": 5
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 6
+  },
+  "axe": {
+    "passes": 501,
+    "violations": 1
   }
 }

@@ -1,47 +1,47 @@
 {
   "url": "https://www.linkedin.com/in/thew-dhanat",
   "requestedUrl": "https://www.linkedin.com/in/thew-dhanat",
-  "timestamp": 1745777517002,
+  "timestamp": 1747073478191,
   "ranks": {
-    "hundos": 8,
+    "hundos": 7,
     "performance": 6,
     "accessibility": 7,
-    "cumulative": 8
+    "cumulative": 7
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.6,
+    "performance": 0.64,
     "accessibility": 1,
     "bestPractices": 0.52,
     "seo": 0.99,
-    "total": 311
+    "total": 315
   },
-  "firstContentfulPaint": 2042.9411000000002,
-  "firstMeaningfulPaint": 2042.9411000000002,
-  "speedIndex": 3591.3997480461203,
-  "largestContentfulPaint": 3862.7279000000003,
-  "totalBlockingTime": 638,
-  "cumulativeLayoutShift": 0.192257841539165,
-  "timeToInteractive": 11190.50835,
-  "maxPotentialFirstInputDelay": 438,
-  "timeToFirstByte": 579.958,
+  "firstContentfulPaint": 2005.8159999999998,
+  "firstMeaningfulPaint": 2005.8159999999998,
+  "speedIndex": 2574.5421705587532,
+  "largestContentfulPaint": 3805.816,
+  "totalBlockingTime": 751.5,
+  "cumulativeLayoutShift": 0.13393488606103887,
+  "timeToInteractive": 11609.958476135253,
+  "maxPotentialFirstInputDelay": 443,
+  "timeToFirstByte": 601.922,
   "weight": {
     "summary": "102 requests • 1.6 MiB",
-    "total": 1705786,
-    "image": 201439,
+    "total": 1706729,
+    "image": 199422,
     "imageCount": 8,
-    "script": 654658,
+    "script": 654644,
     "scriptCount": 6,
-    "document": 746093,
+    "document": 748082,
     "font": 29997,
     "fontCount": 15,
-    "stylesheet": 46359,
+    "stylesheet": 46394,
     "stylesheetCount": 1,
-    "thirdParty": 819596,
+    "thirdParty": 821217,
     "thirdPartyCount": 4
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -51,9 +51,9 @@
     "+weight.document": 1,
     "-weight.script": 7,
     "+weight.script": 3,
-    "-weight.image": 6,
+    "-weight.image": 7,
     "+weight.image": 3,
-    "-weight.font": 3,
+    "-weight.font": 4,
     "+weight.font": 3,
     "+weight.fontCount": 1,
     "-timeToFirstByte": 8,
@@ -61,6 +61,7 @@
     "-largestContentfulPaint": 6
   },
   "axe": {
-    "error": "{}"
+    "passes": 500,
+    "violations": 1
   }
 }

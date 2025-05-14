@@ -1,7 +1,7 @@
 {
   "url": "https://webdriver.io/",
   "requestedUrl": "https://webdriver.io/",
-  "timestamp": 1745903364388,
+  "timestamp": 1747199375327,
   "ranks": {
     "hundos": 10,
     "performance": 10,
@@ -10,34 +10,34 @@
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.33,
+    "performance": 0.31,
     "accessibility": 0.86,
     "bestPractices": 0.78,
-    "seo": 0.98,
-    "total": 295
+    "seo": 0.94,
+    "total": 289
   },
-  "firstContentfulPaint": 3864.325,
-  "firstMeaningfulPaint": 5108.685,
-  "speedIndex": 7741.330126732793,
-  "largestContentfulPaint": 15614.358000000007,
-  "totalBlockingTime": 1805.9999999999982,
+  "firstContentfulPaint": 4187.8675,
+  "firstMeaningfulPaint": 4811.1515,
+  "speedIndex": 7928.213025548175,
+  "largestContentfulPaint": 15772.904500000008,
+  "totalBlockingTime": 2062.5,
   "cumulativeLayoutShift": 0.0015415159706343394,
-  "timeToInteractive": 21830.9765,
-  "maxPotentialFirstInputDelay": 759.9999999999964,
-  "timeToFirstByte": 6.443999999999988,
+  "timeToInteractive": 25393.232500000002,
+  "maxPotentialFirstInputDelay": 781,
+  "timeToFirstByte": 6.555999999999997,
   "weight": {
-    "summary": "95 requests • 6.1 MiB",
-    "total": 6444833,
-    "image": 3113908,
-    "imageCount": 46,
-    "script": 2873366,
-    "scriptCount": 17,
-    "document": 126667,
-    "font": 83026,
+    "summary": "195 requests • 10.8 MiB",
+    "total": 11332602,
+    "image": 7875599,
+    "imageCount": 143,
+    "script": 2982891,
+    "scriptCount": 18,
+    "document": 131456,
+    "font": 83029,
     "fontCount": 5,
-    "stylesheet": 195806,
+    "stylesheet": 197961,
     "stylesheetCount": 5,
-    "thirdParty": 1668776,
+    "thirdParty": 6450497,
     "thirdPartyCount": 9
   },
   "run": {
@@ -57,11 +57,11 @@
     "+weight.font": 4,
     "+weight.fontCount": 2,
     "-timeToFirstByte": 2,
-    "-totalBlockingTime": 4,
+    "-totalBlockingTime": 5,
     "-largestContentfulPaint": 10
   },
   "axe": {
-    "passes": 1466,
+    "passes": 2167,
     "violations": 38
   }
 }

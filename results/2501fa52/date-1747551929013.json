@@ -1,0 +1,66 @@
+{
+  "url": "https://tmd.go.th/",
+  "requestedUrl": "https://tmd.go.th/",
+  "timestamp": 1747553054152,
+  "ranks": {
+    "hundos": 12,
+    "performance": 11,
+    "accessibility": 12,
+    "cumulative": 12
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.3,
+    "accessibility": 0.73,
+    "bestPractices": 0.7,
+    "seo": 0.73,
+    "total": 246
+  },
+  "firstContentfulPaint": 4379.737300000001,
+  "firstMeaningfulPaint": 4379.737300000001,
+  "speedIndex": 17101.58768520812,
+  "largestContentfulPaint": 41911.76204999999,
+  "totalBlockingTime": 1658.0000000000036,
+  "cumulativeLayoutShift": 0.03408287201617269,
+  "timeToInteractive": 64736.17379999999,
+  "maxPotentialFirstInputDelay": 564.0000000000036,
+  "timeToFirstByte": 3057.4170000000004,
+  "weight": {
+    "summary": "291 requests • 47.1 MiB",
+    "total": 49397843,
+    "image": 41205771,
+    "imageCount": 125,
+    "script": 4170840,
+    "scriptCount": 62,
+    "document": 131866,
+    "font": 1577600,
+    "fontCount": 18,
+    "stylesheet": 234623,
+    "stylesheetCount": 37,
+    "thirdParty": 3574531,
+    "thirdPartyCount": 28
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 16,
+    "+weight.total": 1,
+    "-weight.document": 12,
+    "+weight.document": 5,
+    "-weight.script": 16,
+    "+weight.script": 1,
+    "-weight.image": 16,
+    "+weight.image": 1,
+    "-weight.font": 11,
+    "+weight.font": 1,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 16,
+    "-totalBlockingTime": 10,
+    "-largestContentfulPaint": 16
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

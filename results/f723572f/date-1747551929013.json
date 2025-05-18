@@ -1,0 +1,66 @@
+{
+  "url": "https://shopee.co.th/",
+  "requestedUrl": "https://shopee.co.th/",
+  "timestamp": 1747552711634,
+  "ranks": {
+    "hundos": 10,
+    "performance": 13,
+    "accessibility": 13,
+    "cumulative": 10
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.27,
+    "accessibility": 0.72,
+    "bestPractices": 0.74,
+    "seo": 0.86,
+    "total": 259
+  },
+  "firstContentfulPaint": 4165.104200000001,
+  "firstMeaningfulPaint": 7726.296550000001,
+  "speedIndex": 11211.211465795723,
+  "largestContentfulPaint": 10506.401000000002,
+  "totalBlockingTime": 6537.499999999999,
+  "cumulativeLayoutShift": 0.05857936916478486,
+  "timeToInteractive": 18363.74075,
+  "maxPotentialFirstInputDelay": 1462,
+  "timeToFirstByte": 565.2420000000001,
+  "weight": {
+    "summary": "138 requests • 2.0 MiB",
+    "total": 2051737,
+    "image": 58209,
+    "imageCount": 11,
+    "script": 1726667,
+    "scriptCount": 64,
+    "document": 22215,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 27995,
+    "stylesheetCount": 7,
+    "thirdParty": 1854278,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 7,
+    "+weight.total": 10,
+    "-weight.document": 2,
+    "+weight.document": 15,
+    "-weight.script": 10,
+    "+weight.script": 7,
+    "-weight.image": 5,
+    "+weight.image": 12,
+    "-weight.font": 1,
+    "+weight.font": 12,
+    "+weight.fontCount": 10,
+    "-timeToFirstByte": 11,
+    "-totalBlockingTime": 15,
+    "-largestContentfulPaint": 9
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

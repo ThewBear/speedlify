@@ -1,0 +1,66 @@
+{
+  "url": "https://www.dek-d.com/",
+  "requestedUrl": "https://www.dek-d.com/",
+  "timestamp": 1748168336191,
+  "ranks": {
+    "hundos": 12,
+    "performance": 12,
+    "accessibility": 15,
+    "cumulative": 12
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.28,
+    "accessibility": 0.65,
+    "bestPractices": 0.7,
+    "seo": 0.91,
+    "total": 254
+  },
+  "firstContentfulPaint": 4404.3235075199345,
+  "firstMeaningfulPaint": 8450.325856893272,
+  "speedIndex": 11521.259184038881,
+  "largestContentfulPaint": 18659.083562666114,
+  "totalBlockingTime": 2924.5000000000036,
+  "cumulativeLayoutShift": 0.04237035843913539,
+  "timeToInteractive": 32083.608000000007,
+  "maxPotentialFirstInputDelay": 822,
+  "timeToFirstByte": 466.00300000000004,
+  "weight": {
+    "summary": "224 requests • 4.9 MiB",
+    "total": 5154813,
+    "image": 775159,
+    "imageCount": 54,
+    "script": 3235293,
+    "scriptCount": 67,
+    "document": 166669,
+    "font": 507689,
+    "fontCount": 16,
+    "stylesheet": 311015,
+    "stylesheetCount": 10,
+    "thirdParty": 3282352,
+    "thirdPartyCount": 13
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 13,
+    "+weight.total": 4,
+    "-weight.document": 13,
+    "+weight.document": 4,
+    "-weight.script": 15,
+    "+weight.script": 2,
+    "-weight.image": 10,
+    "+weight.image": 7,
+    "-weight.font": 10,
+    "+weight.font": 3,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 12,
+    "-totalBlockingTime": 12,
+    "-largestContentfulPaint": 14
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

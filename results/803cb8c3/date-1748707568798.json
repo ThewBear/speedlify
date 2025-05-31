@@ -1,12 +1,12 @@
 {
   "url": "https://www.zachleat.com/about/",
   "requestedUrl": "https://www.zachleat.com/about/",
-  "timestamp": 1747412193297,
+  "timestamp": 1748708159648,
   "ranks": {
     "hundos": 3,
-    "performance": 10,
+    "performance": 11,
     "accessibility": 10,
-    "cumulative": 5
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,28 +16,28 @@
     "seo": 1,
     "total": 399
   },
-  "firstContentfulPaint": 1205.0300000000002,
-  "firstMeaningfulPaint": 1205.0300000000002,
-  "speedIndex": 1205.0300000000002,
-  "largestContentfulPaint": 1805.9420000000002,
+  "firstContentfulPaint": 988.7645000000001,
+  "firstMeaningfulPaint": 988.7645000000001,
+  "speedIndex": 988.7645000000001,
+  "largestContentfulPaint": 1810.9325,
   "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0.0009840651689509653,
-  "timeToInteractive": 1205.0300000000002,
-  "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 4.945999999999998,
+  "cumulativeLayoutShift": 0.07091270354956641,
+  "timeToInteractive": 988.7645000000001,
+  "maxPotentialFirstInputDelay": 34,
+  "timeToFirstByte": 11.276,
   "weight": {
     "summary": "20 requests • 271.3 KiB",
-    "total": 277769,
-    "image": 175482,
+    "total": 277843,
+    "image": 175507,
     "imageCount": 10,
-    "script": 7899,
+    "script": 7946,
     "scriptCount": 2,
-    "document": 19382,
+    "document": 19414,
     "font": 70737,
     "fontCount": 5,
     "stylesheet": 4083,
     "stylesheetCount": 1,
-    "thirdParty": 13218,
+    "thirdParty": 13211,
     "thirdPartyCount": 1
   },
   "run": {
@@ -49,8 +49,8 @@
     "+weight.total": 2,
     "-weight.document": 5,
     "+weight.document": 7,
-    "-weight.script": 2,
-    "+weight.script": 7,
+    "-weight.script": 3,
+    "+weight.script": 5,
     "-weight.image": 11,
     "+weight.image": 1,
     "-weight.font": 8,
@@ -58,7 +58,7 @@
     "+weight.fontCount": 1,
     "-timeToFirstByte": 1,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 9
+    "-largestContentfulPaint": 11
   },
   "axe": {
     "passes": 796,

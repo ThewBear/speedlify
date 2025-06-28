@@ -1,43 +1,43 @@
 {
   "url": "https://svelte.dev/",
   "requestedUrl": "https://svelte.dev/",
-  "timestamp": 1749827436596,
+  "timestamp": 1751123577116,
   "ranks": {
     "hundos": 3,
-    "performance": 7,
+    "performance": 6,
     "accessibility": 5,
-    "cumulative": 4
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.96,
+    "performance": 0.97,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 396
+    "total": 397
   },
-  "firstContentfulPaint": 1570.6549999999997,
-  "firstMeaningfulPaint": 1570.6549999999997,
-  "speedIndex": 1570.6549999999997,
-  "largestContentfulPaint": 2617.295789497376,
-  "totalBlockingTime": 44,
+  "firstContentfulPaint": 1525.9364999999998,
+  "firstMeaningfulPaint": 1525.9364999999998,
+  "speedIndex": 1525.9364999999998,
+  "largestContentfulPaint": 2504.259789497375,
+  "totalBlockingTime": 44.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2145.3402894973756,
-  "maxPotentialFirstInputDelay": 138,
-  "timeToFirstByte": 37.86,
+  "timeToInteractive": 1966.6532894973752,
+  "maxPotentialFirstInputDelay": 139,
+  "timeToFirstByte": 2.6610000000000014,
   "weight": {
-    "summary": "82 requests • 6.2 MiB",
-    "total": 6546596,
-    "image": 365483,
+    "summary": "82 requests • 9.8 MiB",
+    "total": 10308200,
+    "image": 365072,
     "imageCount": 27,
-    "script": 105426,
+    "script": 105760,
     "scriptCount": 40,
-    "document": 23561,
-    "font": 70924,
+    "document": 23597,
+    "font": 70978,
     "fontCount": 3,
-    "stylesheet": 22657,
+    "stylesheet": 22781,
     "stylesheetCount": 7,
-    "thirdParty": 5688109,
+    "thirdParty": 9449007,
     "thirdPartyCount": 1
   },
   "run": {
@@ -56,9 +56,9 @@
     "-weight.font": 6,
     "+weight.font": 7,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 6,
-    "-totalBlockingTime": 6,
-    "-largestContentfulPaint": 7
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 5
   },
   "axe": {
     "error": "{\"name\":\"TimeoutError\"}"

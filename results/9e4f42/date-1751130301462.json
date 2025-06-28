@@ -1,47 +1,47 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1749834588378,
+  "timestamp": 1751130474265,
   "ranks": {
-    "hundos": 4,
+    "hundos": 3,
     "performance": 5,
     "accessibility": 6,
-    "cumulative": 4
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.96,
+    "performance": 0.98,
     "accessibility": 0.86,
     "bestPractices": 0.96,
     "seo": 0.92,
-    "total": 370
+    "total": 372
   },
-  "firstContentfulPaint": 1593.9500000000003,
-  "firstMeaningfulPaint": 1593.9500000000003,
-  "speedIndex": 1593.9500000000003,
-  "largestContentfulPaint": 2567.6620000000003,
-  "totalBlockingTime": 95.5,
-  "cumulativeLayoutShift": 0.04181389271081311,
-  "timeToInteractive": 4309.912,
-  "maxPotentialFirstInputDelay": 241,
-  "timeToFirstByte": 42.233999999999995,
+  "firstContentfulPaint": 1643.615,
+  "firstMeaningfulPaint": 1662.615,
+  "speedIndex": 1643.615,
+  "largestContentfulPaint": 2015.953,
+  "totalBlockingTime": 100,
+  "cumulativeLayoutShift": 0.0005985819198703784,
+  "timeToInteractive": 4365.9529999999995,
+  "maxPotentialFirstInputDelay": 250,
+  "timeToFirstByte": 116.57400000000001,
   "weight": {
-    "summary": "11 requests • 557.6 KiB",
-    "total": 570934,
-    "image": 230613,
+    "summary": "11 requests • 557.1 KiB",
+    "total": 570484,
+    "image": 230288,
     "imageCount": 4,
-    "script": 329338,
+    "script": 329395,
     "scriptCount": 4,
-    "document": 9382,
+    "document": 9198,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1601,
+    "stylesheet": 1603,
     "stylesheetCount": 1,
-    "thirdParty": 6313,
+    "thirdParty": 6219,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -58,7 +58,7 @@
     "+weight.fontCount": 6,
     "-timeToFirstByte": 7,
     "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 5
+    "-largestContentfulPaint": 3
   },
   "axe": {
     "passes": 166,

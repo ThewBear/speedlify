@@ -1,47 +1,47 @@
 {
   "url": "https://astro.build/",
   "requestedUrl": "https://astro.build/",
-  "timestamp": 1749913621000,
+  "timestamp": 1751209904994,
   "ranks": {
-    "hundos": 5,
+    "hundos": 6,
     "performance": 5,
     "accessibility": 9,
-    "cumulative": 4
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.99,
+    "performance": 0.97,
     "accessibility": 0.97,
     "bestPractices": 1,
     "seo": 1,
-    "total": 396
+    "total": 394
   },
-  "firstContentfulPaint": 1065.347,
-  "firstMeaningfulPaint": 1098.347,
-  "speedIndex": 1065.347,
-  "largestContentfulPaint": 2115.3469999999998,
-  "totalBlockingTime": 36,
+  "firstContentfulPaint": 1122.57,
+  "firstMeaningfulPaint": 1122.57,
+  "speedIndex": 1122.57,
+  "largestContentfulPaint": 2562.946999999999,
+  "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1151.347,
-  "maxPotentialFirstInputDelay": 118,
-  "timeToFirstByte": 9.564000000000007,
+  "timeToInteractive": 1122.57,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 4.278000000000002,
   "weight": {
-    "summary": "24 requests • 325.7 KiB",
-    "total": 333495,
-    "image": 78186,
+    "summary": "24 requests • 325.5 KiB",
+    "total": 333323,
+    "image": 78118,
     "imageCount": 10,
-    "script": 12472,
+    "script": 12469,
     "scriptCount": 9,
-    "document": 42685,
-    "font": 181953,
+    "document": 42569,
+    "font": 181957,
     "fontCount": 2,
-    "stylesheet": 18199,
+    "stylesheet": 18210,
     "stylesheetCount": 2,
-    "thirdParty": 2958,
+    "thirdParty": 2902,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 1,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -51,14 +51,14 @@
     "+weight.document": 3,
     "-weight.script": 1,
     "+weight.script": 15,
-    "-weight.image": 9,
+    "-weight.image": 8,
     "+weight.image": 6,
     "-weight.font": 9,
     "+weight.font": 4,
     "+weight.fontCount": 3,
     "-timeToFirstByte": 10,
-    "-totalBlockingTime": 5,
-    "-largestContentfulPaint": 5
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 6
   },
   "axe": {
     "passes": 1620,

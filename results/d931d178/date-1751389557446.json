@@ -1,48 +1,48 @@
 {
   "url": "https://webhint.io/",
   "requestedUrl": "https://webhint.io/",
-  "timestamp": 1750093711380,
+  "timestamp": 1751389792752,
   "ranks": {
     "hundos": 2,
-    "performance": 4,
+    "performance": 3,
     "accessibility": 2,
     "cumulative": 2
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.98,
+    "performance": 0.99,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 398
+    "total": 399
   },
-  "firstContentfulPaint": 1609.6905000000002,
-  "firstMeaningfulPaint": 1609.6905000000002,
-  "speedIndex": 1609.6905000000002,
-  "largestContentfulPaint": 2210.1505,
+  "firstContentfulPaint": 1519.9965,
+  "firstMeaningfulPaint": 1519.9965,
+  "speedIndex": 1519.9965,
+  "largestContentfulPaint": 2124.4445,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1609.6905000000002,
+  "timeToInteractive": 1519.9965,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 99.65,
+  "timeToFirstByte": 2.099,
   "weight": {
-    "summary": "19 requests • 176.4 KiB",
-    "total": 180660,
-    "image": 35743,
+    "summary": "19 requests • 177.0 KiB",
+    "total": 181296,
+    "image": 35737,
     "imageCount": 9,
-    "script": 51154,
+    "script": 51450,
     "scriptCount": 2,
-    "document": 6506,
-    "font": 72573,
+    "document": 6500,
+    "font": 72534,
     "fontCount": 4,
-    "stylesheet": 14684,
+    "stylesheet": 15075,
     "stylesheetCount": 3,
-    "thirdParty": 55960,
+    "thirdParty": 56514,
     "thirdPartyCount": 1
   },
   "run": {
     "number": 2,
-    "total": 3
+    "total": 2
   },
   "sidequests": {
     "-weight.total": 3,
@@ -56,7 +56,7 @@
     "-weight.font": 3,
     "+weight.font": 5,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 6,
+    "-timeToFirstByte": 1,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 4
   },

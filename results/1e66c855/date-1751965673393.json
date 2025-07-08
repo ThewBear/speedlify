@@ -1,43 +1,43 @@
 {
   "url": "https://laravel.com/",
   "requestedUrl": "https://laravel.com/",
-  "timestamp": 1750669780415,
+  "timestamp": 1751965755265,
   "ranks": {
-    "hundos": 5,
+    "hundos": 4,
     "performance": 4,
     "accessibility": 5,
-    "cumulative": 5
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.48,
+    "performance": 0.47,
     "accessibility": 0.83,
     "bestPractices": 0.7,
     "seo": 1,
-    "total": 301
+    "total": 300
   },
-  "firstContentfulPaint": 2489.8520000000003,
-  "firstMeaningfulPaint": 3205.6620000000003,
-  "speedIndex": 4673.573151927613,
-  "largestContentfulPaint": 7319.436000000001,
-  "totalBlockingTime": 1002.5,
+  "firstContentfulPaint": 2448.1739999999995,
+  "firstMeaningfulPaint": 3211.7039999999993,
+  "speedIndex": 4742.817205274634,
+  "largestContentfulPaint": 7334.765999999999,
+  "totalBlockingTime": 1066.5,
   "cumulativeLayoutShift": 0.010423162442734267,
-  "timeToInteractive": 17700.021,
-  "maxPotentialFirstInputDelay": 402,
-  "timeToFirstByte": 16.839,
+  "timeToInteractive": 17862.8205,
+  "maxPotentialFirstInputDelay": 395,
+  "timeToFirstByte": 21.290000000000003,
   "weight": {
     "summary": "64 requests • 15.9 MiB",
-    "total": 16625343,
-    "image": 1493750,
+    "total": 16629162,
+    "image": 1493626,
     "imageCount": 14,
-    "script": 1159513,
+    "script": 1161796,
     "scriptCount": 24,
-    "document": 250101,
-    "font": 262466,
+    "document": 249494,
+    "font": 262537,
     "fontCount": 5,
-    "stylesheet": 107799,
+    "stylesheet": 108312,
     "stylesheetCount": 3,
-    "thirdParty": 1262487,
+    "thirdParty": 1266720,
     "thirdPartyCount": 8
   },
   "run": {
@@ -55,13 +55,13 @@
     "+weight.image": 1,
     "-weight.font": 4,
     "+weight.font": 1,
-    "+weight.fontCount": 1,
+    "+weight.fontCount": 2,
     "-timeToFirstByte": 2,
-    "-totalBlockingTime": 3,
+    "-totalBlockingTime": 4,
     "-largestContentfulPaint": 5
   },
   "axe": {
-    "passes": 2525,
-    "violations": 152
+    "passes": 2562,
+    "violations": 160
   }
 }

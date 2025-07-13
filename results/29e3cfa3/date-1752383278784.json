@@ -1,43 +1,43 @@
 {
   "url": "https://gulpjs.com/",
   "requestedUrl": "https://gulpjs.com/",
-  "timestamp": 1751087320591,
+  "timestamp": 1752383419890,
   "ranks": {
-    "hundos": 6,
+    "hundos": 4,
     "performance": 7,
     "accessibility": 4,
-    "cumulative": 6
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.77,
+    "performance": 0.85,
     "accessibility": 0.95,
     "bestPractices": 1,
     "seo": 0.9,
-    "total": 362
+    "total": 370
   },
-  "firstContentfulPaint": 2459.5035000000003,
-  "firstMeaningfulPaint": 2459.5035000000003,
-  "speedIndex": 2459.5035000000003,
-  "largestContentfulPaint": 4315.468999999999,
-  "totalBlockingTime": 139,
-  "cumulativeLayoutShift": 0.10795289408311161,
-  "timeToInteractive": 4389.6835,
-  "maxPotentialFirstInputDelay": 230,
-  "timeToFirstByte": 152.75900000000001,
+  "firstContentfulPaint": 1623.8135,
+  "firstMeaningfulPaint": 1686.3485,
+  "speedIndex": 1965.429096213898,
+  "largestContentfulPaint": 3282.809,
+  "totalBlockingTime": 201.5,
+  "cumulativeLayoutShift": 0.11951536930569386,
+  "timeToInteractive": 4528.860499999999,
+  "maxPotentialFirstInputDelay": 217,
+  "timeToFirstByte": 159.339,
   "weight": {
-    "summary": "44 requests • 683.6 KiB",
-    "total": 699978,
-    "image": 218025,
+    "summary": "44 requests • 682.3 KiB",
+    "total": 698651,
+    "image": 218104,
     "imageCount": 18,
-    "script": 391056,
+    "script": 389720,
     "scriptCount": 7,
-    "document": 5768,
-    "font": 31746,
+    "document": 5762,
+    "font": 31744,
     "fontCount": 3,
-    "stylesheet": 22689,
+    "stylesheet": 22659,
     "stylesheetCount": 2,
-    "thirdParty": 286689,
+    "thirdParty": 285253,
     "thirdPartyCount": 3
   },
   "run": {
@@ -57,8 +57,8 @@
     "+weight.font": 6,
     "+weight.fontCount": 4,
     "-timeToFirstByte": 10,
-    "-totalBlockingTime": 3,
-    "-largestContentfulPaint": 8
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 7
   },
   "axe": {
     "passes": 429,

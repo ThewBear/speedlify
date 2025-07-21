@@ -1,43 +1,43 @@
 {
   "url": "https://www.solidjs.com/",
   "requestedUrl": "https://www.solidjs.com/",
-  "timestamp": 1751814476914,
+  "timestamp": 1753110566173,
   "ranks": {
-    "hundos": 7,
+    "hundos": 8,
     "performance": 8,
     "accessibility": 13,
-    "cumulative": 7
+    "cumulative": 8
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.95,
+    "performance": 0.85,
     "accessibility": 0.91,
     "bestPractices": 1,
     "seo": 1,
-    "total": 386
+    "total": 376
   },
-  "firstContentfulPaint": 1868.393,
-  "firstMeaningfulPaint": 2318.393,
-  "speedIndex": 1868.393,
-  "largestContentfulPaint": 2768.393,
-  "totalBlockingTime": 36,
-  "cumulativeLayoutShift": 0.02224535558625645,
-  "timeToInteractive": 3504.393,
-  "maxPotentialFirstInputDelay": 122,
-  "timeToFirstByte": 84.18299999999999,
+  "firstContentfulPaint": 2031.011,
+  "firstMeaningfulPaint": 3381.011,
+  "speedIndex": 2181.2828784401718,
+  "largestContentfulPaint": 4056.011,
+  "totalBlockingTime": 10.5,
+  "cumulativeLayoutShift": 0.016818890568833,
+  "timeToInteractive": 3791.511,
+  "maxPotentialFirstInputDelay": 71,
+  "timeToFirstByte": 68.91,
   "weight": {
     "summary": "26 requests • 463.5 KiB",
-    "total": 474601,
-    "image": 21039,
+    "total": 474662,
+    "image": 21047,
     "imageCount": 14,
-    "script": 171466,
+    "script": 171544,
     "scriptCount": 5,
-    "document": 1533,
-    "font": 266266,
+    "document": 1535,
+    "font": 266242,
     "fontCount": 3,
-    "stylesheet": 14260,
+    "stylesheet": 14257,
     "stylesheetCount": 1,
-    "thirdParty": 7157,
+    "thirdParty": 7156,
     "thirdPartyCount": 2
   },
   "run": {
@@ -57,11 +57,11 @@
     "+weight.font": 2,
     "+weight.fontCount": 2,
     "-timeToFirstByte": 13,
-    "-totalBlockingTime": 4,
-    "-largestContentfulPaint": 9
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 11
   },
   "axe": {
-    "passes": 574,
+    "passes": 580,
     "violations": 6
   }
 }

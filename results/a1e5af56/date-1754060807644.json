@@ -1,47 +1,47 @@
 {
   "url": "https://www.11ty.dev/",
   "requestedUrl": "https://www.11ty.dev/",
-  "timestamp": 1752764960701,
+  "timestamp": 1754060826151,
   "ranks": {
-    "hundos": 1,
-    "performance": 3,
+    "hundos": 4,
+    "performance": 4,
     "accessibility": 1,
-    "cumulative": 1
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 1,
+    "performance": 0.99,
     "accessibility": 1,
-    "bestPractices": 1,
+    "bestPractices": 0.96,
     "seo": 1,
-    "total": 400
+    "total": 395
   },
-  "firstContentfulPaint": 1217.5960000000002,
-  "firstMeaningfulPaint": 1217.5960000000002,
-  "speedIndex": 1217.5960000000002,
-  "largestContentfulPaint": 1277.5960000000002,
-  "totalBlockingTime": 35,
+  "firstContentfulPaint": 1180.9009999999998,
+  "firstMeaningfulPaint": 1261.4009999999998,
+  "speedIndex": 1180.9009999999998,
+  "largestContentfulPaint": 1282.1769999999997,
+  "totalBlockingTime": 101.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1352.8825000000002,
-  "maxPotentialFirstInputDelay": 120,
-  "timeToFirstByte": 3.154,
+  "timeToInteractive": 1332.4009999999998,
+  "maxPotentialFirstInputDelay": 161,
+  "timeToFirstByte": 16.174999999999997,
   "weight": {
-    "summary": "12 requests • 90.4 KiB",
-    "total": 92583,
-    "image": 10329,
+    "summary": "12 requests • 90.5 KiB",
+    "total": 92678,
+    "image": 10328,
     "imageCount": 6,
-    "script": 13407,
+    "script": 13391,
     "scriptCount": 2,
-    "document": 36870,
-    "font": 21921,
+    "document": 36981,
+    "font": 21939,
     "fontCount": 2,
-    "stylesheet": 10056,
+    "stylesheet": 10039,
     "stylesheetCount": 1,
     "thirdParty": 0,
     "thirdPartyCount": 0
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -56,8 +56,8 @@
     "-weight.font": 1,
     "+weight.font": 12,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 4,
-    "-totalBlockingTime": 4,
+    "-timeToFirstByte": 11,
+    "-totalBlockingTime": 8,
     "-largestContentfulPaint": 3
   },
   "axe": {

@@ -1,12 +1,12 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1752988417022,
+  "timestamp": 1754284889424,
   "ranks": {
-    "hundos": 4,
+    "hundos": 5,
     "performance": 3,
     "accessibility": 5,
-    "cumulative": 4
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,33 +16,33 @@
     "seo": 0.82,
     "total": 370
   },
-  "firstContentfulPaint": 1432.4530000000002,
-  "firstMeaningfulPaint": 1432.4530000000002,
-  "speedIndex": 1432.4530000000002,
-  "largestContentfulPaint": 2049.7075000000004,
-  "totalBlockingTime": 0,
+  "firstContentfulPaint": 1361.4755,
+  "firstMeaningfulPaint": 1361.4755,
+  "speedIndex": 1361.4755,
+  "largestContentfulPaint": 2006.7024999999999,
+  "totalBlockingTime": 4,
   "cumulativeLayoutShift": 0.003241981886962707,
-  "timeToInteractive": 1452.953,
-  "maxPotentialFirstInputDelay": 302.9999999999998,
-  "timeToFirstByte": 23.599000000000004,
+  "timeToInteractive": 1436.9755,
+  "maxPotentialFirstInputDelay": 282,
+  "timeToFirstByte": 9.078,
   "weight": {
-    "summary": "90 requests • 251.4 KiB",
-    "total": 257429,
-    "image": 165627,
-    "imageCount": 83,
-    "script": 41446,
+    "summary": "91 requests • 253.5 KiB",
+    "total": 259579,
+    "image": 167709,
+    "imageCount": 84,
+    "script": 41447,
     "scriptCount": 1,
-    "document": 45038,
+    "document": 45140,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 5176,
+    "stylesheet": 5141,
     "stylesheetCount": 4,
-    "thirdParty": 45031,
+    "thirdParty": 45026,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 2,
-    "total": 3
+    "number": 1,
+    "total": 2
   },
   "sidequests": {
     "-weight.total": 5,
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 5,
+    "-timeToFirstByte": 6,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 9810,
+    "passes": 9816,
     "violations": 944
   }
 }

@@ -1,12 +1,12 @@
 {
   "url": "https://svelte.dev/",
   "requestedUrl": "https://svelte.dev/",
-  "timestamp": 1753110539599,
+  "timestamp": 1754406760596,
   "ranks": {
-    "hundos": 2,
+    "hundos": 3,
     "performance": 5,
     "accessibility": 5,
-    "cumulative": 2
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,32 +16,32 @@
     "seo": 1,
     "total": 397
   },
-  "firstContentfulPaint": 1535.3870000000002,
-  "firstMeaningfulPaint": 1535.3870000000002,
-  "speedIndex": 1665.6925163739002,
-  "largestContentfulPaint": 2511.3896798248293,
-  "totalBlockingTime": 33.5,
+  "firstContentfulPaint": 1527.7064999999996,
+  "firstMeaningfulPaint": 1527.7064999999998,
+  "speedIndex": 1527.7064999999996,
+  "largestContentfulPaint": 2509.1626798248285,
+  "totalBlockingTime": 35,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1953.3896798248293,
-  "maxPotentialFirstInputDelay": 117,
-  "timeToFirstByte": 20.696000000000012,
+  "timeToInteractive": 1950.3871798248288,
+  "maxPotentialFirstInputDelay": 120,
+  "timeToFirstByte": 2.3249999999999993,
   "weight": {
-    "summary": "79 requests • 6.8 MiB",
-    "total": 7147698,
-    "image": 355927,
+    "summary": "80 requests • 9.8 MiB",
+    "total": 10307968,
+    "image": 356048,
     "imageCount": 27,
-    "script": 103415,
-    "scriptCount": 38,
-    "document": 23698,
-    "font": 70944,
+    "script": 105095,
+    "scriptCount": 39,
+    "document": 23709,
+    "font": 70954,
     "fontCount": 3,
-    "stylesheet": 22364,
+    "stylesheet": 22331,
     "stylesheetCount": 6,
-    "thirdParty": 6295336,
+    "thirdParty": 9445083,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -56,9 +56,9 @@
     "-weight.font": 6,
     "+weight.font": 7,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 4,
+    "-timeToFirstByte": 1,
     "-totalBlockingTime": 5,
-    "-largestContentfulPaint": 6
+    "-largestContentfulPaint": 5
   },
   "axe": {
     "error": "{\"name\":\"TimeoutError\"}"

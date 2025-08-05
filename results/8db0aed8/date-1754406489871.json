@@ -1,12 +1,12 @@
 {
   "url": "https://astro.build/",
   "requestedUrl": "https://astro.build/",
-  "timestamp": 1753110792522,
+  "timestamp": 1754406876621,
   "ranks": {
-    "hundos": 5,
+    "hundos": 6,
     "performance": 6,
     "accessibility": 9,
-    "cumulative": 4
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,28 +16,28 @@
     "seo": 1,
     "total": 393
   },
-  "firstContentfulPaint": 1281.671,
-  "firstMeaningfulPaint": 1281.671,
-  "speedIndex": 1281.671,
-  "largestContentfulPaint": 2719.6710000000003,
+  "firstContentfulPaint": 1291.0819999999999,
+  "firstMeaningfulPaint": 1291.0819999999999,
+  "speedIndex": 1291.0819999999999,
+  "largestContentfulPaint": 2704.082,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1281.671,
+  "timeToInteractive": 1291.0819999999999,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 26.361000000000004,
+  "timeToFirstByte": 3.696999999999999,
   "weight": {
-    "summary": "24 requests • 346.0 KiB",
-    "total": 354280,
-    "image": 78079,
+    "summary": "24 requests • 347.5 KiB",
+    "total": 355801,
+    "image": 78085,
     "imageCount": 10,
-    "script": 12472,
+    "script": 12496,
     "scriptCount": 9,
-    "document": 63527,
-    "font": 181953,
+    "document": 64861,
+    "font": 181951,
     "fontCount": 2,
-    "stylesheet": 18249,
+    "stylesheet": 18408,
     "stylesheetCount": 2,
-    "thirdParty": 2905,
+    "thirdParty": 2989,
     "thirdPartyCount": 1
   },
   "run": {
@@ -51,17 +51,17 @@
     "+weight.document": 1,
     "-weight.script": 1,
     "+weight.script": 15,
-    "-weight.image": 9,
-    "+weight.image": 6,
+    "-weight.image": 8,
+    "+weight.image": 7,
     "-weight.font": 9,
     "+weight.font": 4,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 8,
+    "-timeToFirstByte": 7,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 7
+    "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 1707,
+    "passes": 1710,
     "violations": 0
   }
 }

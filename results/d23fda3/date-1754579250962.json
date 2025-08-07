@@ -1,43 +1,43 @@
 {
   "url": "https://gridsome.org/",
   "requestedUrl": "https://gridsome.org/",
-  "timestamp": 1753283455348,
+  "timestamp": 1754579520625,
   "ranks": {
-    "hundos": 10,
-    "performance": 9,
+    "hundos": 12,
+    "performance": 13,
     "accessibility": 8,
-    "cumulative": 10
+    "cumulative": 12
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.86,
+    "performance": 0.7,
     "accessibility": 0.98,
     "bestPractices": 1,
     "seo": 0.92,
-    "total": 376
+    "total": 360
   },
-  "firstContentfulPaint": 1855.7199999999998,
-  "firstMeaningfulPaint": 1855.7199999999998,
-  "speedIndex": 1855.7199999999998,
-  "largestContentfulPaint": 2180.29,
-  "totalBlockingTime": 287.50000000000045,
-  "cumulativeLayoutShift": 0.14317679149523313,
-  "timeToInteractive": 5872.047758804322,
-  "maxPotentialFirstInputDelay": 153,
-  "timeToFirstByte": 9.34899999999999,
+  "firstContentfulPaint": 1550.335,
+  "firstMeaningfulPaint": 1550.335,
+  "speedIndex": 1550.335,
+  "largestContentfulPaint": 5605.078258804319,
+  "totalBlockingTime": 197.5,
+  "cumulativeLayoutShift": 0.1421543544758053,
+  "timeToInteractive": 6068.859258804319,
+  "maxPotentialFirstInputDelay": 215,
+  "timeToFirstByte": 72.61099999999999,
   "weight": {
     "summary": "120 requests • 1.2 MiB",
-    "total": 1210391,
+    "total": 1210087,
     "image": 0,
     "imageCount": 11,
-    "script": 308816,
+    "script": 309687,
     "scriptCount": 4,
-    "document": 50747,
-    "font": 144013,
+    "document": 50886,
+    "font": 143899,
     "fontCount": 4,
-    "stylesheet": 14128,
+    "stylesheet": 14081,
     "stylesheetCount": 1,
-    "thirdParty": 148387,
+    "thirdParty": 149257,
     "thirdPartyCount": 2
   },
   "run": {
@@ -56,9 +56,9 @@
     "-weight.font": 8,
     "+weight.font": 5,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 9,
-    "-totalBlockingTime": 11,
-    "-largestContentfulPaint": 4
+    "-timeToFirstByte": 12,
+    "-totalBlockingTime": 8,
+    "-largestContentfulPaint": 15
   },
   "axe": {
     "passes": 758,

@@ -1,46 +1,47 @@
 {
   "url": "https://www.linkedin.com/in/thew-dhanat",
   "requestedUrl": "https://www.linkedin.com/in/thew-dhanat",
-  "timestamp": 1753477783761,
+  "timestamp": 1754773815277,
   "ranks": {
-    "hundos": 6,
+    "hundos": 7,
     "performance": 6,
-    "cumulative": 6
+    "accessibility": 7,
+    "cumulative": 7
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.71,
+    "performance": 0.65,
     "accessibility": 1,
-    "bestPractices": 0.7,
+    "bestPractices": 0.74,
     "seo": 0.99,
-    "total": 340
+    "total": 338
   },
-  "firstContentfulPaint": 2066.807,
-  "firstMeaningfulPaint": 2066.807,
-  "speedIndex": 6739.401547630818,
-  "largestContentfulPaint": 2516.807,
-  "totalBlockingTime": 527,
+  "firstContentfulPaint": 2102.735,
+  "firstMeaningfulPaint": 2102.735,
+  "speedIndex": 6657.863243912916,
+  "largestContentfulPaint": 2102.735,
+  "totalBlockingTime": 949.5,
   "cumulativeLayoutShift": 0.13393488606103887,
-  "timeToInteractive": 12413.211749999999,
-  "maxPotentialFirstInputDelay": 422,
-  "timeToFirstByte": 675.515,
+  "timeToInteractive": 13842.6325,
+  "maxPotentialFirstInputDelay": 442,
+  "timeToFirstByte": 829.842,
   "weight": {
-    "summary": "98 requests • 1.9 MiB",
-    "total": 2003076,
-    "image": 179309,
+    "summary": "98 requests • 1.8 MiB",
+    "total": 1881041,
+    "image": 151624,
     "imageCount": 8,
-    "script": 815501,
+    "script": 814562,
     "scriptCount": 6,
-    "document": 783633,
+    "document": 782445,
     "font": 52804,
     "fontCount": 15,
-    "stylesheet": 51410,
+    "stylesheet": 51419,
     "stylesheetCount": 1,
-    "thirdParty": 881931,
+    "thirdParty": 881422,
     "thirdPartyCount": 4
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -52,11 +53,14 @@
     "+weight.script": 2,
     "-weight.image": 7,
     "+weight.image": 3,
-    "-weight.font": 3,
+    "-weight.font": 4,
     "+weight.font": 3,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 8,
-    "-totalBlockingTime": 6,
+    "-timeToFirstByte": 9,
+    "-totalBlockingTime": 7,
     "-largestContentfulPaint": 6
+  },
+  "axe": {
+    "error": "{}"
   }
 }

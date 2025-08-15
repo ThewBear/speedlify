@@ -1,43 +1,43 @@
 {
   "url": "https://gulpjs.com/",
   "requestedUrl": "https://gulpjs.com/",
-  "timestamp": 1753981914429,
+  "timestamp": 1755277792158,
   "ranks": {
-    "hundos": 3,
-    "performance": 6,
+    "hundos": 6,
+    "performance": 9,
     "accessibility": 4,
-    "cumulative": 3
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.9,
+    "performance": 0.72,
     "accessibility": 0.95,
     "bestPractices": 1,
     "seo": 0.9,
-    "total": 375
+    "total": 357
   },
-  "firstContentfulPaint": 1552.6910000000003,
-  "firstMeaningfulPaint": 1632.8405000000002,
-  "speedIndex": 1552.6910000000003,
-  "largestContentfulPaint": 2807.878,
-  "totalBlockingTime": 160.45924999999988,
-  "cumulativeLayoutShift": 0.11330997410004405,
-  "timeToInteractive": 4346.711499999999,
-  "maxPotentialFirstInputDelay": 210,
-  "timeToFirstByte": 115.026,
+  "firstContentfulPaint": 2136.35,
+  "firstMeaningfulPaint": 2503.4584999999997,
+  "speedIndex": 2902.706947346962,
+  "largestContentfulPaint": 5070.417000000001,
+  "totalBlockingTime": 93,
+  "cumulativeLayoutShift": 0.14643599506493143,
+  "timeToInteractive": 4913.309000000001,
+  "maxPotentialFirstInputDelay": 182,
+  "timeToFirstByte": 289.45000000000005,
   "weight": {
-    "summary": "43 requests • 686.3 KiB",
-    "total": 702781,
-    "image": 218094,
+    "summary": "43 requests • 686.2 KiB",
+    "total": 702660,
+    "image": 218078,
     "imageCount": 18,
-    "script": 393742,
+    "script": 393678,
     "scriptCount": 7,
-    "document": 5766,
-    "font": 31742,
+    "document": 5784,
+    "font": 31744,
     "fontCount": 3,
-    "stylesheet": 22690,
+    "stylesheet": 22714,
     "stylesheetCount": 2,
-    "thirdParty": 289211,
+    "thirdParty": 289195,
     "thirdPartyCount": 3
   },
   "run": {
@@ -56,9 +56,9 @@
     "-weight.font": 2,
     "+weight.font": 6,
     "+weight.fontCount": 4,
-    "-timeToFirstByte": 10,
+    "-timeToFirstByte": 9,
     "-totalBlockingTime": 3,
-    "-largestContentfulPaint": 6
+    "-largestContentfulPaint": 8
   },
   "axe": {
     "passes": 429,

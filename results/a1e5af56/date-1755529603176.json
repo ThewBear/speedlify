@@ -1,38 +1,38 @@
 {
   "url": "https://www.11ty.dev/",
   "requestedUrl": "https://www.11ty.dev/",
-  "timestamp": 1754233701199,
+  "timestamp": 1755529765051,
   "ranks": {
-    "hundos": 4,
-    "performance": 2,
+    "hundos": 1,
+    "performance": 3,
     "accessibility": 1,
-    "cumulative": 3
+    "cumulative": 1
   },
   "lighthouse": {
     "version": "11.7.1",
     "performance": 1,
     "accessibility": 1,
-    "bestPractices": 0.96,
+    "bestPractices": 1,
     "seo": 1,
-    "total": 396
+    "total": 400
   },
-  "firstContentfulPaint": 1082.841,
-  "firstMeaningfulPaint": 1118.341,
-  "speedIndex": 1082.841,
-  "largestContentfulPaint": 1214.841,
-  "totalBlockingTime": 12,
+  "firstContentfulPaint": 1222.4940000000001,
+  "firstMeaningfulPaint": 1222.4940000000001,
+  "speedIndex": 1222.4940000000001,
+  "largestContentfulPaint": 1222.4940000000001,
+  "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1144.841,
-  "maxPotentialFirstInputDelay": 71,
-  "timeToFirstByte": 6.864000000000004,
+  "timeToInteractive": 1222.4940000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 11.698,
   "weight": {
-    "summary": "8 requests • 80.3 KiB",
-    "total": 82242,
+    "summary": "8 requests • 80.4 KiB",
+    "total": 82366,
     "image": 0,
     "imageCount": 2,
     "script": 13409,
     "scriptCount": 2,
-    "document": 36910,
+    "document": 37034,
     "font": 21884,
     "fontCount": 2,
     "stylesheet": 10039,
@@ -42,7 +42,7 @@
   },
   "run": {
     "number": 2,
-    "total": 2
+    "total": 3
   },
   "sidequests": {
     "-weight.total": 2,
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 12,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 2,
-    "-totalBlockingTime": 2,
+    "-timeToFirstByte": 7,
+    "-totalBlockingTime": 1,
     "-largestContentfulPaint": 2
   },
   "axe": {
-    "passes": 2152,
+    "passes": 2160,
     "violations": 0
   }
 }

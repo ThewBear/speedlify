@@ -1,12 +1,12 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1754802849394,
+  "timestamp": 1756102380537,
   "ranks": {
-    "hundos": 4,
+    "hundos": 5,
     "performance": 3,
     "accessibility": 5,
-    "cumulative": 4
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,32 +16,32 @@
     "seo": 0.82,
     "total": 370
   },
-  "firstContentfulPaint": 1508.8390000000002,
-  "firstMeaningfulPaint": 1508.8390000000002,
-  "speedIndex": 1588.4902504762804,
-  "largestContentfulPaint": 2105.682,
-  "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0.0016209909434813535,
-  "timeToInteractive": 1529.3390000000002,
-  "maxPotentialFirstInputDelay": 336,
-  "timeToFirstByte": 22.426999999999992,
+  "firstContentfulPaint": 1357.092,
+  "firstMeaningfulPaint": 1357.092,
+  "speedIndex": 1357.092,
+  "largestContentfulPaint": 1987.5105000000003,
+  "totalBlockingTime": 3,
+  "cumulativeLayoutShift": 0.003241981886962707,
+  "timeToInteractive": 1431.092,
+  "maxPotentialFirstInputDelay": 291,
+  "timeToFirstByte": 5.497,
   "weight": {
-    "summary": "91 requests • 253.3 KiB",
-    "total": 259353,
-    "image": 167488,
-    "imageCount": 84,
-    "script": 41447,
+    "summary": "88 requests • 248.7 KiB",
+    "total": 254692,
+    "image": 162702,
+    "imageCount": 81,
+    "script": 41446,
     "scriptCount": 1,
-    "document": 45079,
+    "document": 45178,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 5197,
+    "stylesheet": 5224,
     "stylesheetCount": 4,
-    "thirdParty": 44750,
+    "thirdParty": 45031,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 3,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 4,
+    "-timeToFirstByte": 3,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 9816,
+    "passes": 9826,
     "violations": 944
   }
 }

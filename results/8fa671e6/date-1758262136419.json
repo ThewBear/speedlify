@@ -1,43 +1,43 @@
 {
   "url": "https://eslint.org/",
   "requestedUrl": "https://eslint.org/",
-  "timestamp": 1756966322341,
+  "timestamp": 1758262353135,
   "ranks": {
-    "hundos": 5,
+    "hundos": 6,
     "performance": 9,
     "accessibility": 1,
-    "cumulative": 5
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.71,
+    "performance": 0.69,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.93,
-    "total": 364
+    "total": 362
   },
-  "firstContentfulPaint": 1515.253,
-  "firstMeaningfulPaint": 1515.253,
-  "speedIndex": 2721.235240083678,
-  "largestContentfulPaint": 3941.4130000000005,
-  "totalBlockingTime": 43,
-  "cumulativeLayoutShift": 0.3170832798381799,
-  "timeToInteractive": 4369.639499999999,
-  "maxPotentialFirstInputDelay": 110,
-  "timeToFirstByte": 3.9409999999999883,
+  "firstContentfulPaint": 1554.8669999999997,
+  "firstMeaningfulPaint": 1940.0699999999997,
+  "speedIndex": 3695.4659447156546,
+  "largestContentfulPaint": 4059.518999999999,
+  "totalBlockingTime": 118.5,
+  "cumulativeLayoutShift": 0.29488431891963074,
+  "timeToInteractive": 6584.23,
+  "maxPotentialFirstInputDelay": 124,
+  "timeToFirstByte": 34.11099999999999,
   "weight": {
-    "summary": "31 requests • 1.0 MiB",
-    "total": 1066093,
-    "image": 311746,
-    "imageCount": 12,
-    "script": 197531,
+    "summary": "32 requests • 1.0 MiB",
+    "total": 1099663,
+    "image": 342834,
+    "imageCount": 13,
+    "script": 200558,
     "scriptCount": 10,
-    "document": 17180,
-    "font": 523261,
+    "document": 17039,
+    "font": 523004,
     "fontCount": 6,
-    "stylesheet": 15831,
+    "stylesheet": 15684,
     "stylesheetCount": 1,
-    "thirdParty": 530217,
+    "thirdParty": 564222,
     "thirdPartyCount": 6
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 7,
     "+weight.font": 1,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 2,
-    "-totalBlockingTime": 1,
+    "-timeToFirstByte": 7,
+    "-totalBlockingTime": 4,
     "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 1231,
+    "passes": 1239,
     "violations": 0
   }
 }

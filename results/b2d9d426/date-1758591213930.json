@@ -1,7 +1,7 @@
 {
   "url": "https://www.speedlify.dev/",
   "requestedUrl": "https://www.speedlify.dev/",
-  "timestamp": 1757291226090,
+  "timestamp": 1758591221834,
   "ranks": {
     "hundos": 1,
     "performance": 1,
@@ -10,27 +10,39 @@
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": null,
+    "performance": 1,
     "accessibility": 1,
-    "bestPractices": null,
+    "bestPractices": 1,
     "seo": 1,
-    "total": 200
+    "total": 400
   },
-  "timeToFirstByte": 140.66099999999997,
+  "firstContentfulPaint": 913.335,
+  "firstMeaningfulPaint": 913.335,
+  "speedIndex": 1253.8945500000054,
+  "largestContentfulPaint": 1112.335,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 913.335,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 244.296,
   "weight": {
-    "summary": "4 requests • 49.6 KiB",
-    "total": 50792,
+    "summary": "4 requests • 48.9 KiB",
+    "total": 50031,
     "image": 0,
     "imageCount": 0,
-    "script": 45787,
+    "script": 45083,
     "scriptCount": 2,
-    "document": 1065,
+    "document": 1032,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 3940,
+    "stylesheet": 3916,
     "stylesheetCount": 1,
     "thirdParty": 0,
     "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 1
   },
   "sidequests": {
     "-weight.total": 1,

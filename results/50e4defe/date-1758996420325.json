@@ -1,12 +1,12 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1757700665656,
+  "timestamp": 1758996618145,
   "ranks": {
-    "hundos": 4,
+    "hundos": 5,
     "performance": 3,
     "accessibility": 5,
-    "cumulative": 4
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,28 +16,28 @@
     "seo": 0.82,
     "total": 370
   },
-  "firstContentfulPaint": 1444.7174999999997,
-  "firstMeaningfulPaint": 1444.7174999999997,
-  "speedIndex": 1479.8038949921797,
-  "largestContentfulPaint": 2079.154,
+  "firstContentfulPaint": 1450.825,
+  "firstMeaningfulPaint": 1450.825,
+  "speedIndex": 1450.825,
+  "largestContentfulPaint": 2053.2045,
   "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0.001825511024084365,
-  "timeToInteractive": 1464.7174999999997,
+  "cumulativeLayoutShift": 0.0016209909434813535,
+  "timeToInteractive": 1470.825,
   "maxPotentialFirstInputDelay": 323,
-  "timeToFirstByte": 13.774000000000001,
+  "timeToFirstByte": 18.775999999999996,
   "weight": {
-    "summary": "87 requests • 245.1 KiB",
-    "total": 251014,
-    "image": 159421,
-    "imageCount": 80,
+    "summary": "92 requests • 251.7 KiB",
+    "total": 257728,
+    "image": 165445,
+    "imageCount": 85,
     "script": 41445,
     "scriptCount": 1,
-    "document": 44756,
+    "document": 45457,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 5250,
+    "stylesheet": 5239,
     "stylesheetCount": 4,
-    "thirdParty": 45020,
+    "thirdParty": 45111,
     "thirdPartyCount": 3
   },
   "run": {
@@ -51,17 +51,17 @@
     "+weight.document": 2,
     "-weight.script": 1,
     "+weight.script": 8,
-    "-weight.image": 5,
-    "+weight.image": 6,
+    "-weight.image": 6,
+    "+weight.image": 5,
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 5,
+    "-timeToFirstByte": 7,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 9818,
+    "passes": 9848,
     "violations": 944
   }
 }

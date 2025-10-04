@@ -1,43 +1,43 @@
 {
   "url": "https://astro.build/",
   "requestedUrl": "https://astro.build/",
-  "timestamp": 1758298368514,
+  "timestamp": 1759594414491,
   "ranks": {
-    "hundos": 4,
-    "performance": 6,
+    "hundos": 3,
+    "performance": 5,
     "accessibility": 2,
-    "cumulative": 4
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.95,
+    "performance": 0.98,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 395
+    "total": 398
   },
-  "firstContentfulPaint": 1512.6775,
-  "firstMeaningfulPaint": 1512.6775,
-  "speedIndex": 1512.6775,
-  "largestContentfulPaint": 2856.4705,
-  "totalBlockingTime": 0,
+  "firstContentfulPaint": 1333.1425,
+  "firstMeaningfulPaint": 1381.6425,
+  "speedIndex": 1333.1425,
+  "largestContentfulPaint": 2261.6425,
+  "totalBlockingTime": 72.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1512.6775,
-  "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 31.297,
+  "timeToInteractive": 1476.1425,
+  "maxPotentialFirstInputDelay": 154,
+  "timeToFirstByte": 11.163999999999994,
   "weight": {
-    "summary": "25 requests • 376.0 KiB",
-    "total": 385045,
-    "image": 78036,
+    "summary": "25 requests • 378.3 KiB",
+    "total": 387351,
+    "image": 78114,
     "imageCount": 10,
-    "script": 12522,
+    "script": 12543,
     "scriptCount": 9,
-    "document": 78949,
-    "font": 195950,
+    "document": 80885,
+    "font": 196044,
     "fontCount": 3,
-    "stylesheet": 19588,
+    "stylesheet": 19765,
     "stylesheetCount": 2,
-    "thirdParty": 2992,
+    "thirdParty": 3001,
     "thirdPartyCount": 1
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 10,
     "+weight.font": 3,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 10,
-    "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 8
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 5
   },
   "axe": {
-    "passes": 1727,
+    "passes": 1738,
     "violations": 0
   }
 }

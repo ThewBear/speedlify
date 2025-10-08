@@ -1,12 +1,12 @@
 {
   "url": "https://mochajs.org/",
   "requestedUrl": "https://mochajs.org/",
-  "timestamp": 1758608045075,
+  "timestamp": 1759904038291,
   "ranks": {
-    "hundos": 5,
+    "hundos": 6,
     "performance": 3,
     "accessibility": 5,
-    "cumulative": 5
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,28 +16,28 @@
     "seo": 0.82,
     "total": 370
   },
-  "firstContentfulPaint": 1517.66,
-  "firstMeaningfulPaint": 1517.66,
-  "speedIndex": 1520.718180391993,
-  "largestContentfulPaint": 2116.1225000000004,
+  "firstContentfulPaint": 1410.3429999999998,
+  "firstMeaningfulPaint": 1410.3429999999998,
+  "speedIndex": 1619.4443609964833,
+  "largestContentfulPaint": 1991.2514999999999,
   "totalBlockingTime": 0,
-  "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1538.1600000000003,
-  "maxPotentialFirstInputDelay": 323.0000000000002,
-  "timeToFirstByte": 5.052,
+  "cumulativeLayoutShift": 0.003241981886962707,
+  "timeToInteractive": 1431.3429999999998,
+  "maxPotentialFirstInputDelay": 329,
+  "timeToFirstByte": 11.007000000000005,
   "weight": {
-    "summary": "90 requests • 249.0 KiB",
-    "total": 254934,
-    "image": 163337,
-    "imageCount": 83,
+    "summary": "92 requests • 251.3 KiB",
+    "total": 257300,
+    "image": 165228,
+    "imageCount": 85,
     "script": 41464,
     "scriptCount": 1,
-    "document": 44836,
+    "document": 45239,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 5155,
+    "stylesheet": 5227,
     "stylesheetCount": 4,
-    "thirdParty": 44767,
+    "thirdParty": 44538,
     "thirdPartyCount": 3
   },
   "run": {
@@ -51,8 +51,8 @@
     "+weight.document": 2,
     "-weight.script": 1,
     "+weight.script": 8,
-    "-weight.image": 6,
-    "+weight.image": 5,
+    "-weight.image": 5,
+    "+weight.image": 6,
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
@@ -61,7 +61,7 @@
     "-largestContentfulPaint": 3
   },
   "axe": {
-    "passes": 9836,
+    "passes": 9848,
     "violations": 944
   }
 }

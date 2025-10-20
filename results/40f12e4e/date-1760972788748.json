@@ -1,0 +1,66 @@
+{
+  "url": "https://gohugo.io/",
+  "requestedUrl": "https://gohugo.io/",
+  "timestamp": 1760973736598,
+  "ranks": {
+    "hundos": 7,
+    "performance": 4,
+    "accessibility": 10,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.98,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 386
+  },
+  "firstContentfulPaint": 1210.047,
+  "firstMeaningfulPaint": 1234.547,
+  "speedIndex": 2403.5909278585927,
+  "largestContentfulPaint": 2313.282,
+  "totalBlockingTime": 72,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3283.5589999999997,
+  "maxPotentialFirstInputDelay": 98,
+  "timeToFirstByte": 7.587999999999965,
+  "weight": {
+    "summary": "12 requests • 423.3 KiB",
+    "total": 433468,
+    "image": 8895,
+    "imageCount": 3,
+    "script": 194582,
+    "scriptCount": 4,
+    "document": 22638,
+    "font": 193472,
+    "fontCount": 2,
+    "stylesheet": 13338,
+    "stylesheetCount": 1,
+    "thirdParty": 146219,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 5,
+    "+weight.total": 10,
+    "-weight.document": 6,
+    "+weight.document": 9,
+    "-weight.script": 7,
+    "+weight.script": 8,
+    "-weight.image": 2,
+    "+weight.image": 11,
+    "-weight.font": 9,
+    "+weight.font": 4,
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 4
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

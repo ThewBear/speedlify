@@ -1,11 +1,11 @@
 {
   "url": "https://record-collector.net/",
   "requestedUrl": "https://record-collector.net/",
-  "timestamp": 1759680829852,
+  "timestamp": 1760975208088,
   "ranks": {
     "hundos": 2,
     "performance": 2,
-    "accessibility": 4,
+    "accessibility": 7,
     "cumulative": 2
   },
   "lighthouse": {
@@ -16,52 +16,51 @@
     "seo": 1,
     "total": 400
   },
-  "firstContentfulPaint": 1118.469,
-  "firstMeaningfulPaint": 1118.469,
-  "speedIndex": 1263.9958099999399,
-  "largestContentfulPaint": 1118.469,
-  "totalBlockingTime": 1,
+  "firstContentfulPaint": 1215.8725,
+  "firstMeaningfulPaint": 1215.8725,
+  "speedIndex": 1631.8523249998025,
+  "largestContentfulPaint": 1215.8725,
+  "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1144.469,
-  "maxPotentialFirstInputDelay": 52,
-  "timeToFirstByte": 251.589,
+  "timeToInteractive": 1215.8725,
+  "maxPotentialFirstInputDelay": 38,
+  "timeToFirstByte": 178.47900000000004,
   "weight": {
-    "summary": "4 requests • 56.6 KiB",
-    "total": 57953,
-    "image": 5791,
+    "summary": "4 requests • 57.0 KiB",
+    "total": 58361,
+    "image": 5816,
     "imageCount": 1,
-    "script": 41377,
+    "script": 41679,
     "scriptCount": 1,
-    "document": 3102,
+    "document": 3114,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 7683,
+    "stylesheet": 7752,
     "stylesheetCount": 1,
     "thirdParty": 0,
     "thirdPartyCount": 0
   },
   "run": {
-    "number": 3,
-    "total": 3
+    "number": 1,
+    "total": 1
   },
   "sidequests": {
     "-weight.total": 1,
-    "+weight.total": 15,
+    "+weight.total": 14,
     "-weight.document": 2,
-    "+weight.document": 14,
+    "+weight.document": 13,
     "-weight.script": 3,
-    "+weight.script": 13,
+    "+weight.script": 12,
     "-weight.image": 1,
-    "+weight.image": 13,
+    "+weight.image": 12,
     "-weight.font": 1,
     "+weight.font": 13,
     "+weight.fontCount": 5,
-    "-timeToFirstByte": 15,
+    "-timeToFirstByte": 14,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 1
   },
   "axe": {
-    "passes": 171,
-    "violations": 0
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

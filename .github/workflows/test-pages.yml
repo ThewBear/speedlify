@@ -18,7 +18,7 @@ jobs:
           path: default
       - run: |
           cp -r results/. default/_data
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version-file: 'default/.nvmrc'
       # https://github.com/puppeteer/puppeteer/pull/13196

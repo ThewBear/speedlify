@@ -1,12 +1,12 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1760811112399,
+  "timestamp": 1762106916120,
   "ranks": {
-    "hundos": 5,
+    "hundos": 4,
     "performance": 5,
     "accessibility": 6,
-    "cumulative": 5
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,32 +16,32 @@
     "seo": 0.92,
     "total": 370
   },
-  "firstContentfulPaint": 1600.658,
-  "firstMeaningfulPaint": 1600.658,
-  "speedIndex": 1600.658,
-  "largestContentfulPaint": 2644.612,
-  "totalBlockingTime": 100,
-  "cumulativeLayoutShift": 0.0005985819198703784,
-  "timeToInteractive": 4288.406,
-  "maxPotentialFirstInputDelay": 250,
-  "timeToFirstByte": 31.633000000000003,
+  "firstContentfulPaint": 1665.9074999999998,
+  "firstMeaningfulPaint": 1665.9074999999998,
+  "speedIndex": 1665.9074999999998,
+  "largestContentfulPaint": 2523.1724999999997,
+  "totalBlockingTime": 93,
+  "cumulativeLayoutShift": 0.05180787256202393,
+  "timeToInteractive": 4409.172500000001,
+  "maxPotentialFirstInputDelay": 236,
+  "timeToFirstByte": 126.36099999999999,
   "weight": {
     "summary": "11 requests • 557.1 KiB",
-    "total": 570468,
-    "image": 230068,
+    "total": 570457,
+    "image": 230066,
     "imageCount": 4,
-    "script": 329605,
+    "script": 329602,
     "scriptCount": 4,
-    "document": 9190,
+    "document": 9185,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1605,
+    "stylesheet": 1604,
     "stylesheetCount": 1,
-    "thirdParty": 6204,
+    "thirdParty": 6221,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -51,13 +51,13 @@
     "+weight.document": 5,
     "-weight.script": 6,
     "+weight.script": 3,
-    "-weight.image": 8,
-    "+weight.image": 3,
+    "-weight.image": 7,
+    "+weight.image": 4,
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 2,
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 3,
     "-largestContentfulPaint": 5
   },
   "axe": {

@@ -1,12 +1,12 @@
 {
   "url": "https://svelte.dev/",
   "requestedUrl": "https://svelte.dev/",
-  "timestamp": 1761318836295,
+  "timestamp": 1762614759662,
   "ranks": {
-    "hundos": 3,
+    "hundos": 2,
     "performance": 5,
-    "accessibility": 6,
-    "cumulative": 3
+    "accessibility": 7,
+    "cumulative": 2
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,28 +16,28 @@
     "seo": 1,
     "total": 397
   },
-  "firstContentfulPaint": 1524.0684999999999,
-  "firstMeaningfulPaint": 1524.0684999999999,
-  "speedIndex": 1524.0684999999999,
-  "largestContentfulPaint": 2575.071179824829,
-  "totalBlockingTime": 41,
+  "firstContentfulPaint": 1540.3875,
+  "firstMeaningfulPaint": 1540.3875,
+  "speedIndex": 1540.3875,
+  "largestContentfulPaint": 2591.390179824829,
+  "totalBlockingTime": 38.499999999999886,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1957.071179824829,
-  "maxPotentialFirstInputDelay": 132,
-  "timeToFirstByte": 2.2010000000000005,
+  "timeToInteractive": 1968.390179824829,
+  "maxPotentialFirstInputDelay": 126.99999999999977,
+  "timeToFirstByte": 21.307999999999993,
   "weight": {
-    "summary": "80 requests • 9.9 MiB",
-    "total": 10348116,
-    "image": 363044,
+    "summary": "80 requests • 6.9 MiB",
+    "total": 7195459,
+    "image": 362935,
     "imageCount": 27,
-    "script": 109810,
+    "script": 110287,
     "scriptCount": 39,
-    "document": 23906,
-    "font": 70982,
+    "document": 23898,
+    "font": 70973,
     "fontCount": 3,
-    "stylesheet": 22609,
+    "stylesheet": 22771,
     "stylesheetCount": 6,
-    "thirdParty": 9449441,
+    "thirdParty": 6295354,
     "thirdPartyCount": 1
   },
   "run": {
@@ -56,9 +56,9 @@
     "-weight.font": 6,
     "+weight.font": 7,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 1,
-    "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 5
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 7
   },
   "axe": {
     "error": "{\"name\":\"TimeoutError\"}"

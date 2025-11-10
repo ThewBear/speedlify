@@ -1,12 +1,12 @@
 {
   "url": "https://svelte.dev/",
   "requestedUrl": "https://svelte.dev/",
-  "timestamp": 1761491549331,
+  "timestamp": 1762787627840,
   "ranks": {
     "hundos": 3,
-    "performance": 7,
-    "accessibility": 6,
-    "cumulative": 4
+    "performance": 5,
+    "accessibility": 7,
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,28 +16,28 @@
     "seo": 1,
     "total": 397
   },
-  "firstContentfulPaint": 1533.8715,
-  "firstMeaningfulPaint": 1533.8715,
-  "speedIndex": 1533.8715,
-  "largestContentfulPaint": 2584.8741798248293,
-  "totalBlockingTime": 45.500000000000114,
+  "firstContentfulPaint": 1531.5304999999998,
+  "firstMeaningfulPaint": 1531.5304999999998,
+  "speedIndex": 1531.5304999999998,
+  "largestContentfulPaint": 2582.533179824829,
+  "totalBlockingTime": 43,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1975.8741798248293,
-  "maxPotentialFirstInputDelay": 141.00000000000023,
-  "timeToFirstByte": 18.582,
+  "timeToInteractive": 1968.533179824829,
+  "maxPotentialFirstInputDelay": 136,
+  "timeToFirstByte": 17.302999999999997,
   "weight": {
-    "summary": "80 requests • 6.9 MiB",
-    "total": 7194672,
-    "image": 362935,
+    "summary": "80 requests • 9.9 MiB",
+    "total": 10346834,
+    "image": 364439,
     "imageCount": 27,
-    "script": 109626,
+    "script": 110074,
     "scriptCount": 39,
-    "document": 23904,
-    "font": 70922,
+    "document": 23900,
+    "font": 70926,
     "fontCount": 3,
-    "stylesheet": 22744,
+    "stylesheet": 22585,
     "stylesheetCount": 6,
-    "thirdParty": 6295352,
+    "thirdParty": 9445581,
     "thirdPartyCount": 1
   },
   "run": {
@@ -53,12 +53,12 @@
     "+weight.script": 12,
     "-weight.image": 12,
     "+weight.image": 2,
-    "-weight.font": 6,
-    "+weight.font": 7,
+    "-weight.font": 5,
+    "+weight.font": 8,
     "+weight.fontCount": 2,
     "-timeToFirstByte": 4,
-    "-totalBlockingTime": 4,
-    "-largestContentfulPaint": 7
+    "-totalBlockingTime": 3,
+    "-largestContentfulPaint": 6
   },
   "axe": {
     "error": "{\"name\":\"TimeoutError\"}"

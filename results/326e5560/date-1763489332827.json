@@ -1,47 +1,47 @@
 {
   "url": "https://theintern.io/",
   "requestedUrl": "https://theintern.io/",
-  "timestamp": 1762193486861,
+  "timestamp": 1763489594958,
   "ranks": {
     "hundos": 8,
-    "performance": 6,
+    "performance": 8,
     "accessibility": 10,
     "cumulative": 8
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.93,
+    "performance": 0.83,
     "accessibility": 0.43,
     "bestPractices": 1,
     "seo": 0.85,
-    "total": 321
+    "total": 311
   },
-  "firstContentfulPaint": 1752.8075,
-  "firstMeaningfulPaint": 3116.5090000000005,
-  "speedIndex": 1752.8075,
-  "largestContentfulPaint": 3116.5090000000005,
-  "totalBlockingTime": 0,
+  "firstContentfulPaint": 1785.8944999999999,
+  "firstMeaningfulPaint": 3097.4945,
+  "speedIndex": 1785.8944999999999,
+  "largestContentfulPaint": 3097.4945,
+  "totalBlockingTime": 412.93550000000005,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 3116.5090000000005,
-  "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 95.698,
+  "timeToInteractive": 3097.4945,
+  "maxPotentialFirstInputDelay": 481,
+  "timeToFirstByte": 178.68099999999998,
   "weight": {
-    "summary": "11 requests • 202.9 KiB",
-    "total": 207739,
-    "image": 9529,
+    "summary": "13 requests • 210.8 KiB",
+    "total": 215825,
+    "image": 9574,
     "imageCount": 2,
-    "script": 0,
-    "scriptCount": 0,
-    "document": 18664,
-    "font": 139656,
+    "script": 7105,
+    "scriptCount": 1,
+    "document": 19099,
+    "font": 139647,
     "fontCount": 5,
-    "stylesheet": 39890,
+    "stylesheet": 39961,
     "stylesheetCount": 3,
-    "thirdParty": 147883,
-    "thirdPartyCount": 2
+    "thirdParty": 154984,
+    "thirdPartyCount": 3
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,8 +56,8 @@
     "-weight.font": 6,
     "+weight.font": 2,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 8,
-    "-totalBlockingTime": 1,
+    "-timeToFirstByte": 10,
+    "-totalBlockingTime": 4,
     "-largestContentfulPaint": 6
   },
   "axe": {

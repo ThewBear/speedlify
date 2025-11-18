@@ -1,0 +1,66 @@
+{
+  "url": "https://www.thairath.co.th/home",
+  "requestedUrl": "https://www.thairath.co.th/home",
+  "timestamp": 1763508212874,
+  "ranks": {
+    "hundos": 13,
+    "performance": 13,
+    "accessibility": 8,
+    "cumulative": 13
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.26,
+    "accessibility": 0.77,
+    "bestPractices": 0.52,
+    "seo": 0.83,
+    "total": 238
+  },
+  "firstContentfulPaint": 10203.905082545509,
+  "firstMeaningfulPaint": 10236.405082545509,
+  "speedIndex": 19319.33582644344,
+  "largestContentfulPaint": 19520.58465336375,
+  "totalBlockingTime": 2897.000000000002,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 36876.94360175779,
+  "maxPotentialFirstInputDelay": 1310.0000000000018,
+  "timeToFirstByte": 10.685000000000002,
+  "weight": {
+    "summary": "186 requests • 6.7 MiB",
+    "total": 7013322,
+    "image": 3108938,
+    "imageCount": 63,
+    "script": 2741115,
+    "scriptCount": 61,
+    "document": 338641,
+    "font": 474849,
+    "fontCount": 9,
+    "stylesheet": 73334,
+    "stylesheetCount": 9,
+    "thirdParty": 2349000,
+    "thirdPartyCount": 21
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 14,
+    "+weight.total": 2,
+    "-weight.document": 15,
+    "+weight.document": 1,
+    "-weight.script": 13,
+    "+weight.script": 3,
+    "-weight.image": 14,
+    "+weight.image": 2,
+    "-weight.font": 10,
+    "+weight.font": 5,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 12,
+    "-largestContentfulPaint": 14
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

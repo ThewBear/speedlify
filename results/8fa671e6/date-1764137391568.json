@@ -1,7 +1,7 @@
 {
   "url": "https://eslint.org/",
   "requestedUrl": "https://eslint.org/",
-  "timestamp": 1762841577217,
+  "timestamp": 1764137610012,
   "ranks": {
     "hundos": 5,
     "performance": 8,
@@ -10,34 +10,34 @@
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.73,
+    "performance": 0.75,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.93,
-    "total": 366
+    "total": 368
   },
-  "firstContentfulPaint": 1517.1370000000002,
-  "firstMeaningfulPaint": 1517.1370000000002,
-  "speedIndex": 2827.2719817914513,
-  "largestContentfulPaint": 3867.464,
-  "totalBlockingTime": 31,
-  "cumulativeLayoutShift": 0.2881617967431095,
-  "timeToInteractive": 4318.543,
-  "maxPotentialFirstInputDelay": 94,
-  "timeToFirstByte": 9.251000000000019,
+  "firstContentfulPaint": 1512.161,
+  "firstMeaningfulPaint": 1512.161,
+  "speedIndex": 2681.085819006399,
+  "largestContentfulPaint": 3630.067,
+  "totalBlockingTime": 32.5,
+  "cumulativeLayoutShift": 0.2936020549635521,
+  "timeToInteractive": 4343.0195,
+  "maxPotentialFirstInputDelay": 96,
+  "timeToFirstByte": 4.701999999999998,
   "weight": {
-    "summary": "30 requests • 1.0 MiB",
-    "total": 1066684,
-    "image": 304684,
-    "imageCount": 11,
-    "script": 205064,
+    "summary": "32 requests • 1.1 MiB",
+    "total": 1104803,
+    "image": 343361,
+    "imageCount": 13,
+    "script": 204745,
     "scriptCount": 10,
-    "document": 17135,
-    "font": 523445,
+    "document": 17300,
+    "font": 523023,
     "fontCount": 6,
-    "stylesheet": 15812,
+    "stylesheet": 15830,
     "stylesheetCount": 1,
-    "thirdParty": 531964,
+    "thirdParty": 562644,
     "thirdPartyCount": 6
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 7,
     "+weight.font": 1,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 1,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 2,
     "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 1229,
+    "passes": 1246,
     "violations": 3
   }
 }

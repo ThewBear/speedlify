@@ -1,0 +1,66 @@
+{
+  "url": "https://www.sanook.com/",
+  "requestedUrl": "https://www.sanook.com/",
+  "timestamp": 1765559814865,
+  "ranks": {
+    "hundos": 7,
+    "performance": 10,
+    "accessibility": 2,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.32,
+    "accessibility": 0.96,
+    "bestPractices": 0.52,
+    "seo": 0.98,
+    "total": 278
+  },
+  "firstContentfulPaint": 2780.6071600000005,
+  "firstMeaningfulPaint": 2780.6071600000005,
+  "speedIndex": 25223.32477172753,
+  "largestContentfulPaint": 6875.045080000002,
+  "totalBlockingTime": 5496.778439999998,
+  "cumulativeLayoutShift": 0.017258673272487347,
+  "timeToInteractive": 57899.519857769774,
+  "maxPotentialFirstInputDelay": 444.00000000000364,
+  "timeToFirstByte": 279.336,
+  "weight": {
+    "summary": "816 requests • 11.1 MiB",
+    "total": 11635597,
+    "image": 6431496,
+    "imageCount": 271,
+    "script": 4390725,
+    "scriptCount": 168,
+    "document": 131301,
+    "font": 264361,
+    "fontCount": 6,
+    "stylesheet": 10502,
+    "stylesheetCount": 2,
+    "thirdParty": 11576313,
+    "thirdPartyCount": 80
+  },
+  "run": {
+    "number": 1,
+    "total": 1
+  },
+  "sidequests": {
+    "-weight.total": 14,
+    "+weight.total": 2,
+    "-weight.document": 13,
+    "+weight.document": 3,
+    "-weight.script": 15,
+    "+weight.script": 1,
+    "-weight.image": 15,
+    "+weight.image": 1,
+    "-weight.font": 9,
+    "+weight.font": 6,
+    "+weight.fontCount": 5,
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 13,
+    "-largestContentfulPaint": 6
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

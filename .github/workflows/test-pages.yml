@@ -51,11 +51,11 @@ jobs:
           })
           EOF
         working-directory: default/_data
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: results
           path: default/_data/results
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: results-last-runs.json
           path: default/_data/results-last-runs.json

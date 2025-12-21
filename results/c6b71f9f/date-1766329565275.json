@@ -1,12 +1,12 @@
 {
   "url": "https://svelte.dev/",
   "requestedUrl": "https://svelte.dev/",
-  "timestamp": 1765033955609,
+  "timestamp": 1766329981489,
   "ranks": {
-    "hundos": 2,
-    "performance": 3,
+    "hundos": 3,
+    "performance": 7,
     "accessibility": 7,
-    "cumulative": 2
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,28 +16,28 @@
     "seo": 1,
     "total": 397
   },
-  "firstContentfulPaint": 1523.2595000000001,
-  "firstMeaningfulPaint": 1523.2595000000001,
-  "speedIndex": 1523.2595000000001,
-  "largestContentfulPaint": 2574.262179824829,
-  "totalBlockingTime": 39.5,
+  "firstContentfulPaint": 1562.7730000000001,
+  "firstMeaningfulPaint": 1562.7730000000001,
+  "speedIndex": 1562.7730000000001,
+  "largestContentfulPaint": 2491.0576798248294,
+  "totalBlockingTime": 43.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1953.2621798248292,
-  "maxPotentialFirstInputDelay": 129,
-  "timeToFirstByte": 2.5859999999999985,
+  "timeToInteractive": 2009.8696798248293,
+  "maxPotentialFirstInputDelay": 137,
+  "timeToFirstByte": 16.426000000000002,
   "weight": {
-    "summary": "80 requests • 9.9 MiB",
-    "total": 10385218,
-    "image": 365863,
+    "summary": "80 requests • 6.9 MiB",
+    "total": 7229594,
+    "image": 365086,
     "imageCount": 27,
-    "script": 110023,
-    "scriptCount": 39,
-    "document": 23929,
-    "font": 71037,
+    "script": 110315,
+    "scriptCount": 40,
+    "document": 23928,
+    "font": 70948,
     "fontCount": 3,
-    "stylesheet": 22668,
+    "stylesheet": 22670,
     "stylesheetCount": 6,
-    "thirdParty": 9450922,
+    "thirdParty": 6295342,
     "thirdPartyCount": 1
   },
   "run": {
@@ -56,9 +56,9 @@
     "-weight.font": 6,
     "+weight.font": 7,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 5,
-    "-totalBlockingTime": 5,
-    "-largestContentfulPaint": 4
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 7
   },
   "axe": {
     "error": "{\"name\":\"TimeoutError\"}"

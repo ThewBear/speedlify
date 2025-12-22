@@ -1,12 +1,12 @@
 {
   "url": "https://svelte.dev/",
   "requestedUrl": "https://svelte.dev/",
-  "timestamp": 1765120342412,
+  "timestamp": 1766416416248,
   "ranks": {
     "hundos": 3,
-    "performance": 6,
+    "performance": 5,
     "accessibility": 7,
-    "cumulative": 4
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,28 +16,28 @@
     "seo": 1,
     "total": 397
   },
-  "firstContentfulPaint": 1522.9504999999997,
-  "firstMeaningfulPaint": 1522.9505,
-  "speedIndex": 1522.9504999999997,
-  "largestContentfulPaint": 2576.3891798248287,
-  "totalBlockingTime": 39,
+  "firstContentfulPaint": 1531.7265,
+  "firstMeaningfulPaint": 1531.7265,
+  "speedIndex": 1531.7265,
+  "largestContentfulPaint": 2583.268179824829,
+  "totalBlockingTime": 42,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1952.649179824829,
-  "maxPotentialFirstInputDelay": 128,
-  "timeToFirstByte": 6.479999999999997,
+  "timeToInteractive": 1966.883179824829,
+  "maxPotentialFirstInputDelay": 134,
+  "timeToFirstByte": 25.651000000000003,
   "weight": {
     "summary": "80 requests • 6.9 MiB",
-    "total": 7229684,
-    "image": 365910,
+    "total": 7230195,
+    "image": 365312,
     "imageCount": 27,
-    "script": 110010,
-    "scriptCount": 39,
-    "document": 23934,
-    "font": 70967,
+    "script": 110751,
+    "scriptCount": 40,
+    "document": 23925,
+    "font": 70948,
     "fontCount": 3,
-    "stylesheet": 22758,
+    "stylesheet": 22747,
     "stylesheetCount": 6,
-    "thirdParty": 6295334,
+    "thirdParty": 6295341,
     "thirdPartyCount": 1
   },
   "run": {
@@ -51,14 +51,14 @@
     "+weight.document": 8,
     "-weight.script": 4,
     "+weight.script": 12,
-    "-weight.image": 12,
+    "-weight.image": 13,
     "+weight.image": 2,
     "-weight.font": 6,
     "+weight.font": 7,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 5,
-    "-totalBlockingTime": 3,
-    "-largestContentfulPaint": 5
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 5,
+    "-largestContentfulPaint": 6
   },
   "axe": {
     "error": "{\"name\":\"TimeoutError\"}"

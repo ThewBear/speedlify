@@ -1,39 +1,39 @@
 {
   "url": "https://www.11ty.dev/",
   "requestedUrl": "https://www.11ty.dev/",
-  "timestamp": 1766243647591,
+  "timestamp": 1767539181123,
   "ranks": {
-    "hundos": 2,
+    "hundos": 1,
     "performance": 2,
     "accessibility": 1,
-    "cumulative": 2
+    "cumulative": 1
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.99,
+    "performance": 1,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 399
+    "total": 400
   },
-  "firstContentfulPaint": 1079.858,
-  "firstMeaningfulPaint": 1158.858,
-  "speedIndex": 1079.858,
-  "largestContentfulPaint": 1223.858,
-  "totalBlockingTime": 108,
+  "firstContentfulPaint": 1338.0525,
+  "firstMeaningfulPaint": 1411.0525,
+  "speedIndex": 1338.0525,
+  "largestContentfulPaint": 1411.0525,
+  "totalBlockingTime": 76,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1367.858,
-  "maxPotentialFirstInputDelay": 158,
-  "timeToFirstByte": 6.435999999999993,
+  "timeToInteractive": 1464.0525,
+  "maxPotentialFirstInputDelay": 146,
+  "timeToFirstByte": 2.3119999999999834,
   "weight": {
-    "summary": "8 requests • 81.3 KiB",
-    "total": 83226,
+    "summary": "8 requests • 81.2 KiB",
+    "total": 83126,
     "image": 0,
     "imageCount": 2,
-    "script": 14599,
+    "script": 14572,
     "scriptCount": 2,
-    "document": 36739,
-    "font": 21911,
+    "document": 36693,
+    "font": 21884,
     "fontCount": 2,
     "stylesheet": 9977,
     "stylesheetCount": 1,
@@ -41,7 +41,7 @@
     "thirdPartyCount": 0
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -52,16 +52,16 @@
     "-weight.script": 2,
     "+weight.script": 14,
     "-weight.image": 1,
-    "+weight.image": 15,
+    "+weight.image": 14,
     "-weight.font": 1,
     "+weight.font": 12,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 3,
-    "-totalBlockingTime": 7,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 5,
     "-largestContentfulPaint": 2
   },
   "axe": {
-    "passes": 2105,
+    "passes": 2097,
     "violations": 0
   }
 }

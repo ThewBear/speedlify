@@ -1,12 +1,12 @@
 {
   "url": "https://www.zachleat.com/web/speedlify/",
   "requestedUrl": "https://www.zachleat.com/web/speedlify/",
-  "timestamp": 1766421175393,
+  "timestamp": 1767716259786,
   "ranks": {
-    "hundos": 8,
-    "performance": 9,
+    "hundos": 7,
+    "performance": 10,
     "accessibility": 9,
-    "cumulative": 9
+    "cumulative": 8
   },
   "lighthouse": {
     "version": "11.7.1",
@@ -16,32 +16,32 @@
     "seo": 0.99,
     "total": 391
   },
-  "firstContentfulPaint": 1109.4740000000002,
-  "firstMeaningfulPaint": 1353.4740000000002,
-  "speedIndex": 1109.4740000000002,
-  "largestContentfulPaint": 1808.959,
-  "totalBlockingTime": 52,
+  "firstContentfulPaint": 1299.801,
+  "firstMeaningfulPaint": 1299.801,
+  "speedIndex": 1299.801,
+  "largestContentfulPaint": 1848.3290000000002,
+  "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.11224265093950488,
-  "timeToInteractive": 1353.4740000000002,
-  "maxPotentialFirstInputDelay": 97,
-  "timeToFirstByte": 256.95,
+  "timeToInteractive": 1299.801,
+  "maxPotentialFirstInputDelay": 39,
+  "timeToFirstByte": 47.685,
   "weight": {
-    "summary": "23 requests • 199.8 KiB",
-    "total": 204571,
-    "image": 70269,
+    "summary": "23 requests • 198.8 KiB",
+    "total": 203600,
+    "image": 69747,
     "imageCount": 9,
-    "script": 17172,
+    "script": 17225,
     "scriptCount": 6,
-    "document": 56313,
-    "font": 55892,
+    "document": 56124,
+    "font": 55857,
     "fontCount": 4,
-    "stylesheet": 4032,
+    "stylesheet": 4112,
     "stylesheetCount": 1,
-    "thirdParty": 11305,
+    "thirdParty": 10976,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -53,11 +53,11 @@
     "+weight.script": 3,
     "-weight.image": 8,
     "+weight.image": 4,
-    "-weight.font": 4,
-    "+weight.font": 7,
+    "-weight.font": 1,
+    "+weight.font": 10,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 10,
-    "-totalBlockingTime": 3,
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 1,
     "-largestContentfulPaint": 9
   },
   "axe": {

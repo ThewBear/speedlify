@@ -1,43 +1,43 @@
 {
   "url": "https://webdriver.io/",
   "requestedUrl": "https://webdriver.io/",
-  "timestamp": 1766686432512,
+  "timestamp": 1767982493201,
   "ranks": {
     "hundos": 9,
     "performance": 10,
-    "accessibility": 5,
+    "accessibility": 6,
     "cumulative": 9
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.32,
+    "performance": 0.33,
     "accessibility": 0.9,
-    "bestPractices": 0.96,
+    "bestPractices": 0.93,
     "seo": 0.94,
-    "total": 312
+    "total": 310
   },
-  "firstContentfulPaint": 4236.426,
-  "firstMeaningfulPaint": 4872.594,
-  "speedIndex": 7687.067436469697,
-  "largestContentfulPaint": 16014.177499999998,
-  "totalBlockingTime": 1735.7379999999994,
-  "cumulativeLayoutShift": 0.0015415159706343394,
-  "timeToInteractive": 24493.655999999995,
-  "maxPotentialFirstInputDelay": 783.9999999999964,
-  "timeToFirstByte": 6.744,
+  "firstContentfulPaint": 4192.062,
+  "firstMeaningfulPaint": 5436.550000000001,
+  "speedIndex": 6986.013977291181,
+  "largestContentfulPaint": 16520.307000000008,
+  "totalBlockingTime": 1755.668499999998,
+  "cumulativeLayoutShift": 0.01259723964004987,
+  "timeToInteractive": 24894.5075,
+  "maxPotentialFirstInputDelay": 778.9999999999964,
+  "timeToFirstByte": 6.9410000000000025,
   "weight": {
     "summary": "187 requests • 10.6 MiB",
-    "total": 11165054,
-    "image": 7895848,
+    "total": 11162556,
+    "image": 7892694,
     "imageCount": 143,
-    "script": 2814253,
+    "script": 2816564,
     "scriptCount": 17,
-    "document": 133524,
-    "font": 96010,
+    "document": 132889,
+    "font": 96012,
     "fontCount": 4,
-    "stylesheet": 210839,
+    "stylesheet": 211267,
     "stylesheetCount": 5,
-    "thirdParty": 6276165,
+    "thirdParty": 6274090,
     "thirdPartyCount": 9
   },
   "run": {
@@ -56,12 +56,11 @@
     "-weight.font": 5,
     "+weight.font": 3,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 2,
+    "-timeToFirstByte": 1,
     "-totalBlockingTime": 4,
     "-largestContentfulPaint": 10
   },
   "axe": {
-    "passes": 2174,
-    "violations": 37
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

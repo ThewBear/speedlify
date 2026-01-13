@@ -1,43 +1,43 @@
 {
   "url": "https://webdriver.io/",
   "requestedUrl": "https://webdriver.io/",
-  "timestamp": 1767032183943,
+  "timestamp": 1768327997409,
   "ranks": {
     "hundos": 9,
     "performance": 10,
-    "accessibility": 5,
+    "accessibility": 6,
     "cumulative": 9
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.34,
+    "performance": 0.3,
     "accessibility": 0.9,
     "bestPractices": 0.96,
     "seo": 0.94,
-    "total": 314
+    "total": 310
   },
-  "firstContentfulPaint": 4199.154,
-  "firstMeaningfulPaint": 4821.5779999999995,
-  "speedIndex": 6329.776214901612,
-  "largestContentfulPaint": 15905.194500000005,
-  "totalBlockingTime": 1704.4845000000041,
+  "firstContentfulPaint": 4211.861,
+  "firstMeaningfulPaint": 5620.244000000001,
+  "speedIndex": 9468.509017525901,
+  "largestContentfulPaint": 16735.441000000006,
+  "totalBlockingTime": 2119.5384999999987,
   "cumulativeLayoutShift": 0.0015415159706343394,
-  "timeToInteractive": 24485.328500000003,
-  "maxPotentialFirstInputDelay": 799,
-  "timeToFirstByte": 6.516000000000005,
+  "timeToInteractive": 26095.7475,
+  "maxPotentialFirstInputDelay": 763,
+  "timeToFirstByte": 6.555,
   "weight": {
-    "summary": "187 requests • 10.6 MiB",
-    "total": 11164617,
-    "image": 7895989,
+    "summary": "187 requests • 10.9 MiB",
+    "total": 11409676,
+    "image": 7892588,
     "imageCount": 143,
-    "script": 2814678,
+    "script": 3012475,
     "scriptCount": 17,
-    "document": 132540,
+    "document": 132474,
     "font": 96011,
     "fontCount": 4,
-    "stylesheet": 210816,
+    "stylesheet": 262274,
     "stylesheetCount": 5,
-    "thirdParty": 6275860,
+    "thirdParty": 6521373,
     "thirdPartyCount": 9
   },
   "run": {
@@ -57,11 +57,11 @@
     "+weight.font": 3,
     "+weight.fontCount": 3,
     "-timeToFirstByte": 1,
-    "-totalBlockingTime": 6,
+    "-totalBlockingTime": 5,
     "-largestContentfulPaint": 10
   },
   "axe": {
-    "passes": 2174,
+    "passes": 2175,
     "violations": 37
   }
 }

@@ -1,0 +1,66 @@
+{
+  "url": "https://www.siamsport.co.th/",
+  "requestedUrl": "https://www.siamsport.co.th/",
+  "timestamp": 1769409636279,
+  "ranks": {
+    "hundos": 13,
+    "performance": 15,
+    "accessibility": 8,
+    "cumulative": 13
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.25,
+    "accessibility": 0.83,
+    "bestPractices": 0.56,
+    "seo": 0.86,
+    "total": 250
+  },
+  "firstContentfulPaint": 5652.291800000001,
+  "firstMeaningfulPaint": 7187.97705,
+  "speedIndex": 17718.675547798375,
+  "largestContentfulPaint": 15745.647249999998,
+  "totalBlockingTime": 12416.500000000005,
+  "cumulativeLayoutShift": 0.06718743771490664,
+  "timeToInteractive": 31953.039201731466,
+  "maxPotentialFirstInputDelay": 3313.0000000000036,
+  "timeToFirstByte": 203.72499999999997,
+  "weight": {
+    "summary": "797 requests • 6.2 MiB",
+    "total": 6519440,
+    "image": 2960165,
+    "imageCount": 305,
+    "script": 2271827,
+    "scriptCount": 108,
+    "document": 182220,
+    "font": 159580,
+    "fontCount": 14,
+    "stylesheet": 61811,
+    "stylesheetCount": 16,
+    "thirdParty": 4651117,
+    "thirdPartyCount": 101
+  },
+  "run": {
+    "number": 2,
+    "total": 2
+  },
+  "sidequests": {
+    "-weight.total": 14,
+    "+weight.total": 3,
+    "-weight.document": 14,
+    "+weight.document": 3,
+    "-weight.script": 12,
+    "+weight.script": 5,
+    "-weight.image": 14,
+    "+weight.image": 3,
+    "-weight.font": 7,
+    "+weight.font": 8,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 16,
+    "-largestContentfulPaint": 12
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

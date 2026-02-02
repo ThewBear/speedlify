@@ -1,48 +1,48 @@
 {
   "url": "https://theintern.io/",
   "requestedUrl": "https://theintern.io/",
-  "timestamp": 1768759871873,
+  "timestamp": 1770056438501,
   "ranks": {
     "hundos": 8,
-    "performance": 6,
+    "performance": 5,
     "accessibility": 10,
     "cumulative": 8
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.94,
+    "performance": 0.95,
     "accessibility": 0.43,
     "bestPractices": 1,
     "seo": 0.85,
-    "total": 322
+    "total": 323
   },
-  "firstContentfulPaint": 1693.7945000000002,
-  "firstMeaningfulPaint": 2753.7445000000002,
-  "speedIndex": 1693.7945000000002,
-  "largestContentfulPaint": 2905.8755,
+  "firstContentfulPaint": 1750.3229999999999,
+  "firstMeaningfulPaint": 2835.044,
+  "speedIndex": 1750.3229999999999,
+  "largestContentfulPaint": 2835.0440000000003,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2753.7445000000002,
-  "maxPotentialFirstInputDelay": 20,
-  "timeToFirstByte": 52.256,
+  "timeToInteractive": 2835.044,
+  "maxPotentialFirstInputDelay": 22,
+  "timeToFirstByte": 60.86,
   "weight": {
     "summary": "13 requests • 210.7 KiB",
-    "total": 215778,
-    "image": 9560,
+    "total": 215752,
+    "image": 9582,
     "imageCount": 2,
-    "script": 7110,
+    "script": 7095,
     "scriptCount": 1,
-    "document": 19092,
-    "font": 139661,
+    "document": 19082,
+    "font": 139652,
     "fontCount": 5,
-    "stylesheet": 39918,
+    "stylesheet": 39907,
     "stylesheetCount": 3,
-    "thirdParty": 155000,
+    "thirdParty": 154981,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 2,
-    "total": 3
+    "number": 1,
+    "total": 1
   },
   "sidequests": {
     "-weight.total": 4,
@@ -56,12 +56,11 @@
     "-weight.font": 6,
     "+weight.font": 2,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 7,
+    "-timeToFirstByte": 9,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 648,
-    "violations": 39
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

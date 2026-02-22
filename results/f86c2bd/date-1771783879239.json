@@ -1,7 +1,7 @@
 {
   "url": "https://webdriver.io/",
   "requestedUrl": "https://webdriver.io/",
-  "timestamp": 1770488106593,
+  "timestamp": 1771784144898,
   "ranks": {
     "hundos": 9,
     "performance": 10,
@@ -10,34 +10,34 @@
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.35,
+    "performance": 0.33,
     "accessibility": 0.9,
     "bestPractices": 0.96,
     "seo": 0.94,
-    "total": 315
+    "total": 313
   },
-  "firstContentfulPaint": 4268.178000000001,
-  "firstMeaningfulPaint": 4902.446000000001,
-  "speedIndex": 6746.086515002746,
-  "largestContentfulPaint": 16140.809499999992,
-  "totalBlockingTime": 1424.9675000000007,
+  "firstContentfulPaint": 4186.681,
+  "firstMeaningfulPaint": 5279.99,
+  "speedIndex": 7599.946239702947,
+  "largestContentfulPaint": 16835.728000000006,
+  "totalBlockingTime": 1672.9999999999982,
   "cumulativeLayoutShift": 0.0015415159706343394,
-  "timeToInteractive": 24594.0985,
-  "maxPotentialFirstInputDelay": 812,
-  "timeToFirstByte": 9.749000000000002,
+  "timeToInteractive": 25072.338499999994,
+  "maxPotentialFirstInputDelay": 797,
+  "timeToFirstByte": 6.646000000000001,
   "weight": {
-    "summary": "187 requests • 10.7 MiB",
-    "total": 11167341,
-    "image": 7916585,
+    "summary": "187 requests • 10.8 MiB",
+    "total": 11281649,
+    "image": 7899227,
     "imageCount": 143,
-    "script": 2794403,
+    "script": 2926826,
     "scriptCount": 17,
-    "document": 132850,
-    "font": 96009,
+    "document": 133634,
+    "font": 96012,
     "fontCount": 4,
-    "stylesheet": 213594,
+    "stylesheet": 212053,
     "stylesheetCount": 5,
-    "thirdParty": 6278158,
+    "thirdParty": 6264284,
     "thirdPartyCount": 9
   },
   "run": {
@@ -57,11 +57,11 @@
     "+weight.font": 3,
     "+weight.fontCount": 3,
     "-timeToFirstByte": 1,
-    "-totalBlockingTime": 5,
+    "-totalBlockingTime": 6,
     "-largestContentfulPaint": 10
   },
   "axe": {
-    "passes": 2175,
-    "violations": 37
+    "passes": 2241,
+    "violations": 51
   }
 }

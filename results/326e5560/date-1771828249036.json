@@ -1,43 +1,43 @@
 {
   "url": "https://theintern.io/",
   "requestedUrl": "https://theintern.io/",
-  "timestamp": 1770531950192,
+  "timestamp": 1771828501663,
   "ranks": {
     "hundos": 8,
-    "performance": 6,
+    "performance": 5,
     "accessibility": 10,
     "cumulative": 8
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.88,
+    "performance": 0.93,
     "accessibility": 0.43,
     "bestPractices": 1,
     "seo": 0.85,
-    "total": 316
+    "total": 321
   },
-  "firstContentfulPaint": 1694.5309999999997,
-  "firstMeaningfulPaint": 2907.7644999999993,
-  "speedIndex": 1694.5309999999997,
-  "largestContentfulPaint": 3059.5544999999997,
-  "totalBlockingTime": 256.5290000000002,
+  "firstContentfulPaint": 1683.9440000000002,
+  "firstMeaningfulPaint": 2893.924,
+  "speedIndex": 1683.9440000000002,
+  "largestContentfulPaint": 3045.0879999999997,
+  "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2907.7644999999993,
-  "maxPotentialFirstInputDelay": 321,
-  "timeToFirstByte": 27.409,
+  "timeToInteractive": 2893.924,
+  "maxPotentialFirstInputDelay": 23,
+  "timeToFirstByte": 17.808,
   "weight": {
     "summary": "13 requests • 210.7 KiB",
-    "total": 215737,
-    "image": 9547,
+    "total": 215763,
+    "image": 9526,
     "imageCount": 2,
     "script": 7109,
     "scriptCount": 1,
     "document": 19088,
-    "font": 139662,
+    "font": 139657,
     "fontCount": 5,
-    "stylesheet": 39906,
+    "stylesheet": 39955,
     "stylesheetCount": 3,
-    "thirdParty": 154993,
+    "thirdParty": 154997,
     "thirdPartyCount": 3
   },
   "run": {
@@ -57,8 +57,8 @@
     "+weight.font": 2,
     "+weight.fontCount": 2,
     "-timeToFirstByte": 5,
-    "-totalBlockingTime": 4,
-    "-largestContentfulPaint": 6
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 5
   },
   "axe": {
     "passes": 648,

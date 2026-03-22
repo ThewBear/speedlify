@@ -1,47 +1,47 @@
 {
   "url": "https://eslint.org/",
   "requestedUrl": "https://eslint.org/",
-  "timestamp": 1772864185264,
+  "timestamp": 1774160765784,
   "ranks": {
-    "hundos": 6,
+    "hundos": 4,
     "performance": 8,
     "accessibility": 3,
-    "cumulative": 6
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.74,
+    "performance": 0.8,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 0.93,
-    "total": 367
+    "total": 373
   },
-  "firstContentfulPaint": 1465.1890000000003,
-  "firstMeaningfulPaint": 1465.1890000000003,
-  "speedIndex": 3741.8015553703653,
-  "largestContentfulPaint": 3454.0570000000007,
-  "totalBlockingTime": 78,
-  "cumulativeLayoutShift": 0.30859614504213273,
-  "timeToInteractive": 6588.228499999999,
-  "maxPotentialFirstInputDelay": 97,
-  "timeToFirstByte": 25.747000000000007,
+  "firstContentfulPaint": 2130.2010000000005,
+  "firstMeaningfulPaint": 2285.9302500000003,
+  "speedIndex": 4404.170368208942,
+  "largestContentfulPaint": 4267.589000000001,
+  "totalBlockingTime": 110.5,
+  "cumulativeLayoutShift": 0.020434348299023262,
+  "timeToInteractive": 6718.2755,
+  "maxPotentialFirstInputDelay": 119,
+  "timeToFirstByte": 38.903999999999996,
   "weight": {
-    "summary": "27 requests • 1,007.0 KiB",
-    "total": 1031158,
-    "image": 260946,
-    "imageCount": 8,
-    "script": 213507,
+    "summary": "29 requests • 1.0 MiB",
+    "total": 1072948,
+    "image": 299891,
+    "imageCount": 10,
+    "script": 216695,
     "scriptCount": 10,
-    "document": 17027,
-    "font": 523303,
+    "document": 16949,
+    "font": 523016,
     "fontCount": 6,
-    "stylesheet": 15831,
+    "stylesheet": 15853,
     "stylesheetCount": 1,
-    "thirdParty": 503977,
+    "thirdParty": 538078,
     "thirdPartyCount": 6
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -56,12 +56,12 @@
     "-weight.font": 7,
     "+weight.font": 1,
     "+weight.fontCount": 1,
-    "-timeToFirstByte": 3,
+    "-timeToFirstByte": 6,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 8
   },
   "axe": {
-    "passes": 1122,
+    "passes": 1130,
     "violations": 3
   }
 }

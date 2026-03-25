@@ -1,48 +1,48 @@
 {
   "url": "https://astro.build/",
   "requestedUrl": "https://astro.build/",
-  "timestamp": 1773149740008,
+  "timestamp": 1774446099449,
   "ranks": {
-    "hundos": 4,
+    "hundos": 3,
     "performance": 6,
     "accessibility": 1,
     "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.96,
+    "performance": 0.95,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 396
+    "total": 395
   },
-  "firstContentfulPaint": 1461.0230000000001,
-  "firstMeaningfulPaint": 1461.0230000000001,
-  "speedIndex": 1461.0230000000001,
-  "largestContentfulPaint": 2777.023,
-  "totalBlockingTime": 0,
+  "firstContentfulPaint": 1343.205,
+  "firstMeaningfulPaint": 1418.705,
+  "speedIndex": 1343.205,
+  "largestContentfulPaint": 2807.585,
+  "totalBlockingTime": 97.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1461.0230000000001,
-  "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 9.512000000000004,
+  "timeToInteractive": 1490.705,
+  "maxPotentialFirstInputDelay": 151,
+  "timeToFirstByte": 20.953000000000003,
   "weight": {
-    "summary": "24 requests • 321.5 KiB",
-    "total": 329214,
-    "image": 23576,
+    "summary": "24 requests • 324.1 KiB",
+    "total": 331881,
+    "image": 23534,
     "imageCount": 9,
-    "script": 12937,
+    "script": 12990,
     "scriptCount": 9,
-    "document": 76950,
-    "font": 195994,
+    "document": 79756,
+    "font": 196048,
     "fontCount": 3,
-    "stylesheet": 19757,
+    "stylesheet": 19553,
     "stylesheetCount": 2,
     "thirdParty": 3168,
     "thirdPartyCount": 1
   },
   "run": {
     "number": 2,
-    "total": 3
+    "total": 2
   },
   "sidequests": {
     "-weight.total": 3,
@@ -56,12 +56,12 @@
     "-weight.font": 10,
     "+weight.font": 3,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 10,
-    "-totalBlockingTime": 1,
+    "-timeToFirstByte": 13,
+    "-totalBlockingTime": 7,
     "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 1720,
+    "passes": 1692,
     "violations": 0
   }
 }

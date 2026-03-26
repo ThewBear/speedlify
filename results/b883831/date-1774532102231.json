@@ -1,43 +1,43 @@
 {
   "url": "https://nextjs.org/",
   "requestedUrl": "https://nextjs.org/",
-  "timestamp": 1773236097341,
+  "timestamp": 1774532302359,
   "ranks": {
     "hundos": 11,
-    "performance": 13,
+    "performance": 12,
     "accessibility": 3,
     "cumulative": 11
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.74,
+    "performance": 0.75,
     "accessibility": 1,
     "bestPractices": 0.96,
     "seo": 0.98,
-    "total": 368
+    "total": 369
   },
-  "firstContentfulPaint": 1552.912,
-  "firstMeaningfulPaint": 1552.912,
-  "speedIndex": 1994.3672803736104,
-  "largestContentfulPaint": 3688.458000000002,
-  "totalBlockingTime": 611.8439999999998,
+  "firstContentfulPaint": 1532.933,
+  "firstMeaningfulPaint": 1532.933,
+  "speedIndex": 2139.8999751458546,
+  "largestContentfulPaint": 3632.933,
+  "totalBlockingTime": 577,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 4705.383500000001,
-  "maxPotentialFirstInputDelay": 295,
-  "timeToFirstByte": 22.15,
+  "timeToInteractive": 4611.933,
+  "maxPotentialFirstInputDelay": 275,
+  "timeToFirstByte": 17.472,
   "weight": {
-    "summary": "81 requests • 1,021.1 KiB",
-    "total": 1045626,
-    "image": 225117,
-    "imageCount": 15,
-    "script": 526151,
-    "scriptCount": 32,
-    "document": 37705,
-    "font": 61610,
+    "summary": "86 requests • 1,019.8 KiB",
+    "total": 1044275,
+    "image": 229629,
+    "imageCount": 19,
+    "script": 524693,
+    "scriptCount": 34,
+    "document": 38061,
+    "font": 61720,
     "fontCount": 2,
-    "stylesheet": 90981,
-    "stylesheetCount": 5,
-    "thirdParty": 7397,
+    "stylesheet": 90393,
+    "stylesheetCount": 4,
+    "thirdParty": 7388,
     "thirdPartyCount": 1
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 5,
     "+weight.font": 8,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 7,
-    "-totalBlockingTime": 12,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 10,
     "-largestContentfulPaint": 9
   },
   "axe": {
-    "passes": 1167,
+    "passes": 1170,
     "violations": 3
   }
 }

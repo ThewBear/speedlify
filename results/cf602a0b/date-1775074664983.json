@@ -1,11 +1,11 @@
 {
   "url": "https://github.com/ThewBear",
   "requestedUrl": "https://github.com/ThewBear",
-  "timestamp": 1773778608215,
+  "timestamp": 1775074867957,
   "ranks": {
     "hundos": 7,
     "performance": 8,
-    "accessibility": 7,
+    "accessibility": 1,
     "cumulative": 7
   },
   "lighthouse": {
@@ -16,32 +16,32 @@
     "seo": 0.97,
     "total": 329
   },
-  "firstContentfulPaint": 3043.381500000001,
-  "firstMeaningfulPaint": 3043.381500000001,
-  "speedIndex": 6722.5234022719815,
-  "largestContentfulPaint": 6348.265500000001,
-  "totalBlockingTime": 4066.000000000002,
+  "firstContentfulPaint": 2977.8889999999997,
+  "firstMeaningfulPaint": 2977.8889999999997,
+  "speedIndex": 7009.475395139247,
+  "largestContentfulPaint": 6428.234,
+  "totalBlockingTime": 3824.8949999999995,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 11840.6535,
-  "maxPotentialFirstInputDelay": 1883,
-  "timeToFirstByte": 234.06700000000004,
+  "timeToInteractive": 11544.219000000001,
+  "maxPotentialFirstInputDelay": 1826.9999999999982,
+  "timeToFirstByte": 229.09,
   "weight": {
-    "summary": "121 requests • 1.5 MiB",
-    "total": 1575126,
-    "image": 375233,
+    "summary": "109 requests • 1.5 MiB",
+    "total": 1548221,
+    "image": 375296,
     "imageCount": 6,
-    "script": 940549,
-    "scriptCount": 91,
-    "document": 45893,
+    "script": 916033,
+    "scriptCount": 79,
+    "document": 45809,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 186154,
+    "stylesheet": 184878,
     "stylesheetCount": 19,
-    "thirdParty": 1323519,
+    "thirdParty": 1297790,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -54,13 +54,14 @@
     "-weight.image": 7,
     "+weight.image": 3,
     "-weight.font": 1,
-    "+weight.font": 7,
+    "+weight.font": 5,
     "+weight.fontCount": 5,
     "-timeToFirstByte": 7,
     "-totalBlockingTime": 8,
     "-largestContentfulPaint": 7
   },
   "axe": {
-    "error": "{\"name\":\"TimeoutError\"}"
+    "passes": 6700,
+    "violations": 0
   }
 }

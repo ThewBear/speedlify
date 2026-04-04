@@ -1,43 +1,43 @@
 {
   "url": "https://astro.build/",
   "requestedUrl": "https://astro.build/",
-  "timestamp": 1774013626193,
+  "timestamp": 1775309427363,
   "ranks": {
-    "hundos": 3,
+    "hundos": 4,
     "performance": 6,
     "accessibility": 1,
-    "cumulative": 3
+    "cumulative": 4
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.95,
+    "performance": 0.96,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 395
+    "total": 396
   },
-  "firstContentfulPaint": 1367.884,
-  "firstMeaningfulPaint": 1418.6979999999999,
-  "speedIndex": 1367.884,
-  "largestContentfulPaint": 2746.4179999999997,
-  "totalBlockingTime": 73.81399999999996,
+  "firstContentfulPaint": 1512.355,
+  "firstMeaningfulPaint": 1512.355,
+  "speedIndex": 1512.355,
+  "largestContentfulPaint": 2709.355,
+  "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1491.6979999999999,
-  "maxPotentialFirstInputDelay": 152,
-  "timeToFirstByte": 34.16900000000001,
+  "timeToInteractive": 1512.355,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 5.297000000000001,
   "weight": {
-    "summary": "24 requests • 324.3 KiB",
-    "total": 332066,
-    "image": 23595,
+    "summary": "24 requests • 326.1 KiB",
+    "total": 333946,
+    "image": 23584,
     "imageCount": 9,
-    "script": 12954,
+    "script": 13052,
     "scriptCount": 9,
-    "document": 79920,
-    "font": 196044,
+    "document": 81452,
+    "font": 196035,
     "fontCount": 3,
-    "stylesheet": 19553,
+    "stylesheet": 19823,
     "stylesheetCount": 2,
-    "thirdParty": 3164,
+    "thirdParty": 3166,
     "thirdPartyCount": 1
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 10,
     "+weight.font": 3,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 14,
-    "-totalBlockingTime": 5,
-    "-largestContentfulPaint": 7
+    "-timeToFirstByte": 13,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 6
   },
   "axe": {
-    "passes": 1692,
+    "passes": 1701,
     "violations": 0
   }
 }

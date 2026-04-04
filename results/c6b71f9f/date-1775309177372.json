@@ -1,54 +1,54 @@
 {
   "url": "https://svelte.dev/",
   "requestedUrl": "https://svelte.dev/",
-  "timestamp": 1774013649198,
+  "timestamp": 1775309589585,
   "ranks": {
-    "hundos": 2,
+    "hundos": 3,
     "performance": 5,
     "accessibility": 5,
-    "cumulative": 2
+    "cumulative": 3
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.96,
+    "performance": 0.97,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 396
+    "total": 397
   },
-  "firstContentfulPaint": 1531.6895,
-  "firstMeaningfulPaint": 1531.6895,
-  "speedIndex": 1736.9286902919869,
-  "largestContentfulPaint": 2657.6918078918457,
-  "totalBlockingTime": 14.5,
+  "firstContentfulPaint": 1534.1485,
+  "firstMeaningfulPaint": 1534.1485,
+  "speedIndex": 1534.1485,
+  "largestContentfulPaint": 2585.1512894973757,
+  "totalBlockingTime": 14.000000000000114,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1986.6918078918457,
-  "maxPotentialFirstInputDelay": 79,
-  "timeToFirstByte": 11.158000000000001,
+  "timeToInteractive": 1925.1512894973757,
+  "maxPotentialFirstInputDelay": 78.00000000000023,
+  "timeToFirstByte": 2.1530000000000022,
   "weight": {
-    "summary": "68 requests • 9.9 MiB",
-    "total": 10411425,
-    "image": 365019,
+    "summary": "68 requests • 6.9 MiB",
+    "total": 7265174,
+    "image": 364843,
     "imageCount": 27,
-    "script": 126473,
+    "script": 126870,
     "scriptCount": 28,
     "document": 23940,
-    "font": 70901,
+    "font": 70927,
     "fontCount": 3,
-    "stylesheet": 22995,
+    "stylesheet": 23047,
     "stylesheetCount": 6,
-    "thirdParty": 9448341,
+    "thirdParty": 6295333,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
     "-weight.total": 15,
     "+weight.total": 1,
-    "-weight.document": 8,
-    "+weight.document": 8,
+    "-weight.document": 9,
+    "+weight.document": 7,
     "-weight.script": 5,
     "+weight.script": 11,
     "-weight.image": 13,
@@ -56,9 +56,9 @@
     "-weight.font": 6,
     "+weight.font": 7,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 4,
+    "-timeToFirstByte": 1,
     "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 6
+    "-largestContentfulPaint": 5
   },
   "axe": {
     "error": "{\"name\":\"TimeoutError\"}"

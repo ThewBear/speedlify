@@ -1,43 +1,43 @@
 {
   "url": "https://theintern.io/",
   "requestedUrl": "https://theintern.io/",
-  "timestamp": 1774116856125,
+  "timestamp": 1775413020152,
   "ranks": {
-    "hundos": 8,
-    "performance": 6,
+    "hundos": 9,
+    "performance": 7,
     "accessibility": 10,
-    "cumulative": 8
+    "cumulative": 9
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.94,
+    "performance": 0.84,
     "accessibility": 0.43,
     "bestPractices": 1,
     "seo": 0.85,
-    "total": 322
+    "total": 312
   },
-  "firstContentfulPaint": 1740.6985,
-  "firstMeaningfulPaint": 2842.3200000000006,
-  "speedIndex": 1740.6985,
-  "largestContentfulPaint": 3003.178000000001,
-  "totalBlockingTime": 0,
+  "firstContentfulPaint": 1699.043,
+  "firstMeaningfulPaint": 2935.8269999999993,
+  "speedIndex": 1699.043,
+  "largestContentfulPaint": 3091.6699999999996,
+  "totalBlockingTime": 365.9999999999998,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 2842.3200000000006,
-  "maxPotentialFirstInputDelay": 23,
-  "timeToFirstByte": 71.51599999999999,
+  "timeToInteractive": 2935.8269999999993,
+  "maxPotentialFirstInputDelay": 415.9999999999998,
+  "timeToFirstByte": 24.394,
   "weight": {
-    "summary": "13 requests • 214.4 KiB",
-    "total": 219574,
-    "image": 9577,
+    "summary": "13 requests • 214.6 KiB",
+    "total": 219742,
+    "image": 9622,
     "imageCount": 2,
     "script": 10993,
     "scriptCount": 1,
-    "document": 19093,
-    "font": 139623,
+    "document": 19120,
+    "font": 139656,
     "fontCount": 5,
-    "stylesheet": 39861,
+    "stylesheet": 39905,
     "stylesheetCount": 3,
-    "thirdParty": 158807,
+    "thirdParty": 158864,
     "thirdPartyCount": 3
   },
   "run": {
@@ -56,12 +56,12 @@
     "-weight.font": 6,
     "+weight.font": 2,
     "+weight.fontCount": 2,
-    "-timeToFirstByte": 7,
-    "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 6
+    "-timeToFirstByte": 6,
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 7
   },
   "axe": {
-    "passes": 648,
+    "passes": 643,
     "violations": 39
   }
 }

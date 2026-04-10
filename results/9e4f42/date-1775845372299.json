@@ -1,47 +1,47 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1774549682120,
+  "timestamp": 1775845536840,
   "ranks": {
-    "hundos": 5,
-    "performance": 5,
+    "hundos": 6,
+    "performance": 6,
     "accessibility": 7,
-    "cumulative": 5
+    "cumulative": 6
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.97,
+    "performance": 0.82,
     "accessibility": 0.86,
     "bestPractices": 0.96,
     "seo": 0.92,
-    "total": 371
+    "total": 356
   },
-  "firstContentfulPaint": 1614.8760000000002,
-  "firstMeaningfulPaint": 1614.8760000000002,
-  "speedIndex": 1614.8760000000002,
-  "largestContentfulPaint": 2441.8450000000003,
-  "totalBlockingTime": 92.5,
+  "firstContentfulPaint": 1636.542,
+  "firstMeaningfulPaint": 1636.542,
+  "speedIndex": 1636.542,
+  "largestContentfulPaint": 4568.361000000001,
+  "totalBlockingTime": 96.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 4331.575000000001,
-  "maxPotentialFirstInputDelay": 235,
-  "timeToFirstByte": 65.114,
+  "timeToInteractive": 4418.150000000001,
+  "maxPotentialFirstInputDelay": 243,
+  "timeToFirstByte": 11.96,
   "weight": {
     "summary": "11 requests • 557.2 KiB",
-    "total": 570574,
-    "image": 230248,
+    "total": 570620,
+    "image": 230303,
     "imageCount": 4,
-    "script": 329451,
+    "script": 329466,
     "scriptCount": 4,
-    "document": 9226,
+    "document": 9222,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1649,
+    "stylesheet": 1629,
     "stylesheetCount": 1,
-    "thirdParty": 6174,
+    "thirdParty": 6201,
     "thirdPartyCount": 3
   },
   "run": {
-    "number": 1,
+    "number": 2,
     "total": 3
   },
   "sidequests": {
@@ -56,9 +56,9 @@
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 10,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 2,
-    "-largestContentfulPaint": 5
+    "-largestContentfulPaint": 8
   },
   "axe": {
     "passes": 166,

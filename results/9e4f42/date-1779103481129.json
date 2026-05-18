@@ -1,7 +1,7 @@
 {
   "url": "https://istanbul.js.org/",
   "requestedUrl": "https://istanbul.js.org/",
-  "timestamp": 1777801151932,
+  "timestamp": 1779103797362,
   "ranks": {
     "hundos": 4,
     "performance": 5,
@@ -10,34 +10,34 @@
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.96,
+    "performance": 0.97,
     "accessibility": 0.86,
     "bestPractices": 0.96,
     "seo": 0.92,
-    "total": 370
+    "total": 371
   },
-  "firstContentfulPaint": 1594.8935000000001,
-  "firstMeaningfulPaint": 1594.8935000000001,
-  "speedIndex": 1594.8935000000001,
-  "largestContentfulPaint": 2582.3714999999997,
-  "totalBlockingTime": 108.5,
-  "cumulativeLayoutShift": 0.05180787256202393,
-  "timeToInteractive": 4360.9214999999995,
-  "maxPotentialFirstInputDelay": 267,
-  "timeToFirstByte": 23.218,
+  "firstContentfulPaint": 1575.5074999999997,
+  "firstMeaningfulPaint": 1596.5074999999997,
+  "speedIndex": 1575.5074999999997,
+  "largestContentfulPaint": 2412.2414999999996,
+  "totalBlockingTime": 97,
+  "cumulativeLayoutShift": 0.020406811165622617,
+  "timeToInteractive": 4306.934499999999,
+  "maxPotentialFirstInputDelay": 244,
+  "timeToFirstByte": 13.239999999999998,
   "weight": {
     "summary": "11 requests • 557.2 KiB",
-    "total": 570620,
-    "image": 230288,
+    "total": 570560,
+    "image": 230219,
     "imageCount": 4,
-    "script": 329469,
+    "script": 329456,
     "scriptCount": 4,
-    "document": 9228,
+    "document": 9222,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 1635,
+    "stylesheet": 1663,
     "stylesheetCount": 1,
-    "thirdParty": 6247,
+    "thirdParty": 6166,
     "thirdPartyCount": 3
   },
   "run": {
@@ -51,17 +51,16 @@
     "+weight.document": 5,
     "-weight.script": 7,
     "+weight.script": 3,
-    "-weight.image": 7,
-    "+weight.image": 4,
+    "-weight.image": 8,
+    "+weight.image": 3,
     "-weight.font": 1,
     "+weight.font": 8,
     "+weight.fontCount": 6,
-    "-timeToFirstByte": 7,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 3,
     "-largestContentfulPaint": 5
   },
   "axe": {
-    "passes": 166,
-    "violations": 12
+    "error": "{\"name\":\"TimeoutError\"}"
   }
 }

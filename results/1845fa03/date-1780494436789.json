@@ -1,0 +1,66 @@
+{
+  "url": "https://nuxt.com/",
+  "requestedUrl": "https://nuxt.com/",
+  "timestamp": 1780494809710,
+  "ranks": {
+    "hundos": 15,
+    "performance": 15,
+    "accessibility": 13,
+    "cumulative": 15
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.6,
+    "accessibility": 0.9,
+    "bestPractices": 1,
+    "seo": 0.9,
+    "total": 340
+  },
+  "firstContentfulPaint": 3465.1894999999995,
+  "firstMeaningfulPaint": 3465.1894999999995,
+  "speedIndex": 4278.8441739672535,
+  "largestContentfulPaint": 4065.345499999999,
+  "totalBlockingTime": 770.0000000000005,
+  "cumulativeLayoutShift": 0.015475980058564417,
+  "timeToInteractive": 6575.6185000000005,
+  "maxPotentialFirstInputDelay": 1270,
+  "timeToFirstByte": 1.9770000000000003,
+  "weight": {
+    "summary": "149 requests • 2.0 MiB",
+    "total": 2084861,
+    "image": 353629,
+    "imageCount": 80,
+    "script": 1102489,
+    "scriptCount": 57,
+    "document": 38894,
+    "font": 26888,
+    "fontCount": 1,
+    "stylesheet": 36890,
+    "stylesheetCount": 3,
+    "thirdParty": 1541,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 14,
+    "+weight.total": 2,
+    "-weight.document": 10,
+    "+weight.document": 6,
+    "-weight.script": 15,
+    "+weight.script": 1,
+    "-weight.image": 14,
+    "+weight.image": 1,
+    "-weight.font": 2,
+    "+weight.font": 10,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 1,
+    "-totalBlockingTime": 11,
+    "-largestContentfulPaint": 14
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

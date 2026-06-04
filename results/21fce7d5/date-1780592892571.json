@@ -1,47 +1,47 @@
 {
   "url": "https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81",
   "requestedUrl": "https://th.wikipedia.org/",
-  "timestamp": 1779297505067,
+  "timestamp": 1780593051892,
   "ranks": {
     "hundos": 1,
     "performance": 1,
-    "accessibility": 4,
+    "accessibility": 5,
     "cumulative": 1
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.97,
-    "accessibility": 0.93,
+    "performance": 0.95,
+    "accessibility": 0.9,
     "bestPractices": 0.74,
-    "seo": 0.91,
-    "total": 355
+    "seo": 0.92,
+    "total": 351
   },
-  "firstContentfulPaint": 1249.4272799999999,
-  "firstMeaningfulPaint": 1287.80834,
-  "speedIndex": 1413.6790324266892,
-  "largestContentfulPaint": 2560.2690000000002,
-  "totalBlockingTime": 85.7621200000001,
+  "firstContentfulPaint": 1356.8648,
+  "firstMeaningfulPaint": 1356.8648,
+  "speedIndex": 2067.994774599144,
+  "largestContentfulPaint": 2919.15122,
+  "totalBlockingTime": 11.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 3430.5197200000002,
-  "maxPotentialFirstInputDelay": 151,
-  "timeToFirstByte": 2.441,
+  "timeToInteractive": 3477.9884800000004,
+  "maxPotentialFirstInputDelay": 62,
+  "timeToFirstByte": 18.358999999999998,
   "weight": {
-    "summary": "38 requests • 722.5 KiB",
-    "total": 739882,
-    "image": 418967,
+    "summary": "38 requests • 824.7 KiB",
+    "total": 844536,
+    "image": 518261,
     "imageCount": 27,
-    "script": 237378,
+    "script": 240227,
     "scriptCount": 5,
-    "document": 58154,
+    "document": 58494,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 22903,
+    "stylesheet": 24949,
     "stylesheetCount": 3,
-    "thirdParty": 408374,
+    "thirdParty": 507065,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "sidequests": {
@@ -55,13 +55,13 @@
     "+weight.image": 11,
     "-weight.font": 1,
     "+weight.font": 15,
-    "+weight.fontCount": 10,
+    "+weight.fontCount": 11,
     "-timeToFirstByte": 1,
     "-totalBlockingTime": 1,
     "-largestContentfulPaint": 1
   },
   "axe": {
-    "passes": 2084,
+    "passes": 2082,
     "violations": 6
   }
 }

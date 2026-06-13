@@ -1,0 +1,66 @@
+{
+  "url": "https://remix.run/",
+  "requestedUrl": "https://remix.run/",
+  "timestamp": 1781355134270,
+  "ranks": {
+    "hundos": 12,
+    "performance": 14,
+    "accessibility": 6,
+    "cumulative": 12
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.61,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 361
+  },
+  "firstContentfulPaint": 1202.607,
+  "firstMeaningfulPaint": 1202.607,
+  "speedIndex": 8998.774643276878,
+  "largestContentfulPaint": 1202.607,
+  "totalBlockingTime": 173652,
+  "cumulativeLayoutShift": 0.0025311748157780286,
+  "timeToInteractive": 183418.60700000002,
+  "maxPotentialFirstInputDelay": 3029,
+  "timeToFirstByte": 18.854999999999997,
+  "weight": {
+    "summary": "139 requests • 1.0 MiB",
+    "total": 1089731,
+    "image": 30641,
+    "imageCount": 8,
+    "script": 308522,
+    "scriptCount": 121,
+    "document": 9666,
+    "font": 125389,
+    "fontCount": 2,
+    "stylesheet": 14973,
+    "stylesheetCount": 5,
+    "thirdParty": 3166,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 12,
+    "+weight.total": 4,
+    "-weight.document": 5,
+    "+weight.document": 11,
+    "-weight.script": 10,
+    "+weight.script": 6,
+    "-weight.image": 7,
+    "+weight.image": 8,
+    "-weight.font": 7,
+    "+weight.font": 5,
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 13,
+    "-largestContentfulPaint": 2
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

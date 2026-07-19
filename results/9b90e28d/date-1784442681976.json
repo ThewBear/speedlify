@@ -1,43 +1,43 @@
 {
   "url": "https://symfony.com/",
   "requestedUrl": "https://symfony.com/",
-  "timestamp": 1783139902352,
+  "timestamp": 1784442786769,
   "ranks": {
     "hundos": 2,
     "performance": 1,
-    "accessibility": 5,
+    "accessibility": 4,
     "cumulative": 2
   },
   "lighthouse": {
     "version": "11.7.1",
     "performance": 0.96,
-    "accessibility": 0.88,
+    "accessibility": 0.93,
     "bestPractices": 1,
-    "seo": 0.86,
-    "total": 370
+    "seo": 0.93,
+    "total": 382
   },
-  "firstContentfulPaint": 2223.55966,
-  "firstMeaningfulPaint": 2223.55966,
-  "speedIndex": 2271.285990729634,
-  "largestContentfulPaint": 2224.55966,
+  "firstContentfulPaint": 2160.88836,
+  "firstMeaningfulPaint": 2160.88836,
+  "speedIndex": 2457.253847956192,
+  "largestContentfulPaint": 2160.88836,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.025916725833996547,
-  "timeToInteractive": 2223.55966,
-  "maxPotentialFirstInputDelay": 43,
-  "timeToFirstByte": 20.442,
+  "timeToInteractive": 2160.88836,
+  "maxPotentialFirstInputDelay": 49,
+  "timeToFirstByte": 6.022,
   "weight": {
-    "summary": "36 requests • 227.0 KiB",
-    "total": 232464,
-    "image": 29719,
+    "summary": "37 requests • 237.6 KiB",
+    "total": 243279,
+    "image": 29744,
     "imageCount": 5,
-    "script": 129688,
+    "script": 132371,
     "scriptCount": 17,
-    "document": 34104,
+    "document": 34336,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 5096,
-    "stylesheetCount": 9,
-    "thirdParty": 11577,
+    "stylesheet": 12674,
+    "stylesheetCount": 10,
+    "thirdParty": 11578,
     "thirdPartyCount": 1
   },
   "run": {
@@ -55,13 +55,13 @@
     "+weight.image": 4,
     "-weight.font": 1,
     "+weight.font": 4,
-    "+weight.fontCount": 3,
+    "+weight.fontCount": 4,
     "-timeToFirstByte": 2,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 2
+    "-largestContentfulPaint": 1
   },
   "axe": {
-    "passes": 1441,
-    "violations": 12
+    "passes": 1444,
+    "violations": 11
   }
 }

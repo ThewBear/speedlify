@@ -1,7 +1,7 @@
 {
   "url": "https://laravel.com/",
   "requestedUrl": "https://laravel.com/",
-  "timestamp": 1784442776967,
+  "timestamp": 1785742261717,
   "ranks": {
     "hundos": 5,
     "performance": 5,
@@ -10,34 +10,34 @@
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.19,
+    "performance": 0.21,
     "accessibility": 0.95,
     "bestPractices": 0.59,
     "seo": 0.93,
-    "total": 266
+    "total": 268
   },
-  "firstContentfulPaint": 3664.7199999999993,
-  "firstMeaningfulPaint": 3664.7199999999993,
-  "speedIndex": 7163.324042845545,
-  "largestContentfulPaint": 6182.685999999998,
-  "totalBlockingTime": 2525.000000000001,
-  "cumulativeLayoutShift": 0.3261550409036012,
-  "timeToInteractive": 16157.04,
-  "maxPotentialFirstInputDelay": 1164.000000000001,
-  "timeToFirstByte": 163.318,
+  "firstContentfulPaint": 3780.5685,
+  "firstMeaningfulPaint": 3780.5685,
+  "speedIndex": 8281.645013618525,
+  "largestContentfulPaint": 5279.8679999999995,
+  "totalBlockingTime": 2242,
+  "cumulativeLayoutShift": 0.31936291274860745,
+  "timeToInteractive": 15488.060499999998,
+  "maxPotentialFirstInputDelay": 1170,
+  "timeToFirstByte": 186.363,
   "weight": {
-    "summary": "120 requests • 8.4 MiB",
-    "total": 8795329,
-    "image": 6688685,
-    "imageCount": 19,
-    "script": 1156912,
-    "scriptCount": 59,
-    "document": 281545,
-    "font": 180764,
+    "summary": "119 requests • 6.8 MiB",
+    "total": 7157511,
+    "image": 4970515,
+    "imageCount": 17,
+    "script": 1162849,
+    "scriptCount": 60,
+    "document": 287170,
+    "font": 180673,
     "fontCount": 5,
-    "stylesheet": 82604,
+    "stylesheet": 83172,
     "stylesheetCount": 2,
-    "thirdParty": 7403270,
+    "thirdParty": 5839921,
     "thirdPartyCount": 13
   },
   "run": {
@@ -55,13 +55,13 @@
     "+weight.image": 1,
     "-weight.font": 3,
     "+weight.font": 1,
-    "+weight.fontCount": 1,
+    "+weight.fontCount": 2,
     "-timeToFirstByte": 3,
     "-totalBlockingTime": 3,
     "-largestContentfulPaint": 5
   },
   "axe": {
-    "passes": 1483,
+    "passes": 1448,
     "violations": 12
   }
 }

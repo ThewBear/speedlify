@@ -1,43 +1,43 @@
 {
   "url": "https://nextjs.org/",
   "requestedUrl": "https://nextjs.org/",
-  "timestamp": 1785934501652,
+  "timestamp": 1787230407222,
   "ranks": {
-    "hundos": 11,
-    "performance": 13,
+    "hundos": 10,
+    "performance": 11,
     "accessibility": 4,
-    "cumulative": 11
+    "cumulative": 10
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.65,
+    "performance": 0.81,
     "accessibility": 1,
     "bestPractices": 0.96,
-    "seo": 0.99,
-    "total": 360
+    "seo": 0.92,
+    "total": 369
   },
-  "firstContentfulPaint": 1529.868,
-  "firstMeaningfulPaint": 1529.868,
-  "speedIndex": 2423.895606509686,
-  "largestContentfulPaint": 4079.8680000000004,
-  "totalBlockingTime": 902.5,
+  "firstContentfulPaint": 1529.421,
+  "firstMeaningfulPaint": 1529.421,
+  "speedIndex": 2119.0061096842687,
+  "largestContentfulPaint": 3854.4210000000003,
+  "totalBlockingTime": 302,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 4735.368,
-  "maxPotentialFirstInputDelay": 546,
-  "timeToFirstByte": 9.930999999999997,
+  "timeToInteractive": 5393.421,
+  "maxPotentialFirstInputDelay": 202,
+  "timeToFirstByte": 10.091000000000001,
   "weight": {
-    "summary": "81 requests • 1.0 MiB",
-    "total": 1054098,
-    "image": 243466,
+    "summary": "80 requests • 1.0 MiB",
+    "total": 1048809,
+    "image": 243470,
     "imageCount": 27,
-    "script": 529898,
+    "script": 525620,
     "scriptCount": 33,
-    "document": 35972,
-    "font": 94939,
+    "document": 37123,
+    "font": 96402,
     "fontCount": 2,
-    "stylesheet": 94615,
+    "stylesheet": 94404,
     "stylesheetCount": 6,
-    "thirdParty": 7568,
+    "thirdParty": 7565,
     "thirdPartyCount": 1
   },
   "run": {
@@ -56,9 +56,9 @@
     "-weight.font": 6,
     "+weight.font": 6,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 4,
+    "-timeToFirstByte": 5,
     "-totalBlockingTime": 11,
-    "-largestContentfulPaint": 12
+    "-largestContentfulPaint": 11
   },
   "axe": {
     "passes": 1128,

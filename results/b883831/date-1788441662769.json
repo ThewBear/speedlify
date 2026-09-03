@@ -1,0 +1,66 @@
+{
+  "url": "https://nextjs.org/",
+  "requestedUrl": "https://nextjs.org/",
+  "timestamp": 1788442898511,
+  "ranks": {
+    "hundos": 9,
+    "performance": 10,
+    "accessibility": 10,
+    "cumulative": 9
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": 0.8,
+    "accessibility": 0.95,
+    "bestPractices": 0.96,
+    "seo": 0.99,
+    "total": 370
+  },
+  "firstContentfulPaint": 1585.498,
+  "firstMeaningfulPaint": 1585.498,
+  "speedIndex": 3023.2312847978587,
+  "largestContentfulPaint": 3917.364500000002,
+  "totalBlockingTime": 304,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 4775.136500000001,
+  "maxPotentialFirstInputDelay": 164,
+  "timeToFirstByte": 64.42500000000001,
+  "weight": {
+    "summary": "73 requests • 862.6 KiB",
+    "total": 883274,
+    "image": 47604,
+    "imageCount": 16,
+    "script": 538636,
+    "scriptCount": 37,
+    "document": 42704,
+    "font": 94981,
+    "fontCount": 2,
+    "stylesheet": 97532,
+    "stylesheetCount": 5,
+    "thirdParty": 7403,
+    "thirdPartyCount": 1
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 9,
+    "+weight.total": 3,
+    "-weight.document": 8,
+    "+weight.document": 4,
+    "-weight.script": 10,
+    "+weight.script": 2,
+    "-weight.image": 6,
+    "+weight.image": 6,
+    "-weight.font": 6,
+    "+weight.font": 3,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 9,
+    "-largestContentfulPaint": 9
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  }
+}

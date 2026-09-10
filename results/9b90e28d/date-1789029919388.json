@@ -1,43 +1,43 @@
 {
   "url": "https://symfony.com/",
   "requestedUrl": "https://symfony.com/",
-  "timestamp": 1787727320708,
+  "timestamp": 1789030039746,
   "ranks": {
     "hundos": 1,
-    "performance": 1,
+    "performance": 2,
     "accessibility": 2,
     "cumulative": 1
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.93,
+    "performance": 0.95,
     "accessibility": 0.93,
     "bestPractices": 1,
     "seo": 0.93,
-    "total": 379
+    "total": 381
   },
-  "firstContentfulPaint": 2485.791,
-  "firstMeaningfulPaint": 2485.791,
-  "speedIndex": 2715.8465260276234,
-  "largestContentfulPaint": 2560.8325000000004,
+  "firstContentfulPaint": 2351.1279,
+  "firstMeaningfulPaint": 2351.1279,
+  "speedIndex": 2560.1305858950664,
+  "largestContentfulPaint": 2352.1279,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.025900055444886622,
-  "timeToInteractive": 2485.791,
-  "maxPotentialFirstInputDelay": 45,
-  "timeToFirstByte": 10.472,
+  "timeToInteractive": 2351.1279,
+  "maxPotentialFirstInputDelay": 40,
+  "timeToFirstByte": 15.194000000000003,
   "weight": {
-    "summary": "41 requests • 351.5 KiB",
-    "total": 359934,
-    "image": 23030,
+    "summary": "41 requests • 350.2 KiB",
+    "total": 358638,
+    "image": 23139,
     "imageCount": 5,
-    "script": 214613,
+    "script": 213121,
     "scriptCount": 19,
-    "document": 34678,
+    "document": 34946,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 53076,
+    "stylesheet": 52923,
     "stylesheetCount": 12,
-    "thirdParty": 93349,
+    "thirdParty": 92260,
     "thirdPartyCount": 2
   },
   "run": {
@@ -58,10 +58,10 @@
     "+weight.fontCount": 2,
     "-timeToFirstByte": 2,
     "-totalBlockingTime": 1,
-    "-largestContentfulPaint": 1
+    "-largestContentfulPaint": 2
   },
   "axe": {
-    "passes": 1453,
+    "passes": 1472,
     "violations": 11
   }
 }

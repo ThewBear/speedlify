@@ -1,47 +1,47 @@
 {
   "url": "https://remix.run/",
   "requestedUrl": "https://remix.run/",
-  "timestamp": 1791008191289,
+  "timestamp": 1792313930256,
   "ranks": {
-    "hundos": 14,
+    "hundos": 12,
     "performance": 14,
-    "accessibility": 7,
-    "cumulative": 14
+    "accessibility": 8,
+    "cumulative": 12
   },
   "lighthouse": {
     "version": "11.7.1",
-    "performance": 0.6,
+    "performance": 0.58,
     "accessibility": 0.98,
     "bestPractices": 0.96,
     "seo": 1,
-    "total": 354
+    "total": 352
   },
   "firstContentfulPaint": 1980,
   "firstMeaningfulPaint": 1980,
-  "speedIndex": 7098.117974024676,
+  "speedIndex": 8707.986495375786,
   "largestContentfulPaint": 2280,
-  "totalBlockingTime": 162649,
+  "totalBlockingTime": 168298.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 179664.05456924438,
-  "maxPotentialFirstInputDelay": 963,
-  "timeToFirstByte": 20.287,
+  "timeToInteractive": 178954.55456924438,
+  "maxPotentialFirstInputDelay": 1681,
+  "timeToFirstByte": 3.177999999999999,
   "weight": {
     "summary": "287 requests • 1.7 MiB",
-    "total": 1763214,
-    "image": 31824,
+    "total": 1764368,
+    "image": 31520,
     "imageCount": 12,
-    "script": 150969,
+    "script": 151920,
     "scriptCount": 141,
     "document": 29662,
-    "font": 125414,
+    "font": 125618,
     "fontCount": 2,
-    "stylesheet": 5126,
+    "stylesheet": 5364,
     "stylesheetCount": 3,
-    "thirdParty": 3193,
+    "thirdParty": 3191,
     "thirdPartyCount": 1
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "sidequests": {
@@ -51,14 +51,14 @@
     "+weight.document": 8,
     "-weight.script": 6,
     "+weight.script": 10,
-    "-weight.image": 7,
-    "+weight.image": 8,
+    "-weight.image": 8,
+    "+weight.image": 7,
     "-weight.font": 7,
     "+weight.font": 5,
     "+weight.fontCount": 3,
-    "-timeToFirstByte": 6,
+    "-timeToFirstByte": 2,
     "-totalBlockingTime": 13,
-    "-largestContentfulPaint": 7
+    "-largestContentfulPaint": 5
   },
   "axe": {
     "error": "{\"name\":\"TimeoutError\"}"

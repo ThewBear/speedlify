@@ -1,0 +1,55 @@
+{
+  "url": "https://x.com/",
+  "requestedUrl": "https://twitter.com/",
+  "timestamp": 1794166437934,
+  "ranks": {
+    "hundos": 15,
+    "performance": 15,
+    "accessibility": 3,
+    "cumulative": 15
+  },
+  "lighthouse": {
+    "version": "11.7.1",
+    "performance": null,
+    "accessibility": 0.92,
+    "bestPractices": null,
+    "seo": 0.88,
+    "total": 180
+  },
+  "timeToFirstByte": 146.264,
+  "weight": {
+    "summary": "32 requests • 1.4 MiB",
+    "total": 1453262,
+    "image": 0,
+    "imageCount": 3,
+    "script": 1267661,
+    "scriptCount": 16,
+    "document": 20201,
+    "font": 86067,
+    "fontCount": 3,
+    "stylesheet": 60100,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "sidequests": {
+    "-weight.total": 4,
+    "+weight.total": 12,
+    "-weight.document": 1,
+    "+weight.document": 15,
+    "-weight.script": 8,
+    "+weight.script": 8,
+    "-weight.image": 1,
+    "+weight.image": 15,
+    "-weight.font": 3,
+    "+weight.font": 10,
+    "+weight.fontCount": 7,
+    "-timeToFirstByte": 5,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 9
+  },
+  "axe": {
+    "passes": 29,
+    "violations": 5
+  }
+}
